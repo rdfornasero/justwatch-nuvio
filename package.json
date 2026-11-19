@@ -1,0 +1,9 @@
+{
+  "name": "justwatch-nuvio",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Personal JustWatch US catalogues for Nuvio",
+  "scripts": { "refresh": "node src/refresh.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "justwatch-api": "1.0.7" }
+}
