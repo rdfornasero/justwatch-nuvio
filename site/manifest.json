@@ -1,0 +1,218 @@
+{
+  "id": "ca.rdfornasero.justwatchnuvio",
+  "version": "0.1.0",
+  "name": "JustWatch Catalogues",
+  "description": "US movies and TV catalogues: new releases, trending, popular and recently added by streaming service.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "idPrefixes": [
+    "tt"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "jw_movie_new_releases",
+      "name": "JustWatch • New Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_movie_trending",
+      "name": "JustWatch • Trending Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_movie_popular",
+      "name": "JustWatch • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_movie_recently_added",
+      "name": "JustWatch • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_series_new_releases",
+      "name": "JustWatch • New TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_series_trending",
+      "name": "JustWatch • Trending TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_series_popular",
+      "name": "JustWatch • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_series_recently_added",
+      "name": "JustWatch • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_netflix_movie_popular",
+      "name": "JustWatch • Netflix • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_netflix_movie_recently_added",
+      "name": "JustWatch • Netflix • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_netflix_series_popular",
+      "name": "JustWatch • Netflix • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_netflix_series_recently_added",
+      "name": "JustWatch • Netflix • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_prime-video_movie_popular",
+      "name": "JustWatch • Prime Video • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_prime-video_movie_recently_added",
+      "name": "JustWatch • Prime Video • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_prime-video_series_popular",
+      "name": "JustWatch • Prime Video • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_prime-video_series_recently_added",
+      "name": "JustWatch • Prime Video • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_disney-plus_movie_popular",
+      "name": "JustWatch • Disney+ • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_disney-plus_movie_recently_added",
+      "name": "JustWatch • Disney+ • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_disney-plus_series_popular",
+      "name": "JustWatch • Disney+ • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_disney-plus_series_recently_added",
+      "name": "JustWatch • Disney+ • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_hulu_movie_popular",
+      "name": "JustWatch • Hulu • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_hulu_movie_recently_added",
+      "name": "JustWatch • Hulu • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_hulu_series_popular",
+      "name": "JustWatch • Hulu • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_hulu_series_recently_added",
+      "name": "JustWatch • Hulu • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_max_movie_popular",
+      "name": "JustWatch • Max • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_max_movie_recently_added",
+      "name": "JustWatch • Max • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_max_series_popular",
+      "name": "JustWatch • Max • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_max_series_recently_added",
+      "name": "JustWatch • Max • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_apple-tv-plus_movie_popular",
+      "name": "JustWatch • Apple TV+ • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_apple-tv-plus_movie_recently_added",
+      "name": "JustWatch • Apple TV+ • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_apple-tv-plus_series_popular",
+      "name": "JustWatch • Apple TV+ • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_apple-tv-plus_series_recently_added",
+      "name": "JustWatch • Apple TV+ • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_paramount-plus_movie_popular",
+      "name": "JustWatch • Paramount+ • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_paramount-plus_movie_recently_added",
+      "name": "JustWatch • Paramount+ • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_paramount-plus_series_popular",
+      "name": "JustWatch • Paramount+ • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_paramount-plus_series_recently_added",
+      "name": "JustWatch • Paramount+ • Recently Added TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_peacock_movie_popular",
+      "name": "JustWatch • Peacock • Popular Movies"
+    },
+    {
+      "type": "movie",
+      "id": "jw_peacock_movie_recently_added",
+      "name": "JustWatch • Peacock • Recently Added Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_peacock_series_popular",
+      "name": "JustWatch • Peacock • Popular TV Shows"
+    },
+    {
+      "type": "series",
+      "id": "jw_peacock_series_recently_added",
+      "name": "JustWatch • Peacock • Recently Added TV Shows"
+    }
+  ]
+}
