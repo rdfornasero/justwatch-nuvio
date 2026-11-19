@@ -4,7 +4,7 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
-**New PPV Releases** — movies with a US digital release date in the last 90 days and current US rental and/or purchase availability. Discovery is sourced from TMDB's US digital-release calendar (release type 4), rather than JustWatch's general popular-title feed. The scraper checks each title's US availability and keeps only titles with rental and/or purchase offers and no reported subscription, free, or ad-supported offers. Up to four TMDB result pages are checked each day, with the newest digital releases first.
+**New PPV Releases** — English-original movies with a US digital release date in the last 90 days and current US rental and/or purchase availability. Discovery is sourced from TMDB's US digital-release calendar (release type 4), rather than JustWatch's general popular-title feed. The scraper checks each title's US availability and keeps only titles with rental and/or purchase offers and no reported subscription, free, or ad-supported offers. Up to four TMDB result pages are checked each day, with the newest digital releases first.
 
 **Top 10 Today** — separate movie and TV show rows containing the ten highest-ranked titles in JustWatch's US daily streaming charts.
 
@@ -28,7 +28,7 @@ If Nuvio has cached the previous manifest, remove and reinstall the add-on using
 
 ## Data sources and limitations
 
-The digital-release discovery uses TMDB's Discover API with US region, digital release type 4, a rolling 90-day release window, and US rent/buy availability filters. TMDB release dates and movie metadata are used for discovery, posters, descriptions, and IMDb identifiers.
+The digital-release discovery uses TMDB's Discover API with US region, English original language, digital release type 4, a rolling 90-day release window, and US rent/buy availability filters. TMDB release dates and movie metadata are used for discovery, posters, descriptions, and IMDb identifiers.
 
 The movie watch-provider endpoint is powered by JustWatch. Its use requires attribution to JustWatch; accordingly, this catalogue identifies the availability data source as JustWatch. Availability can be incomplete or change between daily refreshes. TMDB digital release dates indicate a digital home release, not a guaranteed permanent storefront listing.
 
