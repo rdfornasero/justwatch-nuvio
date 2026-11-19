@@ -18,7 +18,7 @@ const SERVICES = [
   { slug: "prime-video", aliases: ["amazon prime video", "prime video"] },
   { slug: "disney-plus", aliases: ["disney plus", "disney+"] },
   { slug: "hulu", aliases: ["hulu"] },
-  { slug: "max", aliases: ["max", "hbo max"] },
+  { slug: "max", aliases: ["hbo", "hbo max", "max"] },
   { slug: "apple-tv-plus", aliases: ["apple tv", "apple tv+"] },
   { slug: "paramount-plus", aliases: ["paramount plus", "paramount+"] },
   { slug: "peacock", aliases: ["peacock"] }
