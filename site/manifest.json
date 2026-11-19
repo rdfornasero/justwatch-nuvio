@@ -1,8 +1,8 @@
 {
   "id": "ca.rdfornasero.justwatchnuvio",
-  "version": "0.6.3",
+  "version": "0.7.0",
   "name": "JustWatch Catalogues",
-  "description": "US movies and TV catalogues: daily Top 10, PPV-exclusive movies, trending, popular and recently added by streaming service.",
+  "description": "US movies and TV catalogues: daily Top 10, new PPV-exclusive digital releases, trending, popular and recently added by streaming service.",
   "resources": [
     "catalog"
   ],
@@ -21,8 +21,8 @@
     },
     {
       "type": "movie",
-      "id": "jw_movie_pay_per_view",
-      "name": "JustWatch • Pay-per-View Movies"
+      "id": "tmdb_movie_new_ppv_releases",
+      "name": "TMDB • New PPV Releases"
     },
     {
       "type": "series",

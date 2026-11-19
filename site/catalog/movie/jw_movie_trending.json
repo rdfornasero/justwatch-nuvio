@@ -1057,6 +1057,22 @@
       ]
     },
     {
+      "id": "tt6611324",
+      "type": "movie",
+      "name": "Guarding Stars",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355537153/s718/the-bodyguard-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "A skilled bodyguard is assigned to protect a reclusive movie star from a stalker and must pose as his girlfriend to keep the threat hidden. On his family ranch, the assignment blurs lines as proximity complicates the job.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-bodyguard-2026"
+        }
+      ]
+    },
+    {
       "id": "tt36415529",
       "type": "movie",
       "name": "Behemoth!",
@@ -1133,22 +1149,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/gentle-monster"
-        }
-      ]
-    },
-    {
-      "id": "tt6611324",
-      "type": "movie",
-      "name": "Guarding Stars",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355537153/s718/the-bodyguard-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "A skilled bodyguard is assigned to protect a reclusive movie star from a stalker and must pose as his girlfriend to keep the threat hidden. On his family ranch, the assignment blurs lines as proximity complicates the job.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-bodyguard-2026"
         }
       ]
     },
