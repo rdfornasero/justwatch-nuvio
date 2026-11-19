@@ -256,6 +256,7 @@ async function getTmdbDigitalPpvMovies() {
       language: "en-US",
       page,
       region: COUNTRY,
+      with_original_language: "en",
       "release_date.gte": startDate,
       "release_date.lte": endDate,
       sort_by: "primary_release_date.desc",
@@ -283,6 +284,9 @@ async function getTmdbDigitalPpvMovies() {
         tmdbGet("/movie/" + candidate.id, { language: "en-US" }),
         tmdbGet("/movie/" + candidate.id + "/watch/providers")
       ]);
+
+      // Keep English-original titles; TMDB metadata language alone does not imply English audio.
+      if (details.original_language !== "en") return null;
 
       const us = providersPayload.results && providersPayload.results[COUNTRY];
       if (!us) return null;
