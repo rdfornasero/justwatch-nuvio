@@ -2657,22 +2657,6 @@
       ]
     },
     {
-      "id": "tt32135632",
-      "type": "movie",
-      "name": "LifeHack",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354477141/s718/lifehack-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "A thrill-seeking gang of teen hackers must pull off their riskiest heist yet when a woman blackmails them into targeting her crypto-billionaire father.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/lifehack-2026"
-        }
-      ]
-    },
-    {
       "id": "tt2226417",
       "type": "movie",
       "name": "Insidious: Chapter 2",
@@ -2717,6 +2701,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/dorothy-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt32135632",
+      "type": "movie",
+      "name": "LifeHack",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354477141/s718/lifehack-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "A thrill-seeking gang of teen hackers must pull off their riskiest heist yet when a woman blackmails them into targeting her crypto-billionaire father.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/lifehack-2026"
         }
       ]
     },
