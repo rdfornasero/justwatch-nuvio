@@ -1,6 +1,6 @@
 {
   "id": "ca.rdfornasero.justwatchnuvio",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "name": "JustWatch Catalogues",
   "description": "US movies and TV catalogues: new releases, trending, popular and recently added by streaming service.",
   "resources": [
@@ -18,6 +18,16 @@
       "type": "movie",
       "id": "jw_movie_new_releases",
       "name": "JustWatch • New Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_series_daily_streaming_charts",
+      "name": "JustWatch • Today's Streaming Charts • TV Shows"
+    },
+    {
+      "type": "movie",
+      "id": "jw_movie_daily_streaming_charts",
+      "name": "JustWatch • Today's Streaming Charts • Movies"
     },
     {
       "type": "movie",
