@@ -1,8 +1,8 @@
 {
   "id": "ca.rdfornasero.justwatchnuvio",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "name": "JustWatch Catalogues",
-  "description": "US movies and TV catalogues: trending, popular and recently added by streaming service.",
+  "description": "US movies and TV catalogues: daily Top 10, trending, popular and recently added by streaming service.",
   "resources": [
     "catalog"
   ],
@@ -14,6 +14,16 @@
     "tt"
   ],
   "catalogs": [
+    {
+      "type": "movie",
+      "id": "jw_movie_top_10_today",
+      "name": "JustWatch • Top 10 in 🇺🇸 Today • Movies"
+    },
+    {
+      "type": "series",
+      "id": "jw_series_top_10_today",
+      "name": "JustWatch • Top 10 in 🇺🇸 Today • TV Shows"
+    },
     {
       "type": "movie",
       "id": "jw_movie_trending",
