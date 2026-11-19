@@ -1633,22 +1633,6 @@
       ]
     },
     {
-      "id": "tt0083413",
-      "type": "series",
-      "name": "Family Ties",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/57871768/s718/family-ties.jpg",
-      "releaseInfo": "1982",
-      "description": "Former 1960s flower children Steven and Elyse Keaton raise their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/family-ties"
-        }
-      ]
-    },
-    {
       "id": "tt10665386",
       "type": "series",
       "name": "Couples Therapy",
@@ -2141,6 +2125,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-brady-bunch"
+        }
+      ]
+    },
+    {
+      "id": "tt0083413",
+      "type": "series",
+      "name": "Family Ties",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/57871768/s718/family-ties.jpg",
+      "releaseInfo": "1982",
+      "description": "Former 1960s flower children Steven and Elyse Keaton raise their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/family-ties"
         }
       ]
     },

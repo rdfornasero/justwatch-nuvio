@@ -1,0 +1,1474 @@
+{
+  "metas": [
+    {
+      "id": "tt8014982",
+      "type": "series",
+      "name": "The Body",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348311748/s718/the-body-2026.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-body-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt49910378",
+      "type": "series",
+      "name": "The Circle",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357359453/s718/the-circle-2026.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-circle-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt9813792",
+      "type": "series",
+      "name": "FROM",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344518661/s718/from.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/from"
+        }
+      ]
+    },
+    {
+      "id": "tt7631058",
+      "type": "series",
+      "name": "The Lord of the Rings: The Rings of Power",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/260075695/s718/the-lord-of-the-rings-the-rings-of-power.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-lord-of-the-rings-the-rings-of-power"
+        }
+      ]
+    },
+    {
+      "id": "tt32375763",
+      "type": "series",
+      "name": "12 12 12",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/349873010/s718/12-12-12.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/12-12-12"
+        }
+      ]
+    },
+    {
+      "id": "tt31842126",
+      "type": "series",
+      "name": "The Good Daughter",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357134154/s718/the-good-daughter.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-good-daughter"
+        }
+      ]
+    },
+    {
+      "id": "tt23112594",
+      "type": "series",
+      "name": "VisionQuest",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348281318/s718/visionquest-1.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/visionquest-1"
+        }
+      ]
+    },
+    {
+      "id": "tt31710249",
+      "type": "series",
+      "name": "Stick",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/332253389/s718/stick.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/stick"
+        }
+      ]
+    },
+    {
+      "id": "tt36885662",
+      "type": "series",
+      "name": "Best Medicine",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/339094157/s718/best-medicine.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/best-medicine"
+        }
+      ]
+    },
+    {
+      "id": "tt41559886",
+      "type": "series",
+      "name": "Gordon",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356465760/s718/gordon.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/gordon"
+        }
+      ]
+    },
+    {
+      "id": "tt31510819",
+      "type": "series",
+      "name": "MobLand",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354739547/s718/mobland.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/mobland"
+        }
+      ]
+    },
+    {
+      "id": "tt26598805",
+      "type": "series",
+      "name": "Nocturne",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354518072/s718/nocturne.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/nocturne"
+        }
+      ]
+    },
+    {
+      "id": "tt33270224",
+      "type": "series",
+      "name": "Cupertino",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354321948/s718/cupertino.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/cupertino"
+        }
+      ]
+    },
+    {
+      "id": "tt27995113",
+      "type": "series",
+      "name": "Black Doves",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/323408766/s718/black-doves.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/black-doves"
+        }
+      ]
+    },
+    {
+      "id": "tt17491088",
+      "type": "series",
+      "name": "The Diplomat",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/304992451/s718/the-diplomat.jpg",
+      "releaseInfo": "2023",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-diplomat"
+        }
+      ]
+    },
+    {
+      "id": "tt4406178",
+      "type": "series",
+      "name": "The Gilded Age",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356995562/s718/the-gilded-age.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-gilded-age"
+        }
+      ]
+    },
+    {
+      "id": "tt21952924",
+      "type": "series",
+      "name": "Phony",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355252671/s718/phony.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/phony"
+        }
+      ]
+    },
+    {
+      "id": "tt5875444",
+      "type": "series",
+      "name": "Slow Horses",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/349310634/s718/slow-horses.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/slow-horses"
+        }
+      ]
+    },
+    {
+      "id": "tt47021035",
+      "type": "series",
+      "name": "Cunk on Cinema",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356995715/s718/cunk-on-cinema.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/cunk-on-cinema"
+        }
+      ]
+    },
+    {
+      "id": "tt31289994",
+      "type": "series",
+      "name": "The Lowdown",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/336576552/s718/the-sensitive-kind.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-sensitive-kind"
+        }
+      ]
+    },
+    {
+      "id": "tt26748321",
+      "type": "series",
+      "name": "Doc",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337775031/s718/doc-2025.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/doc-2025"
+        }
+      ]
+    },
+    {
+      "id": "tt0364845",
+      "type": "series",
+      "name": "NCIS",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/312315765/s718/ncis.jpg",
+      "releaseInfo": "2003",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/ncis"
+        }
+      ]
+    },
+    {
+      "id": "tt11743610",
+      "type": "series",
+      "name": "The Terminal List",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/288434876/s718/the-terminal-list.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-terminal-list"
+        }
+      ]
+    },
+    {
+      "id": "tt11041332",
+      "type": "series",
+      "name": "Yellowjackets",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/326089463/s718/yellowjackets.jpg",
+      "releaseInfo": "2021",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/yellowjackets"
+        }
+      ]
+    },
+    {
+      "id": "tt26933824",
+      "type": "series",
+      "name": "Nobody Wants This",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337837451/s718/nobody-wants-this.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/nobody-wants-this"
+        }
+      ]
+    },
+    {
+      "id": "tt21906238",
+      "type": "series",
+      "name": "Rivals",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/345823594/s718/rivals.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/rivals"
+        }
+      ]
+    },
+    {
+      "id": "tt6151526",
+      "type": "series",
+      "name": "The Rainmaker",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/335063454/s718/the-rainmaker.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-rainmaker"
+        }
+      ]
+    },
+    {
+      "id": "tt23148340",
+      "type": "series",
+      "name": "Crystal Lake",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354826679/s718/crystal-lake.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/crystal-lake"
+        }
+      ]
+    },
+    {
+      "id": "tt21433690",
+      "type": "series",
+      "name": "St. Denis Medical",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356906573/s718/st-denis-medical.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/st-denis-medical"
+        }
+      ]
+    },
+    {
+      "id": "tt37972251",
+      "type": "series",
+      "name": "War",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354890779/s718/war-2026.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/war-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt14466018",
+      "type": "series",
+      "name": "Blue Lights",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355081093/s718/blue-lights.jpg",
+      "releaseInfo": "2023",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/blue-lights"
+        }
+      ]
+    },
+    {
+      "id": "tt39161219",
+      "type": "series",
+      "name": "Os 12 Signos de Valentina",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344163985/s718/os-12-signos-de-valentina.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/os-12-signos-de-valentina"
+        }
+      ]
+    },
+    {
+      "id": "tt5622316",
+      "type": "series",
+      "name": "The Chosen",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355654334/s718/the-chosen-0.jpg",
+      "releaseInfo": "2019",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-chosen-0"
+        }
+      ]
+    },
+    {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355231202/s718/dexter-resurrection.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/dexter-resurrection"
+        }
+      ]
+    },
+    {
+      "id": "tt0239195",
+      "type": "series",
+      "name": "Survivor",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354943607/s718/survivor.jpg",
+      "releaseInfo": "2000",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/survivor"
+        }
+      ]
+    },
+    {
+      "id": "tt44079238",
+      "type": "series",
+      "name": "The Law of Beasts",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357272350/s718/the-law-of-beasts.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-law-of-beasts"
+        }
+      ]
+    },
+    {
+      "id": "tt41814550",
+      "type": "series",
+      "name": "NCIS: New York",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355062695/s718/ncis-new-york.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/ncis-new-york"
+        }
+      ]
+    },
+    {
+      "id": "tt30796986",
+      "type": "series",
+      "name": "NCIS: Origins",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337775152/s718/ncis-origins.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/ncis-origins"
+        }
+      ]
+    },
+    {
+      "id": "tt15557874",
+      "type": "series",
+      "name": "The Traitors",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/340954811/s718/the-traitors-2023.jpg",
+      "releaseInfo": "2023",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-traitors-2023"
+        }
+      ]
+    },
+    {
+      "id": "tt14218830",
+      "type": "series",
+      "name": "Abbott Elementary",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337910033/s718/abbott-elementary.jpg",
+      "releaseInfo": "2021",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/abbott-elementary"
+        }
+      ]
+    },
+    {
+      "id": "tt11540908",
+      "type": "series",
+      "name": "Carrie",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/350899399/s718/carrie.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/carrie"
+        }
+      ]
+    },
+    {
+      "id": "tt16358384",
+      "type": "series",
+      "name": "Tulsa King",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337316136/s718/tulsa-king.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/tulsa-king"
+        }
+      ]
+    },
+    {
+      "id": "tt10986410",
+      "type": "series",
+      "name": "Ted Lasso",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/304099436/s718/ted-lasso.jpg",
+      "releaseInfo": "2020",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/ted-lasso"
+        }
+      ]
+    },
+    {
+      "id": "tt49691783",
+      "type": "series",
+      "name": "He Said, She Said: Till Death Do Us Part",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357175961/s718/he-said-she-said-till-death-do-us-part.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/he-said-she-said-till-death-do-us-part"
+        }
+      ]
+    },
+    {
+      "id": "tt13875494",
+      "type": "series",
+      "name": "Tracker",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/311327470/s718/tracker-2024.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/tracker-2024"
+        }
+      ]
+    },
+    {
+      "id": "tt39365612",
+      "type": "series",
+      "name": "Line of Fire",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/350163347/s718/line-of-fire-2026.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/line-of-fire-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt21097264",
+      "type": "series",
+      "name": "East of Eden",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/345990721/s718/east-of-eden-0.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/east-of-eden-0"
+        }
+      ]
+    },
+    {
+      "id": "tt13111078",
+      "type": "series",
+      "name": "Lioness",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348254871/s718/special-ops-lioness.jpg",
+      "releaseInfo": "2023",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/special-ops-lioness"
+        }
+      ]
+    },
+    {
+      "id": "tt0121955",
+      "type": "series",
+      "name": "South Park",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/138472468/s718/south-park.jpg",
+      "releaseInfo": "1997",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/south-park"
+        }
+      ]
+    },
+    {
+      "id": "tt0386676",
+      "type": "series",
+      "name": "The Office",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/305242125/s718/the-office-2005.jpg",
+      "releaseInfo": "2005",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-office-2005"
+        }
+      ]
+    },
+    {
+      "id": "tt10946316",
+      "type": "series",
+      "name": "The Institute",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/331844524/s718/the-institute.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-institute"
+        }
+      ]
+    },
+    {
+      "id": "tt2149175",
+      "type": "series",
+      "name": "The Americans",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/279050194/s718/the-americans.jpg",
+      "releaseInfo": "2013",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-americans"
+        }
+      ]
+    },
+    {
+      "id": "tt31589662",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/321593477/s718/georgie-and-mandys-first-marriage.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/georgie-and-mandys-first-marriage"
+        }
+      ]
+    },
+    {
+      "id": "tt19231492",
+      "type": "series",
+      "name": "Dark Matter",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354727700/s718/dark-matter-2024.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/dark-matter-2024"
+        }
+      ]
+    },
+    {
+      "id": "tt11680642",
+      "type": "series",
+      "name": "Pantheon",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/308915031/s718/pantheon.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/pantheon"
+        }
+      ]
+    },
+    {
+      "id": "tt10166622",
+      "type": "series",
+      "name": "The Dropout",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/263026705/s718/the-dropout.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-dropout"
+        }
+      ]
+    },
+    {
+      "id": "tt36153709",
+      "type": "series",
+      "name": "The Fall and Rise of Reggie Dinkins",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356811221/s718/the-fall-and-rise-of-reggie-dinkins.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-fall-and-rise-of-reggie-dinkins"
+        }
+      ]
+    },
+    {
+      "id": "tt0108778",
+      "type": "series",
+      "name": "Friends",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300603462/s718/friends.jpg",
+      "releaseInfo": "1994",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/friends"
+        }
+      ]
+    },
+    {
+      "id": "tt0072562",
+      "type": "series",
+      "name": "Saturday Night Live",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/336789164/s718/saturday-night-live.jpg",
+      "releaseInfo": "1975",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/saturday-night-live"
+        }
+      ]
+    },
+    {
+      "id": "tt0460681",
+      "type": "series",
+      "name": "Supernatural",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/243989878/s718/supernatural.jpg",
+      "releaseInfo": "2005",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/supernatural"
+        }
+      ]
+    },
+    {
+      "id": "tt14688458",
+      "type": "series",
+      "name": "Silo",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/346669772/s718/silo.jpg",
+      "releaseInfo": "2023",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/silo"
+        }
+      ]
+    },
+    {
+      "id": "tt33332385",
+      "type": "series",
+      "name": "Widow's Bay",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/345823300/s718/widows-bay.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/widows-bay"
+        }
+      ]
+    },
+    {
+      "id": "tt1196946",
+      "type": "series",
+      "name": "The Mentalist",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176049752/s718/the-mentalist.jpg",
+      "releaseInfo": "2008",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-mentalist"
+        }
+      ]
+    },
+    {
+      "id": "tt27370649",
+      "type": "series",
+      "name": "North of North",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354574223/s718/north-of-north.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/north-of-north"
+        }
+      ]
+    },
+    {
+      "id": "tt2297757",
+      "type": "series",
+      "name": "Nathan for You",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/83158897/s718/nathan-for-you.jpg",
+      "releaseInfo": "2013",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/nathan-for-you"
+        }
+      ]
+    },
+    {
+      "id": "tt11379026",
+      "type": "series",
+      "name": "Ghosts",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322124929/s718/ghosts-2021.jpg",
+      "releaseInfo": "2021",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/ghosts-2021"
+        }
+      ]
+    },
+    {
+      "id": "tt3530232",
+      "type": "series",
+      "name": "Last Week Tonight with John Oliver",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/342752049/s718/last-week-tonight-with-john-oliver.jpg",
+      "releaseInfo": "2014",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/last-week-tonight-with-john-oliver"
+        }
+      ]
+    },
+    {
+      "id": "tt35934755",
+      "type": "series",
+      "name": "Below",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355537039/s718/below-2026.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/below-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt33078239",
+      "type": "series",
+      "name": "Eternally Yours",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355063790/s718/eternally-yours.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/eternally-yours"
+        }
+      ]
+    },
+    {
+      "id": "tt1877368",
+      "type": "series",
+      "name": "The Great British Bake Off",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/80286419/s718/the-great-british-bake-off.jpg",
+      "releaseInfo": "2010",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-great-british-bake-off"
+        }
+      ]
+    },
+    {
+      "id": "tt0413573",
+      "type": "series",
+      "name": "Grey's Anatomy",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/316037080/s718/greys-anatomy.jpg",
+      "releaseInfo": "2005",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/greys-anatomy"
+        }
+      ]
+    },
+    {
+      "id": "tt14186672",
+      "type": "series",
+      "name": "Landman",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338958118/s718/landman.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/landman"
+        }
+      ]
+    },
+    {
+      "id": "tt0773262",
+      "type": "series",
+      "name": "Dexter",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/304099537/s718/dexter.jpg",
+      "releaseInfo": "2006",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/dexter"
+        }
+      ]
+    },
+    {
+      "id": "tt0098936",
+      "type": "series",
+      "name": "Twin Peaks",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322832479/s718/twin-peaks.jpg",
+      "releaseInfo": "1990",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/twin-peaks"
+        }
+      ]
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300604431/s718/breaking-bad.jpg",
+      "releaseInfo": "2008",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/breaking-bad"
+        }
+      ]
+    },
+    {
+      "id": "tt0106179",
+      "type": "series",
+      "name": "The X-Files",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/342097814/s718/the-x-files.jpg",
+      "releaseInfo": "1993",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-x-files"
+        }
+      ]
+    },
+    {
+      "id": "tt38504111",
+      "type": "series",
+      "name": "Small Prophets",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/341651287/s718/small-prophets.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/small-prophets"
+        }
+      ]
+    },
+    {
+      "id": "tt7491982",
+      "type": "series",
+      "name": "FBI",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/336810596/s718/fbi.jpg",
+      "releaseInfo": "2018",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/fbi"
+        }
+      ]
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355121805/s718/cia.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/cia"
+        }
+      ]
+    },
+    {
+      "id": "tt40197357",
+      "type": "series",
+      "name": "Scrubs",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338300263/s718/scrubs-2026.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/scrubs-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt0804503",
+      "type": "series",
+      "name": "Mad Men",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176952716/s718/mad-men.jpg",
+      "releaseInfo": "2007",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/mad-men"
+        }
+      ]
+    },
+    {
+      "id": "tt9288030",
+      "type": "series",
+      "name": "Reacher",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/326970737/s718/jack-reacher.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/jack-reacher"
+        }
+      ]
+    },
+    {
+      "id": "tt0411008",
+      "type": "series",
+      "name": "Lost",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/77907360/s718/lost.jpg",
+      "releaseInfo": "2004",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/lost"
+        }
+      ]
+    },
+    {
+      "id": "tt0052520",
+      "type": "series",
+      "name": "The Twilight Zone",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/79970590/s718/the-twilight-zone-1959.jpg",
+      "releaseInfo": "1959",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-twilight-zone-1959"
+        }
+      ]
+    },
+    {
+      "id": "tt0407362",
+      "type": "series",
+      "name": "Battlestar Galactica",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/71839228/s718/battlestar-galactica.jpg",
+      "releaseInfo": "2004",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/battlestar-galactica"
+        }
+      ]
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/326276773/s718/the-pitt.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-pitt"
+        }
+      ]
+    },
+    {
+      "id": "tt0898266",
+      "type": "series",
+      "name": "The Big Bang Theory",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/86201639/s718/the-big-bang-theory.jpg",
+      "releaseInfo": "2007",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-big-bang-theory"
+        }
+      ]
+    },
+    {
+      "id": "tt0092455",
+      "type": "series",
+      "name": "Star Trek: The Next Generation",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/290983482/s718/star-trek-the-next-generation.jpg",
+      "releaseInfo": "1987",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/star-trek-the-next-generation"
+        }
+      ]
+    },
+    {
+      "id": "tt30291387",
+      "type": "series",
+      "name": "All's Fair",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/331682250/s718/alls-fair.jpg",
+      "releaseInfo": "2025",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/alls-fair"
+        }
+      ]
+    },
+    {
+      "id": "tt21376524",
+      "type": "series",
+      "name": "Animal Control",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/313493617/s718/animal-control.jpg",
+      "releaseInfo": "2023",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/animal-control"
+        }
+      ]
+    },
+    {
+      "id": "tt1442437",
+      "type": "series",
+      "name": "Modern Family",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/150848985/s718/modern-family.jpg",
+      "releaseInfo": "2009",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/modern-family"
+        }
+      ]
+    },
+    {
+      "id": "tt13210838",
+      "type": "series",
+      "name": "The Gentlemen",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/312658395/s718/the-gentlemen.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-gentlemen"
+        }
+      ]
+    },
+    {
+      "id": "tt5687612",
+      "type": "series",
+      "name": "Fleabag",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354796170/s718/fleabag.jpg",
+      "releaseInfo": "2016",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/fleabag"
+        }
+      ]
+    },
+    {
+      "id": "tt11691774",
+      "type": "series",
+      "name": "Only Murders in the Building",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/335510962/s718/only-murders-in-the-building.jpg",
+      "releaseInfo": "2021",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/only-murders-in-the-building"
+        }
+      ]
+    },
+    {
+      "id": "tt36303968",
+      "type": "series",
+      "name": "Furious",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348297009/s718/furious.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/furious"
+        }
+      ]
+    },
+    {
+      "id": "tt1266020",
+      "type": "series",
+      "name": "Parks and Recreation",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/285318048/s718/parks-and-recreation.jpg",
+      "releaseInfo": "2009",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/parks-and-recreation"
+        }
+      ]
+    },
+    {
+      "id": "tt2531336",
+      "type": "series",
+      "name": "Lupin",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/242826014/s718/lupin.jpg",
+      "releaseInfo": "2021",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/lupin"
+        }
+      ]
+    },
+    {
+      "id": "tt24053860",
+      "type": "series",
+      "name": "The Day of the Jackal",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322756732/s718/the-day-of-the-jackal.jpg",
+      "releaseInfo": "2024",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-day-of-the-jackal"
+        }
+      ]
+    }
+  ]
+}
