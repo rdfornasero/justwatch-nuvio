@@ -1,8 +1,8 @@
 {
   "id": "ca.rdfornasero.justwatchnuvio",
-  "version": "0.7.0",
-  "name": "JustWatch Catalogues",
-  "description": "US movies and TV catalogues: daily Top 10, new PPV-exclusive digital releases, trending, popular and recently added by streaming service.",
+  "version": "0.7.1",
+  "name": "Movie & TV Catalogues",
+  "description": "US movie and TV catalogues, including English-language new PPV digital releases, daily Top 10, trending, popular and recently added by streaming service.",
   "resources": [
     "catalog"
   ],
