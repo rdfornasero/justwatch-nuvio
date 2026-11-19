@@ -4,11 +4,13 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
-**Top 10 in 🇺🇸 Today** — separate movie and TV show rows containing the ten highest-ranked titles in JustWatch's US daily streaming charts. These use JustWatch's daily ranking across services, not the general Popular or Trending feeds, and are not restricted to the user's subscribed providers.
+**Top 10 Today** — separate movie and TV show rows containing the ten highest-ranked titles in JustWatch's US daily streaming charts. These use JustWatch's daily ranking across services, not the general Popular or Trending feeds, and are not restricted to the user's subscribed providers.
+
+**Pay-per-View Movies** — popular movies with JustWatch digital rental or purchase offers in the US (RENT or BUY).
 
 **Popular** and **Trending** are general JustWatch US catalogues. Each of the eight subscribed streaming services also has its own **Popular** and **Recently Added** rows for movies and TV shows.
 
-The catalogue does not include combined New Movies / New TV Shows rows or the longer daily chart feeds.
+The catalogue does not include combined New Movies / New TV Shows rows, daily chart feeds beyond the Top 10, or pay-per-view TV rows.
 
 ## Hosting
 
@@ -29,6 +31,8 @@ The scraper uses `simple-justwatch-js`, an unofficial, community-maintained clie
 Provider identifiers are taken from JustWatch's current US provider directory. HBO is mapped to JustWatch's HBO/Max provider. Titles are included only when JustWatch supplies a valid IMDb ID.
 
 Release years are read from JustWatch's original release date/year. Future placeholder years are omitted from all rows.
+
+The Pay-per-View Movies row is sorted by JustWatch popularity and filtered to titles with a rental or purchase monetization type. Catalogue entries include a JustWatch link for checking providers and current prices; this add-on does not provide rental/purchase streams or checkout.
 
 Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp.
 
