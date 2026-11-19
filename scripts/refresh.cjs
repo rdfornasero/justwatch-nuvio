@@ -7,6 +7,8 @@ const SITE = path.join(ROOT, "site");
 const SNAPSHOTS = path.join(ROOT, "data", "snapshots");
 const COUNTRY = "US";
 const LANGUAGE = "en";
+const CURRENT_YEAR = new Date().getUTCFullYear();
+const NEW_RELEASE_MIN_YEAR = CURRENT_YEAR - 1;
 const PAGE_SIZE = 100;
 const PROVIDER_SAMPLE_LIMIT = 250;
 const justwatch = new SimpleJustWatch();
@@ -40,15 +42,24 @@ function imdbId(item) {
   const id = item && item.externalIds && item.externalIds.imdbId;
   return typeof id === "string" && /^tt\d+$/.test(id) ? id : null;
 }
+function getReleaseYear(item) {
+  // JustWatch can return far-future placeholder years for announced titles.
+  // Prefer the actual ISO release date when available, then fall back to its year.
+  const date = typeof item.originalReleaseDate === "string" ? item.originalReleaseDate : "";
+  const dateMatch = date.match(/^(\d{4})-\d{2}-\d{2}/);
+  const candidate = dateMatch ? Number(dateMatch[1]) : Number(item.originalReleaseYear);
+  if (!Number.isInteger(candidate) || candidate < 1888 || candidate > CURRENT_YEAR) return null;
+  return candidate;
+}
 function normalize(item, type) {
   const id = imdbId(item);
   const title = item && item.title;
   if (!id || !title) return null;
   const meta = { id, type, name: title, posterShape: "poster" };
   const poster = item.posterFullUrl || item.posterUrl;
-  const year = Number(item.originalReleaseYear);
+  const year = getReleaseYear(item);
   if (typeof poster === "string" && /^https?:\/\//i.test(poster)) meta.poster = poster;
-  if (Number.isInteger(year) && year > 1870 && year < 2100) meta.releaseInfo = String(year);
+  if (year) meta.releaseInfo = String(year);
   if (item.shortDescription) meta.description = item.shortDescription;
   if (item.url) meta.links = [{ name: "JustWatch", category: "other", url: item.url }];
   return meta;
@@ -79,12 +90,15 @@ async function getPopular(type, sortBy) {
   });
   return connectionItems(connection);
 }
-async function getNewReleases(type) {
-  const connection = await justwatch.newTitles({
+async function getProviderNewReleases(provider, type) {
+  // Release-year sorting is applied per subscribed streaming provider, not globally.
+  const connection = await justwatch.popular({
     country: COUNTRY,
     language: LANGUAGE,
     count: PAGE_SIZE,
-    objectTypes: [type === "movie" ? "MOVIE" : "SHOW"]
+    objectTypes: [type === "movie" ? "MOVIE" : "SHOW"],
+    providers: [provider.shortName],
+    sortBy: "RELEASE_YEAR"
   });
   return connectionItems(connection);
 }
@@ -121,16 +135,32 @@ async function main() {
   for (const type of ["movie", "series"]) {
     const globalPopular = await getPopular(type, "POPULAR");
     const globalTrending = await getPopular(type, "TRENDING");
-    const globalNew = await getNewReleases(type);
     const popularMetas = globalPopular.map(item => normalize(item, type)).filter(Boolean);
     const trendingMetas = globalTrending.map(item => normalize(item, type)).filter(Boolean);
-    const currentYear = new Date().getUTCFullYear();
-    const newMetas = globalNew.map(item => normalize(item, type)).filter(Boolean)
-      .filter(meta => Number(meta.releaseInfo) >= currentYear - 1);
 
     await writeCatalog(type, "jw_" + type + "_popular", popularMetas);
     await writeCatalog(type, "jw_" + type + "_trending", trendingMetas);
-    await writeCatalog(type, "jw_" + type + "_new_releases", newMetas);
+
+    // New Movies / New TV Shows include only the subscribed services below.
+    const subscribedNew = [];
+    for (const service of SERVICES) {
+      const provider = providerMap.get(service.slug);
+      if (!provider) continue;
+      try {
+        const items = await getProviderNewReleases(provider, type);
+        const metas = items.map(item => normalize(item, type)).filter(Boolean)
+          .filter(meta => {
+            const year = Number(meta.releaseInfo);
+            return Number.isInteger(year) && year >= NEW_RELEASE_MIN_YEAR && year <= CURRENT_YEAR;
+          });
+        subscribedNew.push(...metas);
+      } catch (error) {
+        console.error("New-release feed failed for " + service.slug + " (" + type + "): " + error.message);
+      }
+    }
+    const uniqueNew = [...new Map(subscribedNew.map(meta => [meta.id, meta])).values()]
+      .sort((a, b) => Number(b.releaseInfo || 0) - Number(a.releaseInfo || 0));
+    await writeCatalog(type, "jw_" + type + "_new_releases", uniqueNew);
 
     const allRecentlyAdded = [];
     for (const service of SERVICES) {
