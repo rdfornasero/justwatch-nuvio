@@ -117,7 +117,7 @@ const TOP_TEN_QUERY = [
   "    }",
   "  }",
   "}"
-].join("\\n");
+].join("\n");
 
 async function getTopTenToday(type) {
   const objectType = type === "movie" ? "MOVIE" : "SHOW";
@@ -165,7 +165,7 @@ async function getTopTenToday(type) {
       const content = edge?.node?.content;
       const id = content?.externalIds?.imdbId;
       const title = content?.title;
-      if (typeof id !== "string" || !/^tt\\d+$/.test(id) || !title || seen.has(id)) return null;
+      if (typeof id !== "string" || !/^tt\d+$/.test(id) || !title || seen.has(id)) return null;
       seen.add(id);
 
       const meta = { id, type, name: title, posterShape: "poster" };
@@ -175,7 +175,7 @@ async function getTopTenToday(type) {
           ? poster : "https://images.justwatch.com" + poster;
       }
       const date = typeof content.originalReleaseDate === "string" ? content.originalReleaseDate : "";
-      const yearMatch = date.match(/^(\\d{4})-\\d{2}-\\d{2}/);
+      const yearMatch = date.match(/^(\d{4})-\d{2}-\d{2}/);
       const year = yearMatch ? Number(yearMatch[1]) : Number(content.originalReleaseYear);
       if (Number.isInteger(year) && year >= 1888 && year <= CURRENT_YEAR) {
         meta.releaseInfo = String(year);
