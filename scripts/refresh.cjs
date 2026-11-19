@@ -194,115 +194,137 @@ async function getTopTenToday(type) {
 }
 
 
-const PAY_PER_VIEW_QUERY = [
-  "query GetPayPerViewMovies(",
-  "  $country: Country!",
-  "  $language: Language!",
-  "  $filter: TitleFilter!",
-  "  $first: Int!",
-  ") {",
-  "  popularTitles(",
-  "    country: $country",
-  "    filter: $filter",
-  "    first: $first",
-  "    sortBy: POPULAR",
-  "    sortRandomSeed: 0",
-  "  ) {",
-  "    edges {",
-  "      node {",
-  "        ... on Movie {",
-  "          offers(country: $country, platform: WEB, filter: { bestOnly: false }) {",
-  "            monetizationType",
-  "          }",
-  "          content(country: $country, language: $language) {",
-  "            title",
-  "            fullPath",
-  "            originalReleaseDate",
-  "            originalReleaseYear",
-  "            shortDescription",
-  "            posterUrl(profile: S718, format: JPG)",
-  "            externalIds { imdbId }",
-  "          }",
-  "        }",
-  "      }",
-  "    }",
-  "  }",
-  "}"
-].join("\n");
+const TMDB_API_BASE = "https://api.themoviedb.org/3";
+const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
+const TMDB_MAX_PAGES = 4;
+const TMDB_RELEASE_LOOKBACK_DAYS = 90;
+const TMDB_REQUEST_CONCURRENCY = 4;
 
-async function getPayPerViewMovies() {
-  const response = await fetch("https://apis.justwatch.com/graphql", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "Accept": "application/json",
-      "X-Platform": "WEB",
-      "User-Agent": "Mozilla/5.0"
-    },
-    body: JSON.stringify({
-      operationName: "GetPayPerViewMovies",
-      query: PAY_PER_VIEW_QUERY,
-      variables: {
-        country: COUNTRY,
-        language: LANGUAGE,
-        first: PAGE_SIZE,
-        filter: {
-          objectTypes: ["MOVIE"],
-          monetizationTypes: ["RENT", "BUY"]
-        }
-      }
-    })
+async function tmdbGet(endpoint, params = {}) {
+  const apiKey = process.env.TMDB_API_KEY;
+  if (!apiKey) throw new Error("TMDB_API_KEY GitHub Actions secret is missing.");
+
+  const url = new URL(TMDB_API_BASE + endpoint);
+  url.searchParams.set("api_key", apiKey);
+  for (const [key, value] of Object.entries(params)) {
+    if (value !== undefined && value !== null) url.searchParams.set(key, String(value));
+  }
+
+  const response = await fetch(url, {
+    headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(20000)
   });
-
   if (!response.ok) {
-    throw new Error("JustWatch Pay-per-View request failed with HTTP " + response.status);
+    throw new Error("TMDB request failed with HTTP " + response.status + " for " + endpoint);
   }
+
   const payload = await response.json();
-  if (payload.errors && !payload.data?.popularTitles?.edges) {
-    throw new Error("JustWatch Pay-per-View GraphQL error: " +
-      (payload.errors[0]?.message || "unknown error"));
+  if (payload && payload.success === false) {
+    throw new Error("TMDB API error for " + endpoint + ": " +
+      (payload.status_message || "unknown error"));
+  }
+  return payload;
+}
+
+async function mapWithConcurrency(items, limit, mapper) {
+  const output = [];
+  for (let index = 0; index < items.length; index += limit) {
+    const batch = items.slice(index, index + limit);
+    const results = await Promise.all(batch.map(mapper));
+    output.push(...results);
+  }
+  return output;
+}
+
+async function getTmdbDigitalPpvMovies() {
+  if (!process.env.TMDB_API_KEY) {
+    throw new Error("TMDB_API_KEY GitHub Actions secret is missing.");
   }
 
-  const edges = payload.data?.popularTitles?.edges;
-  if (!Array.isArray(edges)) {
-    throw new Error("JustWatch Pay-per-View response did not contain title entries");
+  const today = new Date();
+  const endDate = today.toISOString().slice(0, 10);
+  const startDateObject = new Date(today);
+  startDateObject.setUTCDate(startDateObject.getUTCDate() - TMDB_RELEASE_LOOKBACK_DAYS);
+  const startDate = startDateObject.toISOString().slice(0, 10);
+
+  const candidates = [];
+  let totalPages = 1;
+
+  for (let page = 1; page <= Math.min(TMDB_MAX_PAGES, totalPages); page++) {
+    const payload = await tmdbGet("/discover/movie", {
+      include_adult: "false",
+      language: "en-US",
+      page,
+      region: COUNTRY,
+      "release_date.gte": startDate,
+      "release_date.lte": endDate,
+      sort_by: "primary_release_date.desc",
+      watch_region: COUNTRY,
+      with_release_type: "4",
+      "with_watch_monetization_types": "rent|buy"
+    });
+
+    if (!Array.isArray(payload.results)) {
+      throw new Error("TMDB discover response did not contain movie results.");
+    }
+    candidates.push(...payload.results);
+    totalPages = Number(payload.total_pages) || 1;
   }
 
-  const seen = new Set();
-  return edges
-    .map(edge => {
-      const content = edge?.node?.content;
-      const offers = edge?.node?.offers;
-      if (!Array.isArray(offers) || offers.length === 0) return null;
-      const monetizationTypes = offers.map(offer => offer?.monetizationType);
-      const ppvTypes = new Set(["RENT", "BUY"]);
-      // Keep a title only when every reported offer is PPV: no subscription,
-      // ad-supported, free, FAST, or cinema availability.
-      if (!monetizationTypes.some(type => ppvTypes.has(type)) ||
-          !monetizationTypes.every(type => ppvTypes.has(type))) return null;
+  const uniqueCandidates = [...new Map(
+    candidates.filter(item => Number.isInteger(item.id)).map(item => [item.id, item])
+  ).values()];
 
-      const id = imdbId(content);
-      const title = content?.title;
-      if (!id || !title || seen.has(id)) return null;
-      seen.add(id);
+  const checked = await mapWithConcurrency(
+    uniqueCandidates,
+    TMDB_REQUEST_CONCURRENCY,
+    async candidate => {
+      const [details, providersPayload] = await Promise.all([
+        tmdbGet("/movie/" + candidate.id, { language: "en-US" }),
+        tmdbGet("/movie/" + candidate.id + "/watch/providers")
+      ]);
+
+      const us = providersPayload.results && providersPayload.results[COUNTRY];
+      if (!us) return null;
+
+      const availableTypes = ["flatrate", "rent", "buy", "free", "ads"]
+        .filter(type => Array.isArray(us[type]) && us[type].length > 0);
+      const hasPpv = availableTypes.includes("rent") || availableTypes.includes("buy");
+      // Retain PPV-exclusive titles only; exclude subscription, free and ad-supported offers.
+      if (!hasPpv || availableTypes.some(type => type !== "rent" && type !== "buy")) return null;
+
+      const id = details.imdb_id;
+      const title = details.title || candidate.title;
+      if (typeof id !== "string" || !/^tt\d+$/.test(id) || !title) return null;
 
       const meta = { id, type: "movie", name: title, posterShape: "poster" };
-      const poster = content.posterUrl;
-      if (typeof poster === "string" && poster) {
-        meta.poster = poster.startsWith("http")
-          ? poster : "https://images.justwatch.com" + poster;
+      const poster = details.poster_path || candidate.poster_path;
+      if (typeof poster === "string" && poster) meta.poster = TMDB_IMAGE_BASE + poster;
+
+      const releaseYear = typeof details.release_date === "string"
+        ? Number(details.release_date.slice(0, 4)) : null;
+      if (Number.isInteger(releaseYear) && releaseYear >= 1888 && releaseYear <= CURRENT_YEAR) {
+        meta.releaseInfo = String(releaseYear);
       }
-      const year = getReleaseYear(content);
-      if (year) meta.releaseInfo = String(year);
-      if (content.shortDescription) meta.description = content.shortDescription;
-      if (content.fullPath) {
-        const url = content.fullPath.startsWith("http")
-          ? content.fullPath : "https://www.justwatch.com" + content.fullPath;
-        meta.links = [{ name: "JustWatch", category: "other", url }];
-      }
-      return meta;
-    })
-    .filter(Boolean);
+      if (details.overview) meta.description = details.overview;
+      meta.links = [{
+        name: "TMDB",
+        category: "other",
+        url: "https://www.themoviedb.org/movie/" + candidate.id
+      }];
+
+      return {
+        digitalReleaseDate: candidate.release_date || "",
+        tmdbId: candidate.id,
+        meta
+      };
+    }
+  );
+
+  return checked
+    .filter(Boolean)
+    .sort((a, b) => b.digitalReleaseDate.localeCompare(a.digitalReleaseDate) || a.tmdbId - b.tmdbId)
+    .map(entry => entry.meta);
 }
 
 async function getProviderTitles(provider, type) {
@@ -326,7 +348,7 @@ async function main() {
 
   // Remove catalogue files retired from the manifest so they are not left on the published site.
   for (const type of ["movie", "series"]) {
-    for (const retiredId of ["jw_" + type + "_new_releases", "jw_" + type + "_daily_streaming_charts"]) {
+    for (const retiredId of ["jw_" + type + "_new_releases", "jw_" + type + "_daily_streaming_charts", ...(type === "movie" ? ["jw_movie_pay_per_view"] : [])]) {
       await fs.rm(path.join(SITE, "catalog", type, retiredId + ".json"), { force: true });
     }
   }
@@ -353,9 +375,9 @@ async function main() {
 
     if (type === "movie") {
       try {
-        const payPerView = await getPayPerViewMovies();
-        await writeCatalog("movie", "jw_movie_pay_per_view", payPerView);
-        console.log("PPV-exclusive movies: " + payPerView.length + " titles");
+        const ppvReleases = await getTmdbDigitalPpvMovies();
+        await writeCatalog("movie", "tmdb_movie_new_ppv_releases", ppvReleases);
+        console.log("TMDB digital-release PPV-exclusive movies: " + ppvReleases.length + " titles");
       } catch (error) {
         console.error("Could not refresh Pay-per-View movies: " + error.message);
         // Keep the last successfully published list if JustWatch is temporarily unavailable.
