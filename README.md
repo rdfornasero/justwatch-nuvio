@@ -16,7 +16,7 @@ The catalogue does not include combined New Movies / New TV Shows rows, daily ch
 
 This is a static Stremio add-on. GitHub Actions refreshes the catalogue data daily and publishes protocol JSON files to GitHub Pages. The Nvidia Shield only downloads the manifest and JSON catalogues; it does not run the scraper.
 
-The refresh workflow reads the TMDB API key from the repository Actions secret named `TMDB_API_KEY`. The key is not stored in the repository.
+The refresh workflow reads the TMDB v3 API key from the repository Actions secret named `TMDB_API_KEY`. The key is not stored in the repository; the script uses TMDB's `api_key` query authentication.
 
 ## Installation
 
