@@ -211,6 +211,9 @@ const PAY_PER_VIEW_QUERY = [
   "    edges {",
   "      node {",
   "        ... on Movie {",
+  "          offers(country: $country, platform: WEB, filter: { bestOnly: false }) {",
+  "            monetizationType",
+  "          }",
   "          content(country: $country, language: $language) {",
   "            title",
   "            fullPath",
@@ -269,6 +272,15 @@ async function getPayPerViewMovies() {
   return edges
     .map(edge => {
       const content = edge?.node?.content;
+      const offers = edge?.node?.offers;
+      if (!Array.isArray(offers) || offers.length === 0) return null;
+      const monetizationTypes = offers.map(offer => offer?.monetizationType);
+      const ppvTypes = new Set(["RENT", "BUY"]);
+      // Keep a title only when every reported offer is PPV: no subscription,
+      // ad-supported, free, FAST, or cinema availability.
+      if (!monetizationTypes.some(type => ppvTypes.has(type)) ||
+          !monetizationTypes.every(type => ppvTypes.has(type))) return null;
+
       const id = imdbId(content);
       const title = content?.title;
       if (!id || !title || seen.has(id)) return null;
@@ -342,12 +354,8 @@ async function main() {
     if (type === "movie") {
       try {
         const payPerView = await getPayPerViewMovies();
-        if (payPerView.length > 0) {
-          await writeCatalog("movie", "jw_movie_pay_per_view", payPerView);
-          console.log("Pay-per-View movies: " + payPerView.length + " titles");
-        } else {
-          console.warn("JustWatch Pay-per-View returned no valid titles; keeping the last published list.");
-        }
+        await writeCatalog("movie", "jw_movie_pay_per_view", payPerView);
+        console.log("PPV-exclusive movies: " + payPerView.length + " titles");
       } catch (error) {
         console.error("Could not refresh Pay-per-View movies: " + error.message);
         // Keep the last successfully published list if JustWatch is temporarily unavailable.
