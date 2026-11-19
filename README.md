@@ -4,9 +4,11 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
+**Top 10 in 🇺🇸 Today** — separate movie and TV show rows containing the ten highest-ranked titles in JustWatch's US daily streaming charts. These use JustWatch's daily ranking across services, not the general Popular or Trending feeds, and are not restricted to the user's subscribed providers.
+
 **Popular** and **Trending** are general JustWatch US catalogues. Each of the eight subscribed streaming services also has its own **Popular** and **Recently Added** rows for movies and TV shows.
 
-The catalogue intentionally avoids combined New Movies / New TV Shows and daily streaming-chart rows. Those feeds could produce overlapping or inconsistent selections alongside the service-specific catalogues.
+The catalogue does not include combined New Movies / New TV Shows rows or the longer daily chart feeds.
 
 ## Hosting
 
