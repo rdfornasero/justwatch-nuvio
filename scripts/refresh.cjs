@@ -193,6 +193,110 @@ async function getTopTenToday(type) {
     .map(entry => entry.meta);
 }
 
+
+const PAY_PER_VIEW_QUERY = [
+  "query GetPayPerViewMovies(",
+  "  $country: Country!",
+  "  $language: Language!",
+  "  $filter: TitleFilter!",
+  "  $first: Int!",
+  ") {",
+  "  popularTitles(",
+  "    country: $country",
+  "    filter: $filter",
+  "    first: $first",
+  "    sortBy: POPULAR",
+  "    sortRandomSeed: 0",
+  "  ) {",
+  "    edges {",
+  "      node {",
+  "        ... on Movie {",
+  "          content(country: $country, language: $language) {",
+  "            title",
+  "            fullPath",
+  "            originalReleaseDate",
+  "            originalReleaseYear",
+  "            shortDescription",
+  "            posterUrl(profile: S718, format: JPG)",
+  "            externalIds { imdbId }",
+  "          }",
+  "        }",
+  "      }",
+  "    }",
+  "  }",
+  "}"
+].join("\n");
+
+async function getPayPerViewMovies() {
+  const response = await fetch("https://apis.justwatch.com/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Accept": "application/json",
+      "X-Platform": "WEB",
+      "User-Agent": "Mozilla/5.0"
+    },
+    body: JSON.stringify({
+      operationName: "GetPayPerViewMovies",
+      query: PAY_PER_VIEW_QUERY,
+      variables: {
+        country: COUNTRY,
+        language: LANGUAGE,
+        first: PAGE_SIZE,
+        filter: {
+          objectTypes: ["MOVIE"],
+          monetizationTypes: ["RENT", "BUY"]
+        }
+      }
+    })
+  });
+
+  if (!response.ok) {
+    throw new Error("JustWatch Pay-per-View request failed with HTTP " + response.status);
+  }
+  const payload = await response.json();
+  if (payload.errors && !payload.data?.popularTitles?.edges) {
+    throw new Error("JustWatch Pay-per-View GraphQL error: " +
+      (payload.errors[0]?.message || "unknown error"));
+  }
+
+  const edges = payload.data?.popularTitles?.edges;
+  if (!Array.isArray(edges)) {
+    throw new Error("JustWatch Pay-per-View response did not contain title entries");
+  }
+
+  const seen = new Set();
+  return edges
+    .map(edge => {
+      const content = edge?.node?.content;
+      const id = content?.externalIds?.imdbId;
+      const title = content?.title;
+      if (typeof id !== "string" || !/^tt\\d+$/.test(id) || !title || seen.has(id)) return null;
+      seen.add(id);
+
+      const meta = { id, type: "movie", name: title, posterShape: "poster" };
+      const poster = content.posterUrl;
+      if (typeof poster === "string" && poster) {
+        meta.poster = poster.startsWith("http")
+          ? poster : "https://images.justwatch.com" + poster;
+      }
+      const date = typeof content.originalReleaseDate === "string" ? content.originalReleaseDate : "";
+      const yearMatch = date.match(/^(\\d{4})-\\d{2}-\\d{2}/);
+      const year = yearMatch ? Number(yearMatch[1]) : Number(content.originalReleaseYear);
+      if (Number.isInteger(year) && year >= 1888 && year <= CURRENT_YEAR) {
+        meta.releaseInfo = String(year);
+      }
+      if (content.shortDescription) meta.description = content.shortDescription;
+      if (content.fullPath) {
+        const url = content.fullPath.startsWith("http")
+          ? content.fullPath : "https://www.justwatch.com" + content.fullPath;
+        meta.links = [{ name: "JustWatch", category: "other", url }];
+      }
+      return meta;
+    })
+    .filter(Boolean);
+}
+
 async function getProviderTitles(provider, type) {
   return justwatch.titlesByProvider(provider.shortName, {
     country: COUNTRY,
@@ -238,6 +342,21 @@ async function main() {
 
     await writeCatalog(type, "jw_" + type + "_popular", popularMetas);
     await writeCatalog(type, "jw_" + type + "_trending", trendingMetas);
+
+    if (type === "movie") {
+      try {
+        const payPerView = await getPayPerViewMovies();
+        if (payPerView.length > 0) {
+          await writeCatalog("movie", "jw_movie_pay_per_view", payPerView);
+          console.log("Pay-per-View movies: " + payPerView.length + " titles");
+        } else {
+          console.warn("JustWatch Pay-per-View returned no valid titles; keeping the last published list.");
+        }
+      } catch (error) {
+        console.error("Could not refresh Pay-per-View movies: " + error.message);
+        // Keep the last successfully published list if JustWatch is temporarily unavailable.
+      }
+    }
 
     try {
       const topTen = await getTopTenToday(type);
