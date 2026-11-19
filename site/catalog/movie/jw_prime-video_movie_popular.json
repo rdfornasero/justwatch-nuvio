@@ -1009,22 +1009,6 @@
       ]
     },
     {
-      "id": "tt0080360",
-      "type": "movie",
-      "name": "Altered States",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/324985936/s718/altered-states.jpg",
-      "releaseInfo": "1980",
-      "description": "A research scientist explores the boundaries and frontiers of human consciousness. Using sensory deprivation and hallucinogenic mixtures from Native American shamans, he explores these altered states of cognizance and finds that memory, time, and reality itself are states of mind.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/altered-states"
-        }
-      ]
-    },
-    {
       "id": "tt5774060",
       "type": "movie",
       "name": "Underwater",
@@ -1101,6 +1085,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/the-man-from-earth"
+        }
+      ]
+    },
+    {
+      "id": "tt0080360",
+      "type": "movie",
+      "name": "Altered States",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/324985936/s718/altered-states.jpg",
+      "releaseInfo": "1980",
+      "description": "A research scientist explores the boundaries and frontiers of human consciousness. Using sensory deprivation and hallucinogenic mixtures from Native American shamans, he explores these altered states of cognizance and finds that memory, time, and reality itself are states of mind.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/altered-states"
         }
       ]
     },
