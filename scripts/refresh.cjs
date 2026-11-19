@@ -109,6 +109,13 @@ async function main() {
   await writeJson(path.join(SITE, "manifest.json"), manifest);
   await fs.writeFile(path.join(SITE, ".nojekyll"), "");
 
+  // Remove catalogue files retired from the manifest so they are not left on the published site.
+  for (const type of ["movie", "series"]) {
+    for (const retiredId of ["jw_" + type + "_new_releases", "jw_" + type + "_daily_streaming_charts"]) {
+      await fs.rm(path.join(SITE, "catalog", type, retiredId + ".json"), { force: true });
+    }
+  }
+
   const providers = await justwatch.providers({ country: COUNTRY, language: LANGUAGE });
   if (!Array.isArray(providers) || providers.length === 0) {
     throw new Error("JustWatch returned no streaming providers for " + COUNTRY);
