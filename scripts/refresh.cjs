@@ -1,30 +1,26 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
-const JustWatch = require("justwatch-api");
+const { SimpleJustWatch } = require("simple-justwatch-js");
 
 const ROOT = path.resolve(__dirname, "..");
 const SITE = path.join(ROOT, "site");
 const SNAPSHOTS = path.join(ROOT, "data", "snapshots");
-const ID_MAP_FILE = path.join(ROOT, "data", "id-map.json");
-const LOCALE = "en_US";
+const COUNTRY = "US";
+const LANGUAGE = "en";
 const PAGE_SIZE = 100;
-const PAGES_PER_FEED = 2;
-const REQUEST_DELAY_MS = 250;
-const justwatch = new JustWatch({ locale: LOCALE });
+const PROVIDER_SAMPLE_LIMIT = 250;
+const justwatch = new SimpleJustWatch();
 
 const SERVICES = [
-  { slug: "netflix", aliases: ["netflix"], fallback: "nfx" },
-  { slug: "prime-video", aliases: ["amazon prime video", "prime video", "amazon video"], fallback: "amp" },
-  { slug: "disney-plus", aliases: ["disney plus", "disney+"], fallback: "dnp" },
-  { slug: "hulu", aliases: ["hulu"], fallback: "hlu" },
-  { slug: "max", aliases: ["max", "hbo max"], fallback: "mxx" },
-  { slug: "apple-tv-plus", aliases: ["apple tv", "apple tv+"], fallback: "atp" },
-  { slug: "paramount-plus", aliases: ["paramount plus", "paramount+"], fallback: "pplus" },
-  { slug: "peacock", aliases: ["peacock"], fallback: "pc" }
+  { slug: "netflix", aliases: ["netflix"] },
+  { slug: "prime-video", aliases: ["amazon prime video", "prime video"] },
+  { slug: "disney-plus", aliases: ["disney plus", "disney+"] },
+  { slug: "hulu", aliases: ["hulu"] },
+  { slug: "max", aliases: ["max", "hbo max"] },
+  { slug: "apple-tv-plus", aliases: ["apple tv", "apple tv+"] },
+  { slug: "paramount-plus", aliases: ["paramount plus", "paramount+"] },
+  { slug: "peacock", aliases: ["peacock"] }
 ];
-
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-const failedLookups = new Map();
 
 async function readJson(file, fallback) {
   try { return JSON.parse(await fs.readFile(file, "utf8")); }
@@ -34,128 +30,71 @@ async function writeJson(file, value) {
   await fs.mkdir(path.dirname(file), { recursive: true });
   await fs.writeFile(file, JSON.stringify(value, null, 2) + "\n");
 }
-function extractItems(response) {
-  if (Array.isArray(response)) return response;
-  for (const key of ["items", "results", "titles", "data"]) {
-    if (Array.isArray(response && response[key])) return response[key];
-  }
-  return [];
+function connectionItems(connection) {
+  if (Array.isArray(connection)) return connection;
+  return Array.isArray(connection && connection.edges)
+    ? connection.edges.map(edge => edge && edge.node).filter(Boolean)
+    : [];
 }
-function getJwId(item) {
-  const value = item && (item.id ?? (item.content && item.content.id));
-  return value === undefined || value === null ? null : String(value);
+function imdbId(item) {
+  const id = item && item.externalIds && item.externalIds.imdbId;
+  return typeof id === "string" && /^tt\d+$/.test(id) ? id : null;
 }
-function directImdb(item) {
-  if (!item) return null;
-  const values = [
-    item.imdb_id,
-    item.external_ids && item.external_ids.imdb_id,
-    item.external_ids && item.external_ids.imdb,
-    item.externalIds && item.externalIds.imdbId,
-    item.content && item.content.imdb_id,
-    item.content && item.content.external_ids && item.content.external_ids.imdb_id
-  ];
-  return values.find(value => typeof value === "string" && /^tt\d+$/.test(value)) || null;
-}
-function posterUrl(value) {
-  if (typeof value !== "string" || !value) return undefined;
-  if (/^https?:\/\//i.test(value)) return value;
-  if (value.startsWith("/")) return "https://images.justwatch.com" + value;
-  return undefined;
-}
-function yearOf(item, detail) {
-  const value = (item && (item.original_release_year ?? item.release_year ?? item.year)) ??
-    (detail && (detail.original_release_year ?? detail.release_year ?? detail.year));
-  const year = Number(String(value ?? "").slice(0, 4));
-  return Number.isInteger(year) && year > 1870 && year < 2100 ? year : null;
-}
-function providerArray(response) {
-  if (Array.isArray(response)) return response;
-  if (response && Array.isArray(response.providers)) return response.providers;
-  if (response && Array.isArray(response.items)) return response.items;
-  return [];
-}
-function providerFor(providers, service) {
-  const match = providers.find(provider => {
-    const labels = [provider.clear_name, provider.name, provider.technical_name, provider.short_name]
-      .filter(Boolean).map(value => String(value).toLowerCase());
-    return service.aliases.some(alias => labels.some(label => label === alias || label.includes(alias)));
-  });
-  if (!match) {
-    console.warn("Provider not found in JustWatch US provider list: " + service.slug + "; using fallback short code.");
-    return service.fallback;
-  }
-  // JustWatch title-search provider filters use short names (for example nfx / amp).
-  return match.short_name || match.technical_name || service.fallback;
-}
-async function resolveImdb(item, contentType, idMap) {
-  const direct = directImdb(item);
-  if (direct) return direct;
-  const jwId = getJwId(item);
-  if (!jwId) return null;
-  if (Object.prototype.hasOwnProperty.call(idMap, jwId)) return idMap[jwId] || null;
-  if (failedLookups.has(jwId)) return failedLookups.get(jwId);
-  await sleep(REQUEST_DELAY_MS);
-  try {
-    const detail = await justwatch.getTitle(contentType === "series" ? "show" : "movie", jwId);
-    const imdb = directImdb(detail);
-    if (imdb) idMap[jwId] = imdb;
-    else failedLookups.set(jwId, null);
-    return imdb;
-  } catch (error) {
-    console.warn("IMDb lookup failed for JustWatch ID " + jwId + ": " + error.message);
-    failedLookups.set(jwId, null);
-    return null;
-  }
-}
-function normalize(item, imdb, contentType, detail) {
-  const title = item.title || item.name || (detail && (detail.title || detail.name));
-  if (!imdb || !title) return null;
-  const meta = { id: imdb, type: contentType, name: title, posterShape: "poster" };
-  const poster = posterUrl(item.poster || item.poster_url || item.images && item.images.poster || detail && detail.poster);
-  const year = yearOf(item, detail);
-  const description = item.short_description || item.description || detail && (detail.short_description || detail.description);
-  const fullPath = item.full_path || detail && detail.full_path;
-  if (poster) meta.poster = poster;
-  if (year) meta.releaseInfo = String(year);
-  if (description) meta.description = description;
-  if (typeof fullPath === "string") {
-    const url = fullPath.startsWith("http") ? fullPath : "https://www.justwatch.com" + fullPath;
-    meta.links = [{ name: "JustWatch", category: "other", url }];
-  }
+function normalize(item, type) {
+  const id = imdbId(item);
+  const title = item && item.title;
+  if (!id || !title) return null;
+  const meta = { id, type, name: title, posterShape: "poster" };
+  const poster = item.posterFullUrl || item.posterUrl;
+  const year = Number(item.originalReleaseYear);
+  if (typeof poster === "string" && /^https?:\/\//i.test(poster)) meta.poster = poster;
+  if (Number.isInteger(year) && year > 1870 && year < 2100) meta.releaseInfo = String(year);
+  if (item.shortDescription) meta.description = item.shortDescription;
+  if (item.url) meta.links = [{ name: "JustWatch", category: "other", url: item.url }];
   return meta;
 }
-async function fetchFeed(contentType, providerCode) {
-  const options = {
-    content_types: [contentType === "series" ? "show" : "movie"],
-    page_size: PAGE_SIZE
-  };
-  if (providerCode) {
-    options.providers = [providerCode];
-    options.monetization_types = ["flatrate"];
-  }
-  const items = [];
-  for (let page = 1; page <= PAGES_PER_FEED; page++) {
-    // The package's search() rejects unknown fields; keep to its documented options.
-    const response = await justwatch.search({ ...options, page });
-    items.push(...extractItems(response));
-    await sleep(500);
-  }
-  return items;
+function providerDisplayNames(provider) {
+  return [provider.clearName, provider.name, provider.shortName, provider.technicalName, provider.slug]
+    .filter(Boolean).map(value => String(value).toLowerCase().trim());
 }
-async function buildMetas(items, contentType, idMap) {
-  const metas = [];
-  const used = new Set();
-  for (const item of items) {
-    const imdb = await resolveImdb(item, contentType, idMap);
-    if (!imdb || used.has(imdb)) continue;
-    const meta = normalize(item, imdb, contentType, null);
-    if (meta) {
-      used.add(imdb);
-      metas.push(meta);
-    }
-  }
-  return metas;
+function findProvider(providers, service) {
+  const exact = providers.find(provider =>
+    service.aliases.some(alias => providerDisplayNames(provider).includes(alias))
+  );
+  if (exact) return exact;
+  return providers.find(provider => {
+    const labels = providerDisplayNames(provider);
+    return service.aliases.some(alias => labels.some(label =>
+      label.includes(alias) || alias.includes(label)
+    ));
+  }) || null;
+}
+async function getPopular(type, sortBy) {
+  const connection = await justwatch.popular({
+    country: COUNTRY,
+    language: LANGUAGE,
+    count: PAGE_SIZE,
+    objectTypes: [type === "movie" ? "MOVIE" : "SHOW"],
+    sortBy
+  });
+  return connectionItems(connection);
+}
+async function getNewReleases(type) {
+  const connection = await justwatch.newTitles({
+    country: COUNTRY,
+    language: LANGUAGE,
+    count: PAGE_SIZE,
+    objectTypes: [type === "movie" ? "MOVIE" : "SHOW"]
+  });
+  return connectionItems(connection);
+}
+async function getProviderTitles(provider, type) {
+  return justwatch.titlesByProvider(provider.shortName, {
+    country: COUNTRY,
+    language: LANGUAGE,
+    objectTypes: [type === "movie" ? "MOVIE" : "SHOW"],
+    maxCount: PROVIDER_SAMPLE_LIMIT
+  });
 }
 async function writeCatalog(type, id, metas) {
   await writeJson(path.join(SITE, "catalog", type, id + ".json"), { metas });
@@ -167,54 +106,66 @@ async function main() {
   if (!manifest) throw new Error("manifest.json is missing");
   await writeJson(path.join(SITE, "manifest.json"), manifest);
   await fs.writeFile(path.join(SITE, ".nojekyll"), "");
-  const idMap = await readJson(ID_MAP_FILE, {});
-  let providers = [];
-  try {
-    providers = providerArray(await justwatch.getProviders());
-  } catch (error) {
-    console.warn("Could not load provider list: " + error.message);
+
+  const providers = await justwatch.providers({ country: COUNTRY, language: LANGUAGE });
+  if (!Array.isArray(providers) || providers.length === 0) {
+    throw new Error("JustWatch returned no streaming providers for " + COUNTRY);
+  }
+  const providerMap = new Map();
+  for (const service of SERVICES) {
+    const provider = findProvider(providers, service);
+    if (provider && provider.shortName) providerMap.set(service.slug, provider);
+    else console.warn("Provider not found in JustWatch US directory: " + service.slug);
   }
 
   for (const type of ["movie", "series"]) {
-    const globalItems = await fetchFeed(type, null);
-    const globalMetas = await buildMetas(globalItems, type, idMap);
+    const globalPopular = await getPopular(type, "POPULAR");
+    const globalTrending = await getPopular(type, "TRENDING");
+    const globalNew = await getNewReleases(type);
+    const popularMetas = globalPopular.map(item => normalize(item, type)).filter(Boolean);
+    const trendingMetas = globalTrending.map(item => normalize(item, type)).filter(Boolean);
     const currentYear = new Date().getUTCFullYear();
-    const newReleases = globalMetas
-      .filter(meta => Number(meta.releaseInfo) >= currentYear - 1)
-      .sort((a, b) => Number(b.releaseInfo || 0) - Number(a.releaseInfo || 0));
+    const newMetas = globalNew.map(item => normalize(item, type)).filter(Boolean)
+      .filter(meta => Number(meta.releaseInfo) >= currentYear - 1);
 
-    await writeCatalog(type, "jw_" + type + "_popular", globalMetas);
-    await writeCatalog(type, "jw_" + type + "_trending", globalMetas.slice(0, 50));
-    await writeCatalog(type, "jw_" + type + "_new_releases", newReleases);
+    await writeCatalog(type, "jw_" + type + "_popular", popularMetas);
+    await writeCatalog(type, "jw_" + type + "_trending", trendingMetas);
+    await writeCatalog(type, "jw_" + type + "_new_releases", newMetas);
 
-    const allRecent = [];
+    const allRecentlyAdded = [];
     for (const service of SERVICES) {
-      const providerCode = providerFor(providers, service);
-      let serviceItems = [];
+      const provider = providerMap.get(service.slug);
+      if (!provider) {
+        await writeCatalog(type, "jw_" + service.slug + "_" + type + "_popular", []);
+        await writeCatalog(type, "jw_" + service.slug + "_" + type + "_recently_added", []);
+        continue;
+      }
       try {
-        serviceItems = await fetchFeed(type, providerCode);
+        const items = await getProviderTitles(provider, type);
+        const metas = items.map(item => normalize(item, type)).filter(Boolean);
+        const snapshot = path.join(SNAPSHOTS, service.slug + "-" + type + ".json");
+        const previousIds = await readJson(snapshot, null);
+        const currentIds = metas.map(meta => meta.id);
+        let newlyDetected = [];
+        if (Array.isArray(previousIds)) {
+          const previous = new Set(previousIds);
+          newlyDetected = metas.filter(meta => !previous.has(meta.id));
+        }
+        // First run is a baseline only; later rows list titles newly appearing in the sampled provider catalogue.
+        await writeJson(snapshot, currentIds);
+        await writeCatalog(type, "jw_" + service.slug + "_" + type + "_popular", metas);
+        await writeCatalog(type, "jw_" + service.slug + "_" + type + "_recently_added", newlyDetected);
+        allRecentlyAdded.push(...newlyDetected);
+        console.log(service.slug + " " + type + ": " + metas.length + " titles, " + newlyDetected.length + " newly detected");
       } catch (error) {
-        console.error("Provider feed failed for " + service.slug + " (" + type + "): " + error.message);
+        console.error("Could not refresh " + service.slug + " " + type + ": " + error.message);
+        // Keep existing published files and snapshots intact on a service-specific failure.
       }
-      const serviceMetas = await buildMetas(serviceItems, type, idMap);
-      const snapshot = path.join(SNAPSHOTS, service.slug + "-" + type + ".json");
-      const previousIds = await readJson(snapshot, null);
-      const currentIds = serviceMetas.map(meta => meta.id);
-      let newlyDetected = [];
-      if (Array.isArray(previousIds)) {
-        const previous = new Set(previousIds);
-        newlyDetected = serviceMetas.filter(meta => !previous.has(meta.id));
-      }
-      await writeJson(snapshot, currentIds);
-      await writeCatalog(type, "jw_" + service.slug + "_" + type + "_popular", serviceMetas);
-      await writeCatalog(type, "jw_" + service.slug + "_" + type + "_recently_added", newlyDetected);
-      allRecent.push(...newlyDetected);
     }
-    const deduped = [...new Map(allRecent.map(meta => [meta.id, meta])).values()];
-    await writeCatalog(type, "jw_" + type + "_recently_added", deduped);
+    const uniqueRecent = [...new Map(allRecentlyAdded.map(meta => [meta.id, meta])).values()];
+    await writeCatalog(type, "jw_" + type + "_recently_added", uniqueRecent);
   }
-  await writeJson(ID_MAP_FILE, idMap);
-  console.log("Refresh complete. JustWatch-to-IMDb mappings cached: " + Object.keys(idMap).length);
+  console.log("JustWatch refresh finished for " + COUNTRY + ".");
 }
 main().catch(error => {
   console.error(error);
