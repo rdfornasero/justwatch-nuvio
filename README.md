@@ -4,26 +4,25 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
-**New Movies** and **New TV Shows** are built only from these subscribed services: Netflix, Prime Video, Apple TV+, HBO/Max, Hulu, Disney+, Peacock and Paramount+. Titles are deduplicated across services.
+**Today's Streaming Charts** — separate movie and TV show rows using JustWatch's daily popularity chart, restricted to titles available through the subscribed services listed below.
+
+**New Movies** and **New TV Shows** — titles from Netflix, Prime Video, Apple TV+, HBO/Max, Hulu, Disney+, Peacock and Paramount+. Titles are deduplicated across the subscribed services.
 
 The new-release rows use JustWatch's release-year-sorted feed for each subscribed provider and include titles from the current and previous calendar year. Future placeholder years (for example 2032 or 2099) are rejected rather than displayed as release years.
 
-**Popular** and **Trending** remain general JustWatch US catalogues. Each service also has its own Popular and Recently Added rows for movies and TV shows.
+**Popular** and **Trending** remain general JustWatch US catalogues. Each streaming service also has its own Popular and Recently Added rows for movies and TV shows.
 
 ## Hosting
 
 This is a static Stremio add-on. GitHub Actions refreshes the catalogue data daily and publishes protocol JSON files to GitHub Pages. The Nvidia Shield only downloads the manifest and JSON catalogues; it does not run the scraper.
 
-## One-time setup
+## Installation
 
-1. Open this repository's **Settings → Pages**.
-2. Set **Build and deployment → Source** to **GitHub Actions**.
-3. The workflow runs automatically after code changes and daily at 10:23 UTC. You can also run it from **Actions → Refresh and publish JustWatch catalogues → Run workflow**.
-4. Once a workflow succeeds, add this manifest URL in Nuvio:
+Add this manifest URL in Nuvio:
 
-   `https://rdfornasero.github.io/justwatch-nuvio/manifest.json`
+`https://rdfornasero.github.io/justwatch-nuvio/manifest.json`
 
-5. On the Shield, open **Nuvio → Settings → Addons → Add Addon**, paste the URL and install.
+If Nuvio has cached the previous manifest, remove and reinstall the add-on using the same URL.
 
 ## Data limitations
 
@@ -31,8 +30,10 @@ The scraper uses `simple-justwatch-js`, an unofficial, community-maintained clie
 
 Provider identifiers are taken from JustWatch's current US provider directory. HBO is mapped to JustWatch's HBO/Max provider. Titles are included only when JustWatch supplies a valid IMDb ID.
 
-Release years are read from JustWatch's original release date/year. Future placeholder years are omitted from all rows. The New Movies and New TV Shows rows additionally require a valid release year between the previous calendar year and the current year, and must appear in at least one of the eight subscribed-service feeds.
+Today's Streaming Charts uses JustWatch's distinct daily chart category (`DAILY_POPULARITY_SAME_CONTENT_TYPE`) rather than its general Trending sort. The chart is filtered to the set of subscribed provider packages, and the results are ordered by JustWatch's daily rank. Titles with future release dates are excluded.
 
-Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline and leaves these rows empty. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp.
+Release years are read from JustWatch's original release date/year. Future placeholder years are omitted from all rows. New Movies and New TV Shows require a valid release year between the previous calendar year and the current year, and must appear in at least one subscribed-service feed.
 
-Trending and Popular use JustWatch's distinct sort modes. This add-on supplies catalogue rows only; it does not supply streams, watch history or recommendations.
+Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp.
+
+This add-on supplies catalogue rows only. It does not supply streams, watch history or recommendations.
