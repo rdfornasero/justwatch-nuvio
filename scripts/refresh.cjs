@@ -269,9 +269,9 @@ async function getPayPerViewMovies() {
   return edges
     .map(edge => {
       const content = edge?.node?.content;
-      const id = content?.externalIds?.imdbId;
+      const id = imdbId(content);
       const title = content?.title;
-      if (typeof id !== "string" || !/^tt\\d+$/.test(id) || !title || seen.has(id)) return null;
+      if (!id || !title || seen.has(id)) return null;
       seen.add(id);
 
       const meta = { id, type: "movie", name: title, posterShape: "poster" };
@@ -280,12 +280,8 @@ async function getPayPerViewMovies() {
         meta.poster = poster.startsWith("http")
           ? poster : "https://images.justwatch.com" + poster;
       }
-      const date = typeof content.originalReleaseDate === "string" ? content.originalReleaseDate : "";
-      const yearMatch = date.match(/^(\\d{4})-\\d{2}-\\d{2}/);
-      const year = yearMatch ? Number(yearMatch[1]) : Number(content.originalReleaseYear);
-      if (Number.isInteger(year) && year >= 1888 && year <= CURRENT_YEAR) {
-        meta.releaseInfo = String(year);
-      }
+      const year = getReleaseYear(content);
+      if (year) meta.releaseInfo = String(year);
       if (content.shortDescription) meta.description = content.shortDescription;
       if (content.fullPath) {
         const url = content.fullPath.startsWith("http")
