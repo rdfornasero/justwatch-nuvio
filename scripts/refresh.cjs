@@ -8,7 +8,6 @@ const SNAPSHOTS = path.join(ROOT, "data", "snapshots");
 const COUNTRY = "US";
 const LANGUAGE = "en";
 const CURRENT_YEAR = new Date().getUTCFullYear();
-const NEW_RELEASE_MIN_YEAR = CURRENT_YEAR - 1;
 const PAGE_SIZE = 100;
 const PROVIDER_SAMPLE_LIMIT = 250;
 const justwatch = new SimpleJustWatch();
@@ -91,125 +90,6 @@ async function getPopular(type, sortBy) {
   return connectionItems(connection);
 }
 
-const STREAMING_CHARTS_QUERY = [
-  "query GetStreamingChartInfo(",
-  "  $countryStreamingCharts: Country",
-  "  $country: Country!",
-  "  $language: Language!",
-  "  $filter: StreamingChartsFilter",
-  "  $first: Int!",
-  ") {",
-  "  streamingCharts(country: $countryStreamingCharts, filter: $filter, first: $first) {",
-  "    edges {",
-  "      streamingChartInfo { rank }",
-  "      node {",
-  "        ... on MovieOrShowOrSeason {",
-  "          content(country: $country, language: $language) {",
-  "            title",
-  "            fullPath",
-  "            originalReleaseDate",
-  "            originalReleaseYear",
-  "            posterUrl(profile: S718, format: JPG)",
-  "            externalIds { imdbId }",
-  "          }",
-  "        }",
-  "      }",
-  "    }",
-  "  }",
-  "}"
-].join("\n");
-
-async function getDailyStreamingChart(type, packageCodes) {
-  const objectType = type === "movie" ? "MOVIE" : "SHOW";
-  const response = await fetch("https://apis.justwatch.com/graphql", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "Accept": "application/json",
-      "X-Platform": "WEB",
-      "User-Agent": "Mozilla/5.0"
-    },
-    body: JSON.stringify({
-      operationName: "GetStreamingChartInfo",
-      query: STREAMING_CHARTS_QUERY,
-      variables: {
-        countryStreamingCharts: COUNTRY,
-        country: COUNTRY,
-        language: LANGUAGE,
-        first: 100,
-        filter: {
-          objectType,
-          category: "DAILY_POPULARITY_SAME_CONTENT_TYPE",
-          packages: packageCodes
-        }
-      }
-    })
-  });
-
-  if (!response.ok) {
-    throw new Error("JustWatch daily streaming chart request failed with HTTP " + response.status);
-  }
-  const payload = await response.json();
-  if (payload.errors && !payload.data?.streamingCharts?.edges) {
-    throw new Error("JustWatch daily streaming chart GraphQL error: " +
-      (payload.errors[0]?.message || "unknown error"));
-  }
-
-  const edges = payload.data?.streamingCharts?.edges;
-  if (!Array.isArray(edges)) {
-    throw new Error("JustWatch daily streaming chart response did not contain chart entries");
-  }
-
-  const today = new Date().toISOString().slice(0, 10);
-  const seen = new Set();
-  return edges
-    .map(edge => {
-      const content = edge?.node?.content;
-      const id = content?.externalIds?.imdbId;
-      const title = content?.title;
-      if (typeof id !== "string" || !/^tt\d+$/.test(id) || !title) return null;
-
-      const releaseDate = typeof content.originalReleaseDate === "string"
-        ? content.originalReleaseDate.slice(0, 10) : "";
-      const releaseYear = Number(releaseDate.slice(0, 4) || content.originalReleaseYear);
-      if (releaseDate && releaseDate > today) return null;
-      if (Number.isInteger(releaseYear) && releaseYear > CURRENT_YEAR) return null;
-      if (seen.has(id)) return null;
-      seen.add(id);
-
-      const meta = { id, type, name: title, posterShape: "poster" };
-      const poster = content.posterUrl;
-      if (typeof poster === "string" && poster) {
-        meta.poster = poster.startsWith("http")
-          ? poster : "https://images.justwatch.com" + poster;
-      }
-      if (Number.isInteger(releaseYear) && releaseYear >= 1888 && releaseYear <= CURRENT_YEAR) {
-        meta.releaseInfo = String(releaseYear);
-      }
-      if (content.fullPath) {
-        const url = content.fullPath.startsWith("http")
-          ? content.fullPath : "https://www.justwatch.com" + content.fullPath;
-        meta.links = [{ name: "JustWatch", category: "other", url }];
-      }
-      return { rank: Number(edge?.streamingChartInfo?.rank) || Number.MAX_SAFE_INTEGER, meta };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.rank - b.rank)
-    .map(entry => entry.meta);
-}
-
-async function getProviderNewReleases(provider, type) {
-  // Release-year sorting is applied per subscribed streaming provider, not globally.
-  const connection = await justwatch.popular({
-    country: COUNTRY,
-    language: LANGUAGE,
-    count: PAGE_SIZE,
-    objectTypes: [type === "movie" ? "MOVIE" : "SHOW"],
-    providers: [provider.shortName],
-    sortBy: "RELEASE_YEAR"
-  });
-  return connectionItems(connection);
-}
 async function getProviderTitles(provider, type) {
   return justwatch.titlesByProvider(provider.shortName, {
     country: COUNTRY,
@@ -250,40 +130,6 @@ async function main() {
     await writeCatalog(type, "jw_" + type + "_trending", trendingMetas);
 
 
-    // Today's JustWatch charts are a distinct daily ranking, not the general Trending sort.
-    // Limit chart eligibility to titles available from one of the user's subscribed services.
-    const chartPackages = [...new Set(
-      SERVICES.map(service => providerMap.get(service.slug)?.shortName).filter(Boolean)
-    )];
-    try {
-      const dailyCharts = await getDailyStreamingChart(type, chartPackages);
-      await writeCatalog(type, "jw_" + type + "_daily_streaming_charts", dailyCharts);
-      console.log("Daily streaming chart " + type + ": " + dailyCharts.length + " titles");
-    } catch (error) {
-      console.error("Daily streaming chart failed for " + type + ": " + error.message);
-      // Do not replace the last successfully published chart with an empty list.
-    }
-
-    // New Movies / New TV Shows include only the subscribed services below.
-    const subscribedNew = [];
-    for (const service of SERVICES) {
-      const provider = providerMap.get(service.slug);
-      if (!provider) continue;
-      try {
-        const items = await getProviderNewReleases(provider, type);
-        const metas = items.map(item => normalize(item, type)).filter(Boolean)
-          .filter(meta => {
-            const year = Number(meta.releaseInfo);
-            return Number.isInteger(year) && year >= NEW_RELEASE_MIN_YEAR && year <= CURRENT_YEAR;
-          });
-        subscribedNew.push(...metas);
-      } catch (error) {
-        console.error("New-release feed failed for " + service.slug + " (" + type + "): " + error.message);
-      }
-    }
-    const uniqueNew = [...new Map(subscribedNew.map(meta => [meta.id, meta])).values()]
-      .sort((a, b) => Number(b.releaseInfo || 0) - Number(a.releaseInfo || 0));
-    await writeCatalog(type, "jw_" + type + "_new_releases", uniqueNew);
 
     const allRecentlyAdded = [];
     for (const service of SERVICES) {
