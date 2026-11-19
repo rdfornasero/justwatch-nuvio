@@ -90,6 +90,109 @@ async function getPopular(type, sortBy) {
   return connectionItems(connection);
 }
 
+
+const TOP_TEN_QUERY = [
+  "query GetStreamingChartInfo(",
+  "  $countryStreamingCharts: Country",
+  "  $country: Country!",
+  "  $language: Language!",
+  "  $filter: StreamingChartsFilter",
+  "  $first: Int!",
+  ") {",
+  "  streamingCharts(country: $countryStreamingCharts, filter: $filter, first: $first) {",
+  "    edges {",
+  "      streamingChartInfo { rank }",
+  "      node {",
+  "        ... on MovieOrShowOrSeason {",
+  "          content(country: $country, language: $language) {",
+  "            title",
+  "            fullPath",
+  "            originalReleaseDate",
+  "            originalReleaseYear",
+  "            posterUrl(profile: S718, format: JPG)",
+  "            externalIds { imdbId }",
+  "          }",
+  "        }",
+  "      }",
+  "    }",
+  "  }",
+  "}"
+].join("\\n");
+
+async function getTopTenToday(type) {
+  const objectType = type === "movie" ? "MOVIE" : "SHOW";
+  const response = await fetch("https://apis.justwatch.com/graphql", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Accept": "application/json",
+      "X-Platform": "WEB",
+      "User-Agent": "Mozilla/5.0"
+    },
+    body: JSON.stringify({
+      operationName: "GetStreamingChartInfo",
+      query: TOP_TEN_QUERY,
+      variables: {
+        countryStreamingCharts: COUNTRY,
+        country: COUNTRY,
+        language: LANGUAGE,
+        first: 10,
+        filter: {
+          objectType,
+          category: "DAILY_POPULARITY_SAME_CONTENT_TYPE"
+        }
+      }
+    })
+  });
+
+  if (!response.ok) {
+    throw new Error("JustWatch Top 10 request failed with HTTP " + response.status);
+  }
+  const payload = await response.json();
+  if (payload.errors && !payload.data?.streamingCharts?.edges) {
+    throw new Error("JustWatch Top 10 GraphQL error: " +
+      (payload.errors[0]?.message || "unknown error"));
+  }
+
+  const edges = payload.data?.streamingCharts?.edges;
+  if (!Array.isArray(edges)) {
+    throw new Error("JustWatch Top 10 response did not contain chart entries");
+  }
+
+  const seen = new Set();
+  return edges
+    .map(edge => {
+      const content = edge?.node?.content;
+      const id = content?.externalIds?.imdbId;
+      const title = content?.title;
+      if (typeof id !== "string" || !/^tt\\d+$/.test(id) || !title || seen.has(id)) return null;
+      seen.add(id);
+
+      const meta = { id, type, name: title, posterShape: "poster" };
+      const poster = content.posterUrl;
+      if (typeof poster === "string" && poster) {
+        meta.poster = poster.startsWith("http")
+          ? poster : "https://images.justwatch.com" + poster;
+      }
+      const date = typeof content.originalReleaseDate === "string" ? content.originalReleaseDate : "";
+      const yearMatch = date.match(/^(\\d{4})-\\d{2}-\\d{2}/);
+      const year = yearMatch ? Number(yearMatch[1]) : Number(content.originalReleaseYear);
+      if (Number.isInteger(year) && year >= 1888 && year <= CURRENT_YEAR) {
+        meta.releaseInfo = String(year);
+      }
+      if (content.fullPath) {
+        const url = content.fullPath.startsWith("http")
+          ? content.fullPath : "https://www.justwatch.com" + content.fullPath;
+        meta.links = [{ name: "JustWatch", category: "other", url }];
+      }
+      return { rank: Number(edge?.streamingChartInfo?.rank) || Number.MAX_SAFE_INTEGER, meta };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.rank - b.rank)
+    .slice(0, 10)
+    .map(entry => entry.meta);
+}
+
 async function getProviderTitles(provider, type) {
   return justwatch.titlesByProvider(provider.shortName, {
     country: COUNTRY,
@@ -135,6 +238,19 @@ async function main() {
 
     await writeCatalog(type, "jw_" + type + "_popular", popularMetas);
     await writeCatalog(type, "jw_" + type + "_trending", trendingMetas);
+
+    try {
+      const topTen = await getTopTenToday(type);
+      if (topTen.length > 0) {
+        await writeCatalog(type, "jw_" + type + "_top_10_today", topTen);
+        console.log("Top 10 today " + type + ": " + topTen.length + " titles");
+      } else {
+        console.warn("JustWatch Top 10 today " + type + " returned no valid titles; keeping the last published list.");
+      }
+    } catch (error) {
+      console.error("Could not refresh Top 10 today (" + type + "): " + error.message);
+      // Keep the last successfully published Top 10 if JustWatch is temporarily unavailable.
+    }
 
 
 
