@@ -1,8 +1,8 @@
 {
   "id": "ca.rdfornasero.justwatchnuvio",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "name": "JustWatch Catalogues",
-  "description": "US movies and TV catalogues: new releases, trending, popular and recently added by streaming service.",
+  "description": "US movies and TV catalogues: trending, popular and recently added by streaming service.",
   "resources": [
     "catalog"
   ],
@@ -14,21 +14,6 @@
     "tt"
   ],
   "catalogs": [
-    {
-      "type": "movie",
-      "id": "jw_movie_new_releases",
-      "name": "JustWatch • New Movies"
-    },
-    {
-      "type": "series",
-      "id": "jw_series_daily_streaming_charts",
-      "name": "JustWatch • Today's Streaming Charts • TV Shows"
-    },
-    {
-      "type": "movie",
-      "id": "jw_movie_daily_streaming_charts",
-      "name": "JustWatch • Today's Streaming Charts • Movies"
-    },
     {
       "type": "movie",
       "id": "jw_movie_trending",
@@ -43,11 +28,6 @@
       "type": "movie",
       "id": "jw_movie_recently_added",
       "name": "JustWatch • Recently Added Movies"
-    },
-    {
-      "type": "series",
-      "id": "jw_series_new_releases",
-      "name": "JustWatch • New TV Shows"
     },
     {
       "type": "series",

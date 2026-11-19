@@ -1745,22 +1745,6 @@
       ]
     },
     {
-      "id": "tt16478058",
-      "type": "movie",
-      "name": "Best of the Best",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354687104/s718/best-of-the-best-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "Two childhood besties join UCLA's competitive Bollywood-fusion dance team, only to find the road to the US championships is fiercer than they imagined.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/best-of-the-best-2026"
-        }
-      ]
-    },
-    {
       "id": "tt0108160",
       "type": "movie",
       "name": "Sleepless in Seattle",
@@ -1773,6 +1757,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/sleepless-in-seattle"
+        }
+      ]
+    },
+    {
+      "id": "tt16478058",
+      "type": "movie",
+      "name": "Best of the Best",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354687104/s718/best-of-the-best-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "Two childhood besties join UCLA's competitive Bollywood-fusion dance team, only to find the road to the US championships is fiercer than they imagined.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/best-of-the-best-2026"
         }
       ]
     },
