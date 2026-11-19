@@ -9,21 +9,23 @@ const ID_MAP_FILE = path.join(ROOT, "data", "id-map.json");
 const LOCALE = "en_US";
 const PAGE_SIZE = 100;
 const PAGES_PER_FEED = 2;
-const REQUEST_DELAY_MS = 120;
+const REQUEST_DELAY_MS = 250;
 const justwatch = new JustWatch({ locale: LOCALE });
 
 const SERVICES = [
-  { slug: "netflix", name: "Netflix", code: "n" },
-  { slug: "prime-video", name: "Prime Video", code: "p" },
-  { slug: "disney-plus", name: "Disney+", code: "d" },
-  { slug: "hulu", name: "Hulu", code: "h" },
-  { slug: "max", name: "Max", code: "hbo" },
-  { slug: "apple-tv-plus", name: "Apple TV+", code: "atp" },
-  { slug: "paramount-plus", name: "Paramount+", code: "pplus" },
-  { slug: "peacock", name: "Peacock", code: "pc" }
+  { slug: "netflix", aliases: ["netflix"], fallback: "nfx" },
+  { slug: "prime-video", aliases: ["amazon prime video", "prime video", "amazon video"], fallback: "amp" },
+  { slug: "disney-plus", aliases: ["disney plus", "disney+"], fallback: "dnp" },
+  { slug: "hulu", aliases: ["hulu"], fallback: "hlu" },
+  { slug: "max", aliases: ["max", "hbo max"], fallback: "mxx" },
+  { slug: "apple-tv-plus", aliases: ["apple tv", "apple tv+"], fallback: "atp" },
+  { slug: "paramount-plus", aliases: ["paramount plus", "paramount+"], fallback: "pplus" },
+  { slug: "peacock", aliases: ["peacock"], fallback: "pc" }
 ];
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const failedLookups = new Map();
+
 async function readJson(file, fallback) {
   try { return JSON.parse(await fs.readFile(file, "utf8")); }
   catch { return fallback; }
@@ -44,17 +46,20 @@ function getJwId(item) {
   return value === undefined || value === null ? null : String(value);
 }
 function directImdb(item) {
+  if (!item) return null;
   const values = [
-    item && item.imdb_id,
-    item && item.external_ids && item.external_ids.imdb_id,
-    item && item.external_ids && item.external_ids.imdb,
-    item && item.content && item.content.imdb_id
+    item.imdb_id,
+    item.external_ids && item.external_ids.imdb_id,
+    item.external_ids && item.external_ids.imdb,
+    item.externalIds && item.externalIds.imdbId,
+    item.content && item.content.imdb_id,
+    item.content && item.content.external_ids && item.content.external_ids.imdb_id
   ];
-  return values.find(value => typeof value === "string" && /^tt\\d+$/.test(value)) || null;
+  return values.find(value => typeof value === "string" && /^tt\d+$/.test(value)) || null;
 }
 function posterUrl(value) {
   if (typeof value !== "string" || !value) return undefined;
-  if (/^https?:\\/\\//i.test(value)) return value;
+  if (/^https?:\/\//i.test(value)) return value;
   if (value.startsWith("/")) return "https://images.justwatch.com" + value;
   return undefined;
 }
@@ -64,20 +69,42 @@ function yearOf(item, detail) {
   const year = Number(String(value ?? "").slice(0, 4));
   return Number.isInteger(year) && year > 1870 && year < 2100 ? year : null;
 }
+function providerArray(response) {
+  if (Array.isArray(response)) return response;
+  if (response && Array.isArray(response.providers)) return response.providers;
+  if (response && Array.isArray(response.items)) return response.items;
+  return [];
+}
+function providerFor(providers, service) {
+  const match = providers.find(provider => {
+    const labels = [provider.clear_name, provider.name, provider.technical_name, provider.short_name]
+      .filter(Boolean).map(value => String(value).toLowerCase());
+    return service.aliases.some(alias => labels.some(label => label === alias || label.includes(alias)));
+  });
+  if (!match) {
+    console.warn("Provider not found in JustWatch US provider list: " + service.slug + "; using fallback short code.");
+    return service.fallback;
+  }
+  // JustWatch title-search provider filters use short names (for example nfx / amp).
+  return match.short_name || match.technical_name || service.fallback;
+}
 async function resolveImdb(item, contentType, idMap) {
   const direct = directImdb(item);
   if (direct) return direct;
   const jwId = getJwId(item);
   if (!jwId) return null;
-  if (idMap[jwId]) return idMap[jwId];
+  if (Object.prototype.hasOwnProperty.call(idMap, jwId)) return idMap[jwId] || null;
+  if (failedLookups.has(jwId)) return failedLookups.get(jwId);
   await sleep(REQUEST_DELAY_MS);
   try {
     const detail = await justwatch.getTitle(contentType === "series" ? "show" : "movie", jwId);
     const imdb = directImdb(detail);
     if (imdb) idMap[jwId] = imdb;
+    else failedLookups.set(jwId, null);
     return imdb;
   } catch (error) {
     console.warn("IMDb lookup failed for JustWatch ID " + jwId + ": " + error.message);
+    failedLookups.set(jwId, null);
     return null;
   }
 }
@@ -85,10 +112,10 @@ function normalize(item, imdb, contentType, detail) {
   const title = item.title || item.name || (detail && (detail.title || detail.name));
   if (!imdb || !title) return null;
   const meta = { id: imdb, type: contentType, name: title, posterShape: "poster" };
-  const poster = posterUrl(item.poster || item.poster_url || (detail && detail.poster));
+  const poster = posterUrl(item.poster || item.poster_url || item.images && item.images.poster || detail && detail.poster);
   const year = yearOf(item, detail);
-  const description = item.short_description || item.description || (detail && (detail.short_description || detail.description));
-  const fullPath = item.full_path || (detail && detail.full_path);
+  const description = item.short_description || item.description || detail && (detail.short_description || detail.description);
+  const fullPath = item.full_path || detail && detail.full_path;
   if (poster) meta.poster = poster;
   if (year) meta.releaseInfo = String(year);
   if (description) meta.description = description;
@@ -109,9 +136,10 @@ async function fetchFeed(contentType, providerCode) {
   }
   const items = [];
   for (let page = 1; page <= PAGES_PER_FEED; page++) {
+    // The package's search() rejects unknown fields; keep to its documented options.
     const response = await justwatch.search({ ...options, page });
     items.push(...extractItems(response));
-    await sleep(250);
+    await sleep(500);
   }
   return items;
 }
@@ -138,7 +166,14 @@ async function main() {
   const manifest = await readJson(path.join(ROOT, "manifest.json"), null);
   if (!manifest) throw new Error("manifest.json is missing");
   await writeJson(path.join(SITE, "manifest.json"), manifest);
+  await fs.writeFile(path.join(SITE, ".nojekyll"), "");
   const idMap = await readJson(ID_MAP_FILE, {});
+  let providers = [];
+  try {
+    providers = providerArray(await justwatch.getProviders());
+  } catch (error) {
+    console.warn("Could not load provider list: " + error.message);
+  }
 
   for (const type of ["movie", "series"]) {
     const globalItems = await fetchFeed(type, null);
@@ -154,11 +189,12 @@ async function main() {
 
     const allRecent = [];
     for (const service of SERVICES) {
+      const providerCode = providerFor(providers, service);
       let serviceItems = [];
       try {
-        serviceItems = await fetchFeed(type, service.code);
+        serviceItems = await fetchFeed(type, providerCode);
       } catch (error) {
-        console.error("Provider feed failed for " + service.name + " (" + type + "): " + error.message);
+        console.error("Provider feed failed for " + service.slug + " (" + type + "): " + error.message);
       }
       const serviceMetas = await buildMetas(serviceItems, type, idMap);
       const snapshot = path.join(SNAPSHOTS, service.slug + "-" + type + ".json");
