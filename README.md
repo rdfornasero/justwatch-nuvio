@@ -1,6 +1,6 @@
 # JustWatch Catalogues for Nuvio
 
-Personal US-region catalogues for Nuvio and Stremio-protocol clients.
+Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
@@ -16,23 +16,21 @@ This is a static Stremio add-on. GitHub Actions refreshes the catalogue data dai
 
 1. Open this repository's **Settings → Pages**.
 2. Set **Build and deployment → Source** to **GitHub Actions**.
-3. After Pages is enabled, the push-triggered workflow will run automatically. You can also run it from **Actions → Refresh and publish JustWatch catalogues → Run workflow**.
+3. The workflow runs automatically after code changes and daily at 10:23 UTC. You can also run it from **Actions → Refresh and publish JustWatch catalogues → Run workflow**.
 4. Once a workflow succeeds, add this manifest URL in Nuvio:
 
    `https://rdfornasero.github.io/justwatch-nuvio/manifest.json`
 
 5. On the Shield, open **Nuvio → Settings → Addons → Add Addon**, paste the URL and install.
 
-The workflow refreshes daily at 10:23 UTC.
-
 ## Data limitations
 
-The scraper uses the community-maintained `justwatch-api` Node package. It is unofficial, unsupported by JustWatch, may break when JustWatch changes its private endpoints, and is limited by that package's private non-commercial use notice. Please respect rate limits.
+The scraper uses `simple-justwatch-js`, an unofficial, community-maintained client for JustWatch's public GraphQL endpoint. The endpoint is undocumented and may change without notice. The library author explicitly warns users about possible schema changes and rate limits. Use this for a personal project and keep request volume reasonable.
 
-Provider filters are selected using JustWatch's US provider directory and the provider's short code. Only titles for which an IMDb ID can be read or resolved are included.
+Provider identifiers are taken from JustWatch's current US provider directory. The add-on includes only titles with a valid IMDb ID in JustWatch's result.
 
-Recently Added is an approximation: the scraper compares each service's sampled JustWatch popularity feed against the previous day's sample. The first run establishes a baseline and leaves these rows empty. Later rows show titles newly detected in that sample; that is not an official release-date or guaranteed platform-addition timestamp. The sample is limited to two pages per feed.
+Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline and leaves these rows empty. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp. If a title moves into the sampled popularity window later, it may appear as newly detected.
 
-Trending is a leading subset of the popularity results, not a separate official trending metric. New Releases uses the original release year (current year and previous year).
+Trending and Popular use JustWatch's separate sort modes. New Releases uses JustWatch's release-year sort and includes the current and previous calendar year.
 
 This add-on supplies catalogue rows only. It does not supply streams, watch history or recommendations; your existing Nuvio add-ons continue to handle playback and other metadata.
