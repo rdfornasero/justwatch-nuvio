@@ -4,9 +4,11 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
-General movies and TV: New Releases, Trending, Popular and Recently Added.
+**New Movies** and **New TV Shows** are built only from these subscribed services: Netflix, Prime Video, Apple TV+, HBO/Max, Hulu, Disney+, Peacock and Paramount+. Titles are deduplicated across services.
 
-Streaming services: Netflix, Prime Video, Disney+, Hulu, Max, Apple TV+, Paramount+ and Peacock, each with Popular and Recently Added rows for movies and TV.
+The new-release rows use JustWatch's release-year-sorted feed for each subscribed provider and include titles from the current and previous calendar year. Future placeholder years (for example 2032 or 2099) are rejected rather than displayed as release years.
+
+**Popular** and **Trending** remain general JustWatch US catalogues. Each service also has its own Popular and Recently Added rows for movies and TV shows.
 
 ## Hosting
 
@@ -25,12 +27,12 @@ This is a static Stremio add-on. GitHub Actions refreshes the catalogue data dai
 
 ## Data limitations
 
-The scraper uses `simple-justwatch-js`, an unofficial, community-maintained client for JustWatch's public GraphQL endpoint. The endpoint is undocumented and may change without notice. The library author explicitly warns users about possible schema changes and rate limits. Use this for a personal project and keep request volume reasonable.
+The scraper uses `simple-justwatch-js`, an unofficial, community-maintained client for JustWatch's undocumented public GraphQL endpoint. The endpoint or schema may change without notice. Keep request volume reasonable.
 
-Provider identifiers are taken from JustWatch's current US provider directory. The add-on includes only titles with a valid IMDb ID in JustWatch's result.
+Provider identifiers are taken from JustWatch's current US provider directory. HBO is mapped to JustWatch's HBO/Max provider. Titles are included only when JustWatch supplies a valid IMDb ID.
 
-Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline and leaves these rows empty. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp. If a title moves into the sampled popularity window later, it may appear as newly detected.
+Release years are read from JustWatch's original release date/year. Future placeholder years are omitted from all rows. The New Movies and New TV Shows rows additionally require a valid release year between the previous calendar year and the current year, and must appear in at least one of the eight subscribed-service feeds.
 
-Trending and Popular use JustWatch's separate sort modes. New Releases uses JustWatch's release-year sort and includes the current and previous calendar year.
+Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline and leaves these rows empty. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp.
 
-This add-on supplies catalogue rows only. It does not supply streams, watch history or recommendations; your existing Nuvio add-ons continue to handle playback and other metadata.
+Trending and Popular use JustWatch's distinct sort modes. This add-on supplies catalogue rows only; it does not supply streams, watch history or recommendations.
