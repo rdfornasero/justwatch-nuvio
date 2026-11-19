@@ -6,7 +6,7 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 **Top 10 Today** — separate movie and TV show rows containing the ten highest-ranked titles in JustWatch's US daily streaming charts. These use JustWatch's daily ranking across services, not the general Popular or Trending feeds, and are not restricted to the user's subscribed providers.
 
-**Pay-per-View Movies** — popular movies with JustWatch digital rental or purchase offers in the US (RENT or BUY).
+**Pay-per-View Movies** — popular US movies with digital rental (RENT) and/or purchase (BUY) offers and no other reported availability type. Titles are excluded when JustWatch also reports subscription, ad-supported, free, FAST, or cinema availability.
 
 **Popular** and **Trending** are general JustWatch US catalogues. Each of the eight subscribed streaming services also has its own **Popular** and **Recently Added** rows for movies and TV shows.
 
@@ -32,7 +32,7 @@ Provider identifiers are taken from JustWatch's current US provider directory. H
 
 Release years are read from JustWatch's original release date/year. Future placeholder years are omitted from all rows.
 
-The Pay-per-View Movies row is sorted by JustWatch popularity and filtered to titles with a rental or purchase monetization type. Catalogue entries include a JustWatch link for checking providers and current prices; this add-on does not provide rental/purchase streams or checkout.
+The Pay-per-View Movies row is sorted by JustWatch popularity. A title is retained only when its full JustWatch offer list contains RENT and/or BUY offers exclusively. If JustWatch's offer data is incomplete or does not include all providers, a title's availability classification may still be imperfect. Catalogue entries include a JustWatch link for checking providers and current prices; this add-on does not provide rental/purchase streams or checkout.
 
 Recently Added is an approximation: the scraper compares each provider's sampled catalogue (up to 250 titles) against the previous daily sample. The first run establishes the baseline. Later rows show titles newly detected in the sample; this is not an official exact service-addition timestamp.
 
