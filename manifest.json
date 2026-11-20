@@ -1,6 +1,6 @@
 {
   "id": "ca.rdfornasero.justwatchnuvio",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "name": "Movie & TV Catalogues",
   "description": "US movie and TV catalogues: Blu-ray.com trending movies, daily Top 10, trending, popular and recently added by streaming service.",
   "resources": [
@@ -16,13 +16,13 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "jw_movie_top_10_today",
-      "name": "JustWatch • Top 10 Today • Movies"
+      "id": "bluray_com_trending_movies",
+      "name": "Blu-ray.com • Trending Blu-ray Movies"
     },
     {
       "type": "movie",
-      "id": "bluray_com_trending_movies",
-      "name": "Blu-ray.com • Trending Blu-ray Movies"
+      "id": "jw_movie_top_10_today",
+      "name": "JustWatch • Top 10 Today • Movies"
     },
     {
       "type": "series",
