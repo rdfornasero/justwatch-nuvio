@@ -1297,22 +1297,6 @@
       ]
     },
     {
-      "id": "tt0324216",
-      "type": "movie",
-      "name": "The Texas Chainsaw Massacre",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/334141166/s718/the-texas-chainsaw-massacre-2003.jpg",
-      "releaseInfo": "2003",
-      "description": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-texas-chainsaw-massacre-2003"
-        }
-      ]
-    },
-    {
       "id": "tt0374900",
       "type": "movie",
       "name": "Napoleon Dynamite",
@@ -1357,6 +1341,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/lord-of-war"
+        }
+      ]
+    },
+    {
+      "id": "tt0324216",
+      "type": "movie",
+      "name": "The Texas Chainsaw Massacre",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/334141166/s718/the-texas-chainsaw-massacre-2003.jpg",
+      "releaseInfo": "2003",
+      "description": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-texas-chainsaw-massacre-2003"
         }
       ]
     },
@@ -3153,22 +3153,6 @@
       ]
     },
     {
-      "id": "tt0095088",
-      "type": "movie",
-      "name": "Elvira: Mistress of the Dark",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/179877803/s718/elvira-mistress-of-the-dark.jpg",
-      "releaseInfo": "1988",
-      "description": "Arriving in the small town of Fallwell, Massachusetts to claim her inheritance, horror hostess Elvira receives a less than enthusiastic reception from the conservative locals, including her sinister uncle Vincent.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/elvira-mistress-of-the-dark"
-        }
-      ]
-    },
-    {
       "id": "tt5859238",
       "type": "movie",
       "name": "Lucky",
@@ -3213,6 +3197,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/for-worse"
+        }
+      ]
+    },
+    {
+      "id": "tt0095088",
+      "type": "movie",
+      "name": "Elvira: Mistress of the Dark",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/179877803/s718/elvira-mistress-of-the-dark.jpg",
+      "releaseInfo": "1988",
+      "description": "Arriving in the small town of Fallwell, Massachusetts to claim her inheritance, horror hostess Elvira receives a less than enthusiastic reception from the conservative locals, including her sinister uncle Vincent.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/elvira-mistress-of-the-dark"
         }
       ]
     },
