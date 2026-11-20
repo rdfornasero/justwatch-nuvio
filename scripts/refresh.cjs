@@ -362,7 +362,12 @@ async function resolveBluRayMovie(candidate) {
     links: [{ name: "Blu-ray.com", category: "other", url: candidate.url }]
   };
   const poster = details.poster_path || chosen.poster_path;
-  if (poster) meta.poster = TMDB_IMAGE_BASE + poster;
+  if (poster) {
+    meta.poster = TMDB_IMAGE_BASE + poster;
+  } else if (candidate.productId) {
+    // Use the Blu-ray.com cover when TMDB has no poster artwork for this title.
+    meta.poster = "https://images.static-bluray.com/movies/covers/" + candidate.productId + "_medium.jpg";
+  }
   const releaseYear = typeof details.release_date === "string"
     ? Number(details.release_date.slice(0, 4)) : year;
   if (Number.isInteger(releaseYear) && releaseYear >= 1888 && releaseYear <= CURRENT_YEAR + 5) {
