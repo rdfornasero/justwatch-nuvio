@@ -4,7 +4,7 @@ Personal US-region catalogues for Nuvio and other Stremio-protocol clients.
 
 ## Catalogue rows
 
-**Trending Blu-ray Movies** — the 15 ranked entries in the **Trending Blu-ray Movies** section of Blu-ray.com's US release-dates page, refreshed daily. Multiple Blu-ray editions of the same movie are deduplicated so a film appears only once. TMDB is used only to match each Blu-ray.com title to an IMDb ID and provide standard movie artwork and metadata; the ranking itself comes from Blu-ray.com.
+**Trending Blu-ray Movies** — the 15 ranked entries in the **Trending Blu-ray Movies** section of Blu-ray.com's US release-dates page, refreshed daily. Multiple Blu-ray editions of the same movie are deduplicated so a film appears only once. TMDB is used to match each Blu-ray.com title to an IMDb ID and provide standard movie artwork and metadata; when TMDB has no poster, the Blu-ray.com cover image is used as a fallback; the ranking itself comes from Blu-ray.com.
 
 **Top 10 Today** — separate movie and TV show rows containing the ten highest-ranked titles in JustWatch's US daily streaming charts.
 
