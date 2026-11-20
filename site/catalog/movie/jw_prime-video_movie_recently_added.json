@@ -1,3 +1,116 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt31728330",
+      "type": "movie",
+      "name": "They Will Kill You",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/340653984/s718/they-will-kill-you.jpg",
+      "releaseInfo": "2026",
+      "description": "A woman answers a help wanted ad to be a housekeeper in a mysterious New York City high-rise, unaware that she is entering a community that has seen a number of disappearances over the years and may be under the grip of a Satanic cult.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/they-will-kill-you"
+        }
+      ]
+    },
+    {
+      "id": "tt0116705",
+      "type": "movie",
+      "name": "Jingle All the Way",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/206714478/s718/jingle-all-the-way-1.jpg",
+      "releaseInfo": "1996",
+      "description": "Howard Langston, a salesman for a mattress company, is constantly kept busy at his job, disappointing his son. After he misses his son's karate exposition, Howard vows to make it up to him by buying an action figure of his son's favorite television hero for Christmas. Unfortunately for Howard, it is Christmas Eve, and every store is sold out of Turbo Man. Now, Howard must travel all over town and compete with everybody else to find a Turbo Man action figure.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/jingle-all-the-way-1"
+        }
+      ]
+    },
+    {
+      "id": "tt27802490",
+      "type": "movie",
+      "name": "Exhuma",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/321655648/s718/exhuma.jpg",
+      "releaseInfo": "2024",
+      "description": "After tracing the origin of a disturbing supernatural affliction to a wealthy family's ancestral gravesite, a team of paranormal experts relocates the remains—and soon discovers what happens to those who dare to mess with the wrong grave.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/exhuma"
+        }
+      ]
+    },
+    {
+      "id": "tt0381849",
+      "type": "movie",
+      "name": "3:10 to Yuma",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/186383478/s718/3-10-to-yuma.jpg",
+      "releaseInfo": "2007",
+      "description": "In Arizona in the late 1800s, infamous outlaw Ben Wade and his vicious gang of thieves and murderers have plagued the Southern Railroad. When Wade is captured, Civil War veteran Dan Evans, struggling to survive on his drought-plagued ranch, volunteers to deliver him alive to the \"3:10 to Yuma\", a train that will take the killer to trial.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/3-10-to-yuma"
+        }
+      ]
+    },
+    {
+      "id": "tt18316986",
+      "type": "movie",
+      "name": "All Night Wrong",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348266144/s718/all-night-wrong.jpg",
+      "releaseInfo": "2026",
+      "description": "Gary and Ell (a married man with an inferiority complex, and a grieving young widow) meet on a blind date only to wind up stealing a killer's car along with a dead body and $40,000.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/all-night-wrong"
+        }
+      ]
+    },
+    {
+      "id": "tt14948432",
+      "type": "movie",
+      "name": "Red One",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/321037196/s718/red-one.jpg",
+      "releaseInfo": "2024",
+      "description": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous tracker in a globe-trotting, action-packed mission to save Christmas.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/red-one"
+        }
+      ]
+    },
+    {
+      "id": "tt33088452",
+      "type": "movie",
+      "name": "Regretting You",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/334037963/s718/regretting-you.jpg",
+      "releaseInfo": "2025",
+      "description": "Morgan Grant and her daughter Clara explore what's left behind after a devastating accident reveals a shocking betrayal and forces them to confront family secrets, redefine love, and rediscover each other.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/regretting-you"
+        }
+      ]
+    }
+  ]
 }

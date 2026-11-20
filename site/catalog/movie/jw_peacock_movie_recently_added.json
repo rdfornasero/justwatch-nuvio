@@ -1,3 +1,52 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt32397749",
+      "type": "movie",
+      "name": "Harry Potter and the Half-Blood Prince",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/215750784/s718/harry-potter-and-the-half-blood-prince.jpg",
+      "releaseInfo": "2009",
+      "description": "As Lord Voldemort tightens his grip on both the Muggle and wizarding worlds, Hogwarts is no longer a safe haven. Harry suspects perils may even lie within the castle, but Dumbledore is more intent upon preparing him for the final battle fast approaching. Even as the decisive showdown looms, romance blossoms for Harry, Ron, Hermione and their classmates. Love is in the air, but danger lies ahead and Hogwarts may never be the same again",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/harry-potter-and-the-half-blood-prince"
+        }
+      ]
+    },
+    {
+      "id": "tt14415204",
+      "type": "movie",
+      "name": "Never Let Go",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/321081967/s718/never-let-go-2024.jpg",
+      "releaseInfo": "2024",
+      "description": "A family that has been haunted by an evil spirit for years. Their safety and their surroundings come into question when one of the children questions if the evil is real.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/never-let-go-2024"
+        }
+      ]
+    },
+    {
+      "id": "tt36454258",
+      "type": "movie",
+      "name": "A Wisconsin Christmas Pie",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338490823/s718/a-wisconsin-christmas-pie.jpg",
+      "releaseInfo": "2025",
+      "description": "An ambitious pastry chef returns to her small-town roots in Door County, WI, and, over the holidays, needs to decide between her career dreams and her family’s struggling orchard business.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/a-wisconsin-christmas-pie"
+        }
+      ]
+    }
+  ]
 }

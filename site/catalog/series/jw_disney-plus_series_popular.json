@@ -257,18 +257,18 @@
       ]
     },
     {
-      "id": "tt0088526",
+      "id": "tt0410975",
       "type": "series",
-      "name": "The Golden Girls",
+      "name": "Desperate Housewives",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/335725337/s718/the-golden-girls.jpg",
-      "releaseInfo": "1985",
-      "description": "Four Southern Florida seniors share a house, their dreams, and a whole lot of cheesecake. Bright, promiscuous, clueless and hilarious, these lovely, mismatched ladies form the perfect circle of friends.",
+      "poster": "https://images.justwatch.com/poster/242812769/s718/desperate-housewives.jpg",
+      "releaseInfo": "2004",
+      "description": "Looking down on her friends and family isn't a way of life for Mary Alice Young... it's a way of death. One day, in her perfect house, in the loveliest of suburbs, Mary Alice ended it all. Now she's taking us into the lives of her family, friends and neighbors, commenting from her elevated P.O.V.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-golden-girls"
+          "url": "https://justwatch.com/us/tv-show/desperate-housewives"
         }
       ]
     },
@@ -289,34 +289,18 @@
       ]
     },
     {
-      "id": "tt0410975",
+      "id": "tt0088526",
       "type": "series",
-      "name": "Desperate Housewives",
+      "name": "The Golden Girls",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/242812769/s718/desperate-housewives.jpg",
-      "releaseInfo": "2004",
-      "description": "Looking down on her friends and family isn't a way of life for Mary Alice Young... it's a way of death. One day, in her perfect house, in the loveliest of suburbs, Mary Alice ended it all. Now she's taking us into the lives of her family, friends and neighbors, commenting from her elevated P.O.V.",
+      "poster": "https://images.justwatch.com/poster/335725337/s718/the-golden-girls.jpg",
+      "releaseInfo": "1985",
+      "description": "Four Southern Florida seniors share a house, their dreams, and a whole lot of cheesecake. Bright, promiscuous, clueless and hilarious, these lovely, mismatched ladies form the perfect circle of friends.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/desperate-housewives"
-        }
-      ]
-    },
-    {
-      "id": "tt18923754",
-      "type": "series",
-      "name": "Daredevil: Born Again",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/343797821/s718/daredevil-born-again.jpg",
-      "releaseInfo": "2025",
-      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/daredevil-born-again"
+          "url": "https://justwatch.com/us/tv-show/the-golden-girls"
         }
       ]
     },
@@ -333,6 +317,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/bluey"
+        }
+      ]
+    },
+    {
+      "id": "tt18923754",
+      "type": "series",
+      "name": "Daredevil: Born Again",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/343797821/s718/daredevil-born-again.jpg",
+      "releaseInfo": "2025",
+      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/daredevil-born-again"
         }
       ]
     },
@@ -417,22 +417,6 @@
       ]
     },
     {
-      "id": "tt3322312",
-      "type": "series",
-      "name": "Marvel's Daredevil",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/87721747/s718/marvels-daredevil.jpg",
-      "releaseInfo": "2015",
-      "description": "Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a young boy to fight crime at night on the streets of Hell’s Kitchen as Daredevil.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/marvels-daredevil"
-        }
-      ]
-    },
-    {
       "id": "tt0437741",
       "type": "series",
       "name": "Project Runway",
@@ -449,22 +433,6 @@
       ]
     },
     {
-      "id": "tt0101120",
-      "type": "series",
-      "name": "Home Improvement",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344485726/s718/home-improvement.jpg",
-      "releaseInfo": "1991",
-      "description": "The daily trials and tribulations of handyman Tim Taylor, a TV show host raising three boys with help from his loyal co-host, domineering wife, and unseen neighbor.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/home-improvement"
-        }
-      ]
-    },
-    {
       "id": "tt2364582",
       "type": "series",
       "name": "Marvel's Agents of S.H.I.E.L.D.",
@@ -477,6 +445,38 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/marvels-agents-of-s-h-i-e-l-d"
+        }
+      ]
+    },
+    {
+      "id": "tt3322312",
+      "type": "series",
+      "name": "Marvel's Daredevil",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/87721747/s718/marvels-daredevil.jpg",
+      "releaseInfo": "2015",
+      "description": "Lawyer-by-day Matt Murdock uses his heightened senses from being blinded as a young boy to fight crime at night on the streets of Hell’s Kitchen as Daredevil.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/marvels-daredevil"
+        }
+      ]
+    },
+    {
+      "id": "tt0101120",
+      "type": "series",
+      "name": "Home Improvement",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344485726/s718/home-improvement.jpg",
+      "releaseInfo": "1991",
+      "description": "The daily trials and tribulations of handyman Tim Taylor, a TV show host raising three boys with help from his loyal co-host, domineering wife, and unseen neighbor.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/home-improvement"
         }
       ]
     },
@@ -561,22 +561,6 @@
       ]
     },
     {
-      "id": "tt44870166",
-      "type": "series",
-      "name": "How the Tudors Lost Their Heads",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354636884/s718/how-the-tudors-lost-their-heads.jpg",
-      "releaseInfo": "2026",
-      "description": "Historians Dan Snow and Professor Suzannah Lipscomb investigate the lives and deaths of some of Tudor England's most fascinating figures, including Anne Boleyn, Mary, Queen of Scots, and Perkin Warbeck, who claimed to be one of the famed Princes in the Tower.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/how-the-tudors-lost-their-heads"
-        }
-      ]
-    },
-    {
       "id": "tt1694423",
       "type": "series",
       "name": "MasterChef",
@@ -593,18 +577,18 @@
       ]
     },
     {
-      "id": "tt13622776",
+      "id": "tt44870166",
       "type": "series",
-      "name": "Ahsoka",
+      "name": "How the Tudors Lost Their Heads",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/307121806/s718/ahsoka.jpg",
-      "releaseInfo": "2023",
-      "description": "After the fall of the Galactic Empire, former Jedi Ahsoka Tano investigates an emerging threat to a vulnerable galaxy.",
+      "poster": "https://images.justwatch.com/poster/354636884/s718/how-the-tudors-lost-their-heads.jpg",
+      "releaseInfo": "2026",
+      "description": "Historians Dan Snow and Professor Suzannah Lipscomb investigate the lives and deaths of some of Tudor England's most fascinating figures, including Anne Boleyn, Mary, Queen of Scots, and Perkin Warbeck, who claimed to be one of the famed Princes in the Tower.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ahsoka"
+          "url": "https://justwatch.com/us/tv-show/how-the-tudors-lost-their-heads"
         }
       ]
     },
@@ -621,6 +605,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/star-wars-visions-presents-the-ninth-jedi"
+        }
+      ]
+    },
+    {
+      "id": "tt13622776",
+      "type": "series",
+      "name": "Ahsoka",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/307121806/s718/ahsoka.jpg",
+      "releaseInfo": "2023",
+      "description": "After the fall of the Galactic Empire, former Jedi Ahsoka Tano investigates an emerging threat to a vulnerable galaxy.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ahsoka"
         }
       ]
     },
@@ -689,22 +689,6 @@
       ]
     },
     {
-      "id": "tt0458290",
-      "type": "series",
-      "name": "Star Wars: The Clone Wars",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/182754926/s718/star-wars-the-clone-wars.jpg",
-      "releaseInfo": "2008",
-      "description": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/star-wars-the-clone-wars"
-        }
-      ]
-    },
-    {
       "id": "tt0103584",
       "type": "series",
       "name": "X-Men",
@@ -717,6 +701,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/x-men"
+        }
+      ]
+    },
+    {
+      "id": "tt0458290",
+      "type": "series",
+      "name": "Star Wars: The Clone Wars",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/182754926/s718/star-wars-the-clone-wars.jpg",
+      "releaseInfo": "2008",
+      "description": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/star-wars-the-clone-wars"
         }
       ]
     },
@@ -897,18 +897,18 @@
       ]
     },
     {
-      "id": "tt39333617",
+      "id": "tt0074028",
       "type": "series",
-      "name": "Perfect Crown",
+      "name": "The Muppet Show",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/345822069/s718/perfect-crown.jpg",
-      "releaseInfo": "2026",
-      "description": "In 21st-century Korea under a constitutional monarchy, a chaebol heiress with everything but status tries to take control of her future after crossing paths with a lonely prince with nothing but his title. Together, bound by a contract marriage, they begin a class-defying romance to rewrite destiny.",
+      "poster": "https://images.justwatch.com/poster/241168099/s718/the-muppet-show.jpg",
+      "releaseInfo": "1976",
+      "description": "Kermit the Frog and his fellow Muppets put on a vaudeville show at their theatre, bringing in a famous celebrity to help out for each episode.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/perfect-crown"
+          "url": "https://justwatch.com/us/tv-show/the-muppet-show"
         }
       ]
     },
@@ -929,18 +929,18 @@
       ]
     },
     {
-      "id": "tt0074028",
+      "id": "tt39333617",
       "type": "series",
-      "name": "The Muppet Show",
+      "name": "Perfect Crown",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/241168099/s718/the-muppet-show.jpg",
-      "releaseInfo": "1976",
-      "description": "Kermit the Frog and his fellow Muppets put on a vaudeville show at their theatre, bringing in a famous celebrity to help out for each episode.",
+      "poster": "https://images.justwatch.com/poster/345822069/s718/perfect-crown.jpg",
+      "releaseInfo": "2026",
+      "description": "In 21st-century Korea under a constitutional monarchy, a chaebol heiress with everything but status tries to take control of her future after crossing paths with a lonely prince with nothing but his title. Together, bound by a contract marriage, they begin a class-defying romance to rewrite destiny.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-muppet-show"
+          "url": "https://justwatch.com/us/tv-show/perfect-crown"
         }
       ]
     },
@@ -1009,22 +1009,6 @@
       ]
     },
     {
-      "id": "tt0103477",
-      "type": "series",
-      "name": "The Little Mermaid",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/301258530/s718/the-little-mermaid.jpg",
-      "releaseInfo": "1992",
-      "description": "Disney's The Little Mermaid is an American animated television series produced by Walt Disney Television Animation based on the 1989 Disney film of the same name. It features the adventures of Ariel as a mermaid prior to the events of the film. This series is the first Disney television series to be spun off from a major animated film. Some of the voice actors of the film reprise their roles in the series, among them Jodi Benson as Ariel, Samuel E. Wright as Sebastian, Kenneth Mars as King Triton, and Pat Carroll as Ursula.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-little-mermaid"
-        }
-      ]
-    },
-    {
       "id": "tt32589989",
       "type": "series",
       "name": "OceanXplorers",
@@ -1041,18 +1025,18 @@
       ]
     },
     {
-      "id": "tt3322310",
+      "id": "tt0103477",
       "type": "series",
-      "name": "Marvel's Iron Fist",
+      "name": "The Little Mermaid",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/6175776/s718/marvels-iron-fist.jpg",
-      "releaseInfo": "2017",
-      "description": "Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny.",
+      "poster": "https://images.justwatch.com/poster/301258530/s718/the-little-mermaid.jpg",
+      "releaseInfo": "1992",
+      "description": "Disney's The Little Mermaid is an American animated television series produced by Walt Disney Television Animation based on the 1989 Disney film of the same name. It features the adventures of Ariel as a mermaid prior to the events of the film. This series is the first Disney television series to be spun off from a major animated film. Some of the voice actors of the film reprise their roles in the series, among them Jodi Benson as Ariel, Samuel E. Wright as Sebastian, Kenneth Mars as King Triton, and Pat Carroll as Ursula.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/marvels-iron-fist"
+          "url": "https://justwatch.com/us/tv-show/the-little-mermaid"
         }
       ]
     },
@@ -1069,6 +1053,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/edge-of-the-unknown-with-jimmy-chin"
+        }
+      ]
+    },
+    {
+      "id": "tt3322310",
+      "type": "series",
+      "name": "Marvel's Iron Fist",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/6175776/s718/marvels-iron-fist.jpg",
+      "releaseInfo": "2017",
+      "description": "Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/marvels-iron-fist"
         }
       ]
     },
@@ -1153,22 +1153,6 @@
       ]
     },
     {
-      "id": "tt49477104",
-      "type": "series",
-      "name": "Locker Diaries: Coven Academy",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356249559/s718/locker-diaries-coven-academy.jpg",
-      "releaseInfo": "2026",
-      "description": "Peer inside the halls of Coven Academy and discover the supernatural secrets that unfold in the lives of its students.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/locker-diaries-coven-academy"
-        }
-      ]
-    },
-    {
       "id": "tt10160804",
       "type": "series",
       "name": "Hawkeye",
@@ -1181,6 +1165,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/hawkeye-2021"
+        }
+      ]
+    },
+    {
+      "id": "tt49477104",
+      "type": "series",
+      "name": "Locker Diaries: Coven Academy",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356249559/s718/locker-diaries-coven-academy.jpg",
+      "releaseInfo": "2026",
+      "description": "Peer inside the halls of Coven Academy and discover the supernatural secrets that unfold in the lives of its students.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/locker-diaries-coven-academy"
         }
       ]
     },
@@ -1313,22 +1313,6 @@
       ]
     },
     {
-      "id": "tt5515212",
-      "type": "series",
-      "name": "Big Hero 6 The Series",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/57720606/s718/big-hero-6-the-series.jpg",
-      "releaseInfo": "2017",
-      "description": "Picking up immediately following the events in the feature film, these are the continuing adventures and friendship of 14-year-old tech genius Hiro and his compassionate, cutting-edge robot Baymax. As the new prodigy at San Fransokyo Institute of Technology, Hiro now faces daunting academic challenges and the social trials of being the little man on campus. Off campus, the stakes are raised for the high-tech heroes as they must protect their city from an array of scientifically enhanced villains.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/big-hero-6-the-series"
-        }
-      ]
-    },
-    {
       "id": "tt24640580",
       "type": "series",
       "name": "Moving",
@@ -1341,6 +1325,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/moving"
+        }
+      ]
+    },
+    {
+      "id": "tt5515212",
+      "type": "series",
+      "name": "Big Hero 6 The Series",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/57720606/s718/big-hero-6-the-series.jpg",
+      "releaseInfo": "2017",
+      "description": "Picking up immediately following the events in the feature film, these are the continuing adventures and friendship of 14-year-old tech genius Hiro and his compassionate, cutting-edge robot Baymax. As the new prodigy at San Fransokyo Institute of Technology, Hiro now faces daunting academic challenges and the social trials of being the little man on campus. Off campus, the stakes are raised for the high-tech heroes as they must protect their city from an array of scientifically enhanced villains.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/big-hero-6-the-series"
         }
       ]
     },
@@ -1729,22 +1729,6 @@
       ]
     },
     {
-      "id": "tt41880577",
-      "type": "series",
-      "name": "Locker Diaries: Descendants",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347586901/s718/locker-diaries-descendants.jpg",
-      "releaseInfo": "2026",
-      "description": "Glimpse the drama happening in the school hallways of Auradon Prep and discover the secret adventures that unfold.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/locker-diaries-descendants"
-        }
-      ]
-    },
-    {
       "id": "tt31613279",
       "type": "series",
       "name": "The Twisted Tale of Amanda Knox",
@@ -1757,6 +1741,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-twisted-tale-of-amanda-knox"
+        }
+      ]
+    },
+    {
+      "id": "tt41880577",
+      "type": "series",
+      "name": "Locker Diaries: Descendants",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/347586901/s718/locker-diaries-descendants.jpg",
+      "releaseInfo": "2026",
+      "description": "Glimpse the drama happening in the school hallways of Auradon Prep and discover the secret adventures that unfold.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/locker-diaries-descendants"
         }
       ]
     },
@@ -1889,22 +1889,6 @@
       ]
     },
     {
-      "id": "tt29517360",
-      "type": "series",
-      "name": "Top Guns: The Next Generation",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/337776274/s718/top-gun-the-next-generation.jpg",
-      "releaseInfo": "2025",
-      "description": "Follow a class of Navy and Marine Corps student pilots as they enter the final and most unforgiving phase of elite strike fighter training. It's six months of high-stakes aerial training, brutal physical demands, and emotional reckoning - where only the top performers earn the chance to fly the most coveted aircrafts.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/top-gun-the-next-generation"
-        }
-      ]
-    },
-    {
       "id": "tt32828209",
       "type": "series",
       "name": "Are You Sure?!",
@@ -1917,6 +1901,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/are-you-sure"
+        }
+      ]
+    },
+    {
+      "id": "tt29517360",
+      "type": "series",
+      "name": "Top Guns: The Next Generation",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337776274/s718/top-gun-the-next-generation.jpg",
+      "releaseInfo": "2025",
+      "description": "Follow a class of Navy and Marine Corps student pilots as they enter the final and most unforgiving phase of elite strike fighter training. It's six months of high-stakes aerial training, brutal physical demands, and emotional reckoning - where only the top performers earn the chance to fly the most coveted aircrafts.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/top-gun-the-next-generation"
         }
       ]
     },
@@ -1937,22 +1937,6 @@
       ]
     },
     {
-      "id": "tt0092345",
-      "type": "series",
-      "name": "DuckTales",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/119705416/s718/ducktales.jpg",
-      "releaseInfo": "1987",
-      "description": "Scrooge McDuck finds his hands full at home when nephews Huey, Dewey and Louie move to Duckburg. Joined by their loyal pals Launchpad McQuack, Gyro Gearloose and Mrs. Beakley, the DuckTales gang never fails to deliver a wealth of adventure. Get ready for a fortune of fun with DuckTales!",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ducktales"
-        }
-      ]
-    },
-    {
       "id": "tt1044418",
       "type": "series",
       "name": "JONAS L.A.",
@@ -1965,6 +1949,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/jonas"
+        }
+      ]
+    },
+    {
+      "id": "tt0092345",
+      "type": "series",
+      "name": "DuckTales",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/119705416/s718/ducktales.jpg",
+      "releaseInfo": "1987",
+      "description": "Scrooge McDuck finds his hands full at home when nephews Huey, Dewey and Louie move to Duckburg. Joined by their loyal pals Launchpad McQuack, Gyro Gearloose and Mrs. Beakley, the DuckTales gang never fails to deliver a wealth of adventure. Get ready for a fortune of fun with DuckTales!",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ducktales"
         }
       ]
     },
@@ -2033,22 +2033,6 @@
       ]
     },
     {
-      "id": "tt38937921",
-      "type": "series",
-      "name": "Travis Japan Summer Vacation!! in the USA",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344300287/s718/travis-japan-summer-vacation-in-the-usa.jpg",
-      "releaseInfo": "2026",
-      "description": "Travis Japan embarks on a summer road trip through the Rocky Mountains in North America. Divided into teams, one hits the road by RV, the other dives into local culture. With new horizons to explore and heartfelt connections to make, this road trip promises to be unlike any other.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/travis-japan-summer-vacation-in-the-usa"
-        }
-      ]
-    },
-    {
       "id": "tt4174574",
       "type": "series",
       "name": "Arranged",
@@ -2065,18 +2049,18 @@
       ]
     },
     {
-      "id": "tt23731346",
+      "id": "tt38937921",
       "type": "series",
-      "name": "Sofia the First: Royal Magic",
+      "name": "Travis Japan Summer Vacation!! in the USA",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/345851793/s718/sofia-the-first-royal-magic.jpg",
+      "poster": "https://images.justwatch.com/poster/344300287/s718/travis-japan-summer-vacation-in-the-usa.jpg",
       "releaseInfo": "2026",
-      "description": "Follow Sofia as she attends The Charmswell School for Royal Magic, where she discovers she is the most magical princess in the realm and must learn how to master her powers while making new royal friends.",
+      "description": "Travis Japan embarks on a summer road trip through the Rocky Mountains in North America. Divided into teams, one hits the road by RV, the other dives into local culture. With new horizons to explore and heartfelt connections to make, this road trip promises to be unlike any other.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/sofia-the-first-royal-magic"
+          "url": "https://justwatch.com/us/tv-show/travis-japan-summer-vacation-in-the-usa"
         }
       ]
     },
@@ -2097,18 +2081,18 @@
       ]
     },
     {
-      "id": "tt21056976",
+      "id": "tt23731346",
       "type": "series",
-      "name": "Dragon Striker",
+      "name": "Sofia the First: Royal Magic",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/345563182/s718/dragon-striker.jpg",
+      "poster": "https://images.justwatch.com/poster/345851793/s718/sofia-the-first-royal-magic.jpg",
       "releaseInfo": "2026",
-      "description": "Follows Key, a twelve-year-old farm boy who discovers he may be the legendary \"Dragon Striker\", and joins a team of underdogs to take on the school champions, while fighting to prevent an ancient evil from resurfacing.",
+      "description": "Follow Sofia as she attends The Charmswell School for Royal Magic, where she discovers she is the most magical princess in the realm and must learn how to master her powers while making new royal friends.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dragon-striker"
+          "url": "https://justwatch.com/us/tv-show/sofia-the-first-royal-magic"
         }
       ]
     },
@@ -2125,6 +2109,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/star-wars-skeleton-crew"
+        }
+      ]
+    },
+    {
+      "id": "tt21056976",
+      "type": "series",
+      "name": "Dragon Striker",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/345563182/s718/dragon-striker.jpg",
+      "releaseInfo": "2026",
+      "description": "Follows Key, a twelve-year-old farm boy who discovers he may be the legendary \"Dragon Striker\", and joins a team of underdogs to take on the school champions, while fighting to prevent an ancient evil from resurfacing.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/dragon-striker"
         }
       ]
     },
@@ -2241,22 +2241,6 @@
       ]
     },
     {
-      "id": "tt39393015",
-      "type": "series",
-      "name": "We Call It Imagineering",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/341644413/s718/we-call-it-imagineering.jpg",
-      "releaseInfo": "2026",
-      "description": "Come along as we take you on an inside look at Walt Disney Imagineering. Inspired by how Walt took us along during the development of Disneyland, this series brings you into the creative and design journey as we turbocharge our Disney Experiences as Disney Imagineers create these new innovative experiences for the next decade and beyond.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/we-call-it-imagineering"
-        }
-      ]
-    },
-    {
       "id": "tt34995624",
       "type": "series",
       "name": "Reminder",
@@ -2269,6 +2253,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/reminder"
+        }
+      ]
+    },
+    {
+      "id": "tt39393015",
+      "type": "series",
+      "name": "We Call It Imagineering",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/341644413/s718/we-call-it-imagineering.jpg",
+      "releaseInfo": "2026",
+      "description": "Come along as we take you on an inside look at Walt Disney Imagineering. Inspired by how Walt took us along during the development of Disneyland, this series brings you into the creative and design journey as we turbocharge our Disney Experiences as Disney Imagineers create these new innovative experiences for the next decade and beyond.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/we-call-it-imagineering"
         }
       ]
     },
@@ -2433,6 +2433,22 @@
       ]
     },
     {
+      "id": "tt10857164",
+      "type": "series",
+      "name": "Ms. Marvel",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300784305/s718/ms-marvel.jpg",
+      "releaseInfo": "2022",
+      "description": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ms-marvel"
+        }
+      ]
+    },
+    {
       "id": "tt40526776",
       "type": "series",
       "name": "O11CE: Nueva generación",
@@ -2461,22 +2477,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/marvels-luke-cage"
-        }
-      ]
-    },
-    {
-      "id": "tt10857164",
-      "type": "series",
-      "name": "Ms. Marvel",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300784305/s718/ms-marvel.jpg",
-      "releaseInfo": "2022",
-      "description": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ms-marvel"
         }
       ]
     },
@@ -2881,22 +2881,6 @@
       ]
     },
     {
-      "id": "tt11281500",
-      "type": "series",
-      "name": "Star Wars Blips",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/245232346/s718/star-wars-blips.jpg",
-      "releaseInfo": "2017",
-      "description": "A series of animated YouTube shorts featuring comedic looks at BB-8, R2-D2, Chewbacca, and porgs, in promotion for the release of Star Wars: Episode VIII The Last Jedi.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/star-wars-blips"
-        }
-      ]
-    },
-    {
       "id": "tt38220632",
       "type": "series",
       "name": "Would You Marry Me?",
@@ -2909,6 +2893,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/would-you-marry-me"
+        }
+      ]
+    },
+    {
+      "id": "tt11281500",
+      "type": "series",
+      "name": "Star Wars Blips",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/245232346/s718/star-wars-blips.jpg",
+      "releaseInfo": "2017",
+      "description": "A series of animated YouTube shorts featuring comedic looks at BB-8, R2-D2, Chewbacca, and porgs, in promotion for the release of Star Wars: Episode VIII The Last Jedi.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/star-wars-blips"
         }
       ]
     },
@@ -2929,22 +2929,6 @@
       ]
     },
     {
-      "id": "tt21195490",
-      "type": "series",
-      "name": "Big Mouth",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300824057/s718/big-mouth-2022.jpg",
-      "releaseInfo": "2022",
-      "description": "A lawyer with a ten-percent winning rate is caught up in a murder case and becomes the notorious and genius con artist, Big Mouse, overnight. In order to survive and protect his family, he tries to reveal the true colors of the privileged people involved in a huge conspiracy.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/big-mouth-2022"
-        }
-      ]
-    },
-    {
       "id": "tt28492355",
       "type": "series",
       "name": "Destruction Decoded",
@@ -2957,6 +2941,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/destruction-decoded"
+        }
+      ]
+    },
+    {
+      "id": "tt21195490",
+      "type": "series",
+      "name": "Big Mouth",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300824057/s718/big-mouth-2022.jpg",
+      "releaseInfo": "2022",
+      "description": "A lawyer with a ten-percent winning rate is caught up in a murder case and becomes the notorious and genius con artist, Big Mouse, overnight. In order to survive and protect his family, he tries to reveal the true colors of the privileged people involved in a huge conspiracy.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/big-mouth-2022"
         }
       ]
     },
@@ -3153,22 +3153,6 @@
       ]
     },
     {
-      "id": "tt47052712",
-      "type": "series",
-      "name": "Disney Sidekick Adventures",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355375334/s718/disney-sidekick-adventures.jpg",
-      "releaseInfo": "2026",
-      "description": "Disney's beloved sidekicks embark on mini adventures across their magical universe. Ever wondered about their perspective when they're on their own? Get ready for a whirlwind of fun as hijinks ensue.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/disney-sidekick-adventures"
-        }
-      ]
-    },
-    {
       "id": "tt13622956",
       "type": "series",
       "name": "Zootopia+",
@@ -3197,6 +3181,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/a-real-bugs-life"
+        }
+      ]
+    },
+    {
+      "id": "tt47052712",
+      "type": "series",
+      "name": "Disney Sidekick Adventures",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355375334/s718/disney-sidekick-adventures.jpg",
+      "releaseInfo": "2026",
+      "description": "Disney's beloved sidekicks embark on mini adventures across their magical universe. Ever wondered about their perspective when they're on their own? Get ready for a whirlwind of fun as hijinks ensue.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/disney-sidekick-adventures"
         }
       ]
     },
@@ -3249,22 +3249,6 @@
       ]
     },
     {
-      "id": "tt13622958",
-      "type": "series",
-      "name": "Baymax!",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/280019905/s718/baymax.jpg",
-      "releaseInfo": "2022",
-      "description": "Return to the fantastical city of San Fransokyo where the affable, inflatable, inimitable healthcare companion robot, Baymax, sets out to do what he was programmed to do: help others.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/baymax"
-        }
-      ]
-    },
-    {
       "id": "tt17564828",
       "type": "series",
       "name": "Our Only Chance",
@@ -3293,6 +3277,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-incredible-hulk"
+        }
+      ]
+    },
+    {
+      "id": "tt13622958",
+      "type": "series",
+      "name": "Baymax!",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/280019905/s718/baymax.jpg",
+      "releaseInfo": "2022",
+      "description": "Return to the fantastical city of San Fransokyo where the affable, inflatable, inimitable healthcare companion robot, Baymax, sets out to do what he was programmed to do: help others.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/baymax"
         }
       ]
     },
@@ -3441,22 +3441,6 @@
       ]
     },
     {
-      "id": "tt13623772",
-      "type": "series",
-      "name": "Iwájú",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/323302690/s718/iwaju.jpg",
-      "releaseInfo": "2024",
-      "description": "A comic-style animated sci-fi series set in Lagos that explores themes of class, innocence and challenging the status quo.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/iwaju"
-        }
-      ]
-    },
-    {
       "id": "tt0108783",
       "type": "series",
       "name": "Gargoyles",
@@ -3521,18 +3505,18 @@
       ]
     },
     {
-      "id": "tt2802008",
+      "id": "tt13623772",
       "type": "series",
-      "name": "Once Upon a Time in Wonderland",
+      "name": "Iwájú",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/304526274/s718/once-upon-a-time-in-wonderland.jpg",
-      "releaseInfo": "2013",
-      "description": "In Victorian England, the young and beautiful Alice tells a tale of a strange new land that exists on the other side of a rabbit hole. Thinking Alice insane, her doctors aim to make her forget everything. While Alice is ready to put it all behind her, she knows this world is real. In the nick of time, the Knave of Hearts and the White Rabbit save her from a doomed fate. Together, the trio tumble down the rabbit hole to Wonderland, where nothing is impossible.",
+      "poster": "https://images.justwatch.com/poster/323302690/s718/iwaju.jpg",
+      "releaseInfo": "2024",
+      "description": "A comic-style animated sci-fi series set in Lagos that explores themes of class, innocence and challenging the status quo.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/once-upon-a-time-in-wonderland"
+          "url": "https://justwatch.com/us/tv-show/iwaju"
         }
       ]
     },
@@ -3553,18 +3537,18 @@
       ]
     },
     {
-      "id": "tt8041658",
+      "id": "tt2802008",
       "type": "series",
-      "name": "Marvel's Moon Girl and Devil Dinosaur",
+      "name": "Once Upon a Time in Wonderland",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302617430/s718/marvels-moon-girl-and-devil-dinosaur.jpg",
-      "releaseInfo": "2023",
-      "description": "After 13-year-old super-genius Lunella accidentally brings ten-ton T-Rex, Devil Dinosaur into present-day New York City via a time vortex, the duo works together to protect the city's Lower East Side from danger.",
+      "poster": "https://images.justwatch.com/poster/304526274/s718/once-upon-a-time-in-wonderland.jpg",
+      "releaseInfo": "2013",
+      "description": "In Victorian England, the young and beautiful Alice tells a tale of a strange new land that exists on the other side of a rabbit hole. Thinking Alice insane, her doctors aim to make her forget everything. While Alice is ready to put it all behind her, she knows this world is real. In the nick of time, the Knave of Hearts and the White Rabbit save her from a doomed fate. Together, the trio tumble down the rabbit hole to Wonderland, where nothing is impossible.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/marvels-moon-girl-and-devil-dinosaur"
+          "url": "https://justwatch.com/us/tv-show/once-upon-a-time-in-wonderland"
         }
       ]
     },
@@ -3581,6 +3565,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-best-heart-attack-of-my-life"
+        }
+      ]
+    },
+    {
+      "id": "tt8041658",
+      "type": "series",
+      "name": "Marvel's Moon Girl and Devil Dinosaur",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302617430/s718/marvels-moon-girl-and-devil-dinosaur.jpg",
+      "releaseInfo": "2023",
+      "description": "After 13-year-old super-genius Lunella accidentally brings ten-ton T-Rex, Devil Dinosaur into present-day New York City via a time vortex, the duo works together to protect the city's Lower East Side from danger.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/marvels-moon-girl-and-devil-dinosaur"
         }
       ]
     },
@@ -3729,22 +3729,6 @@
       ]
     },
     {
-      "id": "tt31067371",
-      "type": "series",
-      "name": "Nos vemos en otra vida",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/311450988/s718/see-you-in-another-life.jpg",
-      "releaseInfo": "2024",
-      "description": "On March 11, 2004, Madrid bombings occurred. A 16-year-old named Baby and Emilio Trashorras were involved in transporting explosives. Baby's testimony was vital in the 2007 trial related to the attacks.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/see-you-in-another-life"
-        }
-      ]
-    },
-    {
       "id": "tt13302848",
       "type": "series",
       "name": "Inside Pixar",
@@ -3773,6 +3757,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/wolverine-and-the-x-men"
+        }
+      ]
+    },
+    {
+      "id": "tt31067371",
+      "type": "series",
+      "name": "Nos vemos en otra vida",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/311450988/s718/see-you-in-another-life.jpg",
+      "releaseInfo": "2024",
+      "description": "On March 11, 2004, Madrid bombings occurred. A 16-year-old named Baby and Emilio Trashorras were involved in transporting explosives. Baby's testimony was vital in the 2007 trial related to the attacks.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/see-you-in-another-life"
         }
       ]
     },

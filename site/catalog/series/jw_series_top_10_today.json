@@ -16,6 +16,21 @@
       ]
     },
     {
+      "id": "tt36786185",
+      "type": "series",
+      "name": "The Altruists",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357109853/s718/the-altruists.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-altruists"
+        }
+      ]
+    },
+    {
       "id": "tt49910378",
       "type": "series",
       "name": "The Circle",
@@ -46,6 +61,21 @@
       ]
     },
     {
+      "id": "tt32375763",
+      "type": "series",
+      "name": "12 12 12",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/349873010/s718/12-12-12.jpg",
+      "releaseInfo": "2026",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/12-12-12"
+        }
+      ]
+    },
+    {
       "id": "tt7631058",
       "type": "series",
       "name": "The Lord of the Rings: The Rings of Power",
@@ -61,17 +91,17 @@
       ]
     },
     {
-      "id": "tt32375763",
+      "id": "tt31510819",
       "type": "series",
-      "name": "12 12 12",
+      "name": "MobLand",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/349873010/s718/12-12-12.jpg",
-      "releaseInfo": "2026",
+      "poster": "https://images.justwatch.com/poster/354739547/s718/mobland.jpg",
+      "releaseInfo": "2025",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/12-12-12"
+          "url": "https://www.justwatch.com/us/tv-show/mobland"
         }
       ]
     },
@@ -91,32 +121,17 @@
       ]
     },
     {
-      "id": "tt23112594",
+      "id": "tt26598805",
       "type": "series",
-      "name": "VisionQuest",
+      "name": "Nocturne",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/348281318/s718/visionquest-1.jpg",
+      "poster": "https://images.justwatch.com/poster/354518072/s718/nocturne.jpg",
       "releaseInfo": "2026",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/visionquest-1"
-        }
-      ]
-    },
-    {
-      "id": "tt31710249",
-      "type": "series",
-      "name": "Stick",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/332253389/s718/stick.jpg",
-      "releaseInfo": "2025",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/stick"
+          "url": "https://www.justwatch.com/us/tv-show/nocturne"
         }
       ]
     },
@@ -132,21 +147,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://www.justwatch.com/us/tv-show/best-medicine"
-        }
-      ]
-    },
-    {
-      "id": "tt41559886",
-      "type": "series",
-      "name": "Gordon",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356465760/s718/gordon.jpg",
-      "releaseInfo": "2026",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/gordon"
         }
       ]
     }

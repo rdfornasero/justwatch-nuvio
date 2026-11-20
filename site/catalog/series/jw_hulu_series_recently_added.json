@@ -1,3 +1,68 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt35855387",
+      "type": "series",
+      "name": "9-1-1: Nashville",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354476357/s718/9-1-1-nashville.jpg",
+      "releaseInfo": "2025",
+      "description": "Explores the personal & professional lives of Tennessee first responders who are thrust into the most shocking and heart-stopping situations, day after day.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/9-1-1-nashville"
+        }
+      ]
+    },
+    {
+      "id": "tt4508902",
+      "type": "series",
+      "name": "One Punch Man: Wanpanman",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348674616/s718/one-punch-man.jpg",
+      "releaseInfo": "2015",
+      "description": "Saitama, a superhero who can defeat any foe with a single punch, battles boredom as he searches for a worthy opponent in a world plagued by monsters.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/one-punch-man"
+        }
+      ]
+    },
+    {
+      "id": "tt6483832",
+      "type": "series",
+      "name": "The Resident",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/301092618/s718/the-resident.jpg",
+      "releaseInfo": "2018",
+      "description": "A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what really happens, both good and bad, in modern-day medicine.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-resident"
+        }
+      ]
+    },
+    {
+      "id": "tt14060708",
+      "type": "series",
+      "name": "HIP - High Intellectual Potential",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354197595/s718/hpi.jpg",
+      "releaseInfo": "2021",
+      "description": "Morgane is 38-years old, has three children, two exes and an IQ of 160; her destiny as a cleaner is turned upside-down when her extraordinary abilities are spotted by the police who offer her a job as a consultant.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/hpi"
+        }
+      ]
+    }
+  ]
 }
