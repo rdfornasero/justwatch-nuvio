@@ -347,7 +347,8 @@ async function resolveBluRayMovie(candidate) {
   }
 
   const details = await tmdbGet("/movie/" + chosen.id, { language: "en-US" });
-  const id = details.imdb_id;
+  const overrideKey = normalizedTitle(candidate.title) + "|" + (year || "");
+  const id = details.imdb_id || BLURAY_IMDB_OVERRIDES.get(overrideKey);
   if (typeof id !== "string" || !/^tt\d+$/.test(id)) {
     console.warn("TMDB did not provide an IMDb ID for: " + candidate.title);
     return null;
