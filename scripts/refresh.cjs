@@ -194,6 +194,204 @@ async function getTopTenToday(type) {
 }
 
 
+
+const BLURAY_TRENDING_URL = "https://www.blu-ray.com/movies/releasedates.php";
+const TMDB_API_BASE = "https://api.themoviedb.org/3";
+const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
+
+function decodeHtml(value) {
+  return String(value || "")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#0*39;|&apos;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+}
+function htmlText(value) {
+  return decodeHtml(String(value || "")
+    .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " "))
+    .replace(/\s+/g, " ")
+    .trim();
+}
+function cleanBluRayTitle(value) {
+  return htmlText(value)
+    .replace(/^\s*\d{1,2}\s*\.?\s*/, "")
+    .replace(/\s+(?:4K|UHD|Blu-ray|DVD|3D|SteelBook|Steelbook)+$/i, "")
+    .trim();
+}
+async function fetchPage(url) {
+  const response = await fetch(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; MovieCatalogRefresh/1.0; +https://github.com/rdfornasero/justwatch-nuvio)",
+      "Accept": "text/html,application/xhtml+xml"
+    },
+    signal: AbortSignal.timeout(25000)
+  });
+  if (!response.ok) throw new Error("Blu-ray.com request failed with HTTP " + response.status);
+  return response.text();
+}
+async function tmdbGet(endpoint, params = {}) {
+  const apiKey = process.env.TMDB_API_KEY;
+  if (!apiKey) throw new Error("TMDB_API_KEY GitHub Actions secret is missing.");
+  const url = new URL(TMDB_API_BASE + endpoint);
+  url.searchParams.set("api_key", apiKey);
+  for (const [key, value] of Object.entries(params)) {
+    if (value !== undefined && value !== null) url.searchParams.set(key, String(value));
+  }
+  const response = await fetch(url, {
+    headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(20000)
+  });
+  if (!response.ok) throw new Error("TMDB request failed with HTTP " + response.status + " for " + endpoint);
+  const payload = await response.json();
+  if (payload && payload.success === false) {
+    throw new Error("TMDB API error: " + (payload.status_message || "unknown error"));
+  }
+  return payload;
+}
+async function mapWithConcurrency(items, limit, mapper) {
+  const output = [];
+  for (let index = 0; index < items.length; index += limit) {
+    output.push(...await Promise.all(items.slice(index, index + limit).map(mapper)));
+  }
+  return output;
+}
+function getYearNearProductHeading(html) {
+  const heading = html.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/i);
+  const start = heading ? heading.index + heading[0].length : 0;
+  const nearby = htmlText(html.slice(start, start + 9000));
+  const match = nearby.match(/\b((?:18|19|20)\d{2})\b/);
+  const year = match ? Number(match[1]) : null;
+  return Number.isInteger(year) && year >= 1888 && year <= CURRENT_YEAR + 5 ? year : null;
+}
+async function getBluRayTrendingCandidates() {
+  const html = await fetchPage(BLURAY_TRENDING_URL);
+  const lower = html.toLowerCase();
+  const start = lower.indexOf("trending blu-ray movies");
+  const end = start >= 0 ? lower.indexOf("trending in theaters", start) : -1;
+  if (start < 0 || end <= start) {
+    throw new Error("Could not locate the Trending Blu-ray Movies section.");
+  }
+
+  const section = html.slice(start, end);
+  const anchorPattern = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+  const seenUrls = new Set();
+  const candidates = [];
+  let match;
+  while ((match = anchorPattern.exec(section)) !== null && candidates.length < 15) {
+    const attrs = match[1];
+    const rawHref = attrs.match(/\bhref\s*=\s*["']([^"']+)["']/i)?.[1];
+    if (!rawHref) continue;
+    let url;
+    try { url = new URL(rawHref, "https://www.blu-ray.com").toString(); }
+    catch { continue; }
+    const pathname = new URL(url).pathname;
+    if (!/^\/movies\/[^/]+\/\d+\/?$/i.test(pathname) || seenUrls.has(url)) continue;
+
+    const inner = match[2];
+    const alt = inner.match(/\balt\s*=\s*["']([^"']+)["']/i)?.[1];
+    const title = cleanBluRayTitle(htmlText(inner) || alt || attrs.match(/\btitle\s*=\s*["']([^"']+)["']/i)?.[1]);
+    if (!title) continue;
+
+    seenUrls.add(url);
+    candidates.push({ title, url, productId: pathname.match(/\/(\d+)\/?$/)?.[1] || "" });
+  }
+
+  if (candidates.length < 10) {
+    throw new Error("Only " + candidates.length + " Trending Blu-ray Movies entries were parsed; refusing to replace the last good catalogue.");
+  }
+  return candidates.slice(0, 15);
+}
+function normalizedTitle(value) {
+  return String(value || "").toLowerCase().normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+async function resolveBluRayMovie(candidate) {
+  let year = null;
+  try {
+    const productHtml = await fetchPage(candidate.url);
+    year = getYearNearProductHeading(productHtml);
+  } catch (error) {
+    console.warn("Could not read Blu-ray.com detail page for " + candidate.title + ": " + error.message);
+  }
+
+  const search = await tmdbGet("/search/movie", {
+    query: candidate.title,
+    language: "en-US",
+    include_adult: "false",
+    ...(year ? { year } : {})
+  });
+  const results = Array.isArray(search.results) ? search.results : [];
+  if (results.length === 0) {
+    console.warn("No TMDB match for Blu-ray.com title: " + candidate.title);
+    return null;
+  }
+
+  const sourceKey = normalizedTitle(candidate.title);
+  const exactMatches = results.filter(item => normalizedTitle(item.title) === sourceKey);
+  let chosen = year
+    ? exactMatches.find(item => String(item.release_date || "").startsWith(String(year)))
+    : null;
+  if (!chosen && exactMatches.length > 0) chosen = exactMatches[0];
+  if (!chosen && results.length === 1) chosen = results[0];
+  if (!chosen) {
+    console.warn("Ambiguous TMDB match for Blu-ray.com title: " + candidate.title + (year ? " (" + year + ")" : ""));
+    return null;
+  }
+
+  const details = await tmdbGet("/movie/" + chosen.id, { language: "en-US" });
+  const id = details.imdb_id;
+  if (typeof id !== "string" || !/^tt\d+$/.test(id)) {
+    console.warn("TMDB did not provide an IMDb ID for: " + candidate.title);
+    return null;
+  }
+
+  const meta = {
+    id,
+    type: "movie",
+    name: details.title || chosen.title || candidate.title,
+    posterShape: "poster",
+    links: [{ name: "Blu-ray.com", category: "other", url: candidate.url }]
+  };
+  const poster = details.poster_path || chosen.poster_path;
+  if (poster) meta.poster = TMDB_IMAGE_BASE + poster;
+  const releaseYear = typeof details.release_date === "string"
+    ? Number(details.release_date.slice(0, 4)) : year;
+  if (Number.isInteger(releaseYear) && releaseYear >= 1888 && releaseYear <= CURRENT_YEAR + 5) {
+    meta.releaseInfo = String(releaseYear);
+  }
+  if (details.overview) meta.description = details.overview;
+  return meta;
+}
+async function getBluRayTrendingMovies() {
+  const candidates = await getBluRayTrendingCandidates();
+  const resolved = await mapWithConcurrency(candidates, 3, async candidate => {
+    try { return await resolveBluRayMovie(candidate); }
+    catch (error) {
+      console.warn("Could not resolve Blu-ray.com title " + candidate.title + ": " + error.message);
+      return null;
+    }
+  });
+
+  const seen = new Set();
+  const metas = [];
+  for (const meta of resolved) {
+    if (!meta || seen.has(meta.id)) continue;
+    seen.add(meta.id);
+    metas.push(meta);
+  }
+  if (metas.length < 8) {
+    throw new Error("Only " + metas.length + " unique Blu-ray movies were resolved; keeping the last good catalogue.");
+  }
+  return metas.slice(0, 15);
+}
+
 async function getProviderTitles(provider, type) {
   return justwatch.titlesByProvider(provider.shortName, {
     country: COUNTRY,
@@ -253,7 +451,16 @@ async function main() {
       // Keep the last successfully published Top 10 if JustWatch is temporarily unavailable.
     }
 
-
+    if (type === "movie") {
+      try {
+        const bluRayTrending = await getBluRayTrendingMovies();
+        await writeCatalog("movie", "bluray_com_trending_movies", bluRayTrending);
+        console.log("Blu-ray.com Trending Blu-ray Movies: " + bluRayTrending.length + " unique titles");
+      } catch (error) {
+        console.error("Could not refresh Blu-ray.com Trending Blu-ray Movies: " + error.message);
+        // Keep the last successfully published list if the source or metadata lookup is temporarily unavailable.
+      }
+    }
 
     const allRecentlyAdded = [];
     for (const service of SERVICES) {
