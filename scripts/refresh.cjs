@@ -198,6 +198,7 @@ async function getTopTenToday(type) {
 const BLURAY_TRENDING_URL = "https://www.blu-ray.com/movies/releasedates.php";
 const TMDB_API_BASE = "https://api.themoviedb.org/3";
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
+const BLURAY_IMDB_OVERRIDES = new Map([["obsession|2025", "tt37287335"]]);
 
 function decodeHtml(value) {
   return String(value || "")
@@ -371,6 +372,7 @@ async function resolveBluRayMovie(candidate) {
 }
 async function getBluRayTrendingMovies() {
   const candidates = await getBluRayTrendingCandidates();
+  console.log("Blu-ray.com Trending top 15: " + candidates.map((item, index) => (index + 1) + ". " + item.title).join(" | "));
   const resolved = await mapWithConcurrency(candidates, 3, async candidate => {
     try { return await resolveBluRayMovie(candidate); }
     catch (error) {
