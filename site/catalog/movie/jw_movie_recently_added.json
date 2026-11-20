@@ -1,3 +1,20 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt4731136",
+      "type": "movie",
+      "name": "A Cure for Wellness",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/9606960/s718/a-cure-for-wellness.jpg",
+      "releaseInfo": "2017",
+      "description": "A stockbroker unravels the terrifying secrets of a mysterious Swiss spa where guests never leave.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/a-cure-for-wellness"
+        }
+      ]
+    }
+  ]
 }

@@ -1489,6 +1489,22 @@
       ]
     },
     {
+      "id": "tt0877057",
+      "type": "series",
+      "name": "Death Note",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/210194718/s718/death-note.jpg",
+      "releaseInfo": "2006",
+      "description": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/death-note"
+        }
+      ]
+    },
+    {
       "id": "tt6289132",
       "type": "series",
       "name": "The Boulet Brothers' Dragula",
@@ -1681,22 +1697,6 @@
       ]
     },
     {
-      "id": "tt0877057",
-      "type": "series",
-      "name": "Death Note",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/210194718/s718/death-note.jpg",
-      "releaseInfo": "2006",
-      "description": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/death-note"
-        }
-      ]
-    },
-    {
       "id": "tt0409591",
       "type": "series",
       "name": "Naruto",
@@ -1725,22 +1725,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-originals"
-        }
-      ]
-    },
-    {
-      "id": "tt1740299",
-      "type": "series",
-      "name": "The Man in the High Castle",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/74036153/s718/the-man-in-the-high-castle.jpg",
-      "releaseInfo": "2015",
-      "description": "Explore what it would be like if the Allied Powers had lost WWII, and Japan and Germany ruled the United States. Based on Philip K. Dick's award-winning novel.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-man-in-the-high-castle"
         }
       ]
     },
@@ -1921,6 +1905,22 @@
       ]
     },
     {
+      "id": "tt1740299",
+      "type": "series",
+      "name": "The Man in the High Castle",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/74036153/s718/the-man-in-the-high-castle.jpg",
+      "releaseInfo": "2015",
+      "description": "Explore what it would be like if the Allied Powers had lost WWII, and Japan and Germany ruled the United States. Based on Philip K. Dick's award-winning novel.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-man-in-the-high-castle"
+        }
+      ]
+    },
+    {
       "id": "tt14016500",
       "type": "series",
       "name": "The Summer I Turned Pretty",
@@ -1969,22 +1969,6 @@
       ]
     },
     {
-      "id": "tt45934344",
-      "type": "series",
-      "name": "Archive X: Unexplained Phenomena",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356521594/s718/archive-x-unexplained-phenomena.jpg",
-      "releaseInfo": "2026",
-      "description": "Hosted by Professor Jeffrey J. Kripal, one of the leading scholars of extraordinary human experiences, this docuseries builds upon Rice University's Center for the Impossible, one of the world's largest collections of paranormal research, by inviting everyday individuals, many of whom have never spoken publicly before, to reveal their new and personal encounters with unexplained phenomena.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/archive-x-unexplained-phenomena"
-        }
-      ]
-    },
-    {
       "id": "tt0092400",
       "type": "series",
       "name": "Married... with Children",
@@ -2029,6 +2013,38 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/chucky"
+        }
+      ]
+    },
+    {
+      "id": "tt4687882",
+      "type": "series",
+      "name": "Patriot",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/86516737/s718/patriot.jpg",
+      "releaseInfo": "2015",
+      "description": "To prevent Iran from going nuclear, intelligence officer John Tavner must forgo all safety nets and assume a perilous \"non-official cover\" -- that of a mid-level employee at a Midwestern industrial piping firm.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/patriot"
+        }
+      ]
+    },
+    {
+      "id": "tt45934344",
+      "type": "series",
+      "name": "Archive X: Unexplained Phenomena",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356521594/s718/archive-x-unexplained-phenomena.jpg",
+      "releaseInfo": "2026",
+      "description": "Hosted by Professor Jeffrey J. Kripal, one of the leading scholars of extraordinary human experiences, this docuseries builds upon Rice University's Center for the Impossible, one of the world's largest collections of paranormal research, by inviting everyday individuals, many of whom have never spoken publicly before, to reveal their new and personal encounters with unexplained phenomena.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/archive-x-unexplained-phenomena"
         }
       ]
     },
@@ -2173,6 +2189,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/company-retreat"
+        }
+      ]
+    },
+    {
+      "id": "tt29722955",
+      "type": "series",
+      "name": "JoJo's Bizarre Adventure",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/19530374/s718/jojos-bizarre-adventure-1993.jpg",
+      "releaseInfo": "2012",
+      "description": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
         }
       ]
     },
@@ -2381,22 +2413,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-first-48"
-        }
-      ]
-    },
-    {
-      "id": "tt4687882",
-      "type": "series",
-      "name": "Patriot",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/86516737/s718/patriot.jpg",
-      "releaseInfo": "2015",
-      "description": "To prevent Iran from going nuclear, intelligence officer John Tavner must forgo all safety nets and assume a perilous \"non-official cover\" -- that of a mid-level employee at a Midwestern industrial piping firm.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/patriot"
         }
       ]
     },
@@ -2785,22 +2801,6 @@
       ]
     },
     {
-      "id": "tt29722955",
-      "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/19530374/s718/jojos-bizarre-adventure-1993.jpg",
-      "releaseInfo": "2012",
-      "description": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
-        }
-      ]
-    },
-    {
       "id": "tt1869454",
       "type": "series",
       "name": "Good Omens",
@@ -2829,22 +2829,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/poldark"
-        }
-      ]
-    },
-    {
-      "id": "tt0118437",
-      "type": "series",
-      "name": "The Practice",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/272745425/s718/the-practice.jpg",
-      "releaseInfo": "1997",
-      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-practice"
         }
       ]
     },
@@ -3633,6 +3617,22 @@
       ]
     },
     {
+      "id": "tt0118437",
+      "type": "series",
+      "name": "The Practice",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/272745425/s718/the-practice.jpg",
+      "releaseInfo": "1997",
+      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-practice"
+        }
+      ]
+    },
+    {
       "id": "tt0106064",
       "type": "series",
       "name": "Power Rangers",
@@ -3677,22 +3677,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/timeless-2016"
-        }
-      ]
-    },
-    {
-      "id": "tt0078701",
-      "type": "series",
-      "name": "This Old House",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/244601636/s718/this-old-house.jpg",
-      "releaseInfo": "1979",
-      "description": "TV's original home-improvement show, following one whole-house renovation over several episodes.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/this-old-house"
         }
       ]
     },
@@ -3985,17 +3969,34 @@
       ]
     },
     {
-      "id": "tt43707668",
+      "id": "tt0088571",
       "type": "series",
-      "name": "Los Hilos del Miedo",
+      "name": "Moonlighting",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355784310/s718/los-hilos-del-miedo.jpg",
-      "releaseInfo": "2026",
+      "poster": "https://images.justwatch.com/poster/336109697/s718/moonlighting.jpg",
+      "releaseInfo": "1985",
+      "description": "After being duped and going bankrupt, model Maddie is convinced by David to become a partner in a detective agency. Together they solve various cases, while getting comfortable with each other.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/los-hilos-del-miedo"
+          "url": "https://justwatch.com/us/tv-show/moonlighting"
+        }
+      ]
+    },
+    {
+      "id": "tt4600360",
+      "type": "series",
+      "name": "The Beautiful Lie",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302051028/s718/the-beautiful-lie.jpg",
+      "releaseInfo": "2015",
+      "description": "Anna is happily married. She has the perfect family. But one man will change it all. A grand, complex love story of love, lust and betrayal across three families and generations.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-beautiful-lie"
         }
       ]
     }

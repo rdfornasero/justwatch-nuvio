@@ -1,3 +1,36 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt0088571",
+      "type": "series",
+      "name": "Moonlighting",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/336109697/s718/moonlighting.jpg",
+      "releaseInfo": "1985",
+      "description": "After being duped and going bankrupt, model Maddie is convinced by David to become a partner in a detective agency. Together they solve various cases, while getting comfortable with each other.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/moonlighting"
+        }
+      ]
+    },
+    {
+      "id": "tt4600360",
+      "type": "series",
+      "name": "The Beautiful Lie",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302051028/s718/the-beautiful-lie.jpg",
+      "releaseInfo": "2015",
+      "description": "Anna is happily married. She has the perfect family. But one man will change it all. A grand, complex love story of love, lust and betrayal across three families and generations.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-beautiful-lie"
+        }
+      ]
+    }
+  ]
 }

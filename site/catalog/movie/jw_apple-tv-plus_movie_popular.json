@@ -465,22 +465,6 @@
       ]
     },
     {
-      "id": "tt6285944",
-      "type": "movie",
-      "name": "The Banker",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176325458/s718/the-banker-2019.jpg",
-      "releaseInfo": "2020",
-      "description": "In the 1960s, two African-American entrepreneurs hire a working-class white man to pretend to be the head of their business empire while they pose as a janitor and chauffeur.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-banker-2019"
-        }
-      ]
-    },
-    {
       "id": "tt14257582",
       "type": "movie",
       "name": "Wolfs",
@@ -493,6 +477,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/wolves-2024"
+        }
+      ]
+    },
+    {
+      "id": "tt6285944",
+      "type": "movie",
+      "name": "The Banker",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176325458/s718/the-banker-2019.jpg",
+      "releaseInfo": "2020",
+      "description": "In the 1960s, two African-American entrepreneurs hire a working-class white man to pretend to be the head of their business empire while they pose as a janitor and chauffeur.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-banker-2019"
         }
       ]
     },

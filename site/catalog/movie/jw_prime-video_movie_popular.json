@@ -2289,6 +2289,22 @@
       ]
     },
     {
+      "id": "tt1659337",
+      "type": "movie",
+      "name": "The Perks of Being a Wallflower",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/175704083/s718/the-perks-of-being-a-wallflower.jpg",
+      "releaseInfo": "2012",
+      "description": "Pittsburgh, Pennsylvania, 1991. High school freshman Charlie is a wallflower, always watching life from the sidelines, until two senior students, Sam and her stepbrother Patrick, become his mentors, helping him discover the joys of friendship, music and love.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-perks-of-being-a-wallflower"
+        }
+      ]
+    },
+    {
       "id": "tt2382320",
       "type": "movie",
       "name": "No Time to Die",
@@ -2573,22 +2589,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/terrifier-3"
-        }
-      ]
-    },
-    {
-      "id": "tt1659337",
-      "type": "movie",
-      "name": "The Perks of Being a Wallflower",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/175704083/s718/the-perks-of-being-a-wallflower.jpg",
-      "releaseInfo": "2012",
-      "description": "Pittsburgh, Pennsylvania, 1991. High school freshman Charlie is a wallflower, always watching life from the sidelines, until two senior students, Sam and her stepbrother Patrick, become his mentors, helping him discover the joys of friendship, music and love.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-perks-of-being-a-wallflower"
         }
       ]
     },
@@ -3037,22 +3037,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/vhs"
-        }
-      ]
-    },
-    {
-      "id": "tt27802490",
-      "type": "movie",
-      "name": "Exhuma",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/321655648/s718/exhuma.jpg",
-      "releaseInfo": "2024",
-      "description": "After tracing the origin of a disturbing supernatural affliction to a wealthy family's ancestral gravesite, a team of paranormal experts relocates the remains—and soon discovers what happens to those who dare to mess with the wrong grave.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/exhuma"
         }
       ]
     },
@@ -3981,6 +3965,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/the-13th-warrior"
+        }
+      ]
+    },
+    {
+      "id": "tt4731136",
+      "type": "movie",
+      "name": "A Cure for Wellness",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/9606960/s718/a-cure-for-wellness.jpg",
+      "releaseInfo": "2017",
+      "description": "A stockbroker unravels the terrifying secrets of a mysterious Swiss spa where guests never leave.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/a-cure-for-wellness"
         }
       ]
     }

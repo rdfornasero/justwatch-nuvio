@@ -1217,22 +1217,6 @@
       ]
     },
     {
-      "id": "tt1707386",
-      "type": "movie",
-      "name": "Les Misérables",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/174665747/s718/les-miserables.jpg",
-      "releaseInfo": "2012",
-      "description": "An adaptation of the successful stage musical based on Victor Hugo's classic novel set in 19th-century France. Jean Valjean, a man imprisoned for stealing bread, must flee a relentless policeman named Javert. The pursuit consumes both men's lives, and soon Valjean finds himself in the midst of the student revolutions in France.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/les-miserables"
-        }
-      ]
-    },
-    {
       "id": "tt7181546",
       "type": "movie",
       "name": "Ballerina",
@@ -1469,6 +1453,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/the-revenant"
+        }
+      ]
+    },
+    {
+      "id": "tt1707386",
+      "type": "movie",
+      "name": "Les Misérables",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/174665747/s718/les-miserables.jpg",
+      "releaseInfo": "2012",
+      "description": "An adaptation of the successful stage musical based on Victor Hugo's classic novel set in 19th-century France. Jean Valjean, a man imprisoned for stealing bread, must flee a relentless policeman named Javert. The pursuit consumes both men's lives, and soon Valjean finds himself in the midst of the student revolutions in France.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/les-miserables"
         }
       ]
     },
@@ -1713,22 +1713,6 @@
       ]
     },
     {
-      "id": "tt0899043",
-      "type": "movie",
-      "name": "The Amateur",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/322047687/s718/amateur-2024.jpg",
-      "releaseInfo": "2025",
-      "description": "When his supervisors at the CIA refuse to take action after his wife is killed in a London terrorist attack, a decoder takes matters into his own hands.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/amateur-2024"
-        }
-      ]
-    },
-    {
       "id": "tt0113253",
       "type": "movie",
       "name": "Halloween: The Curse of Michael Myers",
@@ -1933,6 +1917,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/zombieland"
+        }
+      ]
+    },
+    {
+      "id": "tt0899043",
+      "type": "movie",
+      "name": "The Amateur",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322047687/s718/amateur-2024.jpg",
+      "releaseInfo": "2025",
+      "description": "When his supervisors at the CIA refuse to take action after his wife is killed in a London terrorist attack, a decoder takes matters into his own hands.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/amateur-2024"
         }
       ]
     },
