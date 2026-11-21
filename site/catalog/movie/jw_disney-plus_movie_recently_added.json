@@ -1,3 +1,84 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt0110357",
+      "type": "movie",
+      "name": "The Lion King",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344629567/s718/the-lion-king.jpg",
+      "releaseInfo": "1994",
+      "description": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-lion-king"
+        }
+      ]
+    },
+    {
+      "id": "tt0368933",
+      "type": "movie",
+      "name": "The Princess Diaries 2: Royal Engagement",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344476053/s718/the-princess-diaries-2-royal-engagement.jpg",
+      "releaseInfo": "2004",
+      "description": "Mia Thermopolis is now a college graduate and on her way to Genovia to take up her duties as princess. Accompanied by her friend Lilly, Mia continues her 'princess lessons', like riding horses side-saddle and archery. But her already complicated life is turned upside down once again when she learns that she is to take the crown as queen earlier than expected, all while she meets a mysteriously charming young man.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-princess-diaries-2-royal-engagement"
+        }
+      ]
+    },
+    {
+      "id": "tt38346012",
+      "type": "movie",
+      "name": "The Balloonist",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/336521318/s718/the-balloonist.jpg",
+      "releaseInfo": "2025",
+      "description": "Gaby, a heritage chicken keeper, is turned upside down when an arrogant air balloon pilot crashes on her chicken coop. The crash reveals the roots of a family conflict and forces Gaby to confront the air balloon pilot as well as her past.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-balloonist"
+        }
+      ]
+    },
+    {
+      "id": "tt33986138",
+      "type": "movie",
+      "name": "Beatles '64",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322062215/s718/beatles-64.jpg",
+      "releaseInfo": "2024",
+      "description": "Featuring never-before-seen footage of the band and the legions of young fans who helped fuel their ascendance, follow McCartney, John Lennon, George Harrison and Starr as they land in New York City in February 1964 and solidify their status as the biggest band in the world.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/beatles-64"
+        }
+      ]
+    },
+    {
+      "id": "tt1431045",
+      "type": "movie",
+      "name": "Deadpool",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/244252041/s718/deadpool.jpg",
+      "releaseInfo": "2016",
+      "description": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/deadpool"
+        }
+      ]
+    }
+  ]
 }

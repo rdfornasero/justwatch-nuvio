@@ -1,34 +1,82 @@
 {
   "metas": [
     {
-      "id": "tt0088571",
+      "id": "tt3021686",
       "type": "series",
-      "name": "Moonlighting",
+      "name": "The Honourable Woman",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/336109697/s718/moonlighting.jpg",
-      "releaseInfo": "1985",
-      "description": "After being duped and going bankrupt, model Maddie is convinced by David to become a partner in a detective agency. Together they solve various cases, while getting comfortable with each other.",
+      "poster": "https://images.justwatch.com/poster/207134138/s718/the-honourable-woman.jpg",
+      "releaseInfo": "2014",
+      "description": "Nessa Stein, the daughter of a Zionist arms procurer who as a child witnessed his assassination. Now an adult, Nessa inherits her father's company and changes course from supplying arms to laying data cabling networks between Israel and the West Bank. Her efforts to reconcile the Israelis and Palestinians lands her an appointment to the House of Lords and creates an international political maelstrom.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/moonlighting"
+          "url": "https://justwatch.com/us/tv-show/the-honourable-woman"
         }
       ]
     },
     {
-      "id": "tt4600360",
+      "id": "tt2372220",
       "type": "series",
-      "name": "The Beautiful Lie",
+      "name": "The White Queen",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302051028/s718/the-beautiful-lie.jpg",
-      "releaseInfo": "2015",
-      "description": "Anna is happily married. She has the perfect family. But one man will change it all. A grand, complex love story of love, lust and betrayal across three families and generations.",
+      "poster": "https://images.justwatch.com/poster/177100970/s718/the-white-queen.jpg",
+      "releaseInfo": "2013",
+      "description": "Three different, yet equally relentless women vie for the throne in 15th-century England.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-beautiful-lie"
+          "url": "https://justwatch.com/us/tv-show/the-white-queen"
+        }
+      ]
+    },
+    {
+      "id": "tt41054228",
+      "type": "series",
+      "name": "Devils' Crest",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357160299/s718/devils-crest.jpg",
+      "releaseInfo": "2026",
+      "description": "Yuma Ashihara was set to enjoy a test session of Actual Magic (AM)—the world's first fulldive VRMMO-RPG—together with his classmates Sawa Ashihara, Kenji Kondo, and Minagi Sano. The plan was simple: defeat the boss as a party of four, log out, and finish the test play safely — or at least, that's how it was supposed to go.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/devils-crest"
+        }
+      ]
+    },
+    {
+      "id": "tt0106080",
+      "type": "series",
+      "name": "The Nanny",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300963190/s718/the-nanny.jpg",
+      "releaseInfo": "1993",
+      "description": "That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-nanny"
+        }
+      ]
+    },
+    {
+      "id": "tt3914054",
+      "type": "series",
+      "name": "We Were Liars",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/331848085/s718/we-were-liars.jpg",
+      "releaseInfo": "2025",
+      "description": "A 17 year-old girl from a wealthy family, Cady Sinclair, spends her summers on a private island. After suffering a terrible accident, she struggles to remember events from her increasingly frightening past.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/we-were-liars"
         }
       ]
     }

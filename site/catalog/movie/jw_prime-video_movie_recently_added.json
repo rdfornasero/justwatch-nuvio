@@ -1,18 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt4731136",
+      "id": "tt0108186",
       "type": "movie",
-      "name": "A Cure for Wellness",
+      "name": "Son in Law",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/9606960/s718/a-cure-for-wellness.jpg",
-      "releaseInfo": "2017",
-      "description": "A stockbroker unravels the terrifying secrets of a mysterious Swiss spa where guests never leave.",
+      "poster": "https://images.justwatch.com/poster/330951576/s718/son-in-law-1993.jpg",
+      "releaseInfo": "1993",
+      "description": "Country girl Rebecca has spent most of her life on a farm in South Dakota, and, when she goes away to college in Los Angeles, Rebecca immediately feels out of place in the daunting urban setting. She is befriended by a savvy party animal named Crawl, who convinces the ambivalent Rebecca to stay in the city. When Thanksgiving break rolls around, Rebecca, no longer an innocent farm girl, invites Crawl back to South Dakota, where he pretends to be her fiancé.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/a-cure-for-wellness"
+          "url": "https://justwatch.com/us/movie/son-in-law-1993"
+        }
+      ]
+    },
+    {
+      "id": "tt17372462",
+      "type": "movie",
+      "name": "The Aviary",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/273156112/s718/the-aviary.jpg",
+      "releaseInfo": "2022",
+      "description": "A twisted journey of two women’s desperate flee to escape the clutches of Skylight, an insidious cult. Lured in by the promise of “freedom” in the isolated desert campus called The Aviary, Jillian and Blair join forces to escape in hopes of real freedom. Consumed by fear and paranoia, they can’t shake the feeling that they are being followed by the cult’s leader, Seth, a man as seductive as he is controlling. The more distance the pair gains from the cult, the more Seth holds control of their minds. With supplies dwindling and their senses failing, Jillian and Blair are faced with a horrifying question: how do you run from an enemy who lives inside your head?",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-aviary"
         }
       ]
     }

@@ -49,38 +49,6 @@
       ]
     },
     {
-      "id": "tt45368240",
-      "type": "movie",
-      "name": "You Can See Everything",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357560466/s718/you-can-see-everything.jpg",
-      "releaseInfo": "2026",
-      "description": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/you-can-see-everything"
-        }
-      ]
-    },
-    {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346361087/s718/heart-of-the-beast.jpg",
-      "releaseInfo": "2026",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/heart-of-the-beast"
-        }
-      ]
-    },
-    {
       "id": "tt37287335",
       "type": "movie",
       "name": "Obsession",
@@ -97,18 +65,18 @@
       ]
     },
     {
-      "id": "tt38213251",
+      "id": "tt45368240",
       "type": "movie",
-      "name": "Heartland",
+      "name": "You Can See Everything",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355278075/s718/heartland-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/357560466/s718/you-can-see-everything.jpg",
       "releaseInfo": "2026",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "description": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/heartland-2026"
+          "url": "https://justwatch.com/us/movie/you-can-see-everything"
         }
       ]
     },
@@ -129,18 +97,18 @@
       ]
     },
     {
-      "id": "tt14173636",
+      "id": "tt10545296",
       "type": "movie",
-      "name": "The Invite",
+      "name": "The Hunger Games: The Ballad of Songbirds & Snakes",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346669746/s718/the-invite-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "Joe and Angela's marriage is on the rocks. When they invite their enigmatic upstairs neighbors over for dinner, the evening takes an unexpected turn.",
+      "poster": "https://images.justwatch.com/poster/307659151/s718/the-hunger-games-the-ballad-of-songbirds-and-snakes.jpg",
+      "releaseInfo": "2023",
+      "description": "Coriolanus Snow mentors and develops feelings for the female District 12 tribute during the 10th Hunger Games.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-invite-2026"
+          "url": "https://justwatch.com/us/movie/the-hunger-games-the-ballad-of-songbirds-and-snakes"
         }
       ]
     },
@@ -161,6 +129,22 @@
       ]
     },
     {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/346361087/s718/heart-of-the-beast.jpg",
+      "releaseInfo": "2026",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/heart-of-the-beast"
+        }
+      ]
+    },
+    {
       "id": "tt22084616",
       "type": "movie",
       "name": "Spider-Man: Brand New Day",
@@ -177,34 +161,18 @@
       ]
     },
     {
-      "id": "tt10545296",
+      "id": "tt14173636",
       "type": "movie",
-      "name": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "name": "The Invite",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/307659151/s718/the-hunger-games-the-ballad-of-songbirds-and-snakes.jpg",
-      "releaseInfo": "2023",
-      "description": "Coriolanus Snow mentors and develops feelings for the female District 12 tribute during the 10th Hunger Games.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-hunger-games-the-ballad-of-songbirds-and-snakes"
-        }
-      ]
-    },
-    {
-      "id": "tt34385689",
-      "type": "movie",
-      "name": "Paper Tiger",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/350868216/s718/paper-tiger-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/346669746/s718/the-invite-2026.jpg",
       "releaseInfo": "2026",
-      "description": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
+      "description": "Joe and Angela's marriage is on the rocks. When they invite their enigmatic upstairs neighbors over for dinner, the evening takes an unexpected turn.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/paper-tiger-2026"
+          "url": "https://justwatch.com/us/movie/the-invite-2026"
         }
       ]
     },
@@ -225,18 +193,66 @@
       ]
     },
     {
-      "id": "tt15095848",
+      "id": "tt37020296",
       "type": "movie",
-      "name": "Being Heumann",
+      "name": "Gentle Monster",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355415060/s718/being-heumann.jpg",
+      "poster": "https://images.justwatch.com/poster/354749180/s718/gentle-monster.jpg",
       "releaseInfo": "2026",
-      "description": "Scrappy, defiant, and done being treated like a burden, Judy Heumann turns her outrage into a revolution. In 1977, she and more than 100 disability rights protestors send a very loud message: The system is broken—not us.",
+      "description": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/being-heumann"
+          "url": "https://justwatch.com/us/movie/gentle-monster"
+        }
+      ]
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355278075/s718/heartland-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/heartland-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt32558705",
+      "type": "movie",
+      "name": "The Hunger Games: Sunrise on the Reaping",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344313341/s718/the-hunger-games-sunrise-on-the-reaping.jpg",
+      "releaseInfo": "2026",
+      "description": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-hunger-games-sunrise-on-the-reaping"
+        }
+      ]
+    },
+    {
+      "id": "tt6611324",
+      "type": "movie",
+      "name": "Guarding Stars",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355537153/s718/the-bodyguard-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "A skilled bodyguard is assigned to protect a reclusive movie star from a stalker and must pose as his girlfriend to keep the threat hidden. On his family ranch, the assignment blurs lines as proximity complicates the job.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-bodyguard-2026"
         }
       ]
     },
@@ -253,6 +269,70 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/coyote-vs-acme"
+        }
+      ]
+    },
+    {
+      "id": "tt0093748",
+      "type": "movie",
+      "name": "Planes, Trains and Automobiles",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/34072251/s718/planes-trains-and-automobiles.jpg",
+      "releaseInfo": "1987",
+      "description": "An irritable marketing executive, Neal Page, is heading home to Chicago for Thanksgiving when a number of delays force him to travel with a well meaning but overbearing shower curtain ring salesman, Del Griffith.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/planes-trains-and-automobiles"
+        }
+      ]
+    },
+    {
+      "id": "tt34385689",
+      "type": "movie",
+      "name": "Paper Tiger",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/350868216/s718/paper-tiger-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/paper-tiger-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt0381061",
+      "type": "movie",
+      "name": "Casino Royale",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344704100/s718/casino-royale-uncut-edition.jpg",
+      "releaseInfo": "2006",
+      "description": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/casino-royale-uncut-edition"
+        }
+      ]
+    },
+    {
+      "id": "tt33095251",
+      "type": "movie",
+      "name": "Tony",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344830147/s718/tony-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/tony-2026"
         }
       ]
     },
@@ -289,22 +369,6 @@
       ]
     },
     {
-      "id": "tt36586020",
-      "type": "movie",
-      "name": "Other Mommy",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347729025/s718/other-mommy.jpg",
-      "releaseInfo": "2026",
-      "description": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/other-mommy"
-        }
-      ]
-    },
-    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -317,54 +381,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/resident-evil-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt0093748",
-      "type": "movie",
-      "name": "Planes, Trains and Automobiles",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/34072251/s718/planes-trains-and-automobiles.jpg",
-      "releaseInfo": "1987",
-      "description": "An irritable marketing executive, Neal Page, is heading home to Chicago for Thanksgiving when a number of delays force him to travel with a well meaning but overbearing shower curtain ring salesman, Del Griffith.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/planes-trains-and-automobiles"
-        }
-      ]
-    },
-    {
-      "id": "tt37020296",
-      "type": "movie",
-      "name": "Gentle Monster",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354749180/s718/gentle-monster.jpg",
-      "releaseInfo": "2026",
-      "description": "After relocating with her family to the countryside, a renowned pianist uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/gentle-monster"
-        }
-      ]
-    },
-    {
-      "id": "tt38773219",
-      "type": "movie",
-      "name": "Ebenezer",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347517048/s718/ebenezer-a-christmas-carol.jpg",
-      "releaseInfo": "2026",
-      "description": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/ebenezer-a-christmas-carol"
         }
       ]
     },
@@ -385,82 +401,18 @@
       ]
     },
     {
-      "id": "tt0381061",
+      "id": "tt36415529",
       "type": "movie",
-      "name": "Casino Royale",
+      "name": "Behemoth!",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344704100/s718/casino-royale-uncut-edition.jpg",
-      "releaseInfo": "2006",
-      "description": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/casino-royale-uncut-edition"
-        }
-      ]
-    },
-    {
-      "id": "tt6611324",
-      "type": "movie",
-      "name": "Guarding Stars",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355537153/s718/the-bodyguard-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/357107323/s718/behemoth-1.jpg",
       "releaseInfo": "2026",
-      "description": "A skilled bodyguard is assigned to protect a reclusive movie star from a stalker and must pose as his girlfriend to keep the threat hidden. On his family ranch, the assignment blurs lines as proximity complicates the job.",
+      "description": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-bodyguard-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt0080761",
-      "type": "movie",
-      "name": "Friday the 13th",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/36016787/s718/friday-the-13th-1980.jpg",
-      "releaseInfo": "1980",
-      "description": "Camp counselors are stalked and murdered by an unknown assailant while trying to reopen a summer camp that was the site of a child's drowning.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/friday-the-13th-1980"
-        }
-      ]
-    },
-    {
-      "id": "tt15426294",
-      "type": "movie",
-      "name": "Gone in the Night",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/291752956/s718/gone-in-the-night-2022.jpg",
-      "releaseInfo": "2022",
-      "description": "Upon arriving at a remote cabin in the redwoods, Kath and her boyfriend find a mysterious younger couple already there — the rental has apparently been double-booked. They decide to share the cabin with these strangers until the next morning, but her boyfriend disappears with the young woman, which sends Kath in a spiral to find an explanation for their sudden breakup — but the truth is far stranger than she could have imagined.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/gone-in-the-night-2022"
-        }
-      ]
-    },
-    {
-      "id": "tt0319343",
-      "type": "movie",
-      "name": "Elf",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/301531135/s718/elf.jpg",
-      "releaseInfo": "2003",
-      "description": "When young Buddy falls into Santa's gift sack on Christmas Eve, he's transported back to the North Pole and raised as a toy-making elf by Santa's helpers. But as he grows into adulthood, he can't shake the nagging feeling that he doesn't belong. Buddy vows to visit Manhattan and find his real dad, a workaholic.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/elf"
+          "url": "https://justwatch.com/us/movie/behemoth-1"
         }
       ]
     },
@@ -481,66 +433,18 @@
       ]
     },
     {
-      "id": "tt32558705",
+      "id": "tt38773219",
       "type": "movie",
-      "name": "The Hunger Games: Sunrise on the Reaping",
+      "name": "Ebenezer",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344313341/s718/the-hunger-games-sunrise-on-the-reaping.jpg",
+      "poster": "https://images.justwatch.com/poster/347517048/s718/ebenezer-a-christmas-carol.jpg",
       "releaseInfo": "2026",
-      "description": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "description": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-hunger-games-sunrise-on-the-reaping"
-        }
-      ]
-    },
-    {
-      "id": "tt2056785",
-      "type": "movie",
-      "name": "Wildwood",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354684670/s718/wildwood.jpg",
-      "releaseInfo": "2026",
-      "description": "A headstrong teenager sets off to a forest outside Portland to find her kidnapped brother and navigates a world of talking animals, bandits, and powerful figures driven by grief and ambition.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/wildwood"
-        }
-      ]
-    },
-    {
-      "id": "tt26657236",
-      "type": "movie",
-      "name": "Backrooms",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347350367/s718/backrooms.jpg",
-      "releaseInfo": "2026",
-      "description": "A strange doorway appears in the basement of a furniture showroom.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/backrooms"
-        }
-      ]
-    },
-    {
-      "id": "tt38040871",
-      "type": "movie",
-      "name": "Drink Coffee, Talk Fast",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357111428/s718/drink-coffee-talk-fast.jpg",
-      "releaseInfo": "2026",
-      "description": "Cast, crew, and fans trace the making of Gilmore Girls and the enduring pull of Stars Hollow, revealing how its stories shaped lives and connected generations.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/drink-coffee-talk-fast"
+          "url": "https://justwatch.com/us/movie/ebenezer-a-christmas-carol"
         }
       ]
     },
@@ -561,34 +465,98 @@
       ]
     },
     {
-      "id": "tt36415529",
+      "id": "tt15095848",
       "type": "movie",
-      "name": "Behemoth!",
+      "name": "Being Heumann",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357107323/s718/behemoth-1.jpg",
+      "poster": "https://images.justwatch.com/poster/355415060/s718/being-heumann.jpg",
       "releaseInfo": "2026",
-      "description": "Gifted cellist Alex Serian returns home to Los Angeles after 20 years on the road. Music, which has been the constant, all-consuming river of his life, begins to carry Alex on an adventure that will change him forever.",
+      "description": "Scrappy, defiant, and done being treated like a burden, Judy Heumann turns her outrage into a revolution. In 1977, she and more than 100 disability rights protestors send a very loud message: The system is broken—not us.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/behemoth-1"
+          "url": "https://justwatch.com/us/movie/being-heumann"
         }
       ]
     },
     {
-      "id": "tt35866986",
+      "id": "tt38040871",
       "type": "movie",
-      "name": "How to Rob a Bank",
+      "name": "Drink Coffee, Talk Fast",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/353801480/s718/how-to-rob-a-bank-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/357111428/s718/drink-coffee-talk-fast.jpg",
       "releaseInfo": "2026",
-      "description": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
+      "description": "Cast, crew, and fans trace the making of Gilmore Girls and the enduring pull of Stars Hollow, revealing how its stories shaped lives and connected generations.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/how-to-rob-a-bank-2026"
+          "url": "https://justwatch.com/us/movie/drink-coffee-talk-fast"
+        }
+      ]
+    },
+    {
+      "id": "tt2056785",
+      "type": "movie",
+      "name": "Wildwood",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354684670/s718/wildwood.jpg",
+      "releaseInfo": "2026",
+      "description": "A headstrong teenager sets off to a forest outside Portland to find her kidnapped brother and navigates a world of talking animals, bandits, and powerful figures driven by grief and ambition.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/wildwood"
+        }
+      ]
+    },
+    {
+      "id": "tt0319343",
+      "type": "movie",
+      "name": "Elf",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/301531135/s718/elf.jpg",
+      "releaseInfo": "2003",
+      "description": "When young Buddy falls into Santa's gift sack on Christmas Eve, he's transported back to the North Pole and raised as a toy-making elf by Santa's helpers. But as he grows into adulthood, he can't shake the nagging feeling that he doesn't belong. Buddy vows to visit Manhattan and find his real dad, a workaholic.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/elf"
+        }
+      ]
+    },
+    {
+      "id": "tt36586020",
+      "type": "movie",
+      "name": "Other Mommy",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/347729025/s718/other-mommy.jpg",
+      "releaseInfo": "2026",
+      "description": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/other-mommy"
+        }
+      ]
+    },
+    {
+      "id": "tt15426294",
+      "type": "movie",
+      "name": "Gone in the Night",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/291752956/s718/gone-in-the-night-2022.jpg",
+      "releaseInfo": "2022",
+      "description": "Upon arriving at a remote cabin in the redwoods, Kath and her boyfriend find a mysterious younger couple already there — the rental has apparently been double-booked. They decide to share the cabin with these strangers until the next morning, but her boyfriend disappears with the young woman, which sends Kath in a spiral to find an explanation for their sudden breakup — but the truth is far stranger than she could have imagined.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/gone-in-the-night-2022"
         }
       ]
     },
@@ -609,50 +577,50 @@
       ]
     },
     {
-      "id": "tt31450459",
+      "id": "tt26657236",
       "type": "movie",
-      "name": "Digger",
+      "name": "Backrooms",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/340314707/s718/digger-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/347350367/s718/backrooms.jpg",
       "releaseInfo": "2026",
-      "description": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+      "description": "A strange doorway appears in the basement of a furniture showroom.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/digger-2026"
+          "url": "https://justwatch.com/us/movie/backrooms"
         }
       ]
     },
     {
-      "id": "tt33071426",
+      "id": "tt0068359",
       "type": "movie",
-      "name": "The Drama",
+      "name": "A Charlie Brown Thanksgiving",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/340504358/s718/the-drama.jpg",
-      "releaseInfo": "2026",
-      "description": "A happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.",
+      "poster": "https://images.justwatch.com/poster/182624673/s718/a-charlie-brown-thanksgiving.jpg",
+      "releaseInfo": "1973",
+      "description": "Turkey, cranberries, pumpkin pie... and the Peanuts gang to share them with. This is going to be the greatest Thanksgiving ever! The fun begins when Peppermint Patty invites herself and her pals to Charlie Brown's house for a REALLY big turkey party. Good grief! All our hero can cook is cold cereal and maybe toast. Is Charlie Brown doomed? Not when Linus, Snoopy and Woodstock chip in to save the (Thanksgiving) Day. With such good friends, Charlie Brown - and all of us - have so many reasons to be thankful.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-drama"
+          "url": "https://justwatch.com/us/movie/a-charlie-brown-thanksgiving"
         }
       ]
     },
     {
-      "id": "tt1160419",
+      "id": "tt11995650",
       "type": "movie",
-      "name": "Dune",
+      "name": "I Play Rocky",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/249473713/s718/dune-2021.jpg",
-      "releaseInfo": "2021",
-      "description": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
+      "poster": "https://images.justwatch.com/poster/354527580/s718/i-play-rocky.jpg",
+      "releaseInfo": "2026",
+      "description": "A true account of an unknown actor who believed he wasn't meant to just write \"Rocky\", but to play Rocky Balboa. Facing constant rejection, Sylvester Stallone risks everything, refusing to give up the lead role against impossible odds.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/dune-2021"
+          "url": "https://justwatch.com/us/movie/i-play-rocky"
         }
       ]
     },
@@ -705,130 +673,34 @@
       ]
     },
     {
-      "id": "tt0068359",
+      "id": "tt1160419",
       "type": "movie",
-      "name": "A Charlie Brown Thanksgiving",
+      "name": "Dune",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/182624673/s718/a-charlie-brown-thanksgiving.jpg",
-      "releaseInfo": "1973",
-      "description": "Turkey, cranberries, pumpkin pie... and the Peanuts gang to share them with. This is going to be the greatest Thanksgiving ever! The fun begins when Peppermint Patty invites herself and her pals to Charlie Brown's house for a REALLY big turkey party. Good grief! All our hero can cook is cold cereal and maybe toast. Is Charlie Brown doomed? Not when Linus, Snoopy and Woodstock chip in to save the (Thanksgiving) Day. With such good friends, Charlie Brown - and all of us - have so many reasons to be thankful.",
+      "poster": "https://images.justwatch.com/poster/249473713/s718/dune-2021.jpg",
+      "releaseInfo": "2021",
+      "description": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/a-charlie-brown-thanksgiving"
+          "url": "https://justwatch.com/us/movie/dune-2021"
         }
       ]
     },
     {
-      "id": "tt35856037",
+      "id": "tt33071426",
       "type": "movie",
-      "name": "Your Mother Your Mother Your Mother",
+      "name": "The Drama",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347855854/s718/your-mother-your-mother-your-mother.jpg",
+      "poster": "https://images.justwatch.com/poster/340504358/s718/the-drama.jpg",
       "releaseInfo": "2026",
-      "description": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around him – and the beliefs threatening to unravel within.",
+      "description": "A happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/your-mother-your-mother-your-mother"
-        }
-      ]
-    },
-    {
-      "id": "tt37281055",
-      "type": "movie",
-      "name": "Buddy",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/340383635/s718/buddy-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "Inside the colorful world of \"It's Buddy!\", a group of children spend their days singing, dancing, and helping Buddy - bright orange unicorn - spread happiness. But when one child refuses to play along, Buddy is not pleased and cracks begin to appear in this seemingly perfect world.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/buddy-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt33095251",
-      "type": "movie",
-      "name": "Tony",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344830147/s718/tony-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/tony-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt3908142",
-      "type": "movie",
-      "name": "The Love Witch",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/10096733/s718/the-love-witch.jpg",
-      "releaseInfo": "2016",
-      "description": "A modern-day witch uses spells and magic to get men to fall in love with her, with deadly consequences.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-love-witch"
-        }
-      ]
-    },
-    {
-      "id": "tt12747748",
-      "type": "movie",
-      "name": "Leave the World Behind",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/310008501/s718/leave-the-world-behind-2023.jpg",
-      "releaseInfo": "2023",
-      "description": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices—and two strangers appear at their door.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/leave-the-world-behind-2023"
-        }
-      ]
-    },
-    {
-      "id": "tt38686316",
-      "type": "movie",
-      "name": "Ghost Soldier",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354750365/s718/ghost-soldier.jpg",
-      "releaseInfo": "2026",
-      "description": "Henry “Fitz” Fitzgerald has spent years living quietly off the grid, hiding from a past few people know anything about. But when a powerful foreign corporation moves into his hometown to seize his neighbors’ land for a massive payday, Fitz is forced to reveal who he really is: a former Special Forces soldier and advanced weapons developer. Armed with experimental technology, lethal combat skills, and an unwavering code of justice, Fitz wages a one-man war against an enemy that never saw him coming.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/ghost-soldier"
-        }
-      ]
-    },
-    {
-      "id": "tt4846232",
-      "type": "movie",
-      "name": "Good Time",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/33065527/s718/good-time.jpg",
-      "releaseInfo": "2017",
-      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/good-time"
+          "url": "https://justwatch.com/us/movie/the-drama"
         }
       ]
     },
@@ -849,130 +721,66 @@
       ]
     },
     {
-      "id": "tt31349844",
+      "id": "tt31450459",
       "type": "movie",
-      "name": "Runner",
+      "name": "Digger",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356340022/s718/runner-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/340314707/s718/digger-2026.jpg",
       "releaseInfo": "2026",
-      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "description": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/runner-2026"
+          "url": "https://justwatch.com/us/movie/digger-2026"
         }
       ]
     },
     {
-      "id": "tt35298123",
+      "id": "tt4846232",
       "type": "movie",
-      "name": "Teenage Sex and Death at Camp Miasma",
+      "name": "Good Time",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354821138/s718/teenage-sex-and-death-at-camp-miasma.jpg",
+      "poster": "https://images.justwatch.com/poster/33065527/s718/good-time.jpg",
+      "releaseInfo": "2017",
+      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/good-time"
+        }
+      ]
+    },
+    {
+      "id": "tt36408401",
+      "type": "movie",
+      "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/337928314/s718/the-adventures-of-cliff-booth.jpg",
       "releaseInfo": "2026",
-      "description": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film’s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
+      "description": "Eight years after the events of Once Upon a Time in... Hollywood, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system, Cliff finds himself entangled in a dangerous web of secrets, crimes and betrayals that will test everything he knows about loyalty and survival.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/teenage-sex-and-death-at-camp-miasma"
+          "url": "https://justwatch.com/us/movie/the-adventures-of-cliff-booth"
         }
       ]
     },
     {
-      "id": "tt0080319",
+      "id": "tt37363222",
       "type": "movie",
-      "name": "Nine to Five",
+      "name": "Elsinore",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/247946480/s718/9-to-5.jpg",
-      "releaseInfo": "1980",
-      "description": "Three female employees of a sexist, egotistical, lying, hypocritical bigot find a way to turn the tables on him.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/9-to-5"
-        }
-      ]
-    },
-    {
-      "id": "tt32358390",
-      "type": "movie",
-      "name": "The Cycle",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/353464933/s718/the-cycle-2026-1.jpg",
+      "poster": "https://images.justwatch.com/poster/355295413/s718/elsinore.jpg",
       "releaseInfo": "2026",
-      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "description": "The deeply emotional and inspirational true story of Ian Charleson, a gifted actor whose greatest challenge becomes his greatest triumph. Facing his own mortality with unflinching honesty, wit, and grace, Charleson delivers a courageous performance that becomes a source of healing and inspiration for those around him.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-cycle-2026-1"
-        }
-      ]
-    },
-    {
-      "id": "tt33296751",
-      "type": "movie",
-      "name": "Tuner",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344868167/s718/tuner.jpg",
-      "releaseInfo": "2026",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/tuner"
-        }
-      ]
-    },
-    {
-      "id": "tt0212338",
-      "type": "movie",
-      "name": "Meet the Parents",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176910854/s718/meet-the-parents-2000.jpg",
-      "releaseInfo": "2000",
-      "description": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/meet-the-parents-2000"
-        }
-      ]
-    },
-    {
-      "id": "tt0082418",
-      "type": "movie",
-      "name": "Friday the 13th Part 2",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/36016911/s718/friday-the-13th-part-2.jpg",
-      "releaseInfo": "1981",
-      "description": "Five years after the horrible bloodbath at Camp Crystal Lake, new counselors roam the area, not sensing the ominous lurking presence that proves that the grisly legend is real.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/friday-the-13th-part-2"
-        }
-      ]
-    },
-    {
-      "id": "tt3799694",
-      "type": "movie",
-      "name": "The Nice Guys",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/818334/s718/the-nice-guys.jpg",
-      "releaseInfo": "2016",
-      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-nice-guys"
+          "url": "https://justwatch.com/us/movie/elsinore"
         }
       ]
     },
@@ -993,50 +801,34 @@
       ]
     },
     {
-      "id": "tt11995650",
+      "id": "tt5618318",
       "type": "movie",
-      "name": "I Play Rocky",
+      "name": "Fiddlin'",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354527580/s718/i-play-rocky.jpg",
-      "releaseInfo": "2026",
-      "description": "A true account of an unknown actor who believed he wasn't meant to just write \"Rocky\", but to play Rocky Balboa. Facing constant rejection, Sylvester Stallone risks everything, refusing to give up the lead role against impossible odds.",
+      "poster": "https://images.justwatch.com/poster/141868813/s718/fiddlin.jpg",
+      "releaseInfo": "2019",
+      "description": "Winning over 20 awards on the festival circuit, FIDDLIN' had a nationwide U.S. theatrical event tour playing upwards of 50 markets and rocketed to the top of the iTunes Doc Charts upon release. Set in the Appalachian Mountains, FIDDLIN' is a foot-stomping celebration of true Americana profiling the birthplace of Bluegrass and Old-Time music. This hopeful, inspiring documentary shines a light on what is best about America. Filmed at the World's Oldest Fiddler's Convention, Fiddlin' shows the uplifting and healing power of music. With multi-generations jamming together and kids holding instruments instead of phones, it feels like taking a step back in time as we witness some off-the-charts pickin' and fiddlin'. There is an abundance of raw talent in FIDDLIN', with most talent playing by ear and certainly a number of stars in the making. Wayne Henderson, a world-renowned luthier known as the \"guitar god,\" is a master craftsman and enthralling storyteller. Wayne's friendship with 11-year-old guitar prodigy, Presley Barker, shows how closely knit a community of musicians can be as even mentor and student compete against one another for that coveted blue ribbon. Phenomenal female talents, including Dori Freeman, Martha Spencer, Ivy Phillips and Kitty Amaral are all making their mark. They reveal the difficulties of women breaking into the bluegrass world. Karen Carr describes how music helped her overcome mental illness and saved her life. Sensational flat-foot dancing and some of the last known footage of Doc Watson visiting Wayne Henderson in his guitar shop are but a few topics in this rollicking documentary. Eddie Bond and Jon Lohman share little known history of the music origins and Jake Krack electrifies with his fiddle. These mountain musicians are determined to pass on their music and traditions with most claiming they will \"play till the day they die\". When the top 10 finalists are announced in the ultra-competitive guitar, we're in for an exciting finale. Sister filmmakers, Julie Simone and Vicki Vlasic, returned to their Appalachian roots to film FIDDLIN' at the Old Fiddlers' Convention for the first time in its 80 year history.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/i-play-rocky"
+          "url": "https://justwatch.com/us/movie/fiddlin"
         }
       ]
     },
     {
-      "id": "tt32332915",
+      "id": "tt31349844",
       "type": "movie",
-      "name": "I Want Your Sex",
+      "name": "Runner",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346247636/s718/i-want-your-sex.jpg",
+      "poster": "https://images.justwatch.com/poster/356340022/s718/runner-2026.jpg",
       "releaseInfo": "2026",
-      "description": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/i-want-your-sex"
-        }
-      ]
-    },
-    {
-      "id": "tt0099785",
-      "type": "movie",
-      "name": "Home Alone",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/263107555/s718/home-alone.jpg",
-      "releaseInfo": "1990",
-      "description": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. When thieves try to break into his home, he puts up a fight like no other.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/home-alone"
+          "url": "https://justwatch.com/us/movie/runner-2026"
         }
       ]
     },
@@ -1057,34 +849,34 @@
       ]
     },
     {
-      "id": "tt38077943",
+      "id": "tt32358390",
       "type": "movie",
-      "name": "Hexed",
+      "name": "The Cycle",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346470042/s718/hexed-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/353464933/s718/the-cycle-2026-1.jpg",
       "releaseInfo": "2026",
-      "description": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/hexed-2026"
+          "url": "https://justwatch.com/us/movie/the-cycle-2026-1"
         }
       ]
     },
     {
-      "id": "tt5618318",
+      "id": "tt0099785",
       "type": "movie",
-      "name": "Fiddlin'",
+      "name": "Home Alone",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/141868813/s718/fiddlin.jpg",
-      "releaseInfo": "2019",
-      "description": "Winning over 20 awards on the festival circuit, FIDDLIN' had a nationwide U.S. theatrical event tour playing upwards of 50 markets and rocketed to the top of the iTunes Doc Charts upon release. Set in the Appalachian Mountains, FIDDLIN' is a foot-stomping celebration of true Americana profiling the birthplace of Bluegrass and Old-Time music. This hopeful, inspiring documentary shines a light on what is best about America. Filmed at the World's Oldest Fiddler's Convention, Fiddlin' shows the uplifting and healing power of music. With multi-generations jamming together and kids holding instruments instead of phones, it feels like taking a step back in time as we witness some off-the-charts pickin' and fiddlin'. There is an abundance of raw talent in FIDDLIN', with most talent playing by ear and certainly a number of stars in the making. Wayne Henderson, a world-renowned luthier known as the \"guitar god,\" is a master craftsman and enthralling storyteller. Wayne's friendship with 11-year-old guitar prodigy, Presley Barker, shows how closely knit a community of musicians can be as even mentor and student compete against one another for that coveted blue ribbon. Phenomenal female talents, including Dori Freeman, Martha Spencer, Ivy Phillips and Kitty Amaral are all making their mark. They reveal the difficulties of women breaking into the bluegrass world. Karen Carr describes how music helped her overcome mental illness and saved her life. Sensational flat-foot dancing and some of the last known footage of Doc Watson visiting Wayne Henderson in his guitar shop are but a few topics in this rollicking documentary. Eddie Bond and Jon Lohman share little known history of the music origins and Jake Krack electrifies with his fiddle. These mountain musicians are determined to pass on their music and traditions with most claiming they will \"play till the day they die\". When the top 10 finalists are announced in the ultra-competitive guitar, we're in for an exciting finale. Sister filmmakers, Julie Simone and Vicki Vlasic, returned to their Appalachian roots to film FIDDLIN' at the Old Fiddlers' Convention for the first time in its 80 year history.",
+      "poster": "https://images.justwatch.com/poster/263107555/s718/home-alone.jpg",
+      "releaseInfo": "1990",
+      "description": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. When thieves try to break into his home, he puts up a fight like no other.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/fiddlin"
+          "url": "https://justwatch.com/us/movie/home-alone"
         }
       ]
     },
@@ -1105,34 +897,114 @@
       ]
     },
     {
-      "id": "tt37675123",
+      "id": "tt0212338",
       "type": "movie",
-      "name": "Allen",
+      "name": "Meet the Parents",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357182840/s718/allen-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "20 years after his encounter with an alien, Petey never moved on. Now his old friend has returned, and the reason why is complicated — and unexpected.",
+      "poster": "https://images.justwatch.com/poster/176910854/s718/meet-the-parents-2000.jpg",
+      "releaseInfo": "2000",
+      "description": "Greg Focker is ready to marry his girlfriend, Pam, but before he pops the question, he must win over her formidable father, humorless former CIA agent Jack Byrnes, at the wedding of Pam's sister. As Greg bends over backward to make a good impression, his visit to the Byrnes home turns into a hilarious series of disasters, and everything that can go wrong does, all under Jack's critical, hawklike gaze.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/allen-2026"
+          "url": "https://justwatch.com/us/movie/meet-the-parents-2000"
         }
       ]
     },
     {
-      "id": "tt39195686",
+      "id": "tt1951264",
       "type": "movie",
-      "name": "Saayavanam",
+      "name": "The Hunger Games: Catching Fire",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357172799/s718/saayavanam.jpg",
-      "releaseInfo": "2025",
-      "description": "Sita tries to live an honest and truthful life following all religious and social norms of her upbringing while unraveling the true agenda of men around her. In this process, she emerges victorious as a strong and brave woman.",
+      "poster": "https://images.justwatch.com/poster/302914225/s718/the-hunger-games-catching-fire.jpg",
+      "releaseInfo": "2013",
+      "description": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/saayavanam"
+          "url": "https://justwatch.com/us/movie/the-hunger-games-catching-fire"
+        }
+      ]
+    },
+    {
+      "id": "tt37281055",
+      "type": "movie",
+      "name": "Buddy",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/340383635/s718/buddy-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "Inside the colorful world of \"It's Buddy!\", a group of children spend their days singing, dancing, and helping Buddy - bright orange unicorn - spread happiness. But when one child refuses to play along, Buddy is not pleased and cracks begin to appear in this seemingly perfect world.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/buddy-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt0080319",
+      "type": "movie",
+      "name": "Nine to Five",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/247946480/s718/9-to-5.jpg",
+      "releaseInfo": "1980",
+      "description": "Three female employees of a sexist, egotistical, lying, hypocritical bigot find a way to turn the tables on him.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/9-to-5"
+        }
+      ]
+    },
+    {
+      "id": "tt12747748",
+      "type": "movie",
+      "name": "Leave the World Behind",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/310008501/s718/leave-the-world-behind-2023.jpg",
+      "releaseInfo": "2023",
+      "description": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices—and two strangers appear at their door.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/leave-the-world-behind-2023"
+        }
+      ]
+    },
+    {
+      "id": "tt32321285",
+      "type": "movie",
+      "name": "Josephine",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/343788668/s718/josephine-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "After eight-year-old Josephine accidentally witnesses a brutal assault, she begins acting out violently to protect herself. This emotional trauma leads to conflicts between her parents as they search for justice and a way to feel safe again.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/josephine-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt18316986",
+      "type": "movie",
+      "name": "All Night Wrong",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348266144/s718/all-night-wrong.jpg",
+      "releaseInfo": "2026",
+      "description": "Gary and Ell (a married man with an inferiority complex, and a grieving young widow) meet on a blind date only to wind up stealing a killer's car along with a dead body and $40,000.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/all-night-wrong"
         }
       ]
     },
@@ -1146,34 +1018,178 @@
       "description": "Eager to land prestigious clients, Mahsun, an ambitious lawyer puts up an online ad, only to end up saddled with a ruthless crime boss confined to house arrest. Dragged headfirst into dangerous underworld chaos, he must scramble to rid himself of his unwanted client before his career and life completely unravel."
     },
     {
-      "id": "tt27369017",
+      "id": "tt33296751",
       "type": "movie",
-      "name": "Hope",
+      "name": "Tuner",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347716279/s718/hope-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/344868167/s718/tuner.jpg",
       "releaseInfo": "2026",
-      "description": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/hope-2026"
+          "url": "https://justwatch.com/us/movie/tuner"
         }
       ]
     },
     {
-      "id": "tt32547691",
+      "id": "tt4827558",
       "type": "movie",
-      "name": "Pressure",
+      "name": "High Life",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346211269/s718/pressure-2026-1.jpg",
-      "releaseInfo": "2026",
-      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
+      "poster": "https://images.justwatch.com/poster/123974429/s718/high-life-2018.jpg",
+      "releaseInfo": "2018",
+      "description": "Monte and his daughter are the last survivors of a damned and dangerous mission to deep space. The crew—death-row inmates led by a doctor with sinister motives—has vanished. As the mystery of what happened onboard the ship is unraveled, father and daughter must rely on each other to survive as they hurtle toward the oblivion of a black hole.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/pressure-2026-1"
+          "url": "https://justwatch.com/us/movie/high-life-2018"
+        }
+      ]
+    },
+    {
+      "id": "tt27419420",
+      "type": "movie",
+      "name": "Street Fighter",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344441027/s718/street-fighter-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/street-fighter-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt3799694",
+      "type": "movie",
+      "name": "The Nice Guys",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/818334/s718/the-nice-guys.jpg",
+      "releaseInfo": "2016",
+      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-nice-guys"
+        }
+      ]
+    },
+    {
+      "id": "tt0082418",
+      "type": "movie",
+      "name": "Friday the 13th Part 2",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/36016911/s718/friday-the-13th-part-2.jpg",
+      "releaseInfo": "1981",
+      "description": "Five years after the horrible bloodbath at Camp Crystal Lake, new counselors roam the area, not sensing the ominous lurking presence that proves that the grisly legend is real.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/friday-the-13th-part-2"
+        }
+      ]
+    },
+    {
+      "id": "tt17372462",
+      "type": "movie",
+      "name": "The Aviary",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/273156112/s718/the-aviary.jpg",
+      "releaseInfo": "2022",
+      "description": "A twisted journey of two women’s desperate flee to escape the clutches of Skylight, an insidious cult. Lured in by the promise of “freedom” in the isolated desert campus called The Aviary, Jillian and Blair join forces to escape in hopes of real freedom. Consumed by fear and paranoia, they can’t shake the feeling that they are being followed by the cult’s leader, Seth, a man as seductive as he is controlling. The more distance the pair gains from the cult, the more Seth holds control of their minds. With supplies dwindling and their senses failing, Jillian and Blair are faced with a horrifying question: how do you run from an enemy who lives inside your head?",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-aviary"
+        }
+      ]
+    },
+    {
+      "id": "tt21192142",
+      "type": "movie",
+      "name": "All of Us Strangers",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/312105114/s718/all-of-us-strangers.jpg",
+      "releaseInfo": "2023",
+      "description": "One night in his near-empty tower block in contemporary London, Adam has a chance encounter with a mysterious neighbor, which punctures the rhythm of his everyday life.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/all-of-us-strangers"
+        }
+      ]
+    },
+    {
+      "id": "tt1856101",
+      "type": "movie",
+      "name": "Blade Runner 2049",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/24702418/s718/blade-runner-2049.jpg",
+      "releaseInfo": "2017",
+      "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/blade-runner-2049"
+        }
+      ]
+    },
+    {
+      "id": "tt29611136",
+      "type": "movie",
+      "name": "Wicker",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355641664/s718/wicker.jpg",
+      "releaseInfo": "2026",
+      "description": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/wicker"
+        }
+      ]
+    },
+    {
+      "id": "tt32261958",
+      "type": "movie",
+      "name": "Verity",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/345873745/s718/verity.jpg",
+      "releaseInfo": "2026",
+      "description": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/verity"
+        }
+      ]
+    },
+    {
+      "id": "tt0058536",
+      "type": "movie",
+      "name": "Rudolph the Red-Nosed Reindeer",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/249948822/s718/rudolph-the-red-nosed-reindeer.jpg",
+      "releaseInfo": "1964",
+      "description": "Sam the snowman tells us the story of a young red-nosed reindeer who, after being ousted from the reindeer games because of his glowing nose, teams up with Hermey, an elf who wants to be a dentist, and Yukon Cornelius, the prospector. They run into the Abominable Snowman and find a whole island of misfit toys. Rudolph vows to see if he can get Santa to help the toys, and he goes back to the North Pole on Christmas Eve. But Santa's sleigh is fogged in. But when Santa looks over Rudolph, he gets a very bright idea...",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/rudolph-the-red-nosed-reindeer"
         }
       ]
     },
@@ -1210,242 +1226,18 @@
       ]
     },
     {
-      "id": "tt27419420",
+      "id": "tt39163238",
       "type": "movie",
-      "name": "Street Fighter",
+      "name": "When a Witness Recants",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344441027/s718/street-fighter-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/356458804/s718/when-a-witness-recants.jpg",
       "releaseInfo": "2026",
-      "description": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "description": "A 1983 Baltimore school murder led to 3 teens' wrongful imprisonment for 36 years. Ta-Nehisi Coates investigates how this case affected the accused, witnesses and their community.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/street-fighter-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt3605418",
-      "type": "movie",
-      "name": "Knock Knock",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176279473/s718/knock-knock-2015.jpg",
-      "releaseInfo": "2015",
-      "description": "When a devoted husband and father is left home alone for the weekend, two stranded young women unexpectedly knock on his door for help. What starts out as a kind gesture results in a dangerous seduction and a deadly game of cat and mouse.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/knock-knock-2015"
-        }
-      ]
-    },
-    {
-      "id": "tt0058536",
-      "type": "movie",
-      "name": "Rudolph the Red-Nosed Reindeer",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/249948822/s718/rudolph-the-red-nosed-reindeer.jpg",
-      "releaseInfo": "1964",
-      "description": "Sam the snowman tells us the story of a young red-nosed reindeer who, after being ousted from the reindeer games because of his glowing nose, teams up with Hermey, an elf who wants to be a dentist, and Yukon Cornelius, the prospector. They run into the Abominable Snowman and find a whole island of misfit toys. Rudolph vows to see if he can get Santa to help the toys, and he goes back to the North Pole on Christmas Eve. But Santa's sleigh is fogged in. But when Santa looks over Rudolph, he gets a very bright idea...",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/rudolph-the-red-nosed-reindeer"
-        }
-      ]
-    },
-    {
-      "id": "tt34374553",
-      "type": "movie",
-      "name": "Victorian Psycho",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347673621/s718/victorian-psycho-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "When eccentric young governess Winifred Notty arrives at a remote Gothic manor, a string of unsettling events leads the household to suspect she isn't who she claims to be—but the truth may be far more dangerous than they imagine.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/victorian-psycho-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt1951264",
-      "type": "movie",
-      "name": "The Hunger Games: Catching Fire",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302914225/s718/the-hunger-games-catching-fire.jpg",
-      "releaseInfo": "2013",
-      "description": "After surviving the Hunger Games, Katniss and Peeta struggle with the consequences of their victory as unrest spreads across Panem. Forced back into the spotlight, they become symbols of hope and resistance while the Capitol prepares a new and deadly challenge that will change the future of the nation forever.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-hunger-games-catching-fire"
-        }
-      ]
-    },
-    {
-      "id": "tt0120737",
-      "type": "movie",
-      "name": "The Lord of the Rings: The Fellowship of the Ring",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/8731868/s718/lord-of-the-rings-i-the-fellowship-of-the-ring.jpg",
-      "releaseInfo": "2001",
-      "description": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/lord-of-the-rings-i-the-fellowship-of-the-ring"
-        }
-      ]
-    },
-    {
-      "id": "tt18316986",
-      "type": "movie",
-      "name": "All Night Wrong",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/348266144/s718/all-night-wrong.jpg",
-      "releaseInfo": "2026",
-      "description": "Gary and Ell (a married man with an inferiority complex, and a grieving young widow) meet on a blind date only to wind up stealing a killer's car along with a dead body and $40,000.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/all-night-wrong"
-        }
-      ]
-    },
-    {
-      "id": "tt32261958",
-      "type": "movie",
-      "name": "Verity",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/345873745/s718/verity.jpg",
-      "releaseInfo": "2026",
-      "description": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/verity"
-        }
-      ]
-    },
-    {
-      "id": "tt4827558",
-      "type": "movie",
-      "name": "High Life",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/123974429/s718/high-life-2018.jpg",
-      "releaseInfo": "2018",
-      "description": "Monte and his daughter are the last survivors of a damned and dangerous mission to deep space. The crew—death-row inmates led by a doctor with sinister motives—has vanished. As the mystery of what happened onboard the ship is unraveled, father and daughter must rely on each other to survive as they hurtle toward the oblivion of a black hole.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/high-life-2018"
-        }
-      ]
-    },
-    {
-      "id": "tt0816692",
-      "type": "movie",
-      "name": "Interstellar",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/449990/s718/interstellar.jpg",
-      "releaseInfo": "2014",
-      "description": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/interstellar"
-        }
-      ]
-    },
-    {
-      "id": "tt46082332",
-      "type": "movie",
-      "name": "Confession",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355559292/s718/confession-2026.jpg",
-      "releaseInfo": "2026",
-      "description": "In 1938, in Stalin's Moscow, a disillusioned professor, Alexei, faces brutal interrogation by his former student, Vladimir, in Lubyanka Prison. Refusing to confess, he confronts his past sins and finds redemption through faith, sacrificing himself to save others in a haunting tale of morality and resistance.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/confession-2026"
-        }
-      ]
-    },
-    {
-      "id": "tt1856101",
-      "type": "movie",
-      "name": "Blade Runner 2049",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/24702418/s718/blade-runner-2049.jpg",
-      "releaseInfo": "2017",
-      "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/blade-runner-2049"
-        }
-      ]
-    },
-    {
-      "id": "tt39150234",
-      "type": "movie",
-      "name": "The History of Concrete",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/341255671/s718/the-history-of-concrete.jpg",
-      "releaseInfo": "2026",
-      "description": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-history-of-concrete"
-        }
-      ]
-    },
-    {
-      "id": "tt0202677",
-      "type": "movie",
-      "name": "The Way of the Gun",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/9912226/s718/the-way-of-the-gun.jpg",
-      "releaseInfo": "2000",
-      "description": "Two criminal drifters without sympathy get more than they bargained for after kidnapping and holding for ransom the surrogate mother of a powerful and shady man.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-way-of-the-gun"
-        }
-      ]
-    },
-    {
-      "id": "tt29611136",
-      "type": "movie",
-      "name": "Wicker",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355641664/s718/wicker.jpg",
-      "releaseInfo": "2026",
-      "description": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/wicker"
+          "url": "https://justwatch.com/us/movie/when-a-witness-recants"
         }
       ]
     },
@@ -1466,98 +1258,66 @@
       ]
     },
     {
-      "id": "tt10794054",
+      "id": "tt37118301",
       "type": "movie",
-      "name": "The Weight",
+      "name": "Minotaur",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/348767639/s718/the-weight.jpg",
+      "poster": "https://images.justwatch.com/poster/344232848/s718/minotaur-2026.jpg",
       "releaseInfo": "2026",
-      "description": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he’ll win his freedom.",
+      "description": "When Gleb, a successful company director, finds himself under siege from mounting corporate pressures, an increasingly unstable world, and the discovery of his wife's affair, the collapse of his carefully ordered life accelerates toward violence.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-weight"
+          "url": "https://justwatch.com/us/movie/minotaur-2026"
         }
       ]
     },
     {
-      "id": "tt32588798",
+      "id": "tt14413964",
       "type": "movie",
-      "name": "Practical Magic 2",
+      "name": "Steps",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354889114/s718/practical-magic-2.jpg",
+      "poster": "https://images.justwatch.com/poster/354705133/s718/steps-1.jpg",
       "releaseInfo": "2026",
-      "description": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+      "description": "Blamed for magical mischief at the Royal Ball, stepsister Lilith turns her sister into a frog. She must work with Cinderella and a troll to save the kingdom and prove villains deserve happy endings too.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/practical-magic-2"
+          "url": "https://justwatch.com/us/movie/steps-1"
         }
       ]
     },
     {
-      "id": "tt0128853",
+      "id": "tt32547691",
       "type": "movie",
-      "name": "You've Got Mail",
+      "name": "Pressure",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/175271237/s718/youve-got-mail.jpg",
-      "releaseInfo": "1998",
-      "description": "Book superstore magnate Joe Fox and independent book shop owner Kathleen Kelly fall in love in the anonymity of the Internet—both blissfully unaware that he's trying to put her out of business.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/youve-got-mail"
-        }
-      ]
-    },
-    {
-      "id": "tt41593493",
-      "type": "movie",
-      "name": "Avedon",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355260209/s718/avedon.jpg",
+      "poster": "https://images.justwatch.com/poster/346211269/s718/pressure-2026-1.jpg",
       "releaseInfo": "2026",
-      "description": "Richard Avedon's photographs didn't just reflect culture, they shaped it, and continue to do so. The feature documentary AVEDON traces the life and legacy of an artist who used fashion, portraiture, and commercial photography to explore identity, power, fear and beauty. With unprecedented access to Avedon's archive, including never before seen photos, behind the scenes recordings, and interviews with those who knew him best, AVEDON is a visually stunning examination of the mind of an artist who shaped our collective image of the 20th century.",
+      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/avedon"
+          "url": "https://justwatch.com/us/movie/pressure-2026-1"
         }
       ]
     },
     {
-      "id": "tt36408401",
+      "id": "tt32332915",
       "type": "movie",
-      "name": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+      "name": "I Want Your Sex",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/337928314/s718/the-adventures-of-cliff-booth.jpg",
+      "poster": "https://images.justwatch.com/poster/346247636/s718/i-want-your-sex.jpg",
       "releaseInfo": "2026",
-      "description": "Eight years after the events of Once Upon a Time in... Hollywood, Cliff Booth returns to a changing Los Angeles. Now working as a fixer in the shadows of the Hollywood studio system, Cliff finds himself entangled in a dangerous web of secrets, crimes and betrayals that will test everything he knows about loyalty and survival.",
+      "description": "When a naive young man becomes the sexual muse for a renowned and provocative artist, his dream job quickly turns dangerous as he is drawn into an obsessive world of power, betrayal, and murder.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/the-adventures-of-cliff-booth"
-        }
-      ]
-    },
-    {
-      "id": "tt8296030",
-      "type": "movie",
-      "name": "You Won't Be Alone",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/310229693/s718/you-wont-be-alone.jpg",
-      "releaseInfo": "2022",
-      "description": "In an isolated mountain village in 19th century Macedonia, a young feral witch accidentally kills a peasant. She assumes the peasant's shape to see what life is like in her skin, igniting a deep seated curiosity to experience life inside the bodies of others.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/you-wont-be-alone"
+          "url": "https://justwatch.com/us/movie/i-want-your-sex"
         }
       ]
     },
@@ -1574,6 +1334,246 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/movie/the-beast-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt35520290",
+      "type": "movie",
+      "name": "The Baltimorons",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/333458231/s718/the-baltimorons.jpg",
+      "releaseInfo": "2025",
+      "description": "A newly sober man's Christmas Eve dental emergency leads to an unexpected romance with his older dentist as they explore Baltimore together.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-baltimorons"
+        }
+      ]
+    },
+    {
+      "id": "tt1074638",
+      "type": "movie",
+      "name": "Skyfall",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/244583554/s718/james-bond-007-skyfall.jpg",
+      "releaseInfo": "2012",
+      "description": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/james-bond-007-skyfall"
+        }
+      ]
+    },
+    {
+      "id": "tt0816692",
+      "type": "movie",
+      "name": "Interstellar",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/449990/s718/interstellar.jpg",
+      "releaseInfo": "2014",
+      "description": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/interstellar"
+        }
+      ]
+    },
+    {
+      "id": "tt38058097",
+      "type": "movie",
+      "name": "Club Kid",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356262613/s718/club-kid.jpg",
+      "releaseInfo": "2026",
+      "description": "A hard-partying New York City club promoter sees his whirlwind lifestyle upended by the arrival of the 10-year-old son he never knew he had.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/club-kid"
+        }
+      ]
+    },
+    {
+      "id": "tt35866986",
+      "type": "movie",
+      "name": "How to Rob a Bank",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/353801480/s718/how-to-rob-a-bank-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, putting everything on the line for their most ambitious heist yet.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/how-to-rob-a-bank-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt39195686",
+      "type": "movie",
+      "name": "Saayavanam",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357172799/s718/saayavanam.jpg",
+      "releaseInfo": "2025",
+      "description": "Sita tries to live an honest and truthful life following all religious and social norms of her upbringing while unraveling the true agenda of men around her. In this process, she emerges victorious as a strong and brave woman.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/saayavanam"
+        }
+      ]
+    },
+    {
+      "id": "tt0163988",
+      "type": "movie",
+      "name": "Bringing Out the Dead",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/305889077/s718/bringing-out-the-dead.jpg",
+      "releaseInfo": "1999",
+      "description": "Once called \"Father Frank\" for his efforts to rescue lives, Frank Pierce sees the ghosts of those he failed to save around every turn. He has tried everything he can to get fired, calling in sick, delaying taking calls where he might have to face one more victim he couldn't help, yet cannot quit the job on his own.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/bringing-out-the-dead"
+        }
+      ]
+    },
+    {
+      "id": "tt3605418",
+      "type": "movie",
+      "name": "Knock Knock",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176279473/s718/knock-knock-2015.jpg",
+      "releaseInfo": "2015",
+      "description": "When a devoted husband and father is left home alone for the weekend, two stranded young women unexpectedly knock on his door for help. What starts out as a kind gesture results in a dangerous seduction and a deadly game of cat and mouse.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/knock-knock-2015"
+        }
+      ]
+    },
+    {
+      "id": "tt35298123",
+      "type": "movie",
+      "name": "Teenage Sex and Death at Camp Miasma",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354821138/s718/teenage-sex-and-death-at-camp-miasma.jpg",
+      "releaseInfo": "2026",
+      "description": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film’s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/teenage-sex-and-death-at-camp-miasma"
+        }
+      ]
+    },
+    {
+      "id": "tt0202677",
+      "type": "movie",
+      "name": "The Way of the Gun",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/9912226/s718/the-way-of-the-gun.jpg",
+      "releaseInfo": "2000",
+      "description": "Two criminal drifters without sympathy get more than they bargained for after kidnapping and holding for ransom the surrogate mother of a powerful and shady man.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-way-of-the-gun"
+        }
+      ]
+    },
+    {
+      "id": "tt35856037",
+      "type": "movie",
+      "name": "Your Mother Your Mother Your Mother",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/347855854/s718/your-mother-your-mother-your-mother.jpg",
+      "releaseInfo": "2026",
+      "description": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around him – and the beliefs threatening to unravel within.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/your-mother-your-mother-your-mother"
+        }
+      ]
+    },
+    {
+      "id": "tt2543164",
+      "type": "movie",
+      "name": "Arrival",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302218887/s718/arrival-2016.jpg",
+      "releaseInfo": "2016",
+      "description": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/arrival-2016"
+        }
+      ]
+    },
+    {
+      "id": "tt46082332",
+      "type": "movie",
+      "name": "Confession",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355559292/s718/confession-2026.jpg",
+      "releaseInfo": "2026",
+      "description": "In 1938, in Stalin's Moscow, a disillusioned professor, Alexei, faces brutal interrogation by his former student, Vladimir, in Lubyanka Prison. Refusing to confess, he confronts his past sins and finds redemption through faith, sacrificing himself to save others in a haunting tale of morality and resistance.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/confession-2026"
+        }
+      ]
+    },
+    {
+      "id": "tt39640040",
+      "type": "movie",
+      "name": "The Hotline",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357128345/s718/the-hotline.jpg",
+      "releaseInfo": "2026",
+      "description": "Portrait of an anonymous overdose hotline where people call before using, and volunteers stay on the line, racing against time, forging collective hope amid addiction.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-hotline"
+        }
+      ]
+    },
+    {
+      "id": "tt39150234",
+      "type": "movie",
+      "name": "The History of Concrete",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/341255671/s718/the-history-of-concrete.jpg",
+      "releaseInfo": "2026",
+      "description": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-history-of-concrete"
         }
       ]
     }

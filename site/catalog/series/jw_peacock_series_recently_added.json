@@ -1,3 +1,36 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt36884306",
+      "type": "series",
+      "name": "Nelly and Ashanti: We Belong Together",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/332020567/s718/nelly-and-ashanti-we-belong-together.jpg",
+      "releaseInfo": "2025",
+      "description": "A couple rekindles their romance while handling marriage, parenthood, and careers. They face challenges together, showing how love gets a second chance.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/nelly-and-ashanti-we-belong-together"
+        }
+      ]
+    },
+    {
+      "id": "tt5936838",
+      "type": "series",
+      "name": "Prime Suspect 1973",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176393302/s718/prime-suspect-1973.jpg",
+      "releaseInfo": "2017",
+      "description": "Jane Tennison is a probationary WPC in 1973 London, where she faces sexism while working her first murder case. Follow her early career, her relationship with her boss DI Len Bradfield, and her determination to prove herself in a male-dominated police force, as she will eventually achieve the rank of Detective Superintendent.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/prime-suspect-1973"
+        }
+      ]
+    }
+  ]
 }

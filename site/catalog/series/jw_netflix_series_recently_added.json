@@ -1,3 +1,52 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt49276663",
+      "type": "series",
+      "name": "Shadows of the Ten Ninja",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356515326/s718/shadows-of-the-ten-ninja.jpg",
+      "releaseInfo": "2026",
+      "description": "When Ieyasu Tokugawa declares war on the Toyotomi, the Sanada Ten Braves come together in a decisive battle against the current ruler of Japan.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/shadows-of-the-ten-ninja"
+        }
+      ]
+    },
+    {
+      "id": "tt4087032",
+      "type": "series",
+      "name": "Good Mythical Morning",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/16121302/s718/good-mythical-morning.jpg",
+      "releaseInfo": "2012",
+      "description": "Two \"Internetainers\" (Rhett & Link) go far out and do the weirdest things, giving you a daily dose of casual comedy every Monday-Friday.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/good-mythical-morning"
+        }
+      ]
+    },
+    {
+      "id": "tt11301642",
+      "type": "series",
+      "name": "Ethos",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/279183760/s718/ethos.jpg",
+      "releaseInfo": "2020",
+      "description": "A group of unique characters from dramatically different socio-cultural backgrounds meet in startling circumstances in the vibrant and colorful city of Istanbul, some by chance and some by force of will.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ethos"
+        }
+      ]
+    }
+  ]
 }
