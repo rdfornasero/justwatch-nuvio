@@ -1,3 +1,20 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt30006118",
+      "type": "series",
+      "name": "Frenchie Shore",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320713887/s718/frenchie-shore.jpg",
+      "releaseInfo": "2023",
+      "description": "Following in the footsteps of reality TV shows such as 'Jersey Shore' and 'Geordie Shore,' the ten biggest party-goers in France have come together in Cap d'Agde for a dream holiday.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/frenchie-shore"
+        }
+      ]
+    }
+  ]
 }

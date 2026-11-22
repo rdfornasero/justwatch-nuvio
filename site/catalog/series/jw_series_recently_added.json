@@ -1,434 +1,226 @@
 {
   "metas": [
     {
-      "id": "tt49276663",
+      "id": "tt8398600",
       "type": "series",
-      "name": "Shadows of the Ten Ninja",
+      "name": "After Life",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356515326/s718/shadows-of-the-ten-ninja.jpg",
-      "releaseInfo": "2026",
-      "description": "When Ieyasu Tokugawa declares war on the Toyotomi, the Sanada Ten Braves come together in a decisive battle against the current ruler of Japan.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/shadows-of-the-ten-ninja"
-        }
-      ]
-    },
-    {
-      "id": "tt4087032",
-      "type": "series",
-      "name": "Good Mythical Morning",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/16121302/s718/good-mythical-morning.jpg",
-      "releaseInfo": "2012",
-      "description": "Two \"Internetainers\" (Rhett & Link) go far out and do the weirdest things, giving you a daily dose of casual comedy every Monday-Friday.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/good-mythical-morning"
-        }
-      ]
-    },
-    {
-      "id": "tt11301642",
-      "type": "series",
-      "name": "Ethos",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/279183760/s718/ethos.jpg",
-      "releaseInfo": "2020",
-      "description": "A group of unique characters from dramatically different socio-cultural backgrounds meet in startling circumstances in the vibrant and colorful city of Istanbul, some by chance and some by force of will.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ethos"
-        }
-      ]
-    },
-    {
-      "id": "tt3021686",
-      "type": "series",
-      "name": "The Honourable Woman",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/207134138/s718/the-honourable-woman.jpg",
-      "releaseInfo": "2014",
-      "description": "Nessa Stein, the daughter of a Zionist arms procurer who as a child witnessed his assassination. Now an adult, Nessa inherits her father's company and changes course from supplying arms to laying data cabling networks between Israel and the West Bank. Her efforts to reconcile the Israelis and Palestinians lands her an appointment to the House of Lords and creates an international political maelstrom.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-honourable-woman"
-        }
-      ]
-    },
-    {
-      "id": "tt2372220",
-      "type": "series",
-      "name": "The White Queen",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/177100970/s718/the-white-queen.jpg",
-      "releaseInfo": "2013",
-      "description": "Three different, yet equally relentless women vie for the throne in 15th-century England.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-white-queen"
-        }
-      ]
-    },
-    {
-      "id": "tt41054228",
-      "type": "series",
-      "name": "Devils' Crest",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357160299/s718/devils-crest.jpg",
-      "releaseInfo": "2026",
-      "description": "Yuma Ashihara was set to enjoy a test session of Actual Magic (AM)—the world's first fulldive VRMMO-RPG—together with his classmates Sawa Ashihara, Kenji Kondo, and Minagi Sano. The plan was simple: defeat the boss as a party of four, log out, and finish the test play safely — or at least, that's how it was supposed to go.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/devils-crest"
-        }
-      ]
-    },
-    {
-      "id": "tt0106080",
-      "type": "series",
-      "name": "The Nanny",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300963190/s718/the-nanny.jpg",
-      "releaseInfo": "1993",
-      "description": "That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-nanny"
-        }
-      ]
-    },
-    {
-      "id": "tt3914054",
-      "type": "series",
-      "name": "We Were Liars",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/331848085/s718/we-were-liars.jpg",
-      "releaseInfo": "2025",
-      "description": "A 17 year-old girl from a wealthy family, Cady Sinclair, spends her summers on a private island. After suffering a terrible accident, she struggles to remember events from her increasingly frightening past.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/we-were-liars"
-        }
-      ]
-    },
-    {
-      "id": "tt0247827",
-      "type": "series",
-      "name": "X-Men: Evolution",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300726210/s718/x-men-evolution.jpg",
-      "releaseInfo": "2000",
-      "description": "Teenagers Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat, and Spike fight for a world that fears and hates them.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/x-men-evolution"
-        }
-      ]
-    },
-    {
-      "id": "tt15552018",
-      "type": "series",
-      "name": "American Born Chinese",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/305370962/s718/american-born-chinese.jpg",
-      "releaseInfo": "2023",
-      "description": "Average teenager Jin Wang juggles his high school social life with his immigrant home life. When he meets a new foreign student on the first day of the school year, even more worlds collide as Jin is unwittingly entangled in a battle of Chinese mythological gods.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/american-born-chinese"
-        }
-      ]
-    },
-    {
-      "id": "tt13983342",
-      "type": "series",
-      "name": "Drain the Oceans",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/186392013/s718/drain-the-ocean.jpg",
-      "releaseInfo": "2018",
-      "description": "Maritime mysteries—old and new—come to life in this series, combining scientific data and digital re-creations to reveal shipwrecks, treasures, and sunken cities on the bottom of lakes, seas and oceans around the world.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/drain-the-ocean"
-        }
-      ]
-    },
-    {
-      "id": "tt16389768",
-      "type": "series",
-      "name": "The Villains of Valley View",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/306304091/s718/the-villains-of-valley-view.jpg",
-      "releaseInfo": "2022",
-      "description": "A family of raucous supervillains who recently ran afoul of the League of Villains and now must somehow beat a path to normalcy in a small Texas town.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-villains-of-valley-view"
-        }
-      ]
-    },
-    {
-      "id": "tt31704157",
-      "type": "series",
-      "name": "Soundtrack #2",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/309501761/s718/soundtrack-2.jpg",
-      "releaseInfo": "2023",
-      "description": "Su-ho and Hyeon-seo, who once dated for six years, meet again as a youthful rich CEO and a piano instructor. K works with Su-ho on a collaborative project and invites Hyeon-seo to join them. Su-ho and Hyeon-seo embark on a bumpy romantic journey full of twists and turns. Will history repeat itself?",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/soundtrack-2"
-        }
-      ]
-    },
-    {
-      "id": "tt1734568",
-      "type": "series",
-      "name": "Ancient X-Files",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/247043290/s718/ancient-x-files.jpg",
-      "releaseInfo": "2010",
-      "description": "Ancient X Files travels around the world to solve some intriguing riddles. Each story is a piece of detective work by an expert trying to make sense of some puzzling ancient artefact, to find the truth behind some extraordinary legend, to discover the origins of a bizarre myth or to establish the authenticity of a venerated religious relic. This series explores the bits of archaeology and history which seem to defy explanation.\n\nOur experts are following chains of clues and putting theories to the test, in an effort to explain the unexplained. Ancient X Files investigates claims about the whereabouts of the lost Ark of the Covenant; attempts to establish the authenticity of a cup some believe to be the Holy Grail; tries to de-code the mysterious Phaistos disc; investigates a cloth which is believed to carry traces of the DNA of Jesus Christ; and deciphers an encrypted book of alchemy written by the great Sir Isaac Newton.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ancient-x-files"
-        }
-      ]
-    },
-    {
-      "id": "tt0047757",
-      "type": "series",
-      "name": "The Mickey Mouse Club",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/241519453/s718/the-mickey-mouse-club.jpg",
-      "releaseInfo": "1955",
-      "description": "A variety show featuring a cast of child performers.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-mickey-mouse-club"
-        }
-      ]
-    },
-    {
-      "id": "tt0278866",
-      "type": "series",
-      "name": "Kim Possible",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/206032383/s718/kim-possible.jpg",
-      "releaseInfo": "2002",
-      "description": "If there's danger or trouble, Kim Possible is there on the double to save the world from villains... and still make it home in time for cheerleading practice! Luckily, Kim has her sidekick Ron Stoppable and his pet naked mole-rat Rufus by her side.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/kim-possible"
-        }
-      ]
-    },
-    {
-      "id": "tt1722512",
-      "type": "series",
-      "name": "Marvel's Ultimate Spider-Man",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/332028559/s718/ultimate-spider-man.jpg",
-      "releaseInfo": "2012",
-      "description": "While being trained by S.H.I.E.L.D., Spider-Man battles evil with a new team of teen colleagues.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ultimate-spider-man"
-        }
-      ]
-    },
-    {
-      "id": "tt9331982",
-      "type": "series",
-      "name": "The Imagineering Story",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/156945176/s718/the-imagineering-story.jpg",
+      "poster": "https://images.justwatch.com/poster/113483998/s718/after-life.jpg",
       "releaseInfo": "2019",
-      "description": "Explore the past, present and future of Walt Disney Imagineering with noted filmmaker Leslie Iwerks. Ms. Iwerks comes from a family with deep Disney history — her grandfather was an early Disney animator and her father is a former Imagineer — and her previous work includes profiles of Pixar Animation Studios and visual effects house Industrial Light & Magic.",
+      "description": "Tony had a perfect life. But after his wife Lisa suddenly dies, Tony changes. After contemplating taking his own life, he decides instead to live long enough to punish the world by saying and doing whatever he likes from now on.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-imagineering-story"
+          "url": "https://justwatch.com/us/tv-show/after-life"
         }
       ]
     },
     {
-      "id": "tt26685570",
+      "id": "tt37532356",
       "type": "series",
-      "name": "Disney How NOT to Draw",
+      "name": "Daemons of the Shadow Realm",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/323408760/s718/disney-how-not-to-draw.jpg",
-      "releaseInfo": "2022",
-      "description": "Animators bring beloved Disney characters to life.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/disney-how-not-to-draw"
-        }
-      ]
-    },
-    {
-      "id": "tt15373506",
-      "type": "series",
-      "name": "Daddies on Request",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/309387019/s718/daddies-on-request.jpg",
-      "releaseInfo": "2022",
-      "description": "California receives an unexpected gift: her mother, Itzel, has sent her a van together with a request: she wants her to travel to Zacatecas to be reunited with her after a nine-year absence. California convinces her three mistrustful parents that this trip will lead them to happiness. Soon, California, Miguel, Diego, and Morgan set out on an adventure that will turn their lives upside down. What they could never have imagined is that they are being followed by two funny thugs who are also after the mysterious woman.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/daddies-on-request"
-        }
-      ]
-    },
-    {
-      "id": "tt18545980",
-      "type": "series",
-      "name": "The Muppets Mayhem",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/304979565/s718/the-muppets-mayhem.jpg",
-      "releaseInfo": "2023",
-      "description": "The Electric Mayhem Band goes on an epic musical journey to finally record their first studio album. With the help of a driven young music executive, Nora, the old-school Muppet band comes face to face with the current day music scene as they try to finally go platinum.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-muppets-mayhem"
-        }
-      ]
-    },
-    {
-      "id": "tt4370596",
-      "type": "series",
-      "name": "Better Things",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/261220959/s718/better-things.jpg",
-      "releaseInfo": "2016",
-      "description": "Sam Fox is a single, working actor with no filter trying to raise her three daughters – Max, Frankie and Duke – in Los Angeles. She is mom, dad, referee and the cops.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/better-things"
-        }
-      ]
-    },
-    {
-      "id": "tt38448408",
-      "type": "series",
-      "name": "The Killings at Parrish Station",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357133777/s718/the-killings-at-parrish-station.jpg",
+      "poster": "https://images.justwatch.com/poster/354197036/s718/daemons-of-the-shadow-realm.jpg",
       "releaseInfo": "2026",
-      "description": "It’s 1987, and Detective Georgia Cooke is called in to investigate the massacre of four scientists who have been brutally murdered in inexplicable ways, with a lone survivor the obvious suspect. But as Georgia digs deeper, unravelling a complex case entangled in mania, ritual, and the occult, her obsessive quest for the truth spirals into a nightmare that will put her family, career, and sanity on the line.  37 years later, a chilling new spree of murders will pull Georgia back into this nightmare as she confronts the terrifying possibility that the horrors at Parrish Station were never fully buried.",
+      "description": "Yuru, a young hunter, lives in a small village deep in the mountains, hunting wild game and leading a humble life with Asa, his younger twin sister. Their peaceful lives are torn apart when a dragon’s roar echoes across the sky. What secrets lurk within their village? What fate awaits them?",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-killings-at-parrish-station"
+          "url": "https://justwatch.com/us/tv-show/daemons-of-the-shadow-realm"
         }
       ]
     },
     {
-      "id": "tt29353885",
+      "id": "tt3034456",
       "type": "series",
-      "name": "Invisible Boys",
+      "name": "The Greatest American Hero",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/327138510/s718/invisible-boys.jpg",
-      "releaseInfo": "2025",
-      "description": "A group of tangentially-connected gay teenagers in the remote coastal town of Geraldton encounter the thrills and devastations of first love and sexual discovery set against the backdrop of Australia voting to legalise same-sex marriage in 2017.",
+      "poster": "https://images.justwatch.com/poster/177361655/s718/the-greatest-american-hero.jpg",
+      "releaseInfo": "1981",
+      "description": "The chronicles of  teacher Ralph Hinkley's adventures after a group of aliens gives him a red suit that gives him superhuman abilities. Unfortunately, Ralph, who hates wearing the suit, immediately loses its instruction booklet, and thus has to learn how to use its powers by trial and error, often with comical results.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/invisible-boys"
+          "url": "https://justwatch.com/us/tv-show/the-greatest-american-hero"
         }
       ]
     },
     {
-      "id": "tt10222764",
+      "id": "tt5052460",
       "type": "series",
-      "name": "The Vow",
+      "name": "Taken",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/201776633/s718/the-vow.jpg",
-      "releaseInfo": "2020",
-      "description": "The docuseries follows people deeply involved in the group NXIVM — which is faced with various charges, including sex trafficking and racketeering conspiracy — over the course of several years.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-vow"
-        }
-      ]
-    },
-    {
-      "id": "tt36884306",
-      "type": "series",
-      "name": "Nelly and Ashanti: We Belong Together",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/332020567/s718/nelly-and-ashanti-we-belong-together.jpg",
-      "releaseInfo": "2025",
-      "description": "A couple rekindles their romance while handling marriage, parenthood, and careers. They face challenges together, showing how love gets a second chance.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/nelly-and-ashanti-we-belong-together"
-        }
-      ]
-    },
-    {
-      "id": "tt5936838",
-      "type": "series",
-      "name": "Prime Suspect 1973",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176393302/s718/prime-suspect-1973.jpg",
+      "poster": "https://images.justwatch.com/poster/42255515/s718/taken.jpg",
       "releaseInfo": "2017",
-      "description": "Jane Tennison is a probationary WPC in 1973 London, where she faces sexism while working her first murder case. Follow her early career, her relationship with her boss DI Len Bradfield, and her determination to prove herself in a male-dominated police force, as she will eventually achieve the rank of Detective Superintendent.",
+      "description": "The origin story of younger, hungrier, former Green Beret Bryan Mills as he deals with a personal tragedy that shakes his world. As he fights to overcome the incident and exact revenge, Mills is pulled into a career as a deadly CIA operative, a job that awakens his very particular, and very dangerous, set of skills.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/prime-suspect-1973"
+          "url": "https://justwatch.com/us/tv-show/taken"
+        }
+      ]
+    },
+    {
+      "id": "tt0383126",
+      "type": "series",
+      "name": "MythBusters",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/180955319/s718/mythbusters.jpg",
+      "releaseInfo": "2003",
+      "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/mythbusters"
+        }
+      ]
+    },
+    {
+      "id": "tt8080122",
+      "type": "series",
+      "name": "Godfather of Harlem",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/327218482/s718/godfather-of-harlem.jpg",
+      "releaseInfo": "2019",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/godfather-of-harlem"
+        }
+      ]
+    },
+    {
+      "id": "tt35728748",
+      "type": "series",
+      "name": "Alice and Steve",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/345653880/s718/alice-and-steve.jpg",
+      "releaseInfo": "2026",
+      "description": "Alice is devastated when her best friend Steve starts dating her 26-year-old daughter Izzy. She's going to lose her best friend and her daughter in one fell swoop. Alice tries everything she can to end the relationship. Unfortunately for her, Steve's more than ready for the attack, and what begins as a perfect friendship, devolves into an all-out feud.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/alice-and-steve"
+        }
+      ]
+    },
+    {
+      "id": "tt10234362",
+      "type": "series",
+      "name": "Avenue 5",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300791317/s718/avenue-5.jpg",
+      "releaseInfo": "2020",
+      "description": "The troubled crew of Avenue 5, a space cruise ship filled with spoiled, rich, snotty space tourists, must try and keep everyone calm after their ship gets thrown off course into space and ends up needing three years to return to Earth.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/avenue-5"
+        }
+      ]
+    },
+    {
+      "id": "tt32510765",
+      "type": "series",
+      "name": "The Seduction",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338192325/s718/the-seduction.jpg",
+      "releaseInfo": "2025",
+      "description": "Marquise de Merteuil, betrayed by Valmont, embarks on a daring journey to become Paris' leading courtesan.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-seduction"
+        }
+      ]
+    },
+    {
+      "id": "tt30006118",
+      "type": "series",
+      "name": "Frenchie Shore",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320713887/s718/frenchie-shore.jpg",
+      "releaseInfo": "2023",
+      "description": "Following in the footsteps of reality TV shows such as 'Jersey Shore' and 'Geordie Shore,' the ten biggest party-goers in France have come together in Cap d'Agde for a dream holiday.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/frenchie-shore"
+        }
+      ]
+    },
+    {
+      "id": "tt42934023",
+      "type": "series",
+      "name": "Mystery Science Theater 3000",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/311426541/s718/mystery-science-theater-3000.jpg",
+      "releaseInfo": "1989",
+      "description": "A stranded spaceship pilot captured by mad scientists survives a blitz of cheesy B movies by riffing on them with his funny robot pals.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/mystery-science-theater-3000"
+        }
+      ]
+    },
+    {
+      "id": "tt0835234",
+      "type": "series",
+      "name": "The Real Housewives of Orange County",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/215266833/s718/the-real-housewives-of-orange-county.jpg",
+      "releaseInfo": "2006",
+      "description": "A look at five families living in a protected Southern California enclave, and the real-life housewives who reside in one of the wealthiest planned communities in the country.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-real-housewives-of-orange-county"
+        }
+      ]
+    },
+    {
+      "id": "tt0352098",
+      "type": "series",
+      "name": "Servants",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/246473731/s718/servants.jpg",
+      "releaseInfo": "2003",
+      "description": "Bold and irreverent drama following the fortunes of a group of servants in an 1850s English country house.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/servants"
+        }
+      ]
+    },
+    {
+      "id": "tt4513868",
+      "type": "series",
+      "name": "New Blood",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/241818916/s718/new-blood.jpg",
+      "releaseInfo": "2016",
+      "description": "Two junior investigators come together against a new breed of criminal, the uber rich and powerful corporations, individuals and governments who hide behind legitimate facades.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/new-blood"
         }
       ]
     }

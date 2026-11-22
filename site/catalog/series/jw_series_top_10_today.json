@@ -46,6 +46,21 @@
       ]
     },
     {
+      "id": "tt9813792",
+      "type": "series",
+      "name": "FROM",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344518661/s718/from.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/from"
+        }
+      ]
+    },
+    {
       "id": "tt36786185",
       "type": "series",
       "name": "The Altruists",
@@ -91,21 +106,6 @@
       ]
     },
     {
-      "id": "tt9813792",
-      "type": "series",
-      "name": "FROM",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344518661/s718/from.jpg",
-      "releaseInfo": "2022",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/from"
-        }
-      ]
-    },
-    {
       "id": "tt26598805",
       "type": "series",
       "name": "Nocturne",
@@ -121,32 +121,32 @@
       ]
     },
     {
-      "id": "tt12324366",
+      "id": "tt7631058",
       "type": "series",
-      "name": "Percy Jackson and the Olympians",
+      "name": "The Lord of the Rings: The Rings of Power",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/309999240/s718/percy-jackson-and-the-olympians.jpg",
-      "releaseInfo": "2023",
+      "poster": "https://images.justwatch.com/poster/260075695/s718/the-lord-of-the-rings-the-rings-of-power.jpg",
+      "releaseInfo": "2022",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/percy-jackson-and-the-olympians"
+          "url": "https://www.justwatch.com/us/tv-show/the-lord-of-the-rings-the-rings-of-power"
         }
       ]
     },
     {
-      "id": "tt37972251",
+      "id": "tt23112594",
       "type": "series",
-      "name": "War",
+      "name": "VisionQuest",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354890779/s718/war-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/348281318/s718/visionquest-1.jpg",
       "releaseInfo": "2026",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/war-2026"
+          "url": "https://www.justwatch.com/us/tv-show/visionquest-1"
         }
       ]
     }

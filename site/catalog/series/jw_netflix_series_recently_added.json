@@ -1,50 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt49276663",
+      "id": "tt8398600",
       "type": "series",
-      "name": "Shadows of the Ten Ninja",
+      "name": "After Life",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356515326/s718/shadows-of-the-ten-ninja.jpg",
+      "poster": "https://images.justwatch.com/poster/113483998/s718/after-life.jpg",
+      "releaseInfo": "2019",
+      "description": "Tony had a perfect life. But after his wife Lisa suddenly dies, Tony changes. After contemplating taking his own life, he decides instead to live long enough to punish the world by saying and doing whatever he likes from now on.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/after-life"
+        }
+      ]
+    },
+    {
+      "id": "tt37532356",
+      "type": "series",
+      "name": "Daemons of the Shadow Realm",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354197036/s718/daemons-of-the-shadow-realm.jpg",
       "releaseInfo": "2026",
-      "description": "When Ieyasu Tokugawa declares war on the Toyotomi, the Sanada Ten Braves come together in a decisive battle against the current ruler of Japan.",
+      "description": "Yuru, a young hunter, lives in a small village deep in the mountains, hunting wild game and leading a humble life with Asa, his younger twin sister. Their peaceful lives are torn apart when a dragon’s roar echoes across the sky. What secrets lurk within their village? What fate awaits them?",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/shadows-of-the-ten-ninja"
-        }
-      ]
-    },
-    {
-      "id": "tt4087032",
-      "type": "series",
-      "name": "Good Mythical Morning",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/16121302/s718/good-mythical-morning.jpg",
-      "releaseInfo": "2012",
-      "description": "Two \"Internetainers\" (Rhett & Link) go far out and do the weirdest things, giving you a daily dose of casual comedy every Monday-Friday.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/good-mythical-morning"
-        }
-      ]
-    },
-    {
-      "id": "tt11301642",
-      "type": "series",
-      "name": "Ethos",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/279183760/s718/ethos.jpg",
-      "releaseInfo": "2020",
-      "description": "A group of unique characters from dramatically different socio-cultural backgrounds meet in startling circumstances in the vibrant and colorful city of Istanbul, some by chance and some by force of will.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ethos"
+          "url": "https://justwatch.com/us/tv-show/daemons-of-the-shadow-realm"
         }
       ]
     }

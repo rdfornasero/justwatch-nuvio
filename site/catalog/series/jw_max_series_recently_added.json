@@ -1,18 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt10222764",
+      "id": "tt10234362",
       "type": "series",
-      "name": "The Vow",
+      "name": "Avenue 5",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/201776633/s718/the-vow.jpg",
+      "poster": "https://images.justwatch.com/poster/300791317/s718/avenue-5.jpg",
       "releaseInfo": "2020",
-      "description": "The docuseries follows people deeply involved in the group NXIVM — which is faced with various charges, including sex trafficking and racketeering conspiracy — over the course of several years.",
+      "description": "The troubled crew of Avenue 5, a space cruise ship filled with spoiled, rich, snotty space tourists, must try and keep everyone calm after their ship gets thrown off course into space and ends up needing three years to return to Earth.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-vow"
+          "url": "https://justwatch.com/us/tv-show/avenue-5"
+        }
+      ]
+    },
+    {
+      "id": "tt32510765",
+      "type": "series",
+      "name": "The Seduction",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338192325/s718/the-seduction.jpg",
+      "releaseInfo": "2025",
+      "description": "Marquise de Merteuil, betrayed by Valmont, embarks on a daring journey to become Paris' leading courtesan.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-seduction"
         }
       ]
     }

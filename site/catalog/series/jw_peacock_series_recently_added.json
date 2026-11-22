@@ -1,34 +1,82 @@
 {
   "metas": [
     {
-      "id": "tt36884306",
+      "id": "tt42934023",
       "type": "series",
-      "name": "Nelly and Ashanti: We Belong Together",
+      "name": "Mystery Science Theater 3000",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/332020567/s718/nelly-and-ashanti-we-belong-together.jpg",
-      "releaseInfo": "2025",
-      "description": "A couple rekindles their romance while handling marriage, parenthood, and careers. They face challenges together, showing how love gets a second chance.",
+      "poster": "https://images.justwatch.com/poster/311426541/s718/mystery-science-theater-3000.jpg",
+      "releaseInfo": "1989",
+      "description": "A stranded spaceship pilot captured by mad scientists survives a blitz of cheesy B movies by riffing on them with his funny robot pals.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/nelly-and-ashanti-we-belong-together"
+          "url": "https://justwatch.com/us/tv-show/mystery-science-theater-3000"
         }
       ]
     },
     {
-      "id": "tt5936838",
+      "id": "tt0835234",
       "type": "series",
-      "name": "Prime Suspect 1973",
+      "name": "The Real Housewives of Orange County",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176393302/s718/prime-suspect-1973.jpg",
-      "releaseInfo": "2017",
-      "description": "Jane Tennison is a probationary WPC in 1973 London, where she faces sexism while working her first murder case. Follow her early career, her relationship with her boss DI Len Bradfield, and her determination to prove herself in a male-dominated police force, as she will eventually achieve the rank of Detective Superintendent.",
+      "poster": "https://images.justwatch.com/poster/215266833/s718/the-real-housewives-of-orange-county.jpg",
+      "releaseInfo": "2006",
+      "description": "A look at five families living in a protected Southern California enclave, and the real-life housewives who reside in one of the wealthiest planned communities in the country.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/prime-suspect-1973"
+          "url": "https://justwatch.com/us/tv-show/the-real-housewives-of-orange-county"
+        }
+      ]
+    },
+    {
+      "id": "tt3034456",
+      "type": "series",
+      "name": "The Greatest American Hero",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/177361655/s718/the-greatest-american-hero.jpg",
+      "releaseInfo": "1981",
+      "description": "The chronicles of  teacher Ralph Hinkley's adventures after a group of aliens gives him a red suit that gives him superhuman abilities. Unfortunately, Ralph, who hates wearing the suit, immediately loses its instruction booklet, and thus has to learn how to use its powers by trial and error, often with comical results.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-greatest-american-hero"
+        }
+      ]
+    },
+    {
+      "id": "tt0352098",
+      "type": "series",
+      "name": "Servants",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/246473731/s718/servants.jpg",
+      "releaseInfo": "2003",
+      "description": "Bold and irreverent drama following the fortunes of a group of servants in an 1850s English country house.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/servants"
+        }
+      ]
+    },
+    {
+      "id": "tt4513868",
+      "type": "series",
+      "name": "New Blood",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/241818916/s718/new-blood.jpg",
+      "releaseInfo": "2016",
+      "description": "Two junior investigators come together against a new breed of criminal, the uber rich and powerful corporations, individuals and governments who hide behind legitimate facades.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/new-blood"
         }
       ]
     }
