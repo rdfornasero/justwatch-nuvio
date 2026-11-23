@@ -1,50 +1,82 @@
 {
   "metas": [
     {
-      "id": "tt3850590",
+      "id": "tt39316936",
       "type": "movie",
-      "name": "Krampus",
+      "name": "Clashing Through the Snow",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/189550743/s718/krampus.jpg",
-      "releaseInfo": "2015",
-      "description": "When his dysfunctional family clashes over the holidays, young Max is disillusioned and turns his back on Christmas.  Little does he know, this lack of festive spirit has unleashed the wrath of Krampus: a demonic force of ancient evil intent on punishing non-believers.",
+      "poster": "https://images.justwatch.com/poster/356845971/s718/clashing-through-the-snow.jpg",
+      "releaseInfo": "2026",
+      "description": "After weather grounds all flights east for the holidays, two work rivals competing for the same job begrudgingly embark on a cross-country road trip that brings them closer together in ways they never imagined.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/krampus"
+          "url": "https://justwatch.com/us/movie/clashing-through-the-snow"
         }
       ]
     },
     {
-      "id": "tt1399683",
+      "id": "tt0047834",
       "type": "movie",
-      "name": "Winter's Bone",
+      "name": "Animal Farm",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/181940177/s718/winters-bone.jpg",
-      "releaseInfo": "2010",
-      "description": "After discovering her father put their house up for his bail bond and then disappeared, 17-year-old Ree Dolly must confront the local criminal underworld and the harsh Ozark wilderness in order to to track down her father and save her family.",
+      "poster": "https://images.justwatch.com/poster/19059098/s718/animal-farm.jpg",
+      "releaseInfo": "1954",
+      "description": "Animals on a farm lead a revolution against the farmers to put their destiny in their own hands. However this revolution eats their own children and they cannot avoid corruption.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/winters-bone"
+          "url": "https://justwatch.com/us/movie/animal-farm"
         }
       ]
     },
     {
-      "id": "tt33088452",
+      "id": "tt0039628",
       "type": "movie",
-      "name": "Regretting You",
+      "name": "Miracle on 34th Street",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/334037963/s718/regretting-you.jpg",
-      "releaseInfo": "2025",
-      "description": "Morgan Grant and her daughter Clara explore what's left behind after a devastating accident reveals a shocking betrayal and forces them to confront family secrets, redefine love, and rediscover each other.",
+      "poster": "https://images.justwatch.com/poster/181559139/s718/miracle-on-34th-street.jpg",
+      "releaseInfo": "1947",
+      "description": "Kris Kringle, seemingly the embodiment of Santa Claus, is asked to portray the jolly old fellow at Macy's following his performance in the Thanksgiving Day parade. His portrayal is so complete that many begin to question if he truly is Santa Claus, while others question his sanity.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/regretting-you"
+          "url": "https://justwatch.com/us/movie/miracle-on-34th-street"
+        }
+      ]
+    },
+    {
+      "id": "tt5168832",
+      "type": "movie",
+      "name": "After Porn Ends 2",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/8797689/s718/after-porn-ends-2.jpg",
+      "releaseInfo": "2017",
+      "description": "After Porn Ends 2 picks up where its predecessor left off and not only turns back the clock to meet the oldest living stars in adult film's history, but goes in depth with some of Its most current retirees and juxtaposes their experiences in a life after porn. Delving deeper into society's ongoing stigmas of race, misogyny, and the reality of decreasing opportunities for these former VHS box cover stars. For some, their careers in adult entertainment is accepted proudly and without regret. In fact, it seems to have proven to be the pathway to their current happiness and inner peace. For others, however, a career in porn has proven to be a conduit to certain despair as they struggle to find a way to bury their past and emerge with a new career or calling.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/after-porn-ends-2"
+        }
+      ]
+    },
+    {
+      "id": "tt34378301",
+      "type": "movie",
+      "name": "Jack Ryan: Ghost War",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344441025/s718/tom-clancys-jack-ryan-ghost-war.jpg",
+      "releaseInfo": "2026",
+      "description": "Follows Jack Ryan who reunites with CIA operatives to navigate a treacherous web of betrayal against an enemy who knows their every move, facing a past they thought was long put to rest.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/tom-clancys-jack-ryan-ghost-war"
         }
       ]
     }

@@ -1,18 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt30006118",
+      "id": "tt28708619",
       "type": "series",
-      "name": "Frenchie Shore",
+      "name": "The Hills",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320713887/s718/frenchie-shore.jpg",
-      "releaseInfo": "2023",
-      "description": "Following in the footsteps of reality TV shows such as 'Jersey Shore' and 'Geordie Shore,' the ten biggest party-goers in France have come together in Cap d'Agde for a dream holiday.",
+      "poster": "https://images.justwatch.com/poster/335694848/s718/the-hills.jpg",
+      "releaseInfo": "2006",
+      "description": "After high school graduation, \"Laguna Beach\" alumna Lauren sets out to live on her own in Los Angeles and work as an intern at Teen Vogue.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/frenchie-shore"
+          "url": "https://justwatch.com/us/tv-show/the-hills"
+        }
+      ]
+    },
+    {
+      "id": "tt3484274",
+      "type": "series",
+      "name": "Are You The One?",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/303295372/s718/are-you-the-one.jpg",
+      "releaseInfo": "2014",
+      "description": "In the most ambitious dating experiment ever attempted, a group of gorgeous single women and guys are put through an extensive and scientific matchmaking process to find their Perfect Match.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/are-you-the-one"
         }
       ]
     }

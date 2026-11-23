@@ -1,52 +1,29 @@
 {
   "metas": [
     {
-      "id": "tt0098554",
+      "id": "tt1413495",
       "type": "movie",
-      "name": "Uncle Buck",
+      "name": "Paranoia",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/323908986/s718/uncle-buck.jpg",
-      "releaseInfo": "1989",
-      "description": "Buck Russell, a lovable but slovenly bachelor, suddenly becomes the temporary caretaker of his nephew and nieces after a family emergency. His freewheeling attitude soon causes tension with his older niece Tia, loyal girlfriend Chanice, and just about everyone else who crosses his path.",
+      "poster": "https://images.justwatch.com/poster/178536801/s718/paranoia.jpg",
+      "releaseInfo": "2013",
+      "description": "An entry-level employee at a powerful corporation finds himself occupying a corner office, but at a dangerous price—he must spy on his boss's old mentor to secure for him a multi-billion dollar advantage.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/uncle-buck"
+          "url": "https://justwatch.com/us/movie/paranoia"
         }
       ]
     },
     {
-      "id": "tt48434154",
+      "id": "tt39370926",
       "type": "movie",
-      "name": "Primetime Preacher$",
+      "name": "Never Surrender",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356696698/s718/primetime-preacher.jpg",
+      "poster": "https://images.justwatch.com/poster/356370402/s718/.jpg",
       "releaseInfo": "2026",
-      "description": "Chronicles the 1980s golden age of Christian broadcasting, detailing how three of America's most prominent televangelists shifted evangelical Christianity into a massive political force.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/primetime-preacher"
-        }
-      ]
-    },
-    {
-      "id": "tt33402927",
-      "type": "movie",
-      "name": "On Behalf of My Son",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355260583/s718/vicentina-pede-desculpas.jpg",
-      "releaseInfo": "2026",
-      "description": "At 75, Vicentina faces the death of her son, a bus driver who caused a tragedy by plunging off a viaduct. As the investigation suggests possible suicide, she seeks out the victims' families to offer her apologies.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/vicentina-pede-desculpas"
-        }
-      ]
+      "description": "When a deadly gang descends on his remote home, a guilt-ridden veteran and the estranged grandchildren he barely knows must unite to survive."
     }
   ]
 }

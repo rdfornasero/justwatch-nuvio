@@ -1,34 +1,66 @@
 {
   "metas": [
     {
-      "id": "tt3034456",
+      "id": "tt0338655",
       "type": "series",
-      "name": "The Greatest American Hero",
+      "name": "Rose and Maloney",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/177361655/s718/the-greatest-american-hero.jpg",
-      "releaseInfo": "1981",
-      "description": "The chronicles of  teacher Ralph Hinkley's adventures after a group of aliens gives him a red suit that gives him superhuman abilities. Unfortunately, Ralph, who hates wearing the suit, immediately loses its instruction booklet, and thus has to learn how to use its powers by trial and error, often with comical results.",
+      "poster": "https://images.justwatch.com/poster/309393518/s718/rose-and-maloney.jpg",
+      "releaseInfo": "2002",
+      "description": "Investigators Rose Linden and Marion Maloney, of the Criminal Justice Review Agency, take on claims of miscarriages of justice, assessing whether there are grounds to reopen old cases.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-greatest-american-hero"
+          "url": "https://justwatch.com/us/tv-show/rose-and-maloney"
         }
       ]
     },
     {
-      "id": "tt5052460",
+      "id": "tt8005176",
       "type": "series",
-      "name": "Taken",
+      "name": "The Feed",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/42255515/s718/taken.jpg",
-      "releaseInfo": "2017",
-      "description": "The origin story of younger, hungrier, former Green Beret Bryan Mills as he deals with a personal tragedy that shakes his world. As he fights to overcome the incident and exact revenge, Mills is pulled into a career as a deadly CIA operative, a job that awakens his very particular, and very dangerous, set of skills.",
+      "poster": "https://images.justwatch.com/poster/162032070/s718/the-feed-2019.jpg",
+      "releaseInfo": "2019",
+      "description": "In the near future, people’s minds are connected to The Feed, giving them instant connectivity. When something or someone invades it, everyone is at risk.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/taken"
+          "url": "https://justwatch.com/us/tv-show/the-feed-2019"
+        }
+      ]
+    },
+    {
+      "id": "tt1610527",
+      "type": "series",
+      "name": "Workaholics",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/9712454/s718/workaholics.jpg",
+      "releaseInfo": "2011",
+      "description": "The misadventures of three recent college dropouts, roommates, and co-workers at a telemarketing company and their drug dealer.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/workaholics"
+        }
+      ]
+    },
+    {
+      "id": "tt0063878",
+      "type": "series",
+      "name": "The Brady Bunch",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344498632/s718/the-brady-bunch.jpg",
+      "releaseInfo": "1969",
+      "description": "When widower Mike Brady marries a lovely lady widow Carol Ann, their two families become one. These are the misadventures of this new couple, their six children, a dog named Tiger, and quirky housekeeper Alice.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-brady-bunch"
         }
       ]
     }
