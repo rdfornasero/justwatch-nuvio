@@ -1,36 +1,3 @@
 {
-  "metas": [
-    {
-      "id": "tt0122815",
-      "type": "series",
-      "name": "Doug",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/158788588/s718/doug.jpg",
-      "releaseInfo": "1991",
-      "description": "Doug Funnie experiences common predicaments while attending school in his new hometown of Bluffington, Virginia.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/doug"
-        }
-      ]
-    },
-    {
-      "id": "tt0111893",
-      "type": "series",
-      "name": "The Beatles Anthology",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/339039712/s718/the-beatles-anthology.jpg",
-      "releaseInfo": "1995",
-      "description": "A documentary series on the career of The Beatles.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-beatles-anthology"
-        }
-      ]
-    }
-  ]
+  "metas": []
 }

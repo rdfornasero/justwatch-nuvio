@@ -1,29 +1,84 @@
 {
   "metas": [
     {
-      "id": "tt1413495",
+      "id": "tt4998632",
       "type": "movie",
-      "name": "Paranoia",
+      "name": "Ambulance",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/178536801/s718/paranoia.jpg",
-      "releaseInfo": "2013",
-      "description": "An entry-level employee at a powerful corporation finds himself occupying a corner office, but at a dangerous price—he must spy on his boss's old mentor to secure for him a multi-billion dollar advantage.",
+      "poster": "https://images.justwatch.com/poster/272780927/s718/ambulance-2022.jpg",
+      "releaseInfo": "2022",
+      "description": "Decorated veteran Will Sharp, desperate for money to cover his wife's medical bills, asks for help from his adoptive brother Danny. A charismatic career criminal, Danny instead offers him a score: the biggest bank heist in Los Angeles history: $32 million.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/paranoia"
+          "url": "https://justwatch.com/us/movie/ambulance-2022"
         }
       ]
     },
     {
-      "id": "tt39370926",
+      "id": "tt0097647",
       "type": "movie",
-      "name": "Never Surrender",
+      "name": "The Karate Kid Part III",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356370402/s718/.jpg",
-      "releaseInfo": "2026",
-      "description": "When a deadly gang descends on his remote home, a guilt-ridden veteran and the estranged grandchildren he barely knows must unite to survive."
+      "poster": "https://images.justwatch.com/poster/179298926/s718/the-karate-kid-iii.jpg",
+      "releaseInfo": "1989",
+      "description": "Despondent over the closing of his karate school, Cobra Kai teacher John Kreese joins a ruthless businessman and martial artist to get revenge on Daniel and Mr. Miyagi.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-karate-kid-iii"
+        }
+      ]
+    },
+    {
+      "id": "tt20315818",
+      "type": "movie",
+      "name": "Ezra",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/314217734/s718/inappropriate-behavior.jpg",
+      "releaseInfo": "2024",
+      "description": "Stand-up comedian Max Bernal lives with his father Stan while struggling to co-parent his autistic son Ezra with his ex-wife. When forced to confront difficult decisions about their son's future, Max and Ezra embark on a cross-country road trip that has a transcendent impact on both their lives.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/inappropriate-behavior"
+        }
+      ]
+    },
+    {
+      "id": "tt10799690",
+      "type": "movie",
+      "name": "Trap House",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/339559900/s718/trap-house-2025.jpg",
+      "releaseInfo": "2025",
+      "description": "An undercover DEA agent and his partner embark on a game of cat and mouse with an audacious, and surprising group of thieves – their own rebellious teenagers, who have begun robbing from a dangerous cartel, using their parents' tactics and top-secret intel to do it.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/trap-house-2025"
+        }
+      ]
+    },
+    {
+      "id": "tt7846844",
+      "type": "movie",
+      "name": "Enola Holmes",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/206846107/s718/enola-holmes.jpg",
+      "releaseInfo": "2020",
+      "description": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/enola-holmes"
+        }
+      ]
     }
   ]
 }

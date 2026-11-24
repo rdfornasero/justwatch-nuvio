@@ -16,21 +16,6 @@
       ]
     },
     {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/326089463/s718/yellowjackets.jpg",
-      "releaseInfo": "2021",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/yellowjackets"
-        }
-      ]
-    },
-    {
       "id": "tt9813792",
       "type": "series",
       "name": "FROM",
@@ -42,6 +27,21 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://www.justwatch.com/us/tv-show/from"
+        }
+      ]
+    },
+    {
+      "id": "tt11041332",
+      "type": "series",
+      "name": "Yellowjackets",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/326089463/s718/yellowjackets.jpg",
+      "releaseInfo": "2021",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/yellowjackets"
         }
       ]
     },
@@ -61,21 +61,6 @@
       ]
     },
     {
-      "id": "tt26598805",
-      "type": "series",
-      "name": "Nocturne",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354518072/s718/nocturne.jpg",
-      "releaseInfo": "2026",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/nocturne"
-        }
-      ]
-    },
-    {
       "id": "tt4406178",
       "type": "series",
       "name": "The Gilded Age",
@@ -91,32 +76,47 @@
       ]
     },
     {
-      "id": "tt36786185",
+      "id": "tt13875494",
       "type": "series",
-      "name": "The Altruists",
+      "name": "Tracker",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357109853/s718/the-altruists.jpg",
-      "releaseInfo": "2026",
+      "poster": "https://images.justwatch.com/poster/311327470/s718/tracker-2024.jpg",
+      "releaseInfo": "2024",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/the-altruists"
+          "url": "https://www.justwatch.com/us/tv-show/tracker-2024"
         }
       ]
     },
     {
-      "id": "tt49910378",
+      "id": "tt26598805",
       "type": "series",
-      "name": "The Circle",
+      "name": "Nocturne",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357359453/s718/the-circle-2026.jpg",
+      "poster": "https://images.justwatch.com/poster/354518072/s718/nocturne.jpg",
       "releaseInfo": "2026",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/the-circle-2026"
+          "url": "https://www.justwatch.com/us/tv-show/nocturne"
+        }
+      ]
+    },
+    {
+      "id": "tt7631058",
+      "type": "series",
+      "name": "The Lord of the Rings: The Rings of Power",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/260075695/s718/the-lord-of-the-rings-the-rings-of-power.jpg",
+      "releaseInfo": "2022",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://www.justwatch.com/us/tv-show/the-lord-of-the-rings-the-rings-of-power"
         }
       ]
     },
@@ -136,17 +136,17 @@
       ]
     },
     {
-      "id": "tt7631058",
+      "id": "tt36786185",
       "type": "series",
-      "name": "The Lord of the Rings: The Rings of Power",
+      "name": "The Altruists",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/260075695/s718/the-lord-of-the-rings-the-rings-of-power.jpg",
-      "releaseInfo": "2022",
+      "poster": "https://images.justwatch.com/poster/357109853/s718/the-altruists.jpg",
+      "releaseInfo": "2026",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://www.justwatch.com/us/tv-show/the-lord-of-the-rings-the-rings-of-power"
+          "url": "https://www.justwatch.com/us/tv-show/the-altruists"
         }
       ]
     }
