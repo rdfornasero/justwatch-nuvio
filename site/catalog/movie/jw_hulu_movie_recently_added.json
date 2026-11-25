@@ -1,34 +1,66 @@
 {
   "metas": [
     {
-      "id": "tt0112864",
+      "id": "tt6359956",
       "type": "movie",
-      "name": "Die Hard: With a Vengeance",
+      "name": "A Bad Moms Christmas",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/254224725/s718/die-hard-3.jpg",
-      "releaseInfo": "1995",
-      "description": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+      "poster": "https://images.justwatch.com/poster/18684531/s718/a-bad-moms-christmas.jpg",
+      "releaseInfo": "2017",
+      "description": "Amy, Kiki and Carla – three under-appreciated and over-burdened women – rebel against the challenges and expectations of the Super Bowl for mothers: Christmas. And if creating a more perfect holiday for their families wasn’t hard enough, they have to do all of that while hosting and entertaining their own mothers.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/die-hard-3"
+          "url": "https://justwatch.com/us/movie/a-bad-moms-christmas"
         }
       ]
     },
     {
-      "id": "tt35669125",
+      "id": "tt34902686",
       "type": "movie",
-      "name": "This Is Not a Test",
+      "name": "The Symphony of Dance",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/342003088/s718/this-is-not-a-test-2025.jpg",
+      "poster": "https://images.justwatch.com/poster/357664442/s718/the-symphony-of-dance.jpg",
       "releaseInfo": "2026",
-      "description": "Sloane and four classmates take cover in Cortege High to escape a world plagued by the infected. As danger relentlessly pounds on the doors, Sloane begins to see the world through the eyes of those who actually want to live and takes matters into her own hands.",
+      "description": "A behind-the-scenes glimpse at a marathon of performances by Dancing with the Stars’ Derek and Hayley Hough becomes something entirely different when Hayley is forced to fight for her life following a shocking health crisis.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/this-is-not-a-test-2025"
+          "url": "https://justwatch.com/us/movie/the-symphony-of-dance"
+        }
+      ]
+    },
+    {
+      "id": "tt31923069",
+      "type": "movie",
+      "name": "Springsteen: Deliver Me from Nowhere",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/332102076/s718/deliver-me-from-nowhere.jpg",
+      "releaseInfo": "2025",
+      "description": "Bruce Springsteen, a young musician on the cusp of global superstardom, struggles to reconcile the pressures of success with the ghosts of his past.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/deliver-me-from-nowhere"
+        }
+      ]
+    },
+    {
+      "id": "tt8745960",
+      "type": "movie",
+      "name": "Daniel Isn't Real",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/136114505/s718/daniel-isnt-real.jpg",
+      "releaseInfo": "2019",
+      "description": "A troubled college freshman resurrects his imaginary friend to help him cope with a violent trauma.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/daniel-isnt-real"
         }
       ]
     }

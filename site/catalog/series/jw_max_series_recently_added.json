@@ -1,23 +1,39 @@
 {
   "metas": [
     {
-      "id": "tt11041332",
+      "id": "tt14164730",
       "type": "series",
-      "name": "Yellowjackets",
+      "name": "Dexter: New Blood",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/326089463/s718/yellowjackets.jpg",
+      "poster": "https://images.justwatch.com/poster/255401511/s718/dexter-new-blood.jpg",
       "releaseInfo": "2021",
-      "description": "A wildly talented girls' high school soccer team become the unlucky survivors of a plane crash deep in the Canadian wilderness.",
+      "description": "Ten years after faking his death in Miami and moving to Upstate New York under an assumed name, Dexter gets an unexpected visit from the son he abandoned.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/yellowjackets"
+          "url": "https://justwatch.com/us/tv-show/dexter-new-blood"
         }
       ]
     },
     {
-      "id": "tt38516913",
+      "id": "tt45602692",
+      "type": "series",
+      "name": "Secret Life of a Vegas Casino",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355119632/s718/secret-life-of-a-vegas-casino.jpg",
+      "releaseInfo": "2026",
+      "description": "Real-life and often shocking moments that unfold around the clock: unruly guests, high-pressure special events and the relentless efforts required to keep thousands of people safe and entertained each day.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/secret-life-of-a-vegas-casino"
+        }
+      ]
+    },
+    {
+      "id": "tt0374463",
       "type": "series",
       "name": "The Pacific",
       "posterShape": "poster",
@@ -33,34 +49,34 @@
       ]
     },
     {
-      "id": "tt38632472",
+      "id": "tt14433222",
       "type": "series",
-      "name": "24 in 24: Last Chef Standing",
+      "name": "Unseamly: The Investigation of Peter Nygård",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/322965102/s718/24-in-24-last-chef-standing.jpg",
-      "releaseInfo": "2024",
-      "description": "Food Network's most ambitious and grueling culinary competition to date. Featuring 24 talented and fearless chefs who take on 24 food challenges in 24 consecutive, non-stop hours, the 24-hour competition takes the chefs to the extreme, demanding they display the skills, creativity and stamina needed to be an elite chef. At the end of the 24 hours, there can be only one true master left standing.",
+      "poster": "https://images.justwatch.com/poster/294823518/s718/unseamly-the-investigation-of-peter-nygard.jpg",
+      "releaseInfo": "2021",
+      "description": "An investigation into multiple allegations of sexual assault and sex trafficking brought against the fashion mogul.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/24-in-24-last-chef-standing"
+          "url": "https://justwatch.com/us/tv-show/unseamly-the-investigation-of-peter-nygard"
         }
       ]
     },
     {
-      "id": "tt32510765",
+      "id": "tt32591211",
       "type": "series",
-      "name": "The Seduction",
+      "name": "Little Disasters",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/338192325/s718/the-seduction.jpg",
+      "poster": "https://images.justwatch.com/poster/331384614/s718/little-disasters.jpg",
       "releaseInfo": "2025",
-      "description": "Marquise de Merteuil, betrayed by Valmont, embarks on a daring journey to become Paris' leading courtesan.",
+      "description": "A group of new mother friends are torn apart when one is accused of injuring her baby, fracturing their bond and nearly destroying their families.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-seduction"
+          "url": "https://justwatch.com/us/tv-show/little-disasters"
         }
       ]
     }

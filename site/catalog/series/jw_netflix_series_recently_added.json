@@ -1,18 +1,82 @@
 {
   "metas": [
     {
-      "id": "tt28118211",
+      "id": "tt5435008",
       "type": "series",
-      "name": "A Good Girl's Guide to Murder",
+      "name": "Gilmore Girls: A Year in the Life",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346235650/s718/a-good-girls-guide-to-murder.jpg",
-      "releaseInfo": "2024",
-      "description": "With cold case murders and new mysteries looming over her sleepy English town, an average teen becomes an amateur sleuth determined to uncover the truth.",
+      "poster": "https://images.justwatch.com/poster/253057133/s718/gilmore-girls-a-year-in-the-life.jpg",
+      "releaseInfo": "2016",
+      "description": "Set nearly a decade after the finale of the original series, this revival follows Lorelai, Rory and Emily Gilmore through four seasons of change.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/a-good-girls-guide-to-murder"
+          "url": "https://justwatch.com/us/tv-show/gilmore-girls-a-year-in-the-life"
+        }
+      ]
+    },
+    {
+      "id": "tt33004920",
+      "type": "series",
+      "name": "The Trials of Karen Read",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356889892/s718/the-trials-of-karen-read.jpg",
+      "releaseInfo": "2026",
+      "description": "A docuseries examining Boston cop John O'Keefe's death and girlfriend Karen Read's controversial trial for his murder. The ase ended in a hung jury in 2024, with prosecutors seeking a retrial while Read's defense aimed to dismiss charges.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-trials-of-karen-read"
+        }
+      ]
+    },
+    {
+      "id": "tt13309742",
+      "type": "series",
+      "name": "Blue Eye Samurai",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320866932/s718/blue-eye-samurai.jpg",
+      "releaseInfo": "2023",
+      "description": "In Edo-period Japan, a young warrior driven by a dream of revenge cuts a bloody path toward destiny.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/blue-eye-samurai"
+        }
+      ]
+    },
+    {
+      "id": "tt14586350",
+      "type": "series",
+      "name": "Love & Death",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/303918676/s718/love-and-death.jpg",
+      "releaseInfo": "2023",
+      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/love-and-death"
+        }
+      ]
+    },
+    {
+      "id": "tt37024136",
+      "type": "series",
+      "name": "Unfamiliar",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/353499248/s718/unfamiliar.jpg",
+      "releaseInfo": "2026",
+      "description": "Hidden in the middle of Berlin, ex-spies Simon and Meret run the safe house called \"The Nest.\" When a threat they thought was eliminated catches up with them again, they suddenly have to hide from hit men, Russian agents, the Federal Intelligence Service (BND), ex-lovers and a lot of people they have wronged—and try to keep their marriage intact at the same time.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/unfamiliar"
         }
       ]
     }

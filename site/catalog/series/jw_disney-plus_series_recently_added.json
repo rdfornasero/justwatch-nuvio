@@ -1,3 +1,116 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt0101084",
+      "type": "series",
+      "name": "Doug",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/158788588/s718/doug.jpg",
+      "releaseInfo": "1991",
+      "description": "Doug Funnie experiences common predicaments while attending school in his new hometown of Bluffington, Virginia.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/doug"
+        }
+      ]
+    },
+    {
+      "id": "tt5568740",
+      "type": "series",
+      "name": "MECH-X4",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/274974772/s718/mech-x4.jpg",
+      "releaseInfo": "2016",
+      "description": "Ryan Walker mysteriously awakens MECH-X4, a giant robot built to defend Bay City against impending doom. When monsters begin to descend, Ryan recruits his two best friends and his brother to help pilot the robot that is their only hope of saving their town from mass destruction.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/mech-x4"
+        }
+      ]
+    },
+    {
+      "id": "tt8328608",
+      "type": "series",
+      "name": "Arranged",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302743592/s718/arranged.jpg",
+      "releaseInfo": "2016",
+      "description": "Viewers follow couples from different backgrounds that have one thing in common – the belief in arranged marriages. From a young Jewish modern Orthodox couple in New York City, to a southern couple from Texas, to a couple raised by traditional East Indian parents living in California – each have a unique journey to marriage.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/arranged"
+        }
+      ]
+    },
+    {
+      "id": "tt9179892",
+      "type": "series",
+      "name": "Ugly Betty",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/241512940/s718/ugly-betty.jpg",
+      "releaseInfo": "2006",
+      "description": "Wannabe writer Betty Suarez is a plain girl from Queens, who is smart, hardworking and savvy but lacks a fashionable sense of style. When publishing mogul Bradford Meade puts his son Daniel in charge of Mode magazine, he hires Betty to be Daniel's new assistant -- mostly because he knows that she may be the only woman in Manhattan with whom the younger man won't sleep.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ugly-betty"
+        }
+      ]
+    },
+    {
+      "id": "tt32360916",
+      "type": "series",
+      "name": "Breslau",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/335735924/s718/the-breslau-murders.jpg",
+      "releaseInfo": "2025",
+      "description": "Police officer Franz Podolsky investigates a horrifying murder.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-breslau-murders"
+        }
+      ]
+    },
+    {
+      "id": "tt15118926",
+      "type": "series",
+      "name": "Disney Presents Goofy in How to Stay at Home",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/249537133/s718/how-to-stay-at-home.jpg",
+      "releaseInfo": "2021",
+      "description": "Leave it to Goofy to find the fun in staying home!",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/how-to-stay-at-home"
+        }
+      ]
+    },
+    {
+      "id": "tt8390274",
+      "type": "series",
+      "name": "Hostile Planet",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/301084283/s718/hostile-planet.jpg",
+      "releaseInfo": "2019",
+      "description": "This six part documentary draws attention to the most extraordinary — almost supernatural — accounts of animals that have adapted to the cruelest evolutionary curveballs.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/hostile-planet"
+        }
+      ]
+    }
+  ]
 }

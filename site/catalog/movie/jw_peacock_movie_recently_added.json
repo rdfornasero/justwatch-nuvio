@@ -1,34 +1,66 @@
 {
   "metas": [
     {
-      "id": "tt4411618",
+      "id": "tt0295297",
       "type": "movie",
-      "name": "In Dubious Battle",
+      "name": "Harry Potter and the Chamber of Secrets",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/124575678/s718/in-dubious-battle.jpg",
-      "releaseInfo": "2016",
-      "description": "In the California apple country, 900 migratory workers rise 'in dubious battle' against the landowners. The group takes on a life of its own—stronger than its individual members, and more frightening. Led by the doomed Jim Nolan, the strike is founded on his tragic idealism—'courage, never submit, or yield'.",
+      "poster": "https://images.justwatch.com/poster/8706746/s718/harry-potter-and-the-chamber-of-secrets.jpg",
+      "releaseInfo": "2002",
+      "description": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione's magical abilities and courage.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/in-dubious-battle"
+          "url": "https://justwatch.com/us/movie/harry-potter-and-the-chamber-of-secrets"
         }
       ]
     },
     {
-      "id": "tt1935090",
+      "id": "tt2205697",
       "type": "movie",
-      "name": "These Final Hours",
+      "name": "Stuck in Love",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/250191011/s718/these-final-hours.jpg",
-      "releaseInfo": "2014",
-      "description": "With the end of the world only hours away, self-absorbed James heads to the ultimate party-to-end-all-parties. On his way there, he saves the life of a young girl named Rose who is searching desperately for her missing father. This simple act sets James on a path to redemption.",
+      "poster": "https://images.justwatch.com/poster/254317143/s718/stuck-in-love.jpg",
+      "releaseInfo": "2013",
+      "description": "An acclaimed writer, his ex-wife, and their teenaged children come to terms with the complexities of love in all its forms over the course of one tumultuous year.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/these-final-hours"
+          "url": "https://justwatch.com/us/movie/stuck-in-love"
+        }
+      ]
+    },
+    {
+      "id": "tt0117372",
+      "type": "movie",
+      "name": "The Preacher's Wife",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/9810054/s718/the-preachers-wife.jpg",
+      "releaseInfo": "1996",
+      "description": "Good-natured Reverend Henry Biggs finds that his marriage to choir mistress Julia is flagging, due to his constant absence caring for the deprived neighborhood they live in. On top of all this, his church is coming under threat from property developer Joe Hamilton. In desperation, Biggs prays to God for help – which arrives in the form of an angel named Dudley.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-preachers-wife"
+        }
+      ]
+    },
+    {
+      "id": "tt0454919",
+      "type": "movie",
+      "name": "Pulse",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/267532738/s718/pulse-2006.jpg",
+      "releaseInfo": "2006",
+      "description": "When the dead discover a means to contact the living through electronic devices, cellphones and computers become open gateways to monstrosities and destruction.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/pulse-2006"
         }
       ]
     }

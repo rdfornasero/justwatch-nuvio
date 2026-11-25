@@ -1,34 +1,114 @@
 {
   "metas": [
     {
-      "id": "tt32125269",
+      "id": "tt18224594",
       "type": "series",
-      "name": "Beyond the Gates",
+      "name": "Blade Runner 2099",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/324606637/s718/beyond-the-gates.jpg",
-      "releaseInfo": "2025",
-      "description": "A powerful and prestigious family reigns over a posh gated community with juicy secrets and scandals waiting to be uncovered.",
+      "poster": "https://images.justwatch.com/poster/347616853/s718/blade-runner-2099.jpg",
+      "releaseInfo": "2026",
+      "description": "Takes place fifty years after the events of \"Blade Runner 2049.\"",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/beyond-the-gates"
+          "url": "https://justwatch.com/us/tv-show/blade-runner-2099"
         }
       ]
     },
     {
-      "id": "tt0058812",
+      "id": "tt1628033",
       "type": "series",
-      "name": "Hogan's Heroes",
+      "name": "Top Gear",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/256350735/s718/hogans-heroes.jpg",
-      "releaseInfo": "1965",
-      "description": "From a German prisoner of war camp during World War II, Colonel Robert E. Hogan coordinates an international crew of Allied prisoners running a Special Operations group.",
+      "poster": "https://images.justwatch.com/poster/8607935/s718/top-gear.jpg",
+      "releaseInfo": "2002",
+      "description": "The hosts talk about everything car-related. From new cars to how they're fueled, this show has it all.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/hogans-heroes"
+          "url": "https://justwatch.com/us/tv-show/top-gear"
+        }
+      ]
+    },
+    {
+      "id": "tt0865856",
+      "type": "series",
+      "name": "VeggieTales",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/327533755/s718/veggietales.jpg",
+      "releaseInfo": "1993",
+      "description": "American series of children's computer-animated episodes featuring anthropomorphic vegetables in stories conveying moral themes based on Christianity. They frequently retell Biblical stories, sometimes anachronistically reframed, and include humorous references to pop culture in many different eras by putting Veggie spins on them.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/veggietales"
+        }
+      ]
+    },
+    {
+      "id": "tt0348913",
+      "type": "series",
+      "name": "Dead Like Me",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354587758/s718/dead-like-me.jpg",
+      "releaseInfo": "2003",
+      "description": "When her life comes to an abrupt end, George discovers that death is nothing like she thought it would be. Recruited to collect the souls of others as they die, she suddenly finds herself an unwilling participant in a line of work she never knew existed: Grim Reaping!",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/dead-like-me"
+        }
+      ]
+    },
+    {
+      "id": "tt0086815",
+      "type": "series",
+      "name": "Thomas & Friends",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322347835/s718/thomas-and-friends.jpg",
+      "releaseInfo": "1984",
+      "description": "Thomas & Friends is a British children's television series, which had its first broadcast on the ITV network on 4 September 1984. It is based on The Railway Series of books by the Reverend Wilbert Awdry and his son, Christopher Awdry. These books deal with the adventures of a group of anthropomorphised locomotives and road vehicles who live on the fictional Island of Sodor. The books were based on stories Wilbert told to entertain his son, Christopher during his recovery from measles. From Series one to four, many of the stories are based on events from Awdry's personal experience.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/thomas-and-friends"
+        }
+      ]
+    },
+    {
+      "id": "tt6249614",
+      "type": "series",
+      "name": "Escape to the Chateau",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/239668802/s718/escape-to-the-chateau.jpg",
+      "releaseInfo": "2016",
+      "description": "Dick Strawbridge and his partner (subsequently wife) Angel Adoree swap their two-bed flat in Essex for an abandoned French chateau. Can they bring its 45 rooms and acres of land back to life?",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/escape-to-the-chateau"
+        }
+      ]
+    },
+    {
+      "id": "tt0081871",
+      "type": "series",
+      "name": "The Greatest American Hero",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/177361655/s718/the-greatest-american-hero.jpg",
+      "releaseInfo": "1981",
+      "description": "The chronicles of  teacher Ralph Hinkley's adventures after a group of aliens gives him a red suit that gives him superhuman abilities. Unfortunately, Ralph, who hates wearing the suit, immediately loses its instruction booklet, and thus has to learn how to use its powers by trial and error, often with comical results.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-greatest-american-hero"
         }
       ]
     }
