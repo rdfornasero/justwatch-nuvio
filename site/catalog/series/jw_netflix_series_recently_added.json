@@ -1,82 +1,82 @@
 {
   "metas": [
     {
-      "id": "tt5435008",
+      "id": "tt0299380",
       "type": "series",
-      "name": "Gilmore Girls: A Year in the Life",
+      "name": "Sesame Street",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/253057133/s718/gilmore-girls-a-year-in-the-life.jpg",
-      "releaseInfo": "2016",
-      "description": "Set nearly a decade after the finale of the original series, this revival follows Lorelai, Rory and Emily Gilmore through four seasons of change.",
+      "poster": "https://images.justwatch.com/poster/338520684/s718/sesame-street.jpg",
+      "releaseInfo": "1969",
+      "description": "On a special inner city street, the inhabitants—human and muppet—teach preschoolers basic educational and social concepts using comedy, cartoons, games, and songs.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/gilmore-girls-a-year-in-the-life"
+          "url": "https://justwatch.com/us/tv-show/sesame-street"
         }
       ]
     },
     {
-      "id": "tt33004920",
+      "id": "tt43580342",
       "type": "series",
-      "name": "The Trials of Karen Read",
+      "name": "Power Rangers",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356889892/s718/the-trials-of-karen-read.jpg",
+      "poster": "https://images.justwatch.com/poster/272248864/s718/power-rangers.jpg",
+      "releaseInfo": "1993",
+      "description": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/power-rangers"
+        }
+      ]
+    },
+    {
+      "id": "tt36366031",
+      "type": "series",
+      "name": "A Different World",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355071042/s718/a-different-world-1.jpg",
       "releaseInfo": "2026",
-      "description": "A docuseries examining Boston cop John O'Keefe's death and girlfriend Karen Read's controversial trial for his murder. The ase ended in a hung jury in 2024, with prosecutors seeking a retrial while Read's defense aimed to dismiss charges.",
+      "description": "Follows Deborah Wayne as she enters her freshman year at Hillman College, her parents' HBCU alma mater, where she must escape their shadow and build her own legacy.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-trials-of-karen-read"
+          "url": "https://justwatch.com/us/tv-show/a-different-world-1"
         }
       ]
     },
     {
-      "id": "tt13309742",
+      "id": "tt38336631",
       "type": "series",
-      "name": "Blue Eye Samurai",
+      "name": "The Blue Road",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320866932/s718/blue-eye-samurai.jpg",
-      "releaseInfo": "2023",
-      "description": "In Edo-period Japan, a young warrior driven by a dream of revenge cuts a bloody path toward destiny.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/blue-eye-samurai"
-        }
-      ]
-    },
-    {
-      "id": "tt14586350",
-      "type": "series",
-      "name": "Love & Death",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/303918676/s718/love-and-death.jpg",
-      "releaseInfo": "2023",
-      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/love-and-death"
-        }
-      ]
-    },
-    {
-      "id": "tt37024136",
-      "type": "series",
-      "name": "Unfamiliar",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/353499248/s718/unfamiliar.jpg",
+      "poster": "https://images.justwatch.com/poster/356946101/s718/the-blue-road.jpg",
       "releaseInfo": "2026",
-      "description": "Hidden in the middle of Berlin, ex-spies Simon and Meret run the safe house called \"The Nest.\" When a threat they thought was eliminated catches up with them again, they suddenly have to hide from hit men, Russian agents, the Federal Intelligence Service (BND), ex-lovers and a lot of people they have wronged—and try to keep their marriage intact at the same time.",
+      "description": "Two detectives join forces when brutal murders and cryptic messages surface across borders — but the deadly truth lurks dangerously close.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/unfamiliar"
+          "url": "https://justwatch.com/us/tv-show/the-blue-road"
+        }
+      ]
+    },
+    {
+      "id": "tt1780441",
+      "type": "series",
+      "name": "Portlandia",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/39746723/s718/portlandia.jpg",
+      "releaseInfo": "2011",
+      "description": "Satirical sketch comedy set and filmed in Portland, Oregon that explores the eccentric misfits who embody the foibles of modern culture.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/portlandia"
         }
       ]
     }

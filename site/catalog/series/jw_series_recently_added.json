@@ -1,6 +1,246 @@
 {
   "metas": [
     {
+      "id": "tt0299380",
+      "type": "series",
+      "name": "Sesame Street",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338520684/s718/sesame-street.jpg",
+      "releaseInfo": "1969",
+      "description": "On a special inner city street, the inhabitants—human and muppet—teach preschoolers basic educational and social concepts using comedy, cartoons, games, and songs.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/sesame-street"
+        }
+      ]
+    },
+    {
+      "id": "tt43580342",
+      "type": "series",
+      "name": "Power Rangers",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/272248864/s718/power-rangers.jpg",
+      "releaseInfo": "1993",
+      "description": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/power-rangers"
+        }
+      ]
+    },
+    {
+      "id": "tt36366031",
+      "type": "series",
+      "name": "A Different World",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355071042/s718/a-different-world-1.jpg",
+      "releaseInfo": "2026",
+      "description": "Follows Deborah Wayne as she enters her freshman year at Hillman College, her parents' HBCU alma mater, where she must escape their shadow and build her own legacy.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/a-different-world-1"
+        }
+      ]
+    },
+    {
+      "id": "tt38336631",
+      "type": "series",
+      "name": "The Blue Road",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356946101/s718/the-blue-road.jpg",
+      "releaseInfo": "2026",
+      "description": "Two detectives join forces when brutal murders and cryptic messages surface across borders — but the deadly truth lurks dangerously close.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-blue-road"
+        }
+      ]
+    },
+    {
+      "id": "tt1780441",
+      "type": "series",
+      "name": "Portlandia",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/39746723/s718/portlandia.jpg",
+      "releaseInfo": "2011",
+      "description": "Satirical sketch comedy set and filmed in Portland, Oregon that explores the eccentric misfits who embody the foibles of modern culture.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/portlandia"
+        }
+      ]
+    },
+    {
+      "id": "tt2372220",
+      "type": "series",
+      "name": "The White Queen",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/177100970/s718/the-white-queen.jpg",
+      "releaseInfo": "2013",
+      "description": "Three different, yet equally relentless women vie for the throne in 15th-century England.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-white-queen"
+        }
+      ]
+    },
+    {
+      "id": "tt14321632",
+      "type": "series",
+      "name": "All the Queen's Men",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/349480484/s718/all-the-queens-men.jpg",
+      "releaseInfo": "2021",
+      "description": "A drug lady that rules a tight house and will kill or have someone slaughtered without getting her hands dirty.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/all-the-queens-men"
+        }
+      ]
+    },
+    {
+      "id": "tt41006143",
+      "type": "series",
+      "name": "Thomas & Friends",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/322347835/s718/thomas-and-friends.jpg",
+      "releaseInfo": "1984",
+      "description": "Thomas & Friends is a British children's television series, which had its first broadcast on the ITV network on 4 September 1984. It is based on The Railway Series of books by the Reverend Wilbert Awdry and his son, Christopher Awdry. These books deal with the adventures of a group of anthropomorphised locomotives and road vehicles who live on the fictional Island of Sodor. The books were based on stories Wilbert told to entertain his son, Christopher during his recovery from measles. From Series one to four, many of the stories are based on events from Awdry's personal experience.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/thomas-and-friends"
+        }
+      ]
+    },
+    {
+      "id": "tt30955673",
+      "type": "series",
+      "name": "House of David",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/343138027/s718/house-of-david.jpg",
+      "releaseInfo": "2025",
+      "description": "Tells the story of the ascent of the biblical figure, David, who becomes the most celebrated king of Israel. The series follows the once-mighty King Saul as he falls victim to his own pride. At the direction of God, the prophet Samuel anoints an unlikely, outcast teenager as the new king.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/house-of-david"
+        }
+      ]
+    },
+    {
+      "id": "tt4687880",
+      "type": "series",
+      "name": "Goliath",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/249913516/s718/goliath.jpg",
+      "releaseInfo": "2016",
+      "description": "Once a powerful lawyer, Billy McBride is now burned out and washed up, spending more time in a bar than a courtroom. When he reluctantly agrees to pursue a wrongful death lawsuit against the biggest client of Cooperman & McBride, the massive law firm he helped create, Billy and his ragtag team uncover a vast and deadly conspiracy, pitting them all in a life or death trial against the ultimate Goliath.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/goliath"
+        }
+      ]
+    },
+    {
+      "id": "tt1303337",
+      "type": "series",
+      "name": "Deadly Women",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/81769899/s718/deadly-women.jpg",
+      "releaseInfo": "2005",
+      "description": "This compelling series investigates the motives and m.o. of female murderers. While males are often driven by anger, impulse and destruction, women usually have more complex, long-term reasons to kill.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/deadly-women"
+        }
+      ]
+    },
+    {
+      "id": "tt0874936",
+      "type": "series",
+      "name": "Life",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/182493334/s718/life-2007.jpg",
+      "releaseInfo": "2007",
+      "description": "Complex, offbeat Detective Charlie Crews returns to the force after serving time in prison for a crime he didn't commit. Crews' new lease on life has provided him with a Zen-like outlook, peace of mind and no need for vengeance, an attitude which can be challenging to maintain when someone he cares about is threatened — or when he is investigating the mystery surrounding the murder he was falsely accused of.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/life-2007"
+        }
+      ]
+    },
+    {
+      "id": "tt39150449",
+      "type": "series",
+      "name": "The Beatles Anthology",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/339039712/s718/the-beatles-anthology.jpg",
+      "releaseInfo": "1995",
+      "description": "A documentary series on the career of The Beatles.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-beatles-anthology"
+        }
+      ]
+    },
+    {
+      "id": "tt0805669",
+      "type": "series",
+      "name": "Ugly Betty",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/241512940/s718/ugly-betty.jpg",
+      "releaseInfo": "2006",
+      "description": "Wannabe writer Betty Suarez is a plain girl from Queens, who is smart, hardworking and savvy but lacks a fashionable sense of style. When publishing mogul Bradford Meade puts his son Daniel in charge of Mode magazine, he hires Betty to be Daniel's new assistant -- mostly because he knows that she may be the only woman in Manhattan with whom the younger man won't sleep.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ugly-betty"
+        }
+      ]
+    },
+    {
+      "id": "tt1694423",
+      "type": "series",
+      "name": "MasterChef",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320017611/s718/masterchef.jpg",
+      "releaseInfo": "2010",
+      "description": "This hit cooking competition series sees award-winning chef Gordon Ramsay and other celebrity chefs put a group of contestants through a series of challenges and elimination rounds, in order to turn one home cook into a culinary master.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/masterchef"
+        }
+      ]
+    },
+    {
       "id": "tt5435008",
       "type": "series",
       "name": "Gilmore Girls: A Year in the Life",
@@ -17,434 +257,130 @@
       ]
     },
     {
-      "id": "tt33004920",
+      "id": "tt0383126",
       "type": "series",
-      "name": "The Trials of Karen Read",
+      "name": "MythBusters",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356889892/s718/the-trials-of-karen-read.jpg",
-      "releaseInfo": "2026",
-      "description": "A docuseries examining Boston cop John O'Keefe's death and girlfriend Karen Read's controversial trial for his murder. The ase ended in a hung jury in 2024, with prosecutors seeking a retrial while Read's defense aimed to dismiss charges.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-trials-of-karen-read"
-        }
-      ]
-    },
-    {
-      "id": "tt13309742",
-      "type": "series",
-      "name": "Blue Eye Samurai",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320866932/s718/blue-eye-samurai.jpg",
-      "releaseInfo": "2023",
-      "description": "In Edo-period Japan, a young warrior driven by a dream of revenge cuts a bloody path toward destiny.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/blue-eye-samurai"
-        }
-      ]
-    },
-    {
-      "id": "tt14586350",
-      "type": "series",
-      "name": "Love & Death",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/303918676/s718/love-and-death.jpg",
-      "releaseInfo": "2023",
-      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/love-and-death"
-        }
-      ]
-    },
-    {
-      "id": "tt37024136",
-      "type": "series",
-      "name": "Unfamiliar",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/353499248/s718/unfamiliar.jpg",
-      "releaseInfo": "2026",
-      "description": "Hidden in the middle of Berlin, ex-spies Simon and Meret run the safe house called \"The Nest.\" When a threat they thought was eliminated catches up with them again, they suddenly have to hide from hit men, Russian agents, the Federal Intelligence Service (BND), ex-lovers and a lot of people they have wronged—and try to keep their marriage intact at the same time.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/unfamiliar"
-        }
-      ]
-    },
-    {
-      "id": "tt18224594",
-      "type": "series",
-      "name": "Blade Runner 2099",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347616853/s718/blade-runner-2099.jpg",
-      "releaseInfo": "2026",
-      "description": "Takes place fifty years after the events of \"Blade Runner 2049.\"",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/blade-runner-2099"
-        }
-      ]
-    },
-    {
-      "id": "tt1628033",
-      "type": "series",
-      "name": "Top Gear",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/8607935/s718/top-gear.jpg",
-      "releaseInfo": "2002",
-      "description": "The hosts talk about everything car-related. From new cars to how they're fueled, this show has it all.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/top-gear"
-        }
-      ]
-    },
-    {
-      "id": "tt0865856",
-      "type": "series",
-      "name": "VeggieTales",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/327533755/s718/veggietales.jpg",
-      "releaseInfo": "1993",
-      "description": "American series of children's computer-animated episodes featuring anthropomorphic vegetables in stories conveying moral themes based on Christianity. They frequently retell Biblical stories, sometimes anachronistically reframed, and include humorous references to pop culture in many different eras by putting Veggie spins on them.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/veggietales"
-        }
-      ]
-    },
-    {
-      "id": "tt0348913",
-      "type": "series",
-      "name": "Dead Like Me",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354587758/s718/dead-like-me.jpg",
+      "poster": "https://images.justwatch.com/poster/180955319/s718/mythbusters.jpg",
       "releaseInfo": "2003",
-      "description": "When her life comes to an abrupt end, George discovers that death is nothing like she thought it would be. Recruited to collect the souls of others as they die, she suddenly finds herself an unwilling participant in a line of work she never knew existed: Grim Reaping!",
+      "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dead-like-me"
+          "url": "https://justwatch.com/us/tv-show/mythbusters"
         }
       ]
     },
     {
-      "id": "tt0086815",
+      "id": "tt7491982",
       "type": "series",
-      "name": "Thomas & Friends",
+      "name": "FBI",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/322347835/s718/thomas-and-friends.jpg",
-      "releaseInfo": "1984",
-      "description": "Thomas & Friends is a British children's television series, which had its first broadcast on the ITV network on 4 September 1984. It is based on The Railway Series of books by the Reverend Wilbert Awdry and his son, Christopher Awdry. These books deal with the adventures of a group of anthropomorphised locomotives and road vehicles who live on the fictional Island of Sodor. The books were based on stories Wilbert told to entertain his son, Christopher during his recovery from measles. From Series one to four, many of the stories are based on events from Awdry's personal experience.",
+      "poster": "https://images.justwatch.com/poster/336810596/s718/fbi.jpg",
+      "releaseInfo": "2018",
+      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/thomas-and-friends"
+          "url": "https://justwatch.com/us/tv-show/fbi"
         }
       ]
     },
     {
-      "id": "tt6249614",
+      "id": "tt4270492",
       "type": "series",
-      "name": "Escape to the Chateau",
+      "name": "Billions",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/239668802/s718/escape-to-the-chateau.jpg",
+      "poster": "https://images.justwatch.com/poster/258685860/s718/billions.jpg",
       "releaseInfo": "2016",
-      "description": "Dick Strawbridge and his partner (subsequently wife) Angel Adoree swap their two-bed flat in Essex for an abandoned French chateau. Can they bring its 45 rooms and acres of land back to life?",
+      "description": "Shrewd, savvy U.S. Attorney Chuck Rhoades and the brilliant, ambitious hedge fund king Bobby \"Axe\" Axelrod are on an explosive collision course, with each using all of his considerable smarts, power and influence to outmaneuver the other. The stakes are in the billions in this timely, provocative series.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/escape-to-the-chateau"
+          "url": "https://justwatch.com/us/tv-show/billions"
         }
       ]
     },
     {
-      "id": "tt0081871",
+      "id": "tt0344651",
       "type": "series",
-      "name": "The Greatest American Hero",
+      "name": "Good Eats",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/177361655/s718/the-greatest-american-hero.jpg",
-      "releaseInfo": "1981",
-      "description": "The chronicles of  teacher Ralph Hinkley's adventures after a group of aliens gives him a red suit that gives him superhuman abilities. Unfortunately, Ralph, who hates wearing the suit, immediately loses its instruction booklet, and thus has to learn how to use its powers by trial and error, often with comical results.",
+      "poster": "https://images.justwatch.com/poster/242839316/s718/good-eats.jpg",
+      "releaseInfo": "1999",
+      "description": "Host Alton Brown explores the origins of ingredients, decodes culinary customs and presents food and equipment trends. Punctuated by unusual interludes, simple preparations and unconventional discussions, he'll bring you food in its finest and funniest form.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-greatest-american-hero"
+          "url": "https://justwatch.com/us/tv-show/good-eats"
         }
       ]
     },
     {
-      "id": "tt0101084",
+      "id": "tt42934023",
       "type": "series",
-      "name": "Doug",
+      "name": "Mystery Science Theater 3000",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/158788588/s718/doug.jpg",
-      "releaseInfo": "1991",
-      "description": "Doug Funnie experiences common predicaments while attending school in his new hometown of Bluffington, Virginia.",
+      "poster": "https://images.justwatch.com/poster/311426541/s718/mystery-science-theater-3000.jpg",
+      "releaseInfo": "1989",
+      "description": "A stranded spaceship pilot captured by mad scientists survives a blitz of cheesy B movies by riffing on them with his funny robot pals.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/doug"
+          "url": "https://justwatch.com/us/tv-show/mystery-science-theater-3000"
         }
       ]
     },
     {
-      "id": "tt5568740",
+      "id": "tt0094469",
       "type": "series",
-      "name": "MECH-X4",
+      "name": "Garfield and Friends",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/274974772/s718/mech-x4.jpg",
-      "releaseInfo": "2016",
-      "description": "Ryan Walker mysteriously awakens MECH-X4, a giant robot built to defend Bay City against impending doom. When monsters begin to descend, Ryan recruits his two best friends and his brother to help pilot the robot that is their only hope of saving their town from mass destruction.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/mech-x4"
-        }
-      ]
-    },
-    {
-      "id": "tt8328608",
-      "type": "series",
-      "name": "Arranged",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302743592/s718/arranged.jpg",
-      "releaseInfo": "2016",
-      "description": "Viewers follow couples from different backgrounds that have one thing in common – the belief in arranged marriages. From a young Jewish modern Orthodox couple in New York City, to a southern couple from Texas, to a couple raised by traditional East Indian parents living in California – each have a unique journey to marriage.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/arranged"
-        }
-      ]
-    },
-    {
-      "id": "tt9179892",
-      "type": "series",
-      "name": "Ugly Betty",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/241512940/s718/ugly-betty.jpg",
-      "releaseInfo": "2006",
-      "description": "Wannabe writer Betty Suarez is a plain girl from Queens, who is smart, hardworking and savvy but lacks a fashionable sense of style. When publishing mogul Bradford Meade puts his son Daniel in charge of Mode magazine, he hires Betty to be Daniel's new assistant -- mostly because he knows that she may be the only woman in Manhattan with whom the younger man won't sleep.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ugly-betty"
-        }
-      ]
-    },
-    {
-      "id": "tt32360916",
-      "type": "series",
-      "name": "Breslau",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/335735924/s718/the-breslau-murders.jpg",
-      "releaseInfo": "2025",
-      "description": "Police officer Franz Podolsky investigates a horrifying murder.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-breslau-murders"
-        }
-      ]
-    },
-    {
-      "id": "tt15118926",
-      "type": "series",
-      "name": "Disney Presents Goofy in How to Stay at Home",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/249537133/s718/how-to-stay-at-home.jpg",
-      "releaseInfo": "2021",
-      "description": "Leave it to Goofy to find the fun in staying home!",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/how-to-stay-at-home"
-        }
-      ]
-    },
-    {
-      "id": "tt8390274",
-      "type": "series",
-      "name": "Hostile Planet",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/301084283/s718/hostile-planet.jpg",
-      "releaseInfo": "2019",
-      "description": "This six part documentary draws attention to the most extraordinary — almost supernatural — accounts of animals that have adapted to the cruelest evolutionary curveballs.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/hostile-planet"
-        }
-      ]
-    },
-    {
-      "id": "tt0094582",
-      "type": "series",
-      "name": "The Wonder Years",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/16048808/s718/the-wonder-years.jpg",
+      "poster": "https://images.justwatch.com/poster/164989714/s718/garfield-and-friends.jpg",
       "releaseInfo": "1988",
-      "description": "The story of Kevin Arnold facing the trials and tribulations of youth while growing up during the 1960s and 70s. Told through narration from an adult Kevin, Kevin faces the difficulties of maintaining relationships and friendships on his enthralling journey into adulthood.",
+      "description": "The animated stories of Garfield the cat, Odie the dog, their owner Jon and the trouble they get into. And also Orson the Pig and his adventures on a farm with his fellow farm animals.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-wonder-years"
+          "url": "https://justwatch.com/us/tv-show/garfield-and-friends"
         }
       ]
     },
     {
-      "id": "tt1409055",
+      "id": "tt5159916",
       "type": "series",
-      "name": "Dragon Ball Z Kai",
+      "name": "Thirteen",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/212863209/s718/dragon-ball-z-kai.jpg",
-      "releaseInfo": "2009",
-      "description": "Rejoin Goku and his friends in a series of cosmic battles! Toei has redubbed, recut, and cleaned up the animation of the original 1989 animated series. The show's story arc has been refined to better follow the comic book series on which it is based. The show also features a new opening and ending. In the series, martial artist Goku, and his various friends, battle increasingly powerful enemies to defend the world against evil. Can Earth's defender defeat demons, aliens, and other villains?",
+      "poster": "https://images.justwatch.com/poster/190121090/s718/thirteen.jpg",
+      "releaseInfo": "2016",
+      "description": "A 26-year-old woman learns to live again after 13 years in captivity.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dragon-ball-z-kai"
+          "url": "https://justwatch.com/us/tv-show/thirteen"
         }
       ]
     },
     {
-      "id": "tt1643266",
+      "id": "tt12204332",
       "type": "series",
-      "name": "Ancient Aliens",
+      "name": "Go On",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320936797/s718/ancient-aliens.jpg",
-      "releaseInfo": "2009",
-      "description": "Science and mythology - and how they are the same thing.",
+      "poster": "https://images.justwatch.com/poster/285772874/s718/go-on.jpg",
+      "releaseInfo": "2012",
+      "description": "Ryan King, a recent widower and sports talk radio host ready to get back to work after the loss of his wife. Ryan's alpha-male boss, Stephen, has a different plan in store for Ryan, making him attend grief counseling before returning to the air. A reluctant Ryan finds himself in a support group for \"life change,\" where he meets an oddball cast of characters, all with their own backstories filled with varying degrees of loss.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ancient-aliens"
-        }
-      ]
-    },
-    {
-      "id": "tt14164730",
-      "type": "series",
-      "name": "Dexter: New Blood",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/255401511/s718/dexter-new-blood.jpg",
-      "releaseInfo": "2021",
-      "description": "Ten years after faking his death in Miami and moving to Upstate New York under an assumed name, Dexter gets an unexpected visit from the son he abandoned.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dexter-new-blood"
-        }
-      ]
-    },
-    {
-      "id": "tt45602692",
-      "type": "series",
-      "name": "Secret Life of a Vegas Casino",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355119632/s718/secret-life-of-a-vegas-casino.jpg",
-      "releaseInfo": "2026",
-      "description": "Real-life and often shocking moments that unfold around the clock: unruly guests, high-pressure special events and the relentless efforts required to keep thousands of people safe and entertained each day.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/secret-life-of-a-vegas-casino"
-        }
-      ]
-    },
-    {
-      "id": "tt0374463",
-      "type": "series",
-      "name": "The Pacific",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176974986/s718/the-pacific.jpg",
-      "releaseInfo": "2010",
-      "description": "Track the intertwined real-life stories of three U.S. Marines – Robert Leckie, John Basilone, and Eugene Sledge – across the vast canvas of the Pacific Theater during World War II. A companion piece to the 2001 miniseries Band of Brothers.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-pacific"
-        }
-      ]
-    },
-    {
-      "id": "tt14433222",
-      "type": "series",
-      "name": "Unseamly: The Investigation of Peter Nygård",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/294823518/s718/unseamly-the-investigation-of-peter-nygard.jpg",
-      "releaseInfo": "2021",
-      "description": "An investigation into multiple allegations of sexual assault and sex trafficking brought against the fashion mogul.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/unseamly-the-investigation-of-peter-nygard"
-        }
-      ]
-    },
-    {
-      "id": "tt32591211",
-      "type": "series",
-      "name": "Little Disasters",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/331384614/s718/little-disasters.jpg",
-      "releaseInfo": "2025",
-      "description": "A group of new mother friends are torn apart when one is accused of injuring her baby, fracturing their bond and nearly destroying their families.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/little-disasters"
-        }
-      ]
-    },
-    {
-      "id": "tt24851318",
-      "type": "series",
-      "name": "Germany Shore",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/327153228/s718/germany-shore.jpg",
-      "releaseInfo": "2021",
-      "description": "Reality Shore is the first Swiss and German spin-off of the MTV series Jersey Shore.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/germany-shore"
+          "url": "https://justwatch.com/us/tv-show/go-on"
         }
       ]
     }

@@ -1,50 +1,66 @@
 {
   "metas": [
     {
-      "id": "tt0094582",
+      "id": "tt1694423",
       "type": "series",
-      "name": "The Wonder Years",
+      "name": "MasterChef",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/16048808/s718/the-wonder-years.jpg",
-      "releaseInfo": "1988",
-      "description": "The story of Kevin Arnold facing the trials and tribulations of youth while growing up during the 1960s and 70s. Told through narration from an adult Kevin, Kevin faces the difficulties of maintaining relationships and friendships on his enthralling journey into adulthood.",
+      "poster": "https://images.justwatch.com/poster/320017611/s718/masterchef.jpg",
+      "releaseInfo": "2010",
+      "description": "This hit cooking competition series sees award-winning chef Gordon Ramsay and other celebrity chefs put a group of contestants through a series of challenges and elimination rounds, in order to turn one home cook into a culinary master.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-wonder-years"
+          "url": "https://justwatch.com/us/tv-show/masterchef"
         }
       ]
     },
     {
-      "id": "tt1409055",
+      "id": "tt5435008",
       "type": "series",
-      "name": "Dragon Ball Z Kai",
+      "name": "Gilmore Girls: A Year in the Life",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/212863209/s718/dragon-ball-z-kai.jpg",
-      "releaseInfo": "2009",
-      "description": "Rejoin Goku and his friends in a series of cosmic battles! Toei has redubbed, recut, and cleaned up the animation of the original 1989 animated series. The show's story arc has been refined to better follow the comic book series on which it is based. The show also features a new opening and ending. In the series, martial artist Goku, and his various friends, battle increasingly powerful enemies to defend the world against evil. Can Earth's defender defeat demons, aliens, and other villains?",
+      "poster": "https://images.justwatch.com/poster/253057133/s718/gilmore-girls-a-year-in-the-life.jpg",
+      "releaseInfo": "2016",
+      "description": "Set nearly a decade after the finale of the original series, this revival follows Lorelai, Rory and Emily Gilmore through four seasons of change.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dragon-ball-z-kai"
+          "url": "https://justwatch.com/us/tv-show/gilmore-girls-a-year-in-the-life"
         }
       ]
     },
     {
-      "id": "tt1643266",
+      "id": "tt0383126",
       "type": "series",
-      "name": "Ancient Aliens",
+      "name": "MythBusters",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320936797/s718/ancient-aliens.jpg",
-      "releaseInfo": "2009",
-      "description": "Science and mythology - and how they are the same thing.",
+      "poster": "https://images.justwatch.com/poster/180955319/s718/mythbusters.jpg",
+      "releaseInfo": "2003",
+      "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ancient-aliens"
+          "url": "https://justwatch.com/us/tv-show/mythbusters"
+        }
+      ]
+    },
+    {
+      "id": "tt1303337",
+      "type": "series",
+      "name": "Deadly Women",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/81769899/s718/deadly-women.jpg",
+      "releaseInfo": "2005",
+      "description": "This compelling series investigates the motives and m.o. of female murderers. While males are often driven by anger, impulse and destruction, women usually have more complex, long-term reasons to kill.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/deadly-women"
         }
       ]
     }

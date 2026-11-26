@@ -1,50 +1,82 @@
 {
   "metas": [
     {
-      "id": "tt0128801",
+      "id": "tt28324464",
       "type": "movie",
-      "name": "Under Wraps",
+      "name": "Home Alone 2: Lost in New York",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356886675/s718/under-wraps.jpg",
-      "releaseInfo": "1997",
-      "description": "A comedy-adventure in which three twelve-year-olds have a close encounter with a 3,000-year-old mummy. Marshall, Gilbert and Amy accidentally set the mummy free, but if they don't get him back to his resting place by midnight on Halloween, he'll turn into dust and lose his only chance of being reunited with his long-lost love.",
+      "poster": "https://images.justwatch.com/poster/162701171/s718/home-alone-2-lost-in-new-york.jpg",
+      "releaseInfo": "1992",
+      "description": "Instead of flying to Florida with his folks, Kevin ends up alone in New York, where he gets a hotel room with his dad's credit card—despite problems from a clerk and meddling bellboy. But when Kevin runs into his old nemeses, the Wet Bandits, he's determined to foil their plans to rob a toy store on Christmas Eve.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/under-wraps"
+          "url": "https://justwatch.com/us/movie/home-alone-2-lost-in-new-york"
         }
       ]
     },
     {
-      "id": "tt0486576",
+      "id": "tt39367495",
       "type": "movie",
-      "name": "Fantastic Four: Rise of the Silver Surfer",
+      "name": "A Very Jonas Christmas Movie",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/181341802/s718/fantastic-4-rise-of-the-silver-surfer.jpg",
-      "releaseInfo": "2007",
-      "description": "The Fantastic Four return to the big screen as a new and all powerful enemy threatens the Earth. The seemingly unstoppable 'Silver Surfer', but all is not what it seems and there are old and new enemies that pose a greater threat than the intrepid superheroes realize.",
+      "poster": "https://images.justwatch.com/poster/338288311/s718/a-very-jonas-christmas-movie.jpg",
+      "releaseInfo": "2025",
+      "description": "Kevin, Nick, and Joe Jonas face a series of escalating obstacles as they struggle to make it from London to New York in time to spend Christmas with their families.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/fantastic-4-rise-of-the-silver-surfer"
+          "url": "https://justwatch.com/us/movie/a-very-jonas-christmas-movie"
         }
       ]
     },
     {
-      "id": "tt33986138",
+      "id": "tt0910970",
       "type": "movie",
-      "name": "Beatles '64",
+      "name": "WALL·E",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/322062215/s718/beatles-64.jpg",
-      "releaseInfo": "2024",
-      "description": "Featuring never-before-seen footage of the band and the legions of young fans who helped fuel their ascendance, follow McCartney, John Lennon, George Harrison and Starr as they land in New York City in February 1964 and solidify their status as the biggest band in the world.",
+      "poster": "https://images.justwatch.com/poster/222296424/s718/wall-e.jpg",
+      "releaseInfo": "2008",
+      "description": "After hundreds of years doing what he was built for, WALL•E—a robot designed to clean up the earth—discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/beatles-64"
+          "url": "https://justwatch.com/us/movie/wall-e"
+        }
+      ]
+    },
+    {
+      "id": "tt0304669",
+      "type": "movie",
+      "name": "The Santa Clause 2",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/309351554/s718/the-santa-clause-2.jpg",
+      "releaseInfo": "2002",
+      "description": "Better watch out! The big guy in red is coming to town once again. This time, Scott Calvin -- also known as Santa Claus -- finds out there's an obscure clause in his contract requiring him to take on a wife. He has to leave the North Pole to fulfill his obligations, or else he'll be forced to give up his Yuletide gig.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-santa-clause-2"
+        }
+      ]
+    },
+    {
+      "id": "tt0452681",
+      "type": "movie",
+      "name": "The Santa Clause 3: The Escape Clause",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/104843379/s718/the-santa-clause-3-the-escape-clause.jpg",
+      "releaseInfo": "2006",
+      "description": "Now that Santa and Mrs. Claus have the North Pole running smoothly, the Counsel of Legendary Figures has called an emergency meeting on Christmas Eve! The evil Jack Frost has been making trouble, looking to take over the holiday! So he launches a plan to sabotage the toy factory and compel Scott to invoke the little-known Escape Clause and wish he'd never become Santa.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-santa-clause-3-the-escape-clause"
         }
       ]
     }

@@ -1,66 +1,130 @@
 {
   "metas": [
     {
-      "id": "tt1109624",
+      "id": "tt1922777",
       "type": "movie",
-      "name": "Paddington",
+      "name": "Sinister",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/250097559/s718/paddington.jpg",
-      "releaseInfo": "2014",
-      "description": "A young Peruvian bear travels to London in search of a home. Finding himself lost and alone at Paddington Station, he meets the kindly Brown family, who offer him a temporary haven.",
+      "poster": "https://images.justwatch.com/poster/335675911/s718/sinister.jpg",
+      "releaseInfo": "2012",
+      "description": "True-crime writer Ellison Oswalt is in a slump; he hasn't had a best seller in more than 10 years and is becoming increasingly desperate for a hit. So, when he discovers the existence of a snuff film showing the deaths of a family, he vows to solve the mystery. He moves his own family into the victims' home and gets to work. However, when old film footage and other clues hint at the presence of a supernatural force, Ellison learns that living in the house may be fatal.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/paddington"
+          "url": "https://justwatch.com/us/movie/sinister"
         }
       ]
     },
     {
-      "id": "tt1840309",
+      "id": "tt0071222",
       "type": "movie",
-      "name": "Divergent",
+      "name": "Black Christmas",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/215302962/s718/divergent.jpg",
-      "releaseInfo": "2014",
-      "description": "In a world divided into factions based on personality types, Tris learns that she's been classified as Divergent and won't fit in. When she discovers a plot to destroy Divergents, Tris and the mysterious Four must find out what makes Divergents dangerous before it's too late.",
+      "poster": "https://images.justwatch.com/poster/321442476/s718/black-christmas-1974.jpg",
+      "releaseInfo": "1974",
+      "description": "As the residents of the Pi Kappa Sigma sorority house prepare for the festive season, a stranger begins to harass them with a series of obscene phone calls.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/divergent"
+          "url": "https://justwatch.com/us/movie/black-christmas-1974"
         }
       ]
     },
     {
-      "id": "tt0091167",
+      "id": "tt6348138",
       "type": "movie",
-      "name": "Hannah and Her Sisters",
+      "name": "Missing Link",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/197739779/s718/hannah-and-her-sisters.jpg",
-      "releaseInfo": "1986",
-      "description": "Between two Thanksgivings, Hannah's husband falls in love with her sister Lee, while her hypochondriac ex-husband rekindles his relationship with her sister Holly.",
+      "poster": "https://images.justwatch.com/poster/91573921/s718/missing-link.jpg",
+      "releaseInfo": "2019",
+      "description": "This April, meet Mr. Link: 8 feet tall, 630 lbs, and covered in fur, but don’t let his appearance fool you… he is funny, sweet, and adorably literal, making him the world’s most lovable legend at the heart of Missing Link, the globe-trotting family adventure from LAIKA. Tired of living a solitary life in the Pacific Northwest, Mr. Link recruits fearless explorer Sir Lionel Frost to guide him on a journey to find his long-lost relatives in the fabled valley of Shangri-La. Along with adventurer Adelina Fortnight, our fearless trio of explorers encounter more than their fair share of peril as they travel to the far reaches of the world to help their new friend. Through it all, the three learn that sometimes you can find a family in the places you least expect.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/hannah-and-her-sisters"
+          "url": "https://justwatch.com/us/movie/missing-link"
         }
       ]
     },
     {
-      "id": "tt30577149",
+      "id": "tt0079470",
       "type": "movie",
-      "name": "A.I.",
+      "name": "Life of Brian",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/337787104/s718/a-i.jpg",
-      "releaseInfo": "2025",
-      "description": "In a near future, the mysterious arrival of a scientist sets in motion a college professor's experiment to prove the existence of AI consciousness.",
+      "poster": "https://images.justwatch.com/poster/178259062/s718/life-of-brian.jpg",
+      "releaseInfo": "1979",
+      "description": "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he's not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python's signature absurdity, the tale finds Brian's life paralleling Biblical lore, albeit with many more laughs.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/a-i"
+          "url": "https://justwatch.com/us/movie/life-of-brian"
+        }
+      ]
+    },
+    {
+      "id": "tt0110955",
+      "type": "movie",
+      "name": "The Ref",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/100993083/s718/the-ref.jpg",
+      "releaseInfo": "1994",
+      "description": "A cat burglar is forced to take a bickering, dysfunctional family hostage on Christmas Eve.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/the-ref"
+        }
+      ]
+    },
+    {
+      "id": "tt0945513",
+      "type": "movie",
+      "name": "Source Code",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/104630978/s718/source-code.jpg",
+      "releaseInfo": "2011",
+      "description": "When decorated soldier Captain Colter Stevens wakes up in the body of an unknown man, he discovers he's part of a mission to find the bomber of a Chicago commuter train.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/source-code"
+        }
+      ]
+    },
+    {
+      "id": "tt12446086",
+      "type": "movie",
+      "name": "Legend of the White Dragon",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/304399918/s718/legend-of-the-white-dragon.jpg",
+      "releaseInfo": "2026",
+      "description": "Forced to hide in the shadows, fugitive hero Erik Reed must clear his name to reunite with his family. Standing in his way is a mysterious villain obsessed with destroying the White Dragon for good.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/legend-of-the-white-dragon"
+        }
+      ]
+    },
+    {
+      "id": "tt7040874",
+      "type": "movie",
+      "name": "A Simple Favor",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/72250377/s718/a-simple-favor.jpg",
+      "releaseInfo": "2018",
+      "description": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Stephanie undertakes an investigation that will dive deep into Emily's cloudy past.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/a-simple-favor"
         }
       ]
     }
