@@ -1,7 +1,23 @@
 {
   "metas": [
     {
-      "id": "tt0299380",
+      "id": "tt2349368",
+      "type": "series",
+      "name": "Goosebumps",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/340476955/s718/goosebumps.jpg",
+      "releaseInfo": "1995",
+      "description": "Anything can turn spooky in this horror anthology series based on the best-selling books by master of kid horror, R.L. Stine. In every episode, see what happens when regular kids find themselves in scary situations, and how they work to confront and overcome their fears.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/goosebumps"
+        }
+      ]
+    },
+    {
+      "id": "tt0063951",
       "type": "series",
       "name": "Sesame Street",
       "posterShape": "poster",
@@ -17,23 +33,23 @@
       ]
     },
     {
-      "id": "tt43580342",
+      "id": "tt7909970",
       "type": "series",
-      "name": "Power Rangers",
+      "name": "Unbelievable",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/272248864/s718/power-rangers.jpg",
-      "releaseInfo": "1993",
-      "description": "A team of teenagers with attitude are recruited to save Angel Grove from the evil witch, Rita Repulsa, and later, Lord Zedd, Emperor of all he sees, and their horde of monsters.",
+      "poster": "https://images.justwatch.com/poster/138994411/s718/unbelievable-2019.jpg",
+      "releaseInfo": "2019",
+      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/power-rangers"
+          "url": "https://justwatch.com/us/tv-show/unbelievable-2019"
         }
       ]
     },
     {
-      "id": "tt36366031",
+      "id": "tt33081352",
       "type": "series",
       "name": "A Different World",
       "posterShape": "poster",
@@ -49,34 +65,34 @@
       ]
     },
     {
-      "id": "tt38336631",
+      "id": "tt43613803",
       "type": "series",
-      "name": "The Blue Road",
+      "name": "Fool Night",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356946101/s718/the-blue-road.jpg",
+      "poster": "https://images.justwatch.com/poster/354874732/s718/fool-night.jpg",
       "releaseInfo": "2026",
-      "description": "Two detectives join forces when brutal murders and cryptic messages surface across borders — but the deadly truth lurks dangerously close.",
+      "description": "In a dark world full of despair, he chooses the path of transforming into a Spirit Flower — a plant into which humans transform. Should he continue living as a person, or discard his pain and start a new life as a plant? Which path would you choose in his situation?",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-blue-road"
+          "url": "https://justwatch.com/us/tv-show/fool-night"
         }
       ]
     },
     {
-      "id": "tt1780441",
+      "id": "tt9319668",
       "type": "series",
-      "name": "Portlandia",
+      "name": "1899",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/39746723/s718/portlandia.jpg",
-      "releaseInfo": "2011",
-      "description": "Satirical sketch comedy set and filmed in Portland, Oregon that explores the eccentric misfits who embody the foibles of modern culture.",
+      "poster": "https://images.justwatch.com/poster/300709645/s718/1899.jpg",
+      "releaseInfo": "2022",
+      "description": "When mysterious events change the course of an immigrant ship headed for New York in 1899, a mind-bending riddle unfolds for its bewildered passengers.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/portlandia"
+          "url": "https://justwatch.com/us/tv-show/1899"
         }
       ]
     }

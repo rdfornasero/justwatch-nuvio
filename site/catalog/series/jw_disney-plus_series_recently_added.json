@@ -1,34 +1,210 @@
 {
   "metas": [
     {
-      "id": "tt39150449",
+      "id": "tt10422382",
       "type": "series",
-      "name": "The Beatles Anthology",
+      "name": "Doug",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/339039712/s718/the-beatles-anthology.jpg",
-      "releaseInfo": "1995",
-      "description": "A documentary series on the career of The Beatles.",
+      "poster": "https://images.justwatch.com/poster/158788588/s718/doug.jpg",
+      "releaseInfo": "1991",
+      "description": "Doug Funnie experiences common predicaments while attending school in his new hometown of Bluffington, Virginia.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-beatles-anthology"
+          "url": "https://justwatch.com/us/tv-show/doug"
         }
       ]
     },
     {
-      "id": "tt0805669",
+      "id": "tt43904969",
       "type": "series",
-      "name": "Ugly Betty",
+      "name": "The Doomies",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/241512940/s718/ugly-betty.jpg",
-      "releaseInfo": "2006",
-      "description": "Wannabe writer Betty Suarez is a plain girl from Queens, who is smart, hardworking and savvy but lacks a fashionable sense of style. When publishing mogul Bradford Meade puts his son Daniel in charge of Mode magazine, he hires Betty to be Daniel's new assistant -- mostly because he knows that she may be the only woman in Manhattan with whom the younger man won't sleep.",
+      "poster": "https://images.justwatch.com/poster/348296844/s718/the-doomies.jpg",
+      "releaseInfo": "2026",
+      "description": "Follows best friends Bobby and Romy who open up a gateway to another world by mistake, turning their coastal town into a hotspot for horrifying creatures of doom, and must battle with both literal and inner monsters.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ugly-betty"
+          "url": "https://justwatch.com/us/tv-show/the-doomies"
+        }
+      ]
+    },
+    {
+      "id": "tt4622776",
+      "type": "series",
+      "name": "Breakthrough",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/258933221/s718/breakthrough.jpg",
+      "releaseInfo": "2015",
+      "description": "Providing a thought-provoking and imaginative perspective on scientific discovery as it unfolds, each episode follows scientific explorers working on cutting-­edge projects with breakthrough potential, revealing the world of tomorrow... today.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/breakthrough"
+        }
+      ]
+    },
+    {
+      "id": "tt7165904",
+      "type": "series",
+      "name": "Big City Greens",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/157747294/s718/big-city-greens.jpg",
+      "releaseInfo": "2018",
+      "description": "The adventurous life of Cricket Green, a country boy who moves with his family from their rural farm to a modern metropolis.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/big-city-greens"
+        }
+      ]
+    },
+    {
+      "id": "tt1830491",
+      "type": "series",
+      "name": "Austin & Ally",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/197842791/s718/austin-and-ally.jpg",
+      "releaseInfo": "2011",
+      "description": "A comedy about the unique relationship between a young songwriter, Ally Dawson, and Austin Moon, the overnight internet sensation who gains sudden notoriety after performing one of Ally's songs. Austin and Ally struggle with how to maintain and capitalize on Austin's newfound fame. Austin is more of a rebel type who doesn't follow the rules and is somewhat immature for his age, while Ally is conservative yet self-conscious.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/austin-and-ally"
+        }
+      ]
+    },
+    {
+      "id": "tt18302114",
+      "type": "series",
+      "name": "Ice Age: Scrat Tales",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/270028782/s718/ice-age-scrat-tales.jpg",
+      "releaseInfo": "2022",
+      "description": "Scrat experiences the ups and downs of fatherhood, as he and the adorable, mischievous Baby Scrat, alternately bond with each other and battle for ownership of the highly treasured Acorn.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ice-age-scrat-tales"
+        }
+      ]
+    },
+    {
+      "id": "tt36255074",
+      "type": "series",
+      "name": "Call My Agent Berlin",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/341606663/s718/call-my-agent-berlin.jpg",
+      "releaseInfo": "2025",
+      "description": "A young woman moves to Berlin and unexpectedly lands a job as an assistant at a struggling talent agency.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/call-my-agent-berlin"
+        }
+      ]
+    },
+    {
+      "id": "tt2455546",
+      "type": "series",
+      "name": "Marvel's Avengers",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/128619763/s718/marvels-avengers-assemble.jpg",
+      "releaseInfo": "2013",
+      "description": "The further adventures of the Marvel Universe's mightiest general membership superhero team. With an all-star roster consisting of Iron Man, Captain America, Thor, Hulk, Hawkeye, Falcon and, occasionally--when she feels like it and only when she feels like it--Black Widow, the Avengers are a team in the truest sense. The Avengers save the world from the biggest threats imaginable--threats no single super hero could withstand.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/marvels-avengers-assemble"
+        }
+      ]
+    },
+    {
+      "id": "tt2136396",
+      "type": "series",
+      "name": "The Incredible Dr. Pol",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/240597388/s718/the-incredible-dr-pol.jpg",
+      "releaseInfo": "2011",
+      "description": "Set in Central Michigan's farm country, this reality series follows the work done at Pol Veterinary Services. Specializing in large farm animals, Dr. Pol treats horses, pigs, cows, sheep, alpacas, goats, chickens and even an occasional reindeer. The program also features Dr. Brenda Grettenberger, who has worked with Dr. Pol since 1992.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-incredible-dr-pol"
+        }
+      ]
+    },
+    {
+      "id": "tt8336340",
+      "type": "series",
+      "name": "Star Wars Resistance",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/152601322/s718/star-wars-resistance.jpg",
+      "releaseInfo": "2018",
+      "description": "Kazuda Xiono, a young pilot for the Resistance, is tasked with a top secret mission to investigate the First Order, a growing threat in the galaxy.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/star-wars-resistance"
+        }
+      ]
+    },
+    {
+      "id": "tt1865769",
+      "type": "series",
+      "name": "Jessie",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/196510012/s718/jessie.jpg",
+      "releaseInfo": "2011",
+      "description": "An idealistic teen from rural Texas embarks on the adventure of a lifetime when she decides to leave behind starry nights for big city lights. Thrilled to be on her own and determined not to be intimidated by New York City, she accepts a job as nanny for a high-profile couple with four kids. Helping to keep her moral compass in check are Bertram, the family's butler, and Tony, the building's 20-year-old doorman.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/jessie"
+        }
+      ]
+    },
+    {
+      "id": "tt6688750",
+      "type": "series",
+      "name": "Puppy Dog Pals",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/264389844/s718/puppy-dog-pals.jpg",
+      "releaseInfo": "2017",
+      "description": "Fun-loving pug puppies, brothers Bingo and Rolly, have thrill-seeking appetites that take them on exhilarating adventures in their neighborhood and around the globe.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/puppy-dog-pals"
+        }
+      ]
+    },
+    {
+      "id": "tt32421227",
+      "type": "series",
+      "name": "World Eats Bread",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320017257/s718/world-eats-bread.jpg",
+      "releaseInfo": "2024",
+      "description": "Delectable documentary chronicling bread's roots across cultures. Each episode unveils a staple loaf's origins, mirroring homelands' history and identity.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/world-eats-bread"
         }
       ]
     }

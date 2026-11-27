@@ -1,39 +1,23 @@
 {
   "metas": [
     {
-      "id": "tt7491982",
+      "id": "tt3121722",
       "type": "series",
-      "name": "FBI",
+      "name": "PAW Patrol",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/336810596/s718/fbi.jpg",
-      "releaseInfo": "2018",
-      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
+      "poster": "https://images.justwatch.com/poster/181076617/s718/paw-patrol.jpg",
+      "releaseInfo": "2013",
+      "description": "Led by a boy named Ryder, a team of six playful rescue dogs use their individual talents to protect the seaside town of Adventure Bay.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/fbi"
+          "url": "https://justwatch.com/us/tv-show/paw-patrol"
         }
       ]
     },
     {
-      "id": "tt4270492",
-      "type": "series",
-      "name": "Billions",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/258685860/s718/billions.jpg",
-      "releaseInfo": "2016",
-      "description": "Shrewd, savvy U.S. Attorney Chuck Rhoades and the brilliant, ambitious hedge fund king Bobby \"Axe\" Axelrod are on an explosive collision course, with each using all of his considerable smarts, power and influence to outmaneuver the other. The stakes are in the billions in this timely, provocative series.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/billions"
-        }
-      ]
-    },
-    {
-      "id": "tt0299380",
+      "id": "tt0063951",
       "type": "series",
       "name": "Sesame Street",
       "posterShape": "poster",
@@ -49,34 +33,50 @@
       ]
     },
     {
-      "id": "tt1303337",
+      "id": "tt48360139",
       "type": "series",
-      "name": "Deadly Women",
+      "name": "90 Day: Hunt for Love",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/81769899/s718/deadly-women.jpg",
-      "releaseInfo": "2005",
-      "description": "This compelling series investigates the motives and m.o. of female murderers. While males are often driven by anger, impulse and destruction, women usually have more complex, long-term reasons to kill.",
+      "poster": "https://images.justwatch.com/poster/333103459/s718/90-day-hunt-for-love.jpg",
+      "releaseInfo": "2025",
+      "description": "Features eight singles from the 90 Day universe who are ready to embark on a quest for love once again, joined by fresh, new faces and romantic hopefuls.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/deadly-women"
+          "url": "https://justwatch.com/us/tv-show/90-day-hunt-for-love"
         }
       ]
     },
     {
-      "id": "tt0344651",
+      "id": "tt50289581",
       "type": "series",
-      "name": "Good Eats",
+      "name": "Andrew Tate: Toxic Empire",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/242839316/s718/good-eats.jpg",
-      "releaseInfo": "1999",
-      "description": "Host Alton Brown explores the origins of ingredients, decodes culinary customs and presents food and equipment trends. Punctuated by unusual interludes, simple preparations and unconventional discussions, he'll bring you food in its finest and funniest form.",
+      "poster": "https://images.justwatch.com/poster/358085757/s718/andrew-tate-toxic-empire.jpg",
+      "releaseInfo": "2026",
+      "description": "A four-part documentary series that tracks Andrew Tate's meteoric rise as an influencer and examines the allegations of predatory business endeavors that funded the global empire he created with his brother.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/good-eats"
+          "url": "https://justwatch.com/us/tv-show/andrew-tate-toxic-empire"
+        }
+      ]
+    },
+    {
+      "id": "tt6294706",
+      "type": "series",
+      "name": "The Chi",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/306860218/s718/the-chi.jpg",
+      "releaseInfo": "2018",
+      "description": "A relevant, timely and distinctive coming-of-age story following a half dozen interrelated characters in the South Side of Chicago. The story centers on Brandon, an ambitious and confident young man who dreams about opening a restaurant of his own someday, but is conflicted between the promise of a new life and his responsibility to his mother and teenage brother back in the South Side.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-chi"
         }
       ]
     }

@@ -257,6 +257,22 @@
       ]
     },
     {
+      "id": "tt1196946",
+      "type": "series",
+      "name": "The Mentalist",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176049752/s718/the-mentalist.jpg",
+      "releaseInfo": "2008",
+      "description": "Patrick Jane, a former celebrity psychic medium, uses his razor sharp skills of observation and expertise at \"reading\" people to solve serious crimes with the California Bureau of Investigation.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-mentalist"
+        }
+      ]
+    },
+    {
       "id": "tt0096697",
       "type": "series",
       "name": "The Simpsons",
@@ -269,22 +285,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-simpsons"
-        }
-      ]
-    },
-    {
-      "id": "tt26748321",
-      "type": "series",
-      "name": "Doc",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/337775031/s718/doc-2025.jpg",
-      "releaseInfo": "2025",
-      "description": "Dr. Amy Larsen must navigate an unfamiliar world after a brain injury erases the last eight years of her life. She can rely only on her estranged 17-year-old daughter, whom she remembers as a 9-year-old, and a handful of devoted friends, as she struggles to continue practicing medicine, despite having lost nearly a decade of knowledge and experience.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/doc-2025"
         }
       ]
     },
@@ -305,18 +305,18 @@
       ]
     },
     {
-      "id": "tt1196946",
+      "id": "tt26748321",
       "type": "series",
-      "name": "The Mentalist",
+      "name": "Doc",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176049752/s718/the-mentalist.jpg",
-      "releaseInfo": "2008",
-      "description": "Patrick Jane, a former celebrity psychic medium, uses his razor sharp skills of observation and expertise at \"reading\" people to solve serious crimes with the California Bureau of Investigation.",
+      "poster": "https://images.justwatch.com/poster/337775031/s718/doc-2025.jpg",
+      "releaseInfo": "2025",
+      "description": "Dr. Amy Larsen must navigate an unfamiliar world after a brain injury erases the last eight years of her life. She can rely only on her estranged 17-year-old daughter, whom she remembers as a 9-year-old, and a handful of devoted friends, as she struggles to continue practicing medicine, despite having lost nearly a decade of knowledge and experience.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-mentalist"
+          "url": "https://justwatch.com/us/tv-show/doc-2025"
         }
       ]
     },
@@ -385,22 +385,6 @@
       ]
     },
     {
-      "id": "tt0098844",
-      "type": "series",
-      "name": "Law & Order",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/194981182/s718/law-and-order.jpg",
-      "releaseInfo": "1990",
-      "description": "A two-part drama that focuses on the New York criminal-justice system by showing a violent crime investigated by police detectives in the first half and then the trial of the accused in court by prosecutors in the second half.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/law-and-order"
-        }
-      ]
-    },
-    {
       "id": "tt12324366",
       "type": "series",
       "name": "Percy Jackson and the Olympians",
@@ -413,6 +397,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/percy-jackson-and-the-olympians"
+        }
+      ]
+    },
+    {
+      "id": "tt0098844",
+      "type": "series",
+      "name": "Law & Order",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/194981182/s718/law-and-order.jpg",
+      "releaseInfo": "1990",
+      "description": "A two-part drama that focuses on the New York criminal-justice system by showing a violent crime investigated by police detectives in the first half and then the trial of the accused in court by prosecutors in the second half.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/law-and-order"
         }
       ]
     },
@@ -529,22 +529,6 @@
       ]
     },
     {
-      "id": "tt37063558",
-      "type": "series",
-      "name": "R.J. Decker",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/341674039/s718/rj-decker.jpg",
-      "releaseInfo": "2026",
-      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/rj-decker"
-        }
-      ]
-    },
-    {
       "id": "tt35855387",
       "type": "series",
       "name": "9-1-1: Nashville",
@@ -557,6 +541,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/9-1-1-nashville"
+        }
+      ]
+    },
+    {
+      "id": "tt37063558",
+      "type": "series",
+      "name": "R.J. Decker",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/341674039/s718/rj-decker.jpg",
+      "releaseInfo": "2026",
+      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/rj-decker"
         }
       ]
     },
@@ -593,22 +593,6 @@
       ]
     },
     {
-      "id": "tt7908628",
-      "type": "series",
-      "name": "What We Do in the Shadows",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/273060035/s718/what-we-do-in-the-shadows.jpg",
-      "releaseInfo": "2019",
-      "description": "A look into the nightly lives of four vampires who have lived together on Staten Island for over a century.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/what-we-do-in-the-shadows"
-        }
-      ]
-    },
-    {
       "id": "tt30291387",
       "type": "series",
       "name": "All's Fair",
@@ -621,6 +605,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/alls-fair"
+        }
+      ]
+    },
+    {
+      "id": "tt7908628",
+      "type": "series",
+      "name": "What We Do in the Shadows",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/273060035/s718/what-we-do-in-the-shadows.jpg",
+      "releaseInfo": "2019",
+      "description": "A look into the nightly lives of four vampires who have lived together on Staten Island for over a century.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/what-we-do-in-the-shadows"
         }
       ]
     },
@@ -705,22 +705,6 @@
       ]
     },
     {
-      "id": "tt0388629",
-      "type": "series",
-      "name": "One Piece",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/354208408/s718/one-piece.jpg",
-      "releaseInfo": "1999",
-      "description": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/one-piece"
-        }
-      ]
-    },
-    {
       "id": "tt2861424",
       "type": "series",
       "name": "Rick and Morty",
@@ -733,6 +717,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/rick-and-morty"
+        }
+      ]
+    },
+    {
+      "id": "tt0388629",
+      "type": "series",
+      "name": "One Piece",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/354208408/s718/one-piece.jpg",
+      "releaseInfo": "1999",
+      "description": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/one-piece"
         }
       ]
     },
@@ -849,22 +849,6 @@
       ]
     },
     {
-      "id": "tt11691774",
-      "type": "series",
-      "name": "Only Murders in the Building",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/358081280/s718/only-murders-in-the-building.jpg",
-      "releaseInfo": "2021",
-      "description": "Charles, Oliver and Mabel, three eccentric neighbors, find purpose and chaos in solving murders that hit close to home through their true-crime podcast, turning their New York apartment building into a playground of mystery and mischief.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/only-murders-in-the-building"
-        }
-      ]
-    },
-    {
       "id": "tt0118276",
       "type": "series",
       "name": "Buffy the Vampire Slayer",
@@ -881,18 +865,18 @@
       ]
     },
     {
-      "id": "tt26743760",
+      "id": "tt11691774",
       "type": "series",
-      "name": "Kusuriya no hitorigoto",
+      "name": "Only Murders in the Building",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/353462385/s718/the-apothecary-diaries.jpg",
-      "releaseInfo": "2023",
-      "description": "A young maiden is kidnapped and sold into servitude at the emperor's palace, where she secretly employs her pharmacist skills with the help of the head eunuch to unravel medical mysteries in the inner court.",
+      "poster": "https://images.justwatch.com/poster/358081280/s718/only-murders-in-the-building.jpg",
+      "releaseInfo": "2021",
+      "description": "Charles, Oliver and Mabel, three eccentric neighbors, find purpose and chaos in solving murders that hit close to home through their true-crime podcast, turning their New York apartment building into a playground of mystery and mischief.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-apothecary-diaries"
+          "url": "https://justwatch.com/us/tv-show/only-murders-in-the-building"
         }
       ]
     },
@@ -929,18 +913,18 @@
       ]
     },
     {
-      "id": "tt22091076",
+      "id": "tt26743760",
       "type": "series",
-      "name": "High Potential",
+      "name": "Kusuriya no hitorigoto",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320265698/s718/high-potential.jpg",
-      "releaseInfo": "2024",
-      "description": "Morgan is a single mom with an exceptional mind, whose unconventional knack for solving crimes leads to an unusual and unstoppable partnership with a by-the-book seasoned detective.",
+      "poster": "https://images.justwatch.com/poster/353462385/s718/the-apothecary-diaries.jpg",
+      "releaseInfo": "2023",
+      "description": "A young maiden is kidnapped and sold into servitude at the emperor's palace, where she secretly employs her pharmacist skills with the help of the head eunuch to unravel medical mysteries in the inner court.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/high-potential"
+          "url": "https://justwatch.com/us/tv-show/the-apothecary-diaries"
         }
       ]
     },
@@ -961,18 +945,18 @@
       ]
     },
     {
-      "id": "tt7441658",
+      "id": "tt22091076",
       "type": "series",
-      "name": "Black Clover",
+      "name": "High Potential",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/289760864/s718/black-clover.jpg",
-      "releaseInfo": "2017",
-      "description": "Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus.",
+      "poster": "https://images.justwatch.com/poster/320265698/s718/high-potential.jpg",
+      "releaseInfo": "2024",
+      "description": "Morgan is a single mom with an exceptional mind, whose unconventional knack for solving crimes leads to an unusual and unstoppable partnership with a by-the-book seasoned detective.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/black-clover"
+          "url": "https://justwatch.com/us/tv-show/high-potential"
         }
       ]
     },
@@ -1025,18 +1009,18 @@
       ]
     },
     {
-      "id": "tt0108757",
+      "id": "tt7441658",
       "type": "series",
-      "name": "ER",
+      "name": "Black Clover",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/175475578/s718/er.jpg",
-      "releaseInfo": "1994",
-      "description": "ER explores the inner workings of an urban teaching hospital and the critical issues faced by the dedicated physicians and staff of its overburdened emergency room.",
+      "poster": "https://images.justwatch.com/poster/289760864/s718/black-clover.jpg",
+      "releaseInfo": "2017",
+      "description": "Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/er"
+          "url": "https://justwatch.com/us/tv-show/black-clover"
         }
       ]
     },
@@ -1073,6 +1057,22 @@
       ]
     },
     {
+      "id": "tt0108757",
+      "type": "series",
+      "name": "ER",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/175475578/s718/er.jpg",
+      "releaseInfo": "1994",
+      "description": "ER explores the inner workings of an urban teaching hospital and the critical issues faced by the dedicated physicians and staff of its overburdened emergency room.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/er"
+        }
+      ]
+    },
+    {
       "id": "tt4803766",
       "type": "series",
       "name": "Alone",
@@ -1085,6 +1085,38 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/alone"
+        }
+      ]
+    },
+    {
+      "id": "tt0387764",
+      "type": "series",
+      "name": "Peep Show",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302450992/s718/peep-show.jpg",
+      "releaseInfo": "2003",
+      "description": "Two dysfunctional flatmates reveal all their inner thoughts - whether dark, stupid or embarrassing. Or, occasionally, all three...",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/peep-show"
+        }
+      ]
+    },
+    {
+      "id": "tt1796960",
+      "type": "series",
+      "name": "Homeland",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/46536252/s718/homeland.jpg",
+      "releaseInfo": "2011",
+      "description": "A bipolar CIA Case Officer conducts covert operations to protect her nation from terrorist acts.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/homeland"
         }
       ]
     },
@@ -1121,18 +1153,34 @@
       ]
     },
     {
-      "id": "tt1796960",
+      "id": "tt4226226",
       "type": "series",
-      "name": "Homeland",
+      "name": "Holiday Baking Championship",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/46536252/s718/homeland.jpg",
-      "releaseInfo": "2011",
-      "description": "A bipolar CIA Case Officer conducts covert operations to protect her nation from terrorist acts.",
+      "poster": "https://images.justwatch.com/poster/158072992/s718/holiday-baking-championship.jpg",
+      "releaseInfo": "2014",
+      "description": "The search to find the greatest holiday baker begins as amateur bakers enter the kitchen, where they show off their family traditions and superb baking skills. To survive the challenges from week to week, they must prove their abilities in front of our tough-love judges.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/homeland"
+          "url": "https://justwatch.com/us/tv-show/holiday-baking-championship"
+        }
+      ]
+    },
+    {
+      "id": "tt7914040",
+      "type": "series",
+      "name": "The Floor",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355028393/s718/the-floor-2024.jpg",
+      "releaseInfo": "2024",
+      "description": "A spectacular battle of the brains quiz show in which 100 contestants stand on 100 squares on a massive game show floor, competing for a whopping $250,000 prize.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-floor-2024"
         }
       ]
     },
@@ -1169,34 +1217,18 @@
       ]
     },
     {
-      "id": "tt4226226",
+      "id": "tt1561755",
       "type": "series",
-      "name": "Holiday Baking Championship",
+      "name": "Bob's Burgers",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/158072992/s718/holiday-baking-championship.jpg",
-      "releaseInfo": "2014",
-      "description": "The search to find the greatest holiday baker begins as amateur bakers enter the kitchen, where they show off their family traditions and superb baking skills. To survive the challenges from week to week, they must prove their abilities in front of our tough-love judges.",
+      "poster": "https://images.justwatch.com/poster/307621084/s718/bobs-burgers.jpg",
+      "releaseInfo": "2011",
+      "description": "Bob Belcher runs a struggling burger shop with his wife and three children.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/holiday-baking-championship"
-        }
-      ]
-    },
-    {
-      "id": "tt0068098",
-      "type": "series",
-      "name": "M*A*S*H",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/175916865/s718/m-a-s-h.jpg",
-      "releaseInfo": "1972",
-      "description": "The 4077th Mobile Army Surgical Hospital is stuck in the middle of the Korean war. With little help from the circumstances they find themselves in, they are forced to make their own fun. Fond of practical jokes and revenge, the doctors, nurses, administrators, and soldiers often find ways of making wartime life bearable.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/m-a-s-h"
+          "url": "https://justwatch.com/us/tv-show/bobs-burgers"
         }
       ]
     },
@@ -1233,18 +1265,34 @@
       ]
     },
     {
-      "id": "tt7914040",
+      "id": "tt0068098",
       "type": "series",
-      "name": "The Floor",
+      "name": "M*A*S*H",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355028393/s718/the-floor-2024.jpg",
-      "releaseInfo": "2024",
-      "description": "A spectacular battle of the brains quiz show in which 100 contestants stand on 100 squares on a massive game show floor, competing for a whopping $250,000 prize.",
+      "poster": "https://images.justwatch.com/poster/175916865/s718/m-a-s-h.jpg",
+      "releaseInfo": "1972",
+      "description": "The 4077th Mobile Army Surgical Hospital is stuck in the middle of the Korean war. With little help from the circumstances they find themselves in, they are forced to make their own fun. Fond of practical jokes and revenge, the doctors, nurses, administrators, and soldiers often find ways of making wartime life bearable.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-floor-2024"
+          "url": "https://justwatch.com/us/tv-show/m-a-s-h"
+        }
+      ]
+    },
+    {
+      "id": "tt5830254",
+      "type": "series",
+      "name": "Das Boot",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/308797054/s718/das-boot.jpg",
+      "releaseInfo": "2018",
+      "description": "An inexperienced U-boat crew has to survive a secret mission and a young German woman is torn between loyalty for her home country and the French resistance in the WWII drama.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/das-boot"
         }
       ]
     },
@@ -1281,18 +1329,50 @@
       ]
     },
     {
-      "id": "tt1561755",
+      "id": "tt22248376",
       "type": "series",
-      "name": "Bob's Burgers",
+      "name": "Frieren: Beyond Journey's End",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/307621084/s718/bobs-burgers.jpg",
-      "releaseInfo": "2011",
-      "description": "Bob Belcher runs a struggling burger shop with his wife and three children.",
+      "poster": "https://images.justwatch.com/poster/308526633/s718/frieren-beyond-journeys-end.jpg",
+      "releaseInfo": "2023",
+      "description": "Elf mage Frieren and her fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. How will she come to understand what life means to the people around her?",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/bobs-burgers"
+          "url": "https://justwatch.com/us/tv-show/frieren-beyond-journeys-end"
+        }
+      ]
+    },
+    {
+      "id": "tt12343534",
+      "type": "series",
+      "name": "Jujutsu Kaisen",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/307266835/s718/jujutsu-kaisen.jpg",
+      "releaseInfo": "2020",
+      "description": "A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/jujutsu-kaisen"
+        }
+      ]
+    },
+    {
+      "id": "tt0285403",
+      "type": "series",
+      "name": "Scrubs",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/179234265/s718/scrubs.jpg",
+      "releaseInfo": "2001",
+      "description": "In the unreal world of Sacred Heart Hospital, John \"J.D.\" Dorian learns the ways of medicine, friendship and life.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/scrubs"
         }
       ]
     },
@@ -1313,34 +1393,50 @@
       ]
     },
     {
-      "id": "tt5830254",
+      "id": "tt1091909",
       "type": "series",
-      "name": "Das Boot",
+      "name": "Murdoch Mysteries",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/308797054/s718/das-boot.jpg",
-      "releaseInfo": "2018",
-      "description": "An inexperienced U-boat crew has to survive a secret mission and a young German woman is torn between loyalty for her home country and the French resistance in the WWII drama.",
+      "poster": "https://images.justwatch.com/poster/348779460/s718/murdoch-mysteries.jpg",
+      "releaseInfo": "2008",
+      "description": "In the 1890s, William Murdoch uses radical forensic techniques for the time, including fingerprinting and trace evidence, to solve some of the city's most gruesome murders.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/das-boot"
+          "url": "https://justwatch.com/us/tv-show/murdoch-mysteries"
         }
       ]
     },
     {
-      "id": "tt12343534",
+      "id": "tt8134186",
       "type": "series",
-      "name": "Jujutsu Kaisen",
+      "name": "Devs",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/307266835/s718/jujutsu-kaisen.jpg",
+      "poster": "https://images.justwatch.com/poster/172073366/s718/devs.jpg",
       "releaseInfo": "2020",
-      "description": "A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.",
+      "description": "Young computer engineer Lily Chan investigates the secretive development division of her employer, a cutting-edge tech company based in San Francisco, which she believes is behind the murder of her boyfriend.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/jujutsu-kaisen"
+          "url": "https://justwatch.com/us/tv-show/devs"
+        }
+      ]
+    },
+    {
+      "id": "tt9059760",
+      "type": "series",
+      "name": "Normal People",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/176978989/s718/normal-people.jpg",
+      "releaseInfo": "2020",
+      "description": "Marianne and Connell weave in and out of each other's lives in this exploration of sex, power and the desire to love and be loved.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/normal-people"
         }
       ]
     },
@@ -1377,86 +1473,6 @@
       ]
     },
     {
-      "id": "tt22248376",
-      "type": "series",
-      "name": "Frieren: Beyond Journey's End",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/308526633/s718/frieren-beyond-journeys-end.jpg",
-      "releaseInfo": "2023",
-      "description": "Elf mage Frieren and her fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. How will she come to understand what life means to the people around her?",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/frieren-beyond-journeys-end"
-        }
-      ]
-    },
-    {
-      "id": "tt0387764",
-      "type": "series",
-      "name": "Peep Show",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302450992/s718/peep-show.jpg",
-      "releaseInfo": "2003",
-      "description": "Two dysfunctional flatmates reveal all their inner thoughts - whether dark, stupid or embarrassing. Or, occasionally, all three...",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/peep-show"
-        }
-      ]
-    },
-    {
-      "id": "tt0285403",
-      "type": "series",
-      "name": "Scrubs",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/179234265/s718/scrubs.jpg",
-      "releaseInfo": "2001",
-      "description": "In the unreal world of Sacred Heart Hospital, John \"J.D.\" Dorian learns the ways of medicine, friendship and life.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/scrubs"
-        }
-      ]
-    },
-    {
-      "id": "tt1091909",
-      "type": "series",
-      "name": "Murdoch Mysteries",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/348779460/s718/murdoch-mysteries.jpg",
-      "releaseInfo": "2008",
-      "description": "In the 1890s, William Murdoch uses radical forensic techniques for the time, including fingerprinting and trace evidence, to solve some of the city's most gruesome murders.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/murdoch-mysteries"
-        }
-      ]
-    },
-    {
-      "id": "tt1327801",
-      "type": "series",
-      "name": "Glee",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/127748117/s718/glee.jpg",
-      "releaseInfo": "2009",
-      "description": "In this musical comedy, optimistic high school teacher Will Schuester tries to refuel his own passion while reinventing the high school's glee club and challenging a group of outcasts to realize their star potential as they strive to outshine their singing competition while navigating the cruel halls of McKinley High.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/glee"
-        }
-      ]
-    },
-    {
       "id": "tt22003362",
       "type": "series",
       "name": "Special Forces: World's Toughest Test",
@@ -1473,66 +1489,18 @@
       ]
     },
     {
-      "id": "tt9059760",
+      "id": "tt1327801",
       "type": "series",
-      "name": "Normal People",
+      "name": "Glee",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/176978989/s718/normal-people.jpg",
-      "releaseInfo": "2020",
-      "description": "Marianne and Connell weave in and out of each other's lives in this exploration of sex, power and the desire to love and be loved.",
+      "poster": "https://images.justwatch.com/poster/127748117/s718/glee.jpg",
+      "releaseInfo": "2009",
+      "description": "In this musical comedy, optimistic high school teacher Will Schuester tries to refuel his own passion while reinventing the high school's glee club and challenging a group of outcasts to realize their star potential as they strive to outshine their singing competition while navigating the cruel halls of McKinley High.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/normal-people"
-        }
-      ]
-    },
-    {
-      "id": "tt4647692",
-      "type": "series",
-      "name": "Letterkenny",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/237979056/s718/letterkenny.jpg",
-      "releaseInfo": "2016",
-      "description": "Letterkenny follows Wayne, a good-ol’ country boy in Letterkenny, Ontario trying to protect his homegrown way of life on the farm, against a world that is constantly evolving around him. The residents of Letterkenny belong to one of three groups: Hicks, Skids, and Hockey Players. The three groups are constantly feuding with each other over seemingly trivial matters; often ending with someone getting their ass kicked.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/letterkenny"
-        }
-      ]
-    },
-    {
-      "id": "tt42006761",
-      "type": "series",
-      "name": "The Secret Lives of Mormon Wives: Orange County",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/356468655/s718/the-secret-lives-of-mormon-wives-orange-county.jpg",
-      "releaseInfo": "2026",
-      "description": "A new group of dynamic young mothers in Orange County collide in a community where beliefs are not just their religion; they are their identity. While some defend their way of life, fighting against modernity, others embrace change, becoming a platform to disrupt the status quo. Scandals and secrets will be revealed, facades will crumble, and families and friendships will change forever on both sides of the battlefield as this group of strong, game-changing influencers comes together to build their answer to #MomTok.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-secret-lives-of-mormon-wives-orange-county"
-        }
-      ]
-    },
-    {
-      "id": "tt8134186",
-      "type": "series",
-      "name": "Devs",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/172073366/s718/devs.jpg",
-      "releaseInfo": "2020",
-      "description": "Young computer engineer Lily Chan investigates the secretive development division of her employer, a cutting-edge tech company based in San Francisco, which she believes is behind the murder of her boyfriend.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/devs"
+          "url": "https://justwatch.com/us/tv-show/glee"
         }
       ]
     },
@@ -1569,6 +1537,22 @@
       ]
     },
     {
+      "id": "tt4647692",
+      "type": "series",
+      "name": "Letterkenny",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/237979056/s718/letterkenny.jpg",
+      "releaseInfo": "2016",
+      "description": "Letterkenny follows Wayne, a good-ol’ country boy in Letterkenny, Ontario trying to protect his homegrown way of life on the farm, against a world that is constantly evolving around him. The residents of Letterkenny belong to one of three groups: Hicks, Skids, and Hockey Players. The three groups are constantly feuding with each other over seemingly trivial matters; often ending with someone getting their ass kicked.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/letterkenny"
+        }
+      ]
+    },
+    {
       "id": "tt1637727",
       "type": "series",
       "name": "The Killing",
@@ -1581,22 +1565,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-killing-2011"
-        }
-      ]
-    },
-    {
-      "id": "tt0279600",
-      "type": "series",
-      "name": "Smallville",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/101489010/s718/smallville.jpg",
-      "releaseInfo": "2001",
-      "description": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/smallville"
         }
       ]
     },
@@ -1633,18 +1601,34 @@
       ]
     },
     {
-      "id": "tt36064406",
+      "id": "tt0285331",
       "type": "series",
-      "name": "Coven Academy",
+      "name": "24",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/348408700/s718/coven-academy.jpg",
-      "releaseInfo": "2026",
-      "description": "In the haunted heart of New Orleans, three teenage witches and their warlock peers attend an elite magic boarding school where power is currency, secrets are lethal and attraction is a liability.",
+      "poster": "https://images.justwatch.com/poster/178338450/s718/24.jpg",
+      "releaseInfo": "2001",
+      "description": "Counterterrorism agent Jack Bauer fights the bad guys of the world, a day at a time. With each week's episode unfolding in real-time, \"24\" covers a single day in the life of Bauer each season.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/coven-academy"
+          "url": "https://justwatch.com/us/tv-show/24"
+        }
+      ]
+    },
+    {
+      "id": "tt0279600",
+      "type": "series",
+      "name": "Smallville",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/101489010/s718/smallville.jpg",
+      "releaseInfo": "2001",
+      "description": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/smallville"
         }
       ]
     },
@@ -1665,6 +1649,38 @@
       ]
     },
     {
+      "id": "tt42006761",
+      "type": "series",
+      "name": "The Secret Lives of Mormon Wives: Orange County",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/356468655/s718/the-secret-lives-of-mormon-wives-orange-county.jpg",
+      "releaseInfo": "2026",
+      "description": "A new group of dynamic young mothers in Orange County collide in a community where beliefs are not just their religion; they are their identity. While some defend their way of life, fighting against modernity, others embrace change, becoming a platform to disrupt the status quo. Scandals and secrets will be revealed, facades will crumble, and families and friendships will change forever on both sides of the battlefield as this group of strong, game-changing influencers comes together to build their answer to #MomTok.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-secret-lives-of-mormon-wives-orange-county"
+        }
+      ]
+    },
+    {
+      "id": "tt36064406",
+      "type": "series",
+      "name": "Coven Academy",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348408700/s718/coven-academy.jpg",
+      "releaseInfo": "2026",
+      "description": "In the haunted heart of New Orleans, three teenage witches and their warlock peers attend an elite magic boarding school where power is currency, secrets are lethal and attraction is a liability.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/coven-academy"
+        }
+      ]
+    },
+    {
       "id": "tt36210894",
       "type": "series",
       "name": "The Drop: A Snowfall Saga",
@@ -1677,38 +1693,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-drop-a-snowfall-saga"
-        }
-      ]
-    },
-    {
-      "id": "tt0285331",
-      "type": "series",
-      "name": "24",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/178338450/s718/24.jpg",
-      "releaseInfo": "2001",
-      "description": "Counterterrorism agent Jack Bauer fights the bad guys of the world, a day at a time. With each week's episode unfolding in real-time, \"24\" covers a single day in the life of Bauer each season.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/24"
-        }
-      ]
-    },
-    {
-      "id": "tt48356732",
-      "type": "series",
-      "name": "Swipe Right on the Devil",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355273561/s718/swipe-right-on-the-devil.jpg",
-      "releaseInfo": "2026",
-      "description": "Revisits the 2017 murder of 24-year-old Sydney Loofe, who disappeared and was later found dead after going on a Tinder date with Bailey Boswell.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/swipe-right-on-the-devil"
         }
       ]
     },
@@ -1745,6 +1729,102 @@
       ]
     },
     {
+      "id": "tt5555260",
+      "type": "series",
+      "name": "This Is Us",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/83689087/s718/this-is-us.jpg",
+      "releaseInfo": "2016",
+      "description": "Follows the lives and families of three adults living and growing up in the United States of America in present and past times. As their paths cross and their life stories intertwine in curious ways, we find that several of them share the same birthday - and so much more than anyone would expect.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/this-is-us"
+        }
+      ]
+    },
+    {
+      "id": "tt5834204",
+      "type": "series",
+      "name": "The Handmaid's Tale",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/326281535/s718/the-handmaids-tale.jpg",
+      "releaseInfo": "2017",
+      "description": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-handmaids-tale"
+        }
+      ]
+    },
+    {
+      "id": "tt0455275",
+      "type": "series",
+      "name": "Prison Break",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/26738125/s718/prison-break.jpg",
+      "releaseInfo": "2005",
+      "description": "Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside out.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/prison-break"
+        }
+      ]
+    },
+    {
+      "id": "tt0118375",
+      "type": "series",
+      "name": "King of the Hill",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/333798355/s718/king-of-the-hill.jpg",
+      "releaseInfo": "1997",
+      "description": "Set in Texas, this animated series follows the life of propane salesman Hank Hill, who lives with his overly confident substitute Spanish teacher wife Peggy, wannabe comedian son Bobby, and naive niece Luanne. Hank has conservative views about God, family, and country, but his values and ethics are often challenged by the situations he, his family, and his beer-drinking neighbors/buddies find themselves in.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/king-of-the-hill"
+        }
+      ]
+    },
+    {
+      "id": "tt0810788",
+      "type": "series",
+      "name": "Burn Notice",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/10142358/s718/burn-notice.jpg",
+      "releaseInfo": "2007",
+      "description": "A formerly blacklisted spy uses his unique skills and training to help people in desperate situations.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/burn-notice"
+        }
+      ]
+    },
+    {
+      "id": "tt42007258",
+      "type": "series",
+      "name": "The Mob",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355676202/s718/the-mob.jpg",
+      "releaseInfo": "2026",
+      "description": "Celebrities compete in mob-themed challenges at an Italian villa for $250,000. They elect a don who controls eliminations and prize money. As power demands loyalty, contestants must decide whether to support the don or overthrow them.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-mob"
+        }
+      ]
+    },
+    {
       "id": "tt0434665",
       "type": "series",
       "name": "Bleach",
@@ -1777,146 +1857,18 @@
       ]
     },
     {
-      "id": "tt5555260",
+      "id": "tt48356732",
       "type": "series",
-      "name": "This Is Us",
+      "name": "Swipe Right on the Devil",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/83689087/s718/this-is-us.jpg",
-      "releaseInfo": "2016",
-      "description": "Follows the lives and families of three adults living and growing up in the United States of America in present and past times. As their paths cross and their life stories intertwine in curious ways, we find that several of them share the same birthday - and so much more than anyone would expect.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/this-is-us"
-        }
-      ]
-    },
-    {
-      "id": "tt0455275",
-      "type": "series",
-      "name": "Prison Break",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/26738125/s718/prison-break.jpg",
-      "releaseInfo": "2005",
-      "description": "Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside out.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/prison-break"
-        }
-      ]
-    },
-    {
-      "id": "tt5834204",
-      "type": "series",
-      "name": "The Handmaid's Tale",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/326281535/s718/the-handmaids-tale.jpg",
-      "releaseInfo": "2017",
-      "description": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-handmaids-tale"
-        }
-      ]
-    },
-    {
-      "id": "tt42007258",
-      "type": "series",
-      "name": "The Mob",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/355676202/s718/the-mob.jpg",
+      "poster": "https://images.justwatch.com/poster/355273561/s718/swipe-right-on-the-devil.jpg",
       "releaseInfo": "2026",
-      "description": "Celebrities compete in mob-themed challenges at an Italian villa for $250,000. They elect a don who controls eliminations and prize money. As power demands loyalty, contestants must decide whether to support the don or overthrow them.",
+      "description": "Revisits the 2017 murder of 24-year-old Sydney Loofe, who disappeared and was later found dead after going on a Tinder date with Bailey Boswell.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-mob"
-        }
-      ]
-    },
-    {
-      "id": "tt0810788",
-      "type": "series",
-      "name": "Burn Notice",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/10142358/s718/burn-notice.jpg",
-      "releaseInfo": "2007",
-      "description": "A formerly blacklisted spy uses his unique skills and training to help people in desperate situations.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/burn-notice"
-        }
-      ]
-    },
-    {
-      "id": "tt1721666",
-      "type": "series",
-      "name": "Sister Wives",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/316378523/s718/sister-wives.jpg",
-      "releaseInfo": "2010",
-      "description": "Kody Brown, his four wives Meri, Janelle, Robyn and Christine, and their 17 children try to live as a \"normal\" family despite looks of disdain.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/sister-wives"
-        }
-      ]
-    },
-    {
-      "id": "tt0118375",
-      "type": "series",
-      "name": "King of the Hill",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/333798355/s718/king-of-the-hill.jpg",
-      "releaseInfo": "1997",
-      "description": "Set in Texas, this animated series follows the life of propane salesman Hank Hill, who lives with his overly confident substitute Spanish teacher wife Peggy, wannabe comedian son Bobby, and naive niece Luanne. Hank has conservative views about God, family, and country, but his values and ethics are often challenged by the situations he, his family, and his beer-drinking neighbors/buddies find themselves in.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/king-of-the-hill"
-        }
-      ]
-    },
-    {
-      "id": "tt1358522",
-      "type": "series",
-      "name": "White Collar",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/177881551/s718/white-collar.jpg",
-      "releaseInfo": "2009",
-      "description": "In exchange for his freedom, charming con artist Neal Caffrey provides his expertise to help straight-man FBI agent Peter Burke catch elusive white-collar criminals.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/white-collar"
-        }
-      ]
-    },
-    {
-      "id": "tt2191671",
-      "type": "series",
-      "name": "Elementary",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/8536713/s718/elementary.jpg",
-      "releaseInfo": "2012",
-      "description": "A modern-day drama about a crime-solving duo that cracks the NYPD's most impossible cases. Following his fall from grace in London and a stint in rehab, eccentric Sherlock escapes to Manhattan where his wealthy father forces him to live with his worst nightmare - a sober companion, Dr. Watson.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/elementary"
+          "url": "https://justwatch.com/us/tv-show/swipe-right-on-the-devil"
         }
       ]
     },
@@ -1937,6 +1889,38 @@
       ]
     },
     {
+      "id": "tt1721666",
+      "type": "series",
+      "name": "Sister Wives",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/316378523/s718/sister-wives.jpg",
+      "releaseInfo": "2010",
+      "description": "Kody Brown, his four wives Meri, Janelle, Robyn and Christine, and their 17 children try to live as a \"normal\" family despite looks of disdain.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/sister-wives"
+        }
+      ]
+    },
+    {
+      "id": "tt2191671",
+      "type": "series",
+      "name": "Elementary",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/8536713/s718/elementary.jpg",
+      "releaseInfo": "2012",
+      "description": "A modern-day drama about a crime-solving duo that cracks the NYPD's most impossible cases. Following his fall from grace in London and a stint in rehab, eccentric Sherlock escapes to Manhattan where his wealthy father forces him to live with his worst nightmare - a sober companion, Dr. Watson.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/elementary"
+        }
+      ]
+    },
+    {
       "id": "tt0212671",
       "type": "series",
       "name": "Malcolm in the Middle",
@@ -1949,6 +1933,38 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/malcolm-in-the-middle"
+        }
+      ]
+    },
+    {
+      "id": "tt1358522",
+      "type": "series",
+      "name": "White Collar",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/177881551/s718/white-collar.jpg",
+      "releaseInfo": "2009",
+      "description": "In exchange for his freedom, charming con artist Neal Caffrey provides his expertise to help straight-man FBI agent Peter Burke catch elusive white-collar criminals.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/white-collar"
+        }
+      ]
+    },
+    {
+      "id": "tt7686464",
+      "type": "series",
+      "name": "A Christmas Carol",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/341614491/s718/a-christmas-carol.jpg",
+      "releaseInfo": "2019",
+      "description": "Ebenezer Scrooge experiences a dark night of the soul - past, present and future.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/a-christmas-carol"
         }
       ]
     },
@@ -2001,18 +2017,18 @@
       ]
     },
     {
-      "id": "tt0412253",
+      "id": "tt0877057",
       "type": "series",
-      "name": "Veronica Mars",
+      "name": "Death Note",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/127575662/s718/veronica-mars.jpg",
-      "releaseInfo": "2004",
-      "description": "After her best friend is murdered, her father is removed as county sheriff, and her mother abruptly leaves town, Veronica Mars dedicates her life to cracking the toughest mysteries in the mostly affluent town of Neptune.",
+      "poster": "https://images.justwatch.com/poster/210194718/s718/death-note.jpg",
+      "releaseInfo": "2006",
+      "description": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/veronica-mars"
+          "url": "https://justwatch.com/us/tv-show/death-note"
         }
       ]
     },
@@ -2049,18 +2065,18 @@
       ]
     },
     {
-      "id": "tt7686464",
+      "id": "tt0412253",
       "type": "series",
-      "name": "A Christmas Carol",
+      "name": "Veronica Mars",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/341614491/s718/a-christmas-carol.jpg",
-      "releaseInfo": "2019",
-      "description": "Ebenezer Scrooge experiences a dark night of the soul - past, present and future.",
+      "poster": "https://images.justwatch.com/poster/127575662/s718/veronica-mars.jpg",
+      "releaseInfo": "2004",
+      "description": "After her best friend is murdered, her father is removed as county sheriff, and her mother abruptly leaves town, Veronica Mars dedicates her life to cracking the toughest mysteries in the mostly affluent town of Neptune.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/a-christmas-carol"
+          "url": "https://justwatch.com/us/tv-show/veronica-mars"
         }
       ]
     },
@@ -2097,38 +2113,6 @@
       ]
     },
     {
-      "id": "tt0877057",
-      "type": "series",
-      "name": "Death Note",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/210194718/s718/death-note.jpg",
-      "releaseInfo": "2006",
-      "description": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/death-note"
-        }
-      ]
-    },
-    {
-      "id": "tt1486217",
-      "type": "series",
-      "name": "Archer",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/249127012/s718/archer.jpg",
-      "releaseInfo": "2009",
-      "description": "Suave, confident and devastatingly handsome Sterling Archer, the world's greatest spy, and his misguided cohorts navigate the spy world.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/archer"
-        }
-      ]
-    },
-    {
       "id": "tt1843230",
       "type": "series",
       "name": "Once Upon a Time",
@@ -2145,82 +2129,18 @@
       ]
     },
     {
-      "id": "tt1837576",
+      "id": "tt1480684",
       "type": "series",
-      "name": "Scandal",
+      "name": "The League",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/284091449/s718/scandal.jpg",
-      "releaseInfo": "2012",
-      "description": "Everyone has secrets and Olivia Pope has dedicated her life to protecting and defending the public images of the elite by keeping those secrets under wraps. Pope and her team are at the top of their game when it comes to getting the job done for their clients, but it becomes apparent that these \"gladiators in suits,\" who specialize in fixing the lives of other people, have trouble fixing those closest at hand -- their own.",
+      "poster": "https://images.justwatch.com/poster/340633064/s718/the-league.jpg",
+      "releaseInfo": "2009",
+      "description": "The League is an American sitcom and semi-improvised comedy about a about a fantasy football league and its members and their everyday lives.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/scandal"
-        }
-      ]
-    },
-    {
-      "id": "tt1474684",
-      "type": "series",
-      "name": "Luther",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/102366090/s718/luther.jpg",
-      "releaseInfo": "2010",
-      "description": "John Luther is a brilliant homicide detective with a knack for getting inside the minds of murderers. Unfortunately, his unconventional methods and personal demons put him at odds with his team.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/luther"
-        }
-      ]
-    },
-    {
-      "id": "tt18249282",
-      "type": "series",
-      "name": "Shoresy",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/308576572/s718/shoresy.jpg",
-      "releaseInfo": "2022",
-      "description": "The foul-mouthed, chirp-serving, mother-loving, fan favorite character Shoresy joins a senior AAA hockey team in Sudbury to never lose again.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/shoresy"
-        }
-      ]
-    },
-    {
-      "id": "tt2235759",
-      "type": "series",
-      "name": "The Great",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/305371393/s718/the-great.jpg",
-      "releaseInfo": "2020",
-      "description": "A genre-bending, anti-historical ride through 18th century Russia following the rise of Catherine the Nothing to Catherine the Great and her explosive relationship with husband Peter, the emperor of Russia.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-great"
-        }
-      ]
-    },
-    {
-      "id": "tt0088509",
-      "type": "series",
-      "name": "Dragon Ball",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/178627048/s718/dragon-ball.jpg",
-      "releaseInfo": "1986",
-      "description": "A young martial artist named Goku teams up with inventor Bulma and other quirky allies on a globe-trotting quest to find the seven Dragon Balls, mystical orbs that can summon a wish-granting dragon.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dragon-ball"
+          "url": "https://justwatch.com/us/tv-show/the-league"
         }
       ]
     },
@@ -2241,22 +2161,6 @@
       ]
     },
     {
-      "id": "tt0475900",
-      "type": "series",
-      "name": "Anthony Bourdain: No Reservations",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/324853855/s718/no-reservations.jpg",
-      "releaseInfo": "2005",
-      "description": "Anthony Bourdain uncovers the best cuisine across the world. At each location, Tony dives headfirst into life's colorful and rich pageant, bringing his intellectual curiosity, empathy, wit and boundless appetite.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/no-reservations"
-        }
-      ]
-    },
-    {
       "id": "tt0092400",
       "type": "series",
       "name": "Married... with Children",
@@ -2269,6 +2173,102 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/married-with-children"
+        }
+      ]
+    },
+    {
+      "id": "tt1474684",
+      "type": "series",
+      "name": "Luther",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/102366090/s718/luther.jpg",
+      "releaseInfo": "2010",
+      "description": "John Luther is a brilliant homicide detective with a knack for getting inside the minds of murderers. Unfortunately, his unconventional methods and personal demons put him at odds with his team.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/luther"
+        }
+      ]
+    },
+    {
+      "id": "tt2235759",
+      "type": "series",
+      "name": "The Great",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/305371393/s718/the-great.jpg",
+      "releaseInfo": "2020",
+      "description": "A genre-bending, anti-historical ride through 18th century Russia following the rise of Catherine the Nothing to Catherine the Great and her explosive relationship with husband Peter, the emperor of Russia.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-great"
+        }
+      ]
+    },
+    {
+      "id": "tt0098800",
+      "type": "series",
+      "name": "The Fresh Prince of Bel-Air",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/30851452/s718/the-fresh-prince-of-bel-air.jpg",
+      "releaseInfo": "1990",
+      "description": "Will, a street-smart teenager, moves from the tough streets of West Philly to posh Bel-Air to live with his Uncle Philip, Aunt Vivian, his cousins — spoiled Hilary, preppy Carlton and young Ashley — and their sophisticated British butler, Geoffrey. Though Will’s antics and upbringing contrast greatly with the upper-class lifestyle of his extended relatives, he soon finds himself right at home as a loved part of the family.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-fresh-prince-of-bel-air"
+        }
+      ]
+    },
+    {
+      "id": "tt1486217",
+      "type": "series",
+      "name": "Archer",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/249127012/s718/archer.jpg",
+      "releaseInfo": "2009",
+      "description": "Suave, confident and devastatingly handsome Sterling Archer, the world's greatest spy, and his misguided cohorts navigate the spy world.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/archer"
+        }
+      ]
+    },
+    {
+      "id": "tt1355642",
+      "type": "series",
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/81962622/s718/gang-nolian-jin-shu-shi-fullmetal-alchemist.jpg",
+      "releaseInfo": "2009",
+      "description": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/gang-nolian-jin-shu-shi-fullmetal-alchemist"
+        }
+      ]
+    },
+    {
+      "id": "tt0475900",
+      "type": "series",
+      "name": "Anthony Bourdain: No Reservations",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/324853855/s718/no-reservations.jpg",
+      "releaseInfo": "2005",
+      "description": "Anthony Bourdain uncovers the best cuisine across the world. At each location, Tony dives headfirst into life's colorful and rich pageant, bringing his intellectual curiosity, empathy, wit and boundless appetite.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/no-reservations"
         }
       ]
     },
@@ -2289,18 +2289,34 @@
       ]
     },
     {
-      "id": "tt1442550",
+      "id": "tt0088509",
       "type": "series",
-      "name": "Shark Tank",
+      "name": "Dragon Ball",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/251546288/s718/shark-tank.jpg",
-      "releaseInfo": "2009",
-      "description": "Entrepreneurs pitch innovative products and businesses to a panel of wealthy investors, hoping to win funding, guidance, and a life-changing deal.",
+      "poster": "https://images.justwatch.com/poster/178627048/s718/dragon-ball.jpg",
+      "releaseInfo": "1986",
+      "description": "A young martial artist named Goku teams up with inventor Bulma and other quirky allies on a globe-trotting quest to find the seven Dragon Balls, mystical orbs that can summon a wish-granting dragon.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/shark-tank"
+          "url": "https://justwatch.com/us/tv-show/dragon-ball"
+        }
+      ]
+    },
+    {
+      "id": "tt13623580",
+      "type": "series",
+      "name": "Reservation Dogs",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/306764133/s718/reservation-dogs.jpg",
+      "releaseInfo": "2021",
+      "description": "Comedy series about four Native American teenagers growing up on a reservation in eastern Oklahoma.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/reservation-dogs"
         }
       ]
     },
@@ -2321,6 +2337,70 @@
       ]
     },
     {
+      "id": "tt1837576",
+      "type": "series",
+      "name": "Scandal",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/284091449/s718/scandal.jpg",
+      "releaseInfo": "2012",
+      "description": "Everyone has secrets and Olivia Pope has dedicated her life to protecting and defending the public images of the elite by keeping those secrets under wraps. Pope and her team are at the top of their game when it comes to getting the job done for their clients, but it becomes apparent that these \"gladiators in suits,\" who specialize in fixing the lives of other people, have trouble fixing those closest at hand -- their own.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/scandal"
+        }
+      ]
+    },
+    {
+      "id": "tt1442550",
+      "type": "series",
+      "name": "Shark Tank",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/251546288/s718/shark-tank.jpg",
+      "releaseInfo": "2009",
+      "description": "Entrepreneurs pitch innovative products and businesses to a panel of wealthy investors, hoping to win funding, guidance, and a life-changing deal.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/shark-tank"
+        }
+      ]
+    },
+    {
+      "id": "tt18249282",
+      "type": "series",
+      "name": "Shoresy",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/308576572/s718/shoresy.jpg",
+      "releaseInfo": "2022",
+      "description": "The foul-mouthed, chirp-serving, mother-loving, fan favorite character Shoresy joins a senior AAA hockey team in Sudbury to never lose again.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/shoresy"
+        }
+      ]
+    },
+    {
+      "id": "tt4288182",
+      "type": "series",
+      "name": "Atlanta",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/178477958/s718/atlanta.jpg",
+      "releaseInfo": "2016",
+      "description": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/atlanta"
+        }
+      ]
+    },
+    {
       "id": "tt14734548",
       "type": "series",
       "name": "9/11: One Day in America",
@@ -2337,6 +2417,22 @@
       ]
     },
     {
+      "id": "tt38448408",
+      "type": "series",
+      "name": "The Killings at Parrish Station",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/357133777/s718/the-killings-at-parrish-station.jpg",
+      "releaseInfo": "2026",
+      "description": "It’s 1987, and Detective Georgia Cooke is called in to investigate the massacre of four scientists who have been brutally murdered in inexplicable ways, with a lone survivor the obvious suspect. But as Georgia digs deeper, unravelling a complex case entangled in mania, ritual, and the occult, her obsessive quest for the truth spirals into a nightmare that will put her family, career, and sanity on the line.  37 years later, a chilling new spree of murders will pull Georgia back into this nightmare as she confronts the terrifying possibility that the horrors at Parrish Station were never fully buried.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-killings-at-parrish-station"
+        }
+      ]
+    },
+    {
       "id": "tt9170070",
       "type": "series",
       "name": "90 Day Fiancé: The Other Way",
@@ -2349,6 +2445,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/90-day-fiance-the-other-way"
+        }
+      ]
+    },
+    {
+      "id": "tt29722955",
+      "type": "series",
+      "name": "JoJo's Bizarre Adventure",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/19530374/s718/jojos-bizarre-adventure-1993.jpg",
+      "releaseInfo": "2012",
+      "description": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
         }
       ]
     },
@@ -2385,18 +2497,34 @@
       ]
     },
     {
-      "id": "tt6439752",
+      "id": "tt0158552",
       "type": "series",
-      "name": "Snowfall",
+      "name": "Charmed",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302908123/s718/snowfall.jpg",
-      "releaseInfo": "2017",
-      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
+      "poster": "https://images.justwatch.com/poster/158247345/s718/charmed.jpg",
+      "releaseInfo": "1998",
+      "description": "Three sisters (Prue, Piper and Phoebe) reunite and unlock their powers to become the Charmed Ones, the most powerful good witches of all time, whose prophesied destiny is to protect innocent lives from evil beings such as demons and warlocks. Each sister possesses unique magical powers that grow and evolve, while they attempt to maintain normal lives in modern day San Francisco. ",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/snowfall"
+          "url": "https://justwatch.com/us/tv-show/charmed"
+        }
+      ]
+    },
+    {
+      "id": "tt1235099",
+      "type": "series",
+      "name": "Lie to Me",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/344333300/s718/lie-to-me.jpg",
+      "releaseInfo": "2009",
+      "description": "The world's leading deception researcher, Dr. Cal Lightman, studies facial expression, body language and tone of voice to determine when a person is lying and why, which helps law enforcement and government agencies uncover the truth. But his skills also make it easier for him to deceive others.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/lie-to-me"
         }
       ]
     },
@@ -2417,66 +2545,50 @@
       ]
     },
     {
-      "id": "tt1355642",
+      "id": "tt6439752",
       "type": "series",
-      "name": "Fullmetal Alchemist: Brotherhood",
+      "name": "Snowfall",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/81962622/s718/gang-nolian-jin-shu-shi-fullmetal-alchemist.jpg",
-      "releaseInfo": "2009",
-      "description": "Disregard for alchemy’s laws ripped half of Edward Elric’s limbs from his body and left his brother Alphonse’s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher’s Stone. Enemies and allies – the corrupt military, the Homunculi, and foreign alchemists – will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
+      "poster": "https://images.justwatch.com/poster/302908123/s718/snowfall.jpg",
+      "releaseInfo": "2017",
+      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/gang-nolian-jin-shu-shi-fullmetal-alchemist"
+          "url": "https://justwatch.com/us/tv-show/snowfall"
         }
       ]
     },
     {
-      "id": "tt10589968",
+      "id": "tt2100976",
       "type": "series",
-      "name": "The Secret of Skinwalker Ranch",
+      "name": "Impractical Jokers",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320936205/s718/the-secret-of-skinwalker-ranch.jpg",
-      "releaseInfo": "2020",
-      "description": "A team of experts and scientists undertakes exhaustive research at Skinwalker Ranch, an infamous location for paranormal activity and UFO sightings.",
+      "poster": "https://images.justwatch.com/poster/342783825/s718/impractical-jokers.jpg",
+      "releaseInfo": "2011",
+      "description": "This hidden-camera series follows four lifelong friends -- Brian \"Q\"' Quinn, James \"Murr\"' Murray, Joe Gatto and Sal Vulcano -- who take dares to an outrageous level. To find out who is best under pressure, the guys compete in awkward and outrageous hidden-camera hijinks with the loser performing what is deemed to be the most-mortifying challenge yet.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-secret-of-skinwalker-ranch"
+          "url": "https://justwatch.com/us/tv-show/impractical-jokers"
         }
       ]
     },
     {
-      "id": "tt0988824",
+      "id": "tt0437741",
       "type": "series",
-      "name": "Naruto: Shippûden",
+      "name": "Project Runway",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/245251537/s718/naruto-shippuden.jpg",
-      "releaseInfo": "2007",
-      "description": "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+      "poster": "https://images.justwatch.com/poster/335023297/s718/project-runway.jpg",
+      "releaseInfo": "2004",
+      "description": "Aspiring fashion designers compete for a chance to break into the industry in this reality competition. Each week, a designer is eliminated from the competition after exhibiting their work in front of a judges' panel.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/naruto-shippuden"
-        }
-      ]
-    },
-    {
-      "id": "tt0158552",
-      "type": "series",
-      "name": "Charmed",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/158247345/s718/charmed.jpg",
-      "releaseInfo": "1998",
-      "description": "Three sisters (Prue, Piper and Phoebe) reunite and unlock their powers to become the Charmed Ones, the most powerful good witches of all time, whose prophesied destiny is to protect innocent lives from evil beings such as demons and warlocks. Each sister possesses unique magical powers that grow and evolve, while they attempt to maintain normal lives in modern day San Francisco. ",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/charmed"
+          "url": "https://justwatch.com/us/tv-show/project-runway"
         }
       ]
     },
@@ -2513,50 +2625,34 @@
       ]
     },
     {
-      "id": "tt0437741",
+      "id": "tt29353885",
       "type": "series",
-      "name": "Project Runway",
+      "name": "Invisible Boys",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/335023297/s718/project-runway.jpg",
-      "releaseInfo": "2004",
-      "description": "Aspiring fashion designers compete for a chance to break into the industry in this reality competition. Each week, a designer is eliminated from the competition after exhibiting their work in front of a judges' panel.",
+      "poster": "https://images.justwatch.com/poster/327138510/s718/invisible-boys.jpg",
+      "releaseInfo": "2025",
+      "description": "A group of tangentially-connected gay teenagers in the remote coastal town of Geraldton encounter the thrills and devastations of first love and sexual discovery set against the backdrop of Australia voting to legalise same-sex marriage in 2017.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/project-runway"
+          "url": "https://justwatch.com/us/tv-show/invisible-boys"
         }
       ]
     },
     {
-      "id": "tt1480684",
+      "id": "tt0988824",
       "type": "series",
-      "name": "The League",
+      "name": "Naruto: Shippûden",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/340633064/s718/the-league.jpg",
-      "releaseInfo": "2009",
-      "description": "The League is an American sitcom and semi-improvised comedy about a about a fantasy football league and its members and their everyday lives.",
+      "poster": "https://images.justwatch.com/poster/245251537/s718/naruto-shippuden.jpg",
+      "releaseInfo": "2007",
+      "description": "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-league"
-        }
-      ]
-    },
-    {
-      "id": "tt29722955",
-      "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/19530374/s718/jojos-bizarre-adventure-1993.jpg",
-      "releaseInfo": "2012",
-      "description": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/jojos-bizarre-adventure-1993"
+          "url": "https://justwatch.com/us/tv-show/naruto-shippuden"
         }
       ]
     },
@@ -2577,34 +2673,50 @@
       ]
     },
     {
-      "id": "tt0098800",
+      "id": "tt27543562",
       "type": "series",
-      "name": "The Fresh Prince of Bel-Air",
+      "name": "The Shards",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/30851452/s718/the-fresh-prince-of-bel-air.jpg",
-      "releaseInfo": "1990",
-      "description": "Will, a street-smart teenager, moves from the tough streets of West Philly to posh Bel-Air to live with his Uncle Philip, Aunt Vivian, his cousins — spoiled Hilary, preppy Carlton and young Ashley — and their sophisticated British butler, Geoffrey. Though Will’s antics and upbringing contrast greatly with the upper-class lifestyle of his extended relatives, he soon finds himself right at home as a loved part of the family.",
+      "poster": "https://images.justwatch.com/poster/347382936/s718/the-shards.jpg",
+      "releaseInfo": "2026",
+      "description": "The Shards is part teenage coming of age, erotic thriller and exploration of the untamed and mysterious era of Los Angeles 1981, tracking a group of privileged high school friends as a serial killer strikes across the city.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-fresh-prince-of-bel-air"
+          "url": "https://justwatch.com/us/tv-show/the-shards"
         }
       ]
     },
     {
-      "id": "tt38448408",
+      "id": "tt3868860",
       "type": "series",
-      "name": "The Killings at Parrish Station",
+      "name": "Married at First Sight",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357133777/s718/the-killings-at-parrish-station.jpg",
-      "releaseInfo": "2026",
-      "description": "It’s 1987, and Detective Georgia Cooke is called in to investigate the massacre of four scientists who have been brutally murdered in inexplicable ways, with a lone survivor the obvious suspect. But as Georgia digs deeper, unravelling a complex case entangled in mania, ritual, and the occult, her obsessive quest for the truth spirals into a nightmare that will put her family, career, and sanity on the line.  37 years later, a chilling new spree of murders will pull Georgia back into this nightmare as she confronts the terrifying possibility that the horrors at Parrish Station were never fully buried.",
+      "poster": "https://images.justwatch.com/poster/309087014/s718/married-at-first-sight.jpg",
+      "releaseInfo": "2014",
+      "description": "A reality show that follows singles yearning for a life-long partnership as they agree to a provocative proposal: getting legally married to a stranger the moment they first meet.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-killings-at-parrish-station"
+          "url": "https://justwatch.com/us/tv-show/married-at-first-sight"
+        }
+      ]
+    },
+    {
+      "id": "tt10589968",
+      "type": "series",
+      "name": "The Secret of Skinwalker Ranch",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320936205/s718/the-secret-of-skinwalker-ranch.jpg",
+      "releaseInfo": "2020",
+      "description": "A team of experts and scientists undertakes exhaustive research at Skinwalker Ranch, an infamous location for paranormal activity and UFO sightings.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-secret-of-skinwalker-ranch"
         }
       ]
     },
@@ -2621,22 +2733,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/broad-city"
-        }
-      ]
-    },
-    {
-      "id": "tt27543562",
-      "type": "series",
-      "name": "The Shards",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347382936/s718/the-shards.jpg",
-      "releaseInfo": "2026",
-      "description": "The Shards is part teenage coming of age, erotic thriller and exploration of the untamed and mysterious era of Los Angeles 1981, tracking a group of privileged high school friends as a serial killer strikes across the city.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-shards"
         }
       ]
     },
@@ -2673,18 +2769,34 @@
       ]
     },
     {
-      "id": "tt13623580",
+      "id": "tt5435008",
       "type": "series",
-      "name": "Reservation Dogs",
+      "name": "Gilmore Girls: A Year in the Life",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/306764133/s718/reservation-dogs.jpg",
-      "releaseInfo": "2021",
-      "description": "Comedy series about four Native American teenagers growing up on a reservation in eastern Oklahoma.",
+      "poster": "https://images.justwatch.com/poster/253057133/s718/gilmore-girls-a-year-in-the-life.jpg",
+      "releaseInfo": "2016",
+      "description": "Set nearly a decade after the finale of the original series, this revival follows Lorelai, Rory and Emily Gilmore through four seasons of change.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/reservation-dogs"
+          "url": "https://justwatch.com/us/tv-show/gilmore-girls-a-year-in-the-life"
+        }
+      ]
+    },
+    {
+      "id": "tt0383126",
+      "type": "series",
+      "name": "MythBusters",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/180955319/s718/mythbusters.jpg",
+      "releaseInfo": "2003",
+      "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/mythbusters"
         }
       ]
     },
@@ -2705,50 +2817,18 @@
       ]
     },
     {
-      "id": "tt3061046",
+      "id": "tt5227038",
       "type": "series",
-      "name": "Steven Universe",
+      "name": "Halloween Baking Championship",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/307756914/s718/steven-universe.jpg",
-      "releaseInfo": "2013",
-      "description": "A young boy takes his mother's place in a group of gemstone-based beings, and must learn to control his powers.",
+      "poster": "https://images.justwatch.com/poster/307605639/s718/halloween-baking-championship.jpg",
+      "releaseInfo": "2015",
+      "description": "The country's top bakers battle it out to create Halloween's spookiest and most-irresistible treats. From spider cupcakes, cheesecake coffins and witch finger cookies to towering confections of terror, these bakers must prove their skills to the judges to land the $25,000 prize and the title of Halloween Baking Champion!",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/steven-universe"
-        }
-      ]
-    },
-    {
-      "id": "tt3868860",
-      "type": "series",
-      "name": "Married at First Sight",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/309087014/s718/married-at-first-sight.jpg",
-      "releaseInfo": "2014",
-      "description": "A reality show that follows singles yearning for a life-long partnership as they agree to a provocative proposal: getting legally married to a stranger the moment they first meet.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/married-at-first-sight"
-        }
-      ]
-    },
-    {
-      "id": "tt1235099",
-      "type": "series",
-      "name": "Lie to Me",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344333300/s718/lie-to-me.jpg",
-      "releaseInfo": "2009",
-      "description": "The world's leading deception researcher, Dr. Cal Lightman, studies facial expression, body language and tone of voice to determine when a person is lying and why, which helps law enforcement and government agencies uncover the truth. But his skills also make it easier for him to deceive others.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/lie-to-me"
+          "url": "https://justwatch.com/us/tv-show/halloween-baking-championship"
         }
       ]
     },
@@ -2769,22 +2849,6 @@
       ]
     },
     {
-      "id": "tt5227038",
-      "type": "series",
-      "name": "Halloween Baking Championship",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/307605639/s718/halloween-baking-championship.jpg",
-      "releaseInfo": "2015",
-      "description": "The country's top bakers battle it out to create Halloween's spookiest and most-irresistible treats. From spider cupcakes, cheesecake coffins and witch finger cookies to towering confections of terror, these bakers must prove their skills to the judges to land the $25,000 prize and the title of Halloween Baking Champion!",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/halloween-baking-championship"
-        }
-      ]
-    },
-    {
       "id": "tt1578873",
       "type": "series",
       "name": "Pretty Little Liars",
@@ -2797,22 +2861,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/pretty-little-liars"
-        }
-      ]
-    },
-    {
-      "id": "tt2100976",
-      "type": "series",
-      "name": "Impractical Jokers",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/342783825/s718/impractical-jokers.jpg",
-      "releaseInfo": "2011",
-      "description": "This hidden-camera series follows four lifelong friends -- Brian \"Q\"' Quinn, James \"Murr\"' Murray, Joe Gatto and Sal Vulcano -- who take dares to an outrageous level. To find out who is best under pressure, the guys compete in awkward and outrageous hidden-camera hijinks with the loser performing what is deemed to be the most-mortifying challenge yet.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/impractical-jokers"
         }
       ]
     },
@@ -2833,82 +2881,18 @@
       ]
     },
     {
-      "id": "tt1694423",
+      "id": "tt3061046",
       "type": "series",
-      "name": "MasterChef",
+      "name": "Steven Universe",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320017611/s718/masterchef.jpg",
-      "releaseInfo": "2010",
-      "description": "This hit cooking competition series sees award-winning chef Gordon Ramsay and other celebrity chefs put a group of contestants through a series of challenges and elimination rounds, in order to turn one home cook into a culinary master.",
+      "poster": "https://images.justwatch.com/poster/307756914/s718/steven-universe.jpg",
+      "releaseInfo": "2013",
+      "description": "A young boy takes his mother's place in a group of gemstone-based beings, and must learn to control his powers.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/masterchef"
-        }
-      ]
-    },
-    {
-      "id": "tt38937897",
-      "type": "series",
-      "name": "Merry Berry Love",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/357134845/s718/merry-berry-love.jpg",
-      "releaseInfo": "2026",
-      "description": "When star Korean spatial designer Lee Yubin loses everything, he heads off to a Japanese island. There, he meets Karin, a resilient strawberry farmer. Hailing from different worlds, their lives collide in a big misunderstanding. Buckle up for \"Merry Berry Love,\" a sweet and sour Korea-Japan rom-com.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/merry-berry-love"
-        }
-      ]
-    },
-    {
-      "id": "tt29353885",
-      "type": "series",
-      "name": "Invisible Boys",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/327138510/s718/invisible-boys.jpg",
-      "releaseInfo": "2025",
-      "description": "A group of tangentially-connected gay teenagers in the remote coastal town of Geraldton encounter the thrills and devastations of first love and sexual discovery set against the backdrop of Australia voting to legalise same-sex marriage in 2017.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/invisible-boys"
-        }
-      ]
-    },
-    {
-      "id": "tt5435008",
-      "type": "series",
-      "name": "Gilmore Girls: A Year in the Life",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/253057133/s718/gilmore-girls-a-year-in-the-life.jpg",
-      "releaseInfo": "2016",
-      "description": "Set nearly a decade after the finale of the original series, this revival follows Lorelai, Rory and Emily Gilmore through four seasons of change.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/gilmore-girls-a-year-in-the-life"
-        }
-      ]
-    },
-    {
-      "id": "tt0157246",
-      "type": "series",
-      "name": "Will & Grace",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/167705718/s718/will-and-grace.jpg",
-      "releaseInfo": "1998",
-      "description": "Will Truman and Grace Adler are best friends living in New York, and when Grace's engagement falls apart, she moves in with Will. Together, along with their friends, they go through the trials of dating, sex, relationships and their careers, butting heads at times but ultimately supporting one another while exchanging plenty of witty banter along the way.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/will-and-grace"
+          "url": "https://justwatch.com/us/tv-show/steven-universe"
         }
       ]
     },
@@ -2925,6 +2909,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-secret-lives-of-mormon-wives"
+        }
+      ]
+    },
+    {
+      "id": "tt0157246",
+      "type": "series",
+      "name": "Will & Grace",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/167705718/s718/will-and-grace.jpg",
+      "releaseInfo": "1998",
+      "description": "Will Truman and Grace Adler are best friends living in New York, and when Grace's engagement falls apart, she moves in with Will. Together, along with their friends, they go through the trials of dating, sex, relationships and their careers, butting heads at times but ultimately supporting one another while exchanging plenty of witty banter along the way.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/will-and-grace"
         }
       ]
     },
@@ -2961,34 +2961,18 @@
       ]
     },
     {
-      "id": "tt0383126",
+      "id": "tt6470478",
       "type": "series",
-      "name": "MythBusters",
+      "name": "The Good Doctor",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/180955319/s718/mythbusters.jpg",
-      "releaseInfo": "2003",
-      "description": "MythBusters is a science entertainment television program created and produced by Australia's Beyond Television Productions for the Discovery Channel. The show's hosts, special effects experts Adam Savage and Jamie Hyneman, use elements of the scientific method to test the validity of rumors, myths, movie scenes, adages, Internet videos, and news stories.",
+      "poster": "https://images.justwatch.com/poster/300727661/s718/the-good-doctor.jpg",
+      "releaseInfo": "2017",
+      "description": "Shaun Murphy, a young surgeon with autism and savant syndrome, relocates from a quiet country life to join a prestigious hospital's surgical unit. Unable to personally connect with those around him, Shaun uses his extraordinary medical gifts to save lives and challenge the skepticism of his colleagues.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/mythbusters"
-        }
-      ]
-    },
-    {
-      "id": "tt0449545",
-      "type": "series",
-      "name": "Curious George",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/326085267/s718/curious-george.jpg",
-      "releaseInfo": "2006",
-      "description": "With the help of his friend “The Man in the Yellow Hat,” a curious little monkey named George sets out on adventures to learn about the world around him.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/curious-george"
+          "url": "https://justwatch.com/us/tv-show/the-good-doctor"
         }
       ]
     },
@@ -3009,6 +2993,22 @@
       ]
     },
     {
+      "id": "tt0449545",
+      "type": "series",
+      "name": "Curious George",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/326085267/s718/curious-george.jpg",
+      "releaseInfo": "2006",
+      "description": "With the help of his friend “The Man in the Yellow Hat,” a curious little monkey named George sets out on adventures to learn about the world around him.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/curious-george"
+        }
+      ]
+    },
+    {
       "id": "tt14674086",
       "type": "series",
       "name": "Welcome to Wrexham",
@@ -3021,22 +3021,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/welcome-to-wrexham"
-        }
-      ]
-    },
-    {
-      "id": "tt6470478",
-      "type": "series",
-      "name": "The Good Doctor",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300727661/s718/the-good-doctor.jpg",
-      "releaseInfo": "2017",
-      "description": "Shaun Murphy, a young surgeon with autism and savant syndrome, relocates from a quiet country life to join a prestigious hospital's surgical unit. Unable to personally connect with those around him, Shaun uses his extraordinary medical gifts to save lives and challenge the skepticism of his colleagues.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-good-doctor"
         }
       ]
     },
@@ -3057,22 +3041,6 @@
       ]
     },
     {
-      "id": "tt2654620",
-      "type": "series",
-      "name": "The Strain",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/21074466/s718/the-strain.jpg",
-      "releaseInfo": "2014",
-      "description": "A high concept thriller that tells the story of Dr. Ephraim Goodweather, the head of the Center for Disease Control Canary Team in New York City. He and his team are called upon to investigate a mysterious viral outbreak with hallmarks of an ancient and evil strain of vampirism. As the strain spreads, Eph, his team, and an assembly of everyday New Yorkers, wage war for the fate of humanity itself.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-strain"
-        }
-      ]
-    },
-    {
       "id": "tt9159144",
       "type": "series",
       "name": "Dark Side of the Ring",
@@ -3089,22 +3057,6 @@
       ]
     },
     {
-      "id": "tt6548228",
-      "type": "series",
-      "name": "Castle Rock",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/151579076/s718/castle-rock.jpg",
-      "releaseInfo": "2018",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/castle-rock"
-        }
-      ]
-    },
-    {
       "id": "tt2301643",
       "type": "series",
       "name": "Halloween Wars",
@@ -3117,6 +3069,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/halloween-wars"
+        }
+      ]
+    },
+    {
+      "id": "tt6548228",
+      "type": "series",
+      "name": "Castle Rock",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/151579076/s718/castle-rock.jpg",
+      "releaseInfo": "2018",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/castle-rock"
         }
       ]
     },
@@ -3153,6 +3121,22 @@
       ]
     },
     {
+      "id": "tt0118300",
+      "type": "series",
+      "name": "Dawson's Creek",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/181026640/s718/dawsons-creek.jpg",
+      "releaseInfo": "1998",
+      "description": "Dawson's Creek is an American teen drama that portrays the fictional lives of a close-knit group of teenagers through high school and college.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/dawsons-creek"
+        }
+      ]
+    },
+    {
       "id": "tt14986406",
       "type": "series",
       "name": "Bleach: Sennen Kessen-hen",
@@ -3165,22 +3149,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/bleach-thousand-year-blood-war"
-        }
-      ]
-    },
-    {
-      "id": "tt8324422",
-      "type": "series",
-      "name": "PEN15",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/272737516/s718/pen15.jpg",
-      "releaseInfo": "2019",
-      "description": "Middle school as it really happened. Maya Erskine and Anna Konkle star in this adult comedy, playing versions of themselves as thirteen-year-old outcasts in the year 2000, surrounded by actual thirteen-year-olds, where the best day of your life can turn into your worst with the stroke of a gel pen.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/pen15"
         }
       ]
     },
@@ -3201,18 +3169,18 @@
       ]
     },
     {
-      "id": "tt3469050",
+      "id": "tt8324422",
       "type": "series",
-      "name": "90 Day Fiancé",
+      "name": "PEN15",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/155234020/s718/90-day-fiance.jpg",
-      "releaseInfo": "2014",
-      "description": "Using a unique 90 Day Fiance visa, overseas fiances will travel to the US to live with their partners for the first time. Each couple will have just 90 days to decide to get married or send their international mate home.",
+      "poster": "https://images.justwatch.com/poster/272737516/s718/pen15.jpg",
+      "releaseInfo": "2019",
+      "description": "Middle school as it really happened. Maya Erskine and Anna Konkle star in this adult comedy, playing versions of themselves as thirteen-year-old outcasts in the year 2000, surrounded by actual thirteen-year-olds, where the best day of your life can turn into your worst with the stroke of a gel pen.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/90-day-fiance"
+          "url": "https://justwatch.com/us/tv-show/pen15"
         }
       ]
     },
@@ -3229,6 +3197,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/private-eyes"
+        }
+      ]
+    },
+    {
+      "id": "tt3469050",
+      "type": "series",
+      "name": "90 Day Fiancé",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/155234020/s718/90-day-fiance.jpg",
+      "releaseInfo": "2014",
+      "description": "Using a unique 90 Day Fiance visa, overseas fiances will travel to the US to live with their partners for the first time. Each couple will have just 90 days to decide to get married or send their international mate home.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/90-day-fiance"
         }
       ]
     },
@@ -3265,6 +3249,22 @@
       ]
     },
     {
+      "id": "tt5978570",
+      "type": "series",
+      "name": "Nirvanna the Band the Show",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/302451351/s718/nirvanna-the-band-the-show.jpg",
+      "releaseInfo": "2017",
+      "description": "Two lifelong best friends and roommates are planning the greatest musical act in the history of the modern world.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/nirvanna-the-band-the-show"
+        }
+      ]
+    },
+    {
       "id": "tt0840196",
       "type": "series",
       "name": "Skins",
@@ -3293,38 +3293,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-office"
-        }
-      ]
-    },
-    {
-      "id": "tt5978570",
-      "type": "series",
-      "name": "Nirvanna the Band the Show",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/302451351/s718/nirvanna-the-band-the-show.jpg",
-      "releaseInfo": "2017",
-      "description": "Two lifelong best friends and roommates are planning the greatest musical act in the history of the modern world.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/nirvanna-the-band-the-show"
-        }
-      ]
-    },
-    {
-      "id": "tt4288182",
-      "type": "series",
-      "name": "Atlanta",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/178477958/s718/atlanta.jpg",
-      "releaseInfo": "2016",
-      "description": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/atlanta"
         }
       ]
     },
@@ -3361,38 +3329,6 @@
       ]
     },
     {
-      "id": "tt1086761",
-      "type": "series",
-      "name": "Keeping Up with the Kardashians",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/243647342/s718/keeping-up-with-the-kardashians.jpg",
-      "releaseInfo": "2007",
-      "description": "A peek inside the exploits and privileged private lives of the blended Kardashian-Jenner family, including sisters Kim, Kourtney and Khloé.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/keeping-up-with-the-kardashians"
-        }
-      ]
-    },
-    {
-      "id": "tt0094582",
-      "type": "series",
-      "name": "The Wonder Years",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/16048808/s718/the-wonder-years.jpg",
-      "releaseInfo": "1988",
-      "description": "The story of Kevin Arnold facing the trials and tribulations of youth while growing up during the 1960s and 70s. Told through narration from an adult Kevin, Kevin faces the difficulties of maintaining relationships and friendships on his enthralling journey into adulthood.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-wonder-years"
-        }
-      ]
-    },
-    {
       "id": "tt35823838",
       "type": "series",
       "name": "Not Suitable for Work",
@@ -3409,18 +3345,18 @@
       ]
     },
     {
-      "id": "tt4145384",
+      "id": "tt1086761",
       "type": "series",
-      "name": "Scream Queens",
+      "name": "Keeping Up with the Kardashians",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/177847158/s718/scream-queens-2015.jpg",
-      "releaseInfo": "2015",
-      "description": "The super-charged comedy-horror series is a modern take on the classic whodunit with a killer cast. ",
+      "poster": "https://images.justwatch.com/poster/243647342/s718/keeping-up-with-the-kardashians.jpg",
+      "releaseInfo": "2007",
+      "description": "A peek inside the exploits and privileged private lives of the blended Kardashian-Jenner family, including sisters Kim, Kourtney and Khloé.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/scream-queens-2015"
+          "url": "https://justwatch.com/us/tv-show/keeping-up-with-the-kardashians"
         }
       ]
     },
@@ -3441,18 +3377,50 @@
       ]
     },
     {
-      "id": "tt4508902",
+      "id": "tt38937897",
       "type": "series",
-      "name": "One Punch Man: Wanpanman",
+      "name": "Merry Berry Love",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/348674616/s718/one-punch-man.jpg",
-      "releaseInfo": "2015",
-      "description": "Saitama, a superhero who can defeat any foe with a single punch, battles boredom as he searches for a worthy opponent in a world plagued by monsters.",
+      "poster": "https://images.justwatch.com/poster/357134845/s718/merry-berry-love.jpg",
+      "releaseInfo": "2026",
+      "description": "When star Korean spatial designer Lee Yubin loses everything, he heads off to a Japanese island. There, he meets Karin, a resilient strawberry farmer. Hailing from different worlds, their lives collide in a big misunderstanding. Buckle up for \"Merry Berry Love,\" a sweet and sour Korea-Japan rom-com.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/one-punch-man"
+          "url": "https://justwatch.com/us/tv-show/merry-berry-love"
+        }
+      ]
+    },
+    {
+      "id": "tt4145384",
+      "type": "series",
+      "name": "Scream Queens",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/177847158/s718/scream-queens-2015.jpg",
+      "releaseInfo": "2015",
+      "description": "The super-charged comedy-horror series is a modern take on the classic whodunit with a killer cast. ",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/scream-queens-2015"
+        }
+      ]
+    },
+    {
+      "id": "tt0094582",
+      "type": "series",
+      "name": "The Wonder Years",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/16048808/s718/the-wonder-years.jpg",
+      "releaseInfo": "1988",
+      "description": "The story of Kevin Arnold facing the trials and tribulations of youth while growing up during the 1960s and 70s. Told through narration from an adult Kevin, Kevin faces the difficulties of maintaining relationships and friendships on his enthralling journey into adulthood.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-wonder-years"
         }
       ]
     },
@@ -3469,6 +3437,38 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/coroner"
+        }
+      ]
+    },
+    {
+      "id": "tt2654620",
+      "type": "series",
+      "name": "The Strain",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/21074466/s718/the-strain.jpg",
+      "releaseInfo": "2014",
+      "description": "A high concept thriller that tells the story of Dr. Ephraim Goodweather, the head of the Center for Disease Control Canary Team in New York City. He and his team are called upon to investigate a mysterious viral outbreak with hallmarks of an ancient and evil strain of vampirism. As the strain spreads, Eph, his team, and an assembly of everyday New Yorkers, wage war for the fate of humanity itself.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/the-strain"
+        }
+      ]
+    },
+    {
+      "id": "tt4508902",
+      "type": "series",
+      "name": "One Punch Man: Wanpanman",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/348674616/s718/one-punch-man.jpg",
+      "releaseInfo": "2015",
+      "description": "Saitama, a superhero who can defeat any foe with a single punch, battles boredom as he searches for a worthy opponent in a world plagued by monsters.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/one-punch-man"
         }
       ]
     },
@@ -3537,22 +3537,6 @@
       ]
     },
     {
-      "id": "tt13196080",
-      "type": "series",
-      "name": "Tôkyô Ribenjâzu",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/251128847/s718/tokyo-revengers.jpg",
-      "releaseInfo": "2021",
-      "description": "Hanagaki Takemichi lives an unsatisfying life right up until his death. Waking up 12 years in the past, he reckons with the eventual fate of his friends and tries to prevent an unfortunate future.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/tokyo-revengers"
-        }
-      ]
-    },
-    {
       "id": "tt0397306",
       "type": "series",
       "name": "American Dad!",
@@ -3565,6 +3549,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/american-dad"
+        }
+      ]
+    },
+    {
+      "id": "tt13196080",
+      "type": "series",
+      "name": "Tôkyô Ribenjâzu",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/251128847/s718/tokyo-revengers.jpg",
+      "releaseInfo": "2021",
+      "description": "Hanagaki Takemichi lives an unsatisfying life right up until his death. Waking up 12 years in the past, he reckons with the eventual fate of his friends and tries to prevent an unfortunate future.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/tokyo-revengers"
         }
       ]
     },
@@ -3633,18 +3633,18 @@
       ]
     },
     {
-      "id": "tt1303337",
+      "id": "tt41991040",
       "type": "series",
-      "name": "Deadly Women",
+      "name": "9/11: Reunited",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/81769899/s718/deadly-women.jpg",
-      "releaseInfo": "2005",
-      "description": "This compelling series investigates the motives and m.o. of female murderers. While males are often driven by anger, impulse and destruction, women usually have more complex, long-term reasons to kill.",
+      "poster": "https://images.justwatch.com/poster/347616145/s718/9-11-reunited.jpg",
+      "releaseInfo": "2026",
+      "description": "The story of September 11 through the eyes of survivors who experienced life-or-death moments with strangers that day and now want to meet again.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/deadly-women"
+          "url": "https://justwatch.com/us/tv-show/9-11-reunited"
         }
       ]
     },
@@ -3665,22 +3665,6 @@
       ]
     },
     {
-      "id": "tt41991040",
-      "type": "series",
-      "name": "9/11: Reunited",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/347616145/s718/9-11-reunited.jpg",
-      "releaseInfo": "2026",
-      "description": "The story of September 11 through the eyes of survivors who experienced life-or-death moments with strangers that day and now want to meet again.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/9-11-reunited"
-        }
-      ]
-    },
-    {
       "id": "tt2712740",
       "type": "series",
       "name": "The Goldbergs",
@@ -3693,6 +3677,22 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/the-goldbergs"
+        }
+      ]
+    },
+    {
+      "id": "tt38866811",
+      "type": "series",
+      "name": "Tournament of Champions: All-Star Christmas",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/338591092/s718/tournament-of-champions-all-star-christmas.jpg",
+      "releaseInfo": "2025",
+      "description": "Guy Fieri is combining everyone's favorite culinary competition with the most wonderful time of the year by delivering the ultimate holiday present — Tournament of Champions: All-Star Christmas. For the first time ever, 32 jingle-bell-rock-star chefs are teaming up as duos to make both sweet and savory dishes in a one-of-a-kind, holly-jolly tournament. These chefs will try to \"sleigh\" the competition for a shot at the $100,000 prize and some seriously sweet cash for charity. With festive flavors, fierce battles and enough Christmas spirit to stuff a stocking, the holidays have never been this delicious",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/tournament-of-champions-all-star-christmas"
         }
       ]
     },
@@ -3725,22 +3725,6 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/catch-22"
-        }
-      ]
-    },
-    {
-      "id": "tt38866811",
-      "type": "series",
-      "name": "Tournament of Champions: All-Star Christmas",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/338591092/s718/tournament-of-champions-all-star-christmas.jpg",
-      "releaseInfo": "2025",
-      "description": "Guy Fieri is combining everyone's favorite culinary competition with the most wonderful time of the year by delivering the ultimate holiday present — Tournament of Champions: All-Star Christmas. For the first time ever, 32 jingle-bell-rock-star chefs are teaming up as duos to make both sweet and savory dishes in a one-of-a-kind, holly-jolly tournament. These chefs will try to \"sleigh\" the competition for a shot at the $100,000 prize and some seriously sweet cash for charity. With festive flavors, fierce battles and enough Christmas spirit to stuff a stocking, the holidays have never been this delicious",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/tournament-of-champions-all-star-christmas"
         }
       ]
     },
@@ -3809,50 +3793,18 @@
       ]
     },
     {
-      "id": "tt0118300",
+      "id": "tt1179817",
       "type": "series",
-      "name": "Dawson's Creek",
+      "name": "The Secret Life of the American Teenager",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/181026640/s718/dawsons-creek.jpg",
-      "releaseInfo": "1998",
-      "description": "Dawson's Creek is an American teen drama that portrays the fictional lives of a close-knit group of teenagers through high school and college.",
+      "poster": "https://images.justwatch.com/poster/115083303/s718/the-secret-life-of-the-american-teenager.jpg",
+      "releaseInfo": "2008",
+      "description": "Amy and her friends at Grant High learn to define themselves while they navigate the perilous waters of contemporary adolescence. Between their love triangles, secrets, drama, accusations, gossip, confusion, and scandalous rumors, there's never a dull moment.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/dawsons-creek"
-        }
-      ]
-    },
-    {
-      "id": "tt0320037",
-      "type": "series",
-      "name": "Jimmy Kimmel Live!",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/331102928/s718/jimmy-kimmel-live.jpg",
-      "releaseInfo": "2003",
-      "description": "Jimmy Kimmel interviews celebrities.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/jimmy-kimmel-live"
-        }
-      ]
-    },
-    {
-      "id": "tt0106080",
-      "type": "series",
-      "name": "The Nanny",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300963190/s718/the-nanny.jpg",
-      "releaseInfo": "1993",
-      "description": "That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-nanny"
+          "url": "https://justwatch.com/us/tv-show/the-secret-life-of-the-american-teenager"
         }
       ]
     },
@@ -3873,18 +3825,34 @@
       ]
     },
     {
-      "id": "tt1179817",
+      "id": "tt0106080",
       "type": "series",
-      "name": "The Secret Life of the American Teenager",
+      "name": "The Nanny",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/115083303/s718/the-secret-life-of-the-american-teenager.jpg",
-      "releaseInfo": "2008",
-      "description": "Amy and her friends at Grant High learn to define themselves while they navigate the perilous waters of contemporary adolescence. Between their love triangles, secrets, drama, accusations, gossip, confusion, and scandalous rumors, there's never a dull moment.",
+      "poster": "https://images.justwatch.com/poster/300963190/s718/the-nanny.jpg",
+      "releaseInfo": "1993",
+      "description": "That flashy girl from Flushing with the heart of an angel (and the voice of a slighty more nasal angel). The comic misadventures of the sweet and sassy Fran Fine, her sophisticated employer, Broadway producer Mr. Sheffield, his boisterous brood and his wisecracking staff.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/the-secret-life-of-the-american-teenager"
+          "url": "https://justwatch.com/us/tv-show/the-nanny"
+        }
+      ]
+    },
+    {
+      "id": "tt0320037",
+      "type": "series",
+      "name": "Jimmy Kimmel Live!",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/331102928/s718/jimmy-kimmel-live.jpg",
+      "releaseInfo": "2003",
+      "description": "Jimmy Kimmel interviews celebrities.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/jimmy-kimmel-live"
         }
       ]
     },
@@ -3905,18 +3873,18 @@
       ]
     },
     {
-      "id": "tt1643266",
+      "id": "tt1303337",
       "type": "series",
-      "name": "Ancient Aliens",
+      "name": "Deadly Women",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/320936797/s718/ancient-aliens.jpg",
-      "releaseInfo": "2009",
-      "description": "Science and mythology - and how they are the same thing.",
+      "poster": "https://images.justwatch.com/poster/81769899/s718/deadly-women.jpg",
+      "releaseInfo": "2005",
+      "description": "This compelling series investigates the motives and m.o. of female murderers. While males are often driven by anger, impulse and destruction, women usually have more complex, long-term reasons to kill.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/tv-show/ancient-aliens"
+          "url": "https://justwatch.com/us/tv-show/deadly-women"
         }
       ]
     },
@@ -3933,6 +3901,38 @@
           "name": "JustWatch",
           "category": "other",
           "url": "https://justwatch.com/us/tv-show/mushoku-tensei-jobless-reincarnation"
+        }
+      ]
+    },
+    {
+      "id": "tt1643266",
+      "type": "series",
+      "name": "Ancient Aliens",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/320936797/s718/ancient-aliens.jpg",
+      "releaseInfo": "2009",
+      "description": "Science and mythology - and how they are the same thing.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/ancient-aliens"
+        }
+      ]
+    },
+    {
+      "id": "tt1782352",
+      "type": "series",
+      "name": "Upstairs Downstairs",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/175878704/s718/upstairs-downstairs.jpg",
+      "releaseInfo": "2010",
+      "description": "Set in 1936, the show takes viewers, old and new, back to the lavish world of Belgravia, London. A new set of occupants reside at 165 Eaton Place and viewers see how external and internal influences of the tumultuous pre-war period shape and mould the lives of this wealthy family and their servants.‬",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/tv-show/upstairs-downstairs"
         }
       ]
     }

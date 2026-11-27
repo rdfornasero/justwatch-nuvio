@@ -1,66 +1,66 @@
 {
   "metas": [
     {
-      "id": "tt8041270",
+      "id": "tt37675037",
       "type": "movie",
-      "name": "Jurassic World Dominion",
+      "name": "Maddie's Secret",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/300590311/s718/jurassic-world-dominion.jpg",
+      "poster": "https://images.justwatch.com/poster/347912728/s718/maddies-secret.jpg",
+      "releaseInfo": "2026",
+      "description": "A plucky dishwasher leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/maddies-secret"
+        }
+      ]
+    },
+    {
+      "id": "tt27050858",
+      "type": "movie",
+      "name": "Drishyam: The Conclusion",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/355176717/s718/drishyam-the-conclusion.jpg",
+      "releaseInfo": "2026",
+      "description": "Years after outsmarting the police, Vijay Salgaonkar's past resurfaces when a new evidence threatens to expose his secret. As the investigation reopens, he must outwit the system once again to save his family.",
+      "links": [
+        {
+          "name": "JustWatch",
+          "category": "other",
+          "url": "https://justwatch.com/us/movie/drishyam-the-conclusion"
+        }
+      ]
+    },
+    {
+      "id": "tt9853500",
+      "type": "movie",
+      "name": "Bandit",
+      "posterShape": "poster",
+      "poster": "https://images.justwatch.com/poster/300785220/s718/bandit.jpg",
       "releaseInfo": "2022",
-      "description": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures.",
+      "description": "After escaping a Michigan prison, a charming career criminal assumes a new identity in Canada and goes on to rob a record 59 banks and jewellery stores while being hunted by a rogue task force. Based on the true story of The Flying Bandit.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/jurassic-world-dominion"
+          "url": "https://justwatch.com/us/movie/bandit"
         }
       ]
     },
     {
-      "id": "tt33852162",
+      "id": "tt50828463",
       "type": "movie",
-      "name": "A Private Life",
+      "name": "Nate Bargatze: Good for Nathan",
       "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/342149023/s718/vie-privee.jpg",
-      "releaseInfo": "2025",
-      "description": "When renowned psychiatrist Lilian Steiner learns of the sudden death of a patient, she suspects murder.  She mounts a private investigation, enlisting an odd assortment of quirky characters.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/vie-privee"
-        }
-      ]
-    },
-    {
-      "id": "tt38061210",
-      "type": "movie",
-      "name": "Why Did I Get Married Again?",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/346833355/s718/why-did-i-get-married-again.jpg",
+      "poster": "https://images.justwatch.com/poster/356938960/s718/nate-bargatze-good-for-nathan.jpg",
       "releaseInfo": "2026",
-      "description": "The couples reunite for the destination wedding of Marcus and Angela's daughter, bringing drama old and new as they ask, \"Why did we get married again?\"",
+      "description": "Nate Bargatze takes the stage in Fort Worth, Texas to provide self-effacing, good clean, non controversial humor in his Tennessee style.",
       "links": [
         {
           "name": "JustWatch",
           "category": "other",
-          "url": "https://justwatch.com/us/movie/why-did-i-get-married-again"
-        }
-      ]
-    },
-    {
-      "id": "tt36580119",
-      "type": "movie",
-      "name": "The President's Cake",
-      "posterShape": "poster",
-      "poster": "https://images.justwatch.com/poster/344003940/s718/the-presidents-cake.jpg",
-      "releaseInfo": "2026",
-      "description": "While people across 1990’s Iraq struggle to survive, 9-year-old Lamia has been selected to prepare a cake to celebrate the President’s birthday. In a landscape of fear and scarcity, where basic ingredients are nearly impossible to find, Lamia sets out on a determined journey throughout the big city in search of eggs, flour, and sugar. Accompanied by her grandmother, her loyal friend Saeed, and her pet rooster Hindi, she navigates vendors and police officers along the way.",
-      "links": [
-        {
-          "name": "JustWatch",
-          "category": "other",
-          "url": "https://justwatch.com/us/movie/the-presidents-cake"
+          "url": "https://justwatch.com/us/movie/nate-bargatze-good-for-nathan"
         }
       ]
     }
